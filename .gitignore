@@ -1,7 +1,6 @@
 *.ipynb
 /.virtual_documents
 /.ipynb_checkpoints
-*.geojson
 *.csv
 !state*.csv
 *.py
