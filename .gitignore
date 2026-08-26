@@ -2,7 +2,6 @@
 /.virtual_documents
 /.ipynb_checkpoints
 *.geojson
-/data/tiger_2020_tracts/
 *.csv
 !state*.csv
 *.py
