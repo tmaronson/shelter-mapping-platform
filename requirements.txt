@@ -6,3 +6,4 @@ jproperties
 pandas 
 matplotlib
 seaborn
+geopy.geocoders
