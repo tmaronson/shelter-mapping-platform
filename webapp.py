@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-PROJECT_DIR = Path().resolve() 
+PROJECT_DIR = Path(__file__).parent.resolve()
 SQL_DIR = PROJECT_DIR / "sql" 
 
 # Load config.properties using jproperties 
