@@ -1,0 +1,24 @@
+/* style.css */ 
+
+.legend-item {
+  display: flex; 
+  align-items: center;
+  margin-bottom: 8px;
+} 
+.color-box {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  opacity: 0.15;
+} 
+.legend-label {
+  font-size: 14px;
+}
+
+details summary p { 
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #1f2937; 
+}

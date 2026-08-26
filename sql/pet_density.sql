@@ -1,0 +1,1 @@
+SELECT tract_id, pet_density, ST_AsGeoJSON(geom) FROM census_tracts;

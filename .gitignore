@@ -1,0 +1,10 @@
+*.ipynb
+/.virtual_documents
+/.ipynb_checkpoints
+*.geojson
+/data/
+*.csv
+!state*.csv
+*.py
+!*app*.py
+

@@ -1,0 +1,1 @@
+UPDATE census_tracts t SET pet_density = ROUND(((p.population / 2.5) * 0.63)) FROM georgia_population p WHERE t.tract_id = p.tract_id;

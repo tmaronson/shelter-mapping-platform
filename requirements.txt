@@ -1,0 +1,8 @@
+streamlit
+streamlit-folium
+folium 
+psycopg2-binary 
+jproperties 
+pandas 
+matplotlib
+seaborn
