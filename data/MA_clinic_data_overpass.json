@@ -1,0 +1,3724 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:55:06Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 464796766,
+            "lat": 42.4160675,
+            "lon": -71.1544444,
+            "tags": {
+                "addr:city": "Arlington",
+                "addr:housenumber": "665",
+                "addr:postcode": "02476",
+                "addr:state": "MA",
+                "addr:street": "Massachusetts Avenue",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "brand:wikipedia": "en:Quiznos",
+                "name": "VCA City Cats Hospital",
+                "operator": "VCA"
+            }
+        },
+        {
+            "type": "node",
+            "id": 942103258,
+            "lat": 42.0394959,
+            "lon": -70.8671824,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Hanson VCA Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1924285443,
+            "lat": 42.2426218,
+            "lon": -71.4324197,
+            "tags": {
+                "addr:housenumber": "300",
+                "addr:postcode": "01721",
+                "addr:street": "Eliot Street",
+                "amenity": "veterinary",
+                "name": "The Family Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2087891350,
+            "lat": 42.7645455,
+            "lon": -71.0361197,
+            "tags": {
+                "addr:housenumber": "664",
+                "addr:postcode": "01830",
+                "addr:street": "Riverside Avenue",
+                "amenity": "veterinary",
+                "name": "Riverside Veterinary Clinic",
+                "website": "https://www.riversidevetma.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2439296497,
+            "lat": 42.4117559,
+            "lon": -71.1437198,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Arlington Animal Clinic",
+                "website": "https://arlingtonanimalclinic.net/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2459781940,
+            "lat": 42.5643662,
+            "lon": -71.428584,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2024-08-01",
+                "name": "Westford Veterinary Emergency & Referral Center",
+                "website": "https://westfordveterinary.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2760582115,
+            "lat": 42.4402735,
+            "lon": -71.0679516,
+            "tags": {
+                "addr:city": "Malden",
+                "addr:housenumber": "1130",
+                "addr:postcode": "02148",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "name": "Pine Banks Animal Hospital",
+                "phone": "+1 7813211300",
+                "website": "https://pinebanksanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2837092694,
+            "lat": 42.5387192,
+            "lon": -71.5091749,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Littleton Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3096651304,
+            "lat": 42.8434053,
+            "lon": -70.8984788,
+            "tags": {
+                "amenity": "veterinary",
+                "nae": "Bassler Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4050865536,
+            "lat": 42.3131629,
+            "lon": -71.113433,
+            "tags": {
+                "addr:housenumber": "10A",
+                "addr:street": "Green Street",
+                "amenity": "veterinary",
+                "fax": "+1 617 524-7474",
+                "name": "Jamaica Plain Animal Clinic",
+                "opening_hours": "Mo,We,Fr 08:00-17:00; Tu,Th 08:00-19:00; Sa 08:30-13:00",
+                "phone": "+1 617 524-7300",
+                "website": "https://www.jpanimalclinic.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4075445065,
+            "lat": 42.3055581,
+            "lon": -71.3132637,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Wellesley Animal Hospital",
+                "opening_hours": "Mo,Tu,Fr 08:00-17:00; We,Th 08:00-18:00",
+                "phone": "+1 781-237-0066"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5642785016,
+            "lat": 42.0523618,
+            "lon": -70.1952323,
+            "tags": {
+                "addr:city": "Provincetown",
+                "addr:housenumber": "83",
+                "addr:postcode": "02657",
+                "addr:state": "MA",
+                "addr:street": "Shank Painter Road",
+                "amenity": "veterinary",
+                "name": "Herring Cove Animal Hospital",
+                "operator": "Herring Cove Animal Hospital",
+                "website": "http://herringcovevet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6101491946,
+            "lat": 42.3840381,
+            "lon": -71.1197019,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2026-03-18",
+                "name": "Cambridge Veterinary Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6116328375,
+            "lat": 42.3862818,
+            "lon": -71.1407631,
+            "tags": {
+                "amenity": "veterinary",
+                "opening_hours": "24/7",
+                "operator": "Veterinary Emergency Group",
+                "phone": "+16178040103"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6181692219,
+            "lat": 42.3488223,
+            "lon": -71.0844757,
+            "tags": {
+                "addr:city": "Boston",
+                "addr:housenumber": "288",
+                "addr:postcode": "02115",
+                "addr:state": "MA",
+                "addr:street": "Newbury Street",
+                "amenity": "veterinary",
+                "name": "Back Bay Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6359452365,
+            "lat": 42.2331215,
+            "lon": -72.1551861,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "VCA Wickaboag Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6542984855,
+            "lat": 42.3937643,
+            "lon": -71.1200669,
+            "tags": {
+                "addr:city": "Somerville",
+                "addr:housenumber": "360",
+                "addr:postcode": "02144",
+                "addr:state": "MA",
+                "addr:street": "Summer Street",
+                "amenity": "veterinary",
+                "name": "Porter Square Veterinarian"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7542462947,
+            "lat": 42.2047876,
+            "lon": -71.2419519,
+            "tags": {
+                "addr:city": "Westwood",
+                "addr:housenumber": "1451",
+                "addr:postcode": "02090",
+                "addr:state": "MA",
+                "addr:street": "High Street",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo 09:00-19:00; Tu 09:00-18:00; We 09:00-17:00; Th 09:00-19:00; Fr 09:00-17:00; Sa 09:00-14:00",
+                "ref": "4043",
+                "website": "https://www.banfield.com/locations/veterinarians/ma/westwood/abt"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7668264751,
+            "lat": 42.2672805,
+            "lon": -72.4217926,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Belchertown Veterinary Hospital",
+                "phone": "+1-413-324-1138",
+                "website": "https://belchertownveterinaryhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7738279641,
+            "lat": 42.3602799,
+            "lon": -71.0709734,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Charles Street Animal Clinic",
+                "opening_hours": "Mo,Tu,Th 11:00-18:00; We 08:30-14:00; Fr 11:00-16:00; Sa 08:00-13:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7747648883,
+            "lat": 42.3424618,
+            "lon": -71.0574279,
+            "tags": {
+                "addr:city": "Boston",
+                "addr:housenumber": "9",
+                "addr:postcode": "02127",
+                "addr:state": "MA",
+                "addr:street": "West Broadway",
+                "amenity": "veterinary",
+                "check_date": "2024-08-18",
+                "fee": "yes",
+                "name": "South Boston Animal Hospital",
+                "phone": "+1-617-269-0610",
+                "ref": "Hospital #4041",
+                "website": "https://www.banfield.com/veterinarians/ma/boston/abp"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7804482662,
+            "lat": 42.3310213,
+            "lon": -71.0638199,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Boston Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7890392088,
+            "lat": 42.1932503,
+            "lon": -71.0328544,
+            "tags": {
+                "addr:housenumber": "77",
+                "addr:street": "Messina Drive",
+                "amenity": "veterinary",
+                "contact:email": "Frontdesk@QuarryHillsVet.com",
+                "contact:facebook": "https://www.facebook.com/QuarryHillsAnimalHospital",
+                "contact:fax": "+1-781-817-6942",
+                "name": "Quarry Hills Animal Hospital",
+                "opening_hours:covid19": "Mo-Fr 09:00-17:00; Sa 08:00-13:00",
+                "phone": "+1-781-817-6573",
+                "website": "https://www.quarryhillsvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8857253725,
+            "lat": 42.3822992,
+            "lon": -71.2661625,
+            "tags": {
+                "addr:city": "Waltham",
+                "addr:housenumber": "180",
+                "addr:postcode": "02451",
+                "addr:state": "MA",
+                "addr:street": "Bear Hill Road",
+                "amenity": "veterinary",
+                "branch": "Animal Hospital",
+                "brand": "BluePearl",
+                "brand:wikidata": "Q4928764",
+                "check_date": "2023-07-26",
+                "name": "BluePearl",
+                "opening_hours": "24/7"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9255336120,
+            "lat": 42.3303724,
+            "lon": -72.671311,
+            "tags": {
+                "addr:city": "Florence",
+                "addr:housenumber": "190",
+                "addr:postcode": "01062",
+                "addr:state": "MA",
+                "addr:street": "Nonotuck Street",
+                "addr:unit": "105",
+                "amenity": "veterinary",
+                "email": "info@nvcvet.com",
+                "fax": "+1-413-586-4594",
+                "name": "Northampton Veterinary Clinic",
+                "note": "Closed daily from 12:00-13:00.",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+                "phone": "+1-413-584-6309",
+                "website": "https://www.northamptonvetclinic.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9688926617,
+            "lat": 42.4200906,
+            "lon": -71.4512541,
+            "tags": {
+                "addr:city": "Maynard",
+                "addr:housenumber": "15",
+                "addr:postcode": "01742",
+                "addr:state": "MA",
+                "addr:street": "DIgital Way",
+                "addr:unit": "4",
+                "amenity": "veterinary",
+                "name": "Maynard Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9733240503,
+            "lat": 42.3397273,
+            "lon": -72.605951,
+            "tags": {
+                "addr:city": "Hadley",
+                "addr:housenumber": "43",
+                "addr:postcode": "01035",
+                "addr:state": "MA",
+                "addr:street": "Russell Street",
+                "amenity": "veterinary",
+                "name": "Riverbend Animal Hospital PC",
+                "opening_hours": "Mo-Fr 08:00-17:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9753372170,
+            "lat": 41.748943,
+            "lon": -70.604782,
+            "tags": {
+                "addr:city": "Buzzards Bay",
+                "addr:housenumber": "230",
+                "addr:state": "MA",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "name": "Buzzards Bay Veterinary Associates"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9816301809,
+            "lat": 41.7468892,
+            "lon": -70.6119718,
+            "tags": {
+                "addr:city": "Buzzards Bay",
+                "addr:housenumber": "50",
+                "addr:postcode": "02532-3223",
+                "addr:state": "MA",
+                "addr:street": "Cohasset Avenue",
+                "amenity": "veterinary",
+                "name": "Veterinary Cancer Specialists of New England",
+                "phone": "+1 508-276-0836",
+                "website": "https://www.vcsnewengland.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10138392690,
+            "lat": 42.4613625,
+            "lon": -71.1416735,
+            "tags": {
+                "addr:city": "Winchester",
+                "addr:housenumber": "874",
+                "addr:postcode": "01890",
+                "addr:state": "MA",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "name": "Winchester Animal Clinic",
+                "phone": "+1-781-729-2610"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10285316323,
+            "lat": 42.2978508,
+            "lon": -71.1152041,
+            "tags": {
+                "addr:housenumber": "93",
+                "addr:street": "Hyde Park Avenue",
+                "amenity": "veterinary",
+                "check_date": "2022-12-24",
+                "name": "METROVET Veterinary Clinic",
+                "phone": "+1 857-277-7751",
+                "website": "https://metrovetclinic.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10716519807,
+            "lat": 42.5242245,
+            "lon": -70.9018985,
+            "tags": {
+                "addr:city": "Salem",
+                "addr:housenumber": "20",
+                "addr:postcode": "01970",
+                "addr:state": "MA",
+                "addr:street": "Commercial Street",
+                "amenity": "veterinary",
+                "name": "All Creatures Veterinary Hospital",
+                "opening_hours": "Mo 08:00-18:00; Tu-Th 08:00-19:00; Fr 08:00-18:00; Sa 09:00-13:00",
+                "phone": "+1 978-740-0290",
+                "website": "https://www.creaturehealth.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10771936755,
+            "lat": 42.6737257,
+            "lon": -71.4723111,
+            "tags": {
+                "addr:city": "Dunstable",
+                "addr:housenumber": "386",
+                "addr:postcode": "01827",
+                "addr:state": "MA",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "name": "Dunstable Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10780885303,
+            "lat": 42.4672115,
+            "lon": -71.1298548,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Winchester Veterinary Group"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10788561364,
+            "lat": 42.3470483,
+            "lon": -71.06998,
+            "tags": {
+                "amenity": "veterinary",
+                "email": "bvc@arlboston.org",
+                "name": "Boston Veterinary Care",
+                "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-18:00; Sa 08:00-16:00; Su off",
+                "phone": "+1-617-226-5605",
+                "website": "https://www.arlboston.org/bvc/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10817054608,
+            "lat": 42.4033512,
+            "lon": -71.139491,
+            "tags": {
+                "addr:city": "Arlington",
+                "addr:housenumber": "114",
+                "addr:postcode": "02474",
+                "addr:state": "MA",
+                "addr:street": "Massachusetts Avenue",
+                "amenity": "veterinary",
+                "name": "Sleepy Dog Vetinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10943216570,
+            "lat": 41.695002,
+            "lon": -69.9632282,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Stony Hill Animal Clinic",
+                "phone": "+1-508-945-0151",
+                "website": "http://stonyhillvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10963824306,
+            "lat": 42.6512215,
+            "lon": -70.9356166,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Putnam Veterinary Clinic",
+                "website": "https://www.putnamveterinaryclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11034840726,
+            "lat": 41.7008593,
+            "lon": -70.0155571,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospital",
+                "brand:wikidata": "Q7906620",
+                "name": "VCA Animal Hospital",
+                "website": "https://vcahospitals.com/pleasant-bay/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11048549351,
+            "lat": 42.124655,
+            "lon": -71.2551757,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Tuffs Veterinary Emergency Services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11092661484,
+            "lat": 42.3932296,
+            "lon": -71.0800089,
+            "tags": {
+                "addr:city": "Somerville",
+                "addr:housenumber": "320",
+                "addr:postcode": "02145",
+                "addr:state": "MA",
+                "addr:street": "Foley Street",
+                "amenity": "veterinary",
+                "name": "Bond Vet - Somerville"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11139922489,
+            "lat": 42.3700392,
+            "lon": -71.1937443,
+            "tags": {
+                "addr:housenumber": "404",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "name": "Watertown Animal Hospital",
+                "phone": "+1617-926-8888",
+                "website": "https://watertownanimalhospitalma.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11617862377,
+            "lat": 42.1468197,
+            "lon": -71.9732605,
+            "tags": {
+                "addr:housenumber": "115",
+                "addr:street": "Worcester Road",
+                "amenity": "veterinary",
+                "name": "Post Road Veterinary Hospital",
+                "phone": "+1-508-248-7990",
+                "website": "https://www.postroadvethospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11733673969,
+            "lat": 42.4911633,
+            "lon": -72.612553,
+            "tags": {
+                "addr:postcode": "01373",
+                "amenity": "veterinary",
+                "contact:facebook": "veshmass",
+                "contact:instagram": "veshmass",
+                "name": "Veterinary Emergency & Specialty Hospital",
+                "opening_hours": "24/7",
+                "phone": "+1-413-665-4911",
+                "website": "https://www.veshmass.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11735246369,
+            "lat": 42.3526943,
+            "lon": -72.471428,
+            "tags": {
+                "addr:housenumber": "2",
+                "addr:postcode": "01002",
+                "addr:street": "Belchertown Road",
+                "amenity": "veterinary",
+                "check_date": "2026-04-10",
+                "email": "info@westbrookvethosp.com",
+                "name": "Westbrook Veterinary Hospital",
+                "opening_hours": "Mo-Tu, Th-Fr 08:00-12:45, 13:45-18:00; We 08:00-13:00",
+                "operator": "Dr. Molly Russo, DVM",
+                "phone": "+1-413-253-7797",
+                "website": "https://westbrookvethosp.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12099378136,
+            "lat": 42.2466518,
+            "lon": -71.6744758,
+            "tags": {
+                "addr:city": "North Grafton",
+                "addr:housenumber": "50",
+                "addr:postcode": "01536",
+                "addr:state": "MA",
+                "addr:street": "Willard Street",
+                "amenity": "veterinary",
+                "check_date": "2024-08-08",
+                "description": "Please call ahead for approval over the phone before dropping off wildlife that need help.",
+                "fax": "+1-508-839-7930",
+                "name": "Tufts Wildlife Clinic",
+                "opening_hours": "Mo-Su 08:00-17:00",
+                "operator": "Cummings School of Veterinary Medicine",
+                "operator:wikidata": "Q5194125",
+                "operator:wikipedia": "Cummings School of Veterinary Medicine",
+                "phone": "+1-508-839-7918",
+                "website": "https://vet.tufts.edu/tufts-wildlife-clinic/hospitals-clinics/locations/tufts-wildlife-clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12210052756,
+            "lat": 42.3429249,
+            "lon": -71.1222023,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Small Door Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12387463720,
+            "lat": 42.2981839,
+            "lon": -71.3942626,
+            "tags": {
+                "addr:housenumber": "30",
+                "addr:street": "Worcester Road",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00",
+                "phone": "+15083707299"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12594352285,
+            "lat": 42.2856394,
+            "lon": -71.6121585,
+            "tags": {
+                "addr:city": "Westborough",
+                "addr:housenumber": "155",
+                "addr:postcode": "01581",
+                "addr:state": "MA",
+                "addr:street": "Turnpike Road",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "contact:facebook": "https://www.facebook.com/VCAAnimalHospitals",
+                "fax": "+1 508-366-6449",
+                "name": "VCA Westboro Animal Hospital",
+                "opening_hours": "Mo-Th 07:30-20:00; Fr 08:00-16:00; Sa 09:00-16:00",
+                "phone": "+1-508-366-1444",
+                "website": "https://vcahospitals.com/westboro"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12628971245,
+            "lat": 41.5998702,
+            "lon": -70.9398676,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Hidden Brook Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12643784583,
+            "lat": 42.5573851,
+            "lon": -71.4845036,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Middlesex Veterinary Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12673151601,
+            "lat": 42.432789,
+            "lon": -73.3244858,
+            "tags": {
+                "addr:housenumber": "1634",
+                "addr:street": "West Housatonic Street",
+                "amenity": "veterinary",
+                "name": "Pittsfield Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12673161801,
+            "lat": 42.279227,
+            "lon": -73.2597547,
+            "tags": {
+                "addr:housenumber": "920",
+                "addr:street": "Pleasant Street",
+                "amenity": "veterinary",
+                "name": "Valley Veterinary Services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12673967801,
+            "lat": 42.2189611,
+            "lon": -73.3425133,
+            "tags": {
+                "addr:housenumber": "440",
+                "addr:street": "Stockbridge Road",
+                "amenity": "veterinary",
+                "name": "VCA All Caring Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12682604268,
+            "lat": 42.7442713,
+            "lon": -71.1592732,
+            "tags": {
+                "addr:unit": "114",
+                "amenity": "veterinary",
+                "name": "PetWellClinic",
+                "opening_hours": "Mo-Fr 11:00-19:00",
+                "website": "Petwellclinic.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12771177637,
+            "lat": 42.3774938,
+            "lon": -71.093056,
+            "tags": {
+                "addr:city": "Somerville",
+                "addr:housenumber": "34",
+                "addr:postcode": "02143",
+                "addr:state": "MA",
+                "addr:street": "Allen Street",
+                "amenity": "veterinary",
+                "name": "Huron Veterinary Hospital",
+                "opening_hours": "Mo 08:00-17:00, Tu-We 08:00-18:00, Th 08:00-19:00, Fr 08:00-18:00, Sa 08:00-13:00",
+                "website": "https://www.huronvethospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12812272901,
+            "lat": 42.3626809,
+            "lon": -71.1591102,
+            "tags": {
+                "addr:housenumber": "537",
+                "addr:postcode": "02472",
+                "addr:street": "Arsenal Street",
+                "amenity": "veterinary",
+                "name": "Bond Vet - Watertwon",
+                "opening_hours": "Mo-Tu 10:00-20:00",
+                "website": "https://bondvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12883807501,
+            "lat": 42.4417152,
+            "lon": -73.1184372,
+            "tags": {
+                "addr:housenumber": "249;251",
+                "addr:street": "Maple Street",
+                "amenity": "veterinary",
+                "name": "Waconah Vet Services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12986437025,
+            "lat": 42.4748334,
+            "lon": -71.213775,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Burlington Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13165687701,
+            "lat": 42.3300387,
+            "lon": -71.1269705,
+            "tags": {
+                "addr:housenumber": "375",
+                "addr:postcode": "02445",
+                "addr:street": "Boylston Street",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "name": "VCA Brookline",
+                "opening_hours": "Mo-Fr 07:30-21:00; Sa 07:30-17:00; Su 07:30-15:00",
+                "phone": "+1 617-277-2030",
+                "website": "https://vcahospitals.com/brookline"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13175719101,
+            "lat": 42.3779277,
+            "lon": -71.1061876,
+            "tags": {
+                "addr:housenumber": "116",
+                "addr:postcode": "02143",
+                "addr:street": "Beacon Street",
+                "amenity": "veterinary",
+                "name": "Tandem Vet Care",
+                "website": "https://www.tandem.vet/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13256126567,
+            "lat": 42.6148845,
+            "lon": -72.7413197,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Shelburne Falls Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13315393470,
+            "lat": 42.2747958,
+            "lon": -71.7453353,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13332615001,
+            "lat": 42.6148714,
+            "lon": -72.7413266,
+            "tags": {
+                "addr:housenumber": "3",
+                "addr:postcode": "01370",
+                "addr:street": "Mohawk Trail",
+                "amenity": "veterinary",
+                "name": "Shelburne Falls Veterinary Hospital",
+                "website": "https://shelburnefallsvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13372827947,
+            "lat": 42.2992454,
+            "lon": -71.4255413,
+            "tags": {
+                "addr:city": "Framingham",
+                "addr:housenumber": "659",
+                "addr:postcode": "01701",
+                "addr:state": "MA",
+                "addr:street": "Worcester Road",
+                "addr:unit": "9",
+                "amenity": "veterinary",
+                "brand": "BluePearl",
+                "brand:wikidata": "Q4928764",
+                "check_date": "2025-12-12",
+                "name": "BluePearl",
+                "opening_hours": "24/7",
+                "website": "https://bluepearlvet.com/hospital/framingham-ma"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13378662401,
+            "lat": 42.2379171,
+            "lon": -72.5817486,
+            "tags": {
+                "addr:housenumber": "511",
+                "addr:postcode": "01075",
+                "addr:street": "Newton Street",
+                "amenity": "veterinary",
+                "name": "VCA South Hadley Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-16:00",
+                "phone": "+14135399868",
+                "website": "https://vcahospitals.com/south-hadley"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13411443397,
+            "lat": 41.5649914,
+            "lon": -70.5964241,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Deer Run Veterinary Services",
+                "phone": "+1-508-548-3406",
+                "website": "https://deerrunvet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13468886613,
+            "lat": 42.375547,
+            "lon": -71.1568695,
+            "tags": {
+                "addr:city": "Watertown",
+                "addr:housenumber": "150",
+                "addr:state": "MA",
+                "addr:street": "Belmont Street",
+                "amenity": "veterinary",
+                "description": "Small animal veterinary practice.",
+                "email": "frontdesk@heal.vet",
+                "name": "Heal Veterinary Clinic",
+                "operator": "Dr. Amanda Leef",
+                "phone": "+1-617-932-5166",
+                "website": "https://www.heal.vet/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13585607198,
+            "lat": 42.0328999,
+            "lon": -72.5548033,
+            "tags": {
+                "addr:city": "Longmeadow",
+                "addr:housenumber": "916",
+                "addr:postcode": "01106",
+                "addr:state": "MA",
+                "addr:street": "Shaker Road",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/people/Longmeadow-Veterinary-Clinic/61557454196909/",
+                "contact:instagram": "https://www.instagram.com/longmeadow_vet_clinic/",
+                "email": "info@longmeadow.vet",
+                "name": "Longmeadow Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:30-17:30",
+                "phone": "+1-413-318-4301",
+                "website": "https://longmeadowvetclinic.vet/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13610776108,
+            "lat": 42.4300787,
+            "lon": -71.0590209,
+            "tags": {
+                "addr:housenumber": "231",
+                "addr:street": "Salem Street",
+                "amenity": "veterinary",
+                "name": "Malden Animal Hospital",
+                "phone": "+1-781-322-8795",
+                "website": "https://www.maldenanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13667285729,
+            "lat": 42.3497016,
+            "lon": -71.0710108,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Veg ER for Pets"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13680572401,
+            "lat": 42.46165,
+            "lon": -72.6057519,
+            "tags": {
+                "addr:housenumber": "14",
+                "addr:postcode": "01373",
+                "addr:street": "Sandy Lane",
+                "amenity": "veterinary",
+                "check_date": "2026-03-12",
+                "name": "Animal Eye Care of New England",
+                "phone": "+1-413-397-3540",
+                "website": "https://www.animaleyecareofne.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13687154300,
+            "lat": 42.5348021,
+            "lon": -71.5771095,
+            "tags": {
+                "addr:city": "Harvard",
+                "addr:housenumber": "259",
+                "addr:postcode": "01451",
+                "addr:state": "MA",
+                "addr:street": "Ayer Road",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/pages/category/Veterinarian/Harvard-Family-Pet-Clinic-LLC-157938140905427/",
+                "email": "harvardfamilypet@aol.com",
+                "name": "Harvard Family Pet Clinic",
+                "phone": "+1-978-772-6607"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13690062714,
+            "lat": 42.1849447,
+            "lon": -70.9736519,
+            "tags": {
+                "addr:city": "South Weymouth",
+                "addr:housenumber": "595",
+                "addr:postcode": "02190",
+                "addr:state": "MA",
+                "addr:street": "Columbian Street",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "name": "VCA Animal Hospital",
+                "website": "https://vcahospitals.com/south-shore-weymouth"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13696114702,
+            "lat": 42.3470267,
+            "lon": -71.2560681,
+            "tags": {
+                "addr:housenumber": "112",
+                "addr:postcode": "02466",
+                "addr:street": "Woodbine Street",
+                "amenity": "veterinary",
+                "name": "Commonwealth Vet",
+                "website": "https://commonwealthvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13937705906,
+            "lat": 42.5803779,
+            "lon": -71.7504128,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "First Choice Veterinary Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13956482595,
+            "lat": 41.7819239,
+            "lon": -70.7448937,
+            "tags": {
+                "addr:city": "Wareham",
+                "addr:housenumber": "1",
+                "addr:postcode": "02571",
+                "addr:state": "MA",
+                "addr:street": "Tobey Rd",
+                "addr:unit": "C3",
+                "amenity": "veterinary",
+                "email": "mypet@warehamanimalhospital.com",
+                "name": "Wareham Animal Hospital",
+                "phone": "+1-508-273-7149",
+                "website": "https://warehamanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13971143737,
+            "lat": 42.1736707,
+            "lon": -71.1122194,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Lainer Animal Hospital of Canton"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13995513073,
+            "lat": 42.404697,
+            "lon": -71.1079049,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Medford Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14050228201,
+            "lat": 41.6484026,
+            "lon": -70.9685386,
+            "tags": {
+                "addr:housenumber": "896",
+                "addr:postcode": "02740",
+                "addr:street": "Hathaway Road",
+                "amenity": "veterinary",
+                "contact:facebook": "61579344224320",
+                "email": "tlcveterinaryhospital1@gmail.com",
+                "name": "TLC Veterinary Hospital",
+                "opening_hours": "Sa 09:00-15:00; Mo-Fr 09:00-17:00",
+                "phone": "+1-508-998-3500",
+                "website": "https://tlcvh.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14101591402,
+            "lat": 42.0908681,
+            "lon": -71.0946152,
+            "tags": {
+                "addr:housenumber": "1995",
+                "addr:street": "Washington Street",
+                "amenity": "veterinary",
+                "name": "VCA Lloyd Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14115687563,
+            "lat": 42.3680734,
+            "lon": -71.1780035,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2026-08-23",
+                "name": "Boston Pet Haven"
+            }
+        },
+        {
+            "type": "way",
+            "id": 29615064,
+            "center": {
+                "lat": 42.3028213,
+                "lon": -71.0530022
+            },
+            "nodes": [
+                9325578362,
+                325809347,
+                326044344,
+                326047000,
+                9325578362
+            ],
+            "tags": {
+                "addr:city": "Dorchester",
+                "addr:housenumber": "255",
+                "addr:postcode": "02122",
+                "addr:state": "MA",
+                "addr:street": "Freeport Street",
+                "amenity": "veterinary",
+                "building": "retail",
+                "building:levels": "2",
+                "name": "Emmerson Animal Hospital",
+                "roof:shape": "flat",
+                "source": "esri/Boston_MA_Addresses"
+            }
+        },
+        {
+            "type": "way",
+            "id": 29660623,
+            "center": {
+                "lat": 42.4028282,
+                "lon": -71.0454958
+            },
+            "nodes": [
+                326397956,
+                326397957,
+                326397959,
+                326397960,
+                326397956
+            ],
+            "tags": {
+                "addr:city": "Everett",
+                "addr:housenumber": "251",
+                "addr:postcode": "02149",
+                "addr:state": "MA",
+                "addr:street": "Chelsea Street",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Everett Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-20:00, Sa-Su 08:00-16:00",
+                "operator": "VCA Hospitals",
+                "phone": "+1 617 394 0471",
+                "website": "https://vcahospitals.com/everett"
+            }
+        },
+        {
+            "type": "way",
+            "id": 29775825,
+            "center": {
+                "lat": 42.2777719,
+                "lon": -71.1611018
+            },
+            "nodes": [
+                327994312,
+                327994316,
+                327994317,
+                13240047764,
+                13240047765,
+                13240047763,
+                13240047762,
+                327994319,
+                327994312
+            ],
+            "tags": {
+                "addr:housenumber": "24",
+                "addr:street": "Spring Street",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 29789250,
+            "center": {
+                "lat": 42.3526329,
+                "lon": -71.1393012
+            },
+            "nodes": [
+                328163595,
+                328213452,
+                328181784,
+                9813359100,
+                328099212,
+                328212030,
+                328109398,
+                9813359098,
+                9813359099,
+                328163595
+            ],
+            "tags": {
+                "addr:housenumber": "542",
+                "addr:postcode": "02134",
+                "addr:street": "Cambridge Street",
+                "amenity": "veterinary",
+                "building": "house",
+                "building:levels": "3",
+                "contact:facebook": "merwinclinic",
+                "name": "Merwin Animal Clinic",
+                "official_name": "Merwin Memorial Free Clinic for Animals",
+                "opening_hours": "Mo-Th 12:00-15:00; Fr 11:00-15:00; Sa 09:00-12:00",
+                "phone": "+1 617-782-5420",
+                "website": "https://merwinclinic.org"
+            }
+        },
+        {
+            "type": "way",
+            "id": 29887418,
+            "center": {
+                "lat": 42.2778101,
+                "lon": -71.1609555
+            },
+            "nodes": [
+                329332432,
+                13240047763,
+                13240047765,
+                329342044,
+                327287641,
+                329300101,
+                329332432
+            ],
+            "tags": {
+                "addr:housenumber": "18",
+                "addr:street": "Spring Street",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 29887488,
+            "center": {
+                "lat": 42.381367,
+                "lon": -71.1759129
+            },
+            "nodes": [
+                327268855,
+                327296476,
+                327286740,
+                329248228,
+                327268855
+            ],
+            "tags": {
+                "addr:housenumber": "131;133",
+                "addr:street": "Trapelo Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cushimg Square Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 29902793,
+            "center": {
+                "lat": 42.3229136,
+                "lon": -71.1111053
+            },
+            "nodes": [
+                329355892,
+                329340563,
+                327275027,
+                329324371,
+                329350376,
+                329357213,
+                329264784,
+                327302017,
+                329281946,
+                327295134,
+                327286341,
+                329251867,
+                329284394,
+                329349970,
+                329357567,
+                329296455,
+                327286251,
+                329330030,
+                329342275,
+                329306266,
+                329250873,
+                4066087114,
+                329296329,
+                329329568,
+                327295444,
+                329349775,
+                329342094,
+                327267804,
+                327285757,
+                329270320,
+                329278007,
+                329294438,
+                329340024,
+                329323987,
+                11656085133,
+                329350148,
+                329355778,
+                327264388,
+                327274854,
+                327286352,
+                327293065,
+                329247068,
+                4066087126,
+                4066087127,
+                329307448,
+                4066087129,
+                4066087130,
+                329270737,
+                4066087131,
+                4066087132,
+                329294814,
+                329315695,
+                329318463,
+                327268300,
+                329262860,
+                329279113,
+                327302126,
+                329235328,
+                329307596,
+                327293184,
+                327264095,
+                329319231,
+                329355892
+            ],
+            "tags": {
+                "addr:city": "Boston",
+                "addr:housename": "Angell Animal Medical Center",
+                "addr:housenumber": "350",
+                "addr:postcode": "02130-4803",
+                "addr:state": "MA",
+                "addr:street": "South Huntington Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2023-08-04",
+                "contact:facebook": "https://www.facebook.com/mspcaangell",
+                "fax": "+1-617-989-1635",
+                "name": "Angell Animal Medical Center",
+                "operator": "MSPCA",
+                "phone": "+1-617-522-7282",
+                "website": "https://www.mspca.org/medical-centers/angell-animal-medical-center-boston/",
+                "wikidata": "Q6717867",
+                "wikipedia": "en:MSPCA-Angell"
+            }
+        },
+        {
+            "type": "way",
+            "id": 29957592,
+            "center": {
+                "lat": 42.2424926,
+                "lon": -70.9742872
+            },
+            "nodes": [
+                329875410,
+                329875411,
+                329875412,
+                329875413,
+                329875414,
+                329875415,
+                329875416,
+                329875417,
+                329875418,
+                329875419,
+                329875420,
+                329875421,
+                329875422,
+                329875423,
+                329875424,
+                329875425,
+                329875426,
+                329875427,
+                329875428,
+                329875429,
+                329875410
+            ],
+            "tags": {
+                "addr:city": "Quincy",
+                "addr:housenumber": "551",
+                "addr:postcode": "02169",
+                "addr:state": "MA",
+                "addr:street": "South Street",
+                "amenity": "veterinary",
+                "building": "industrial",
+                "name": "New England Aquarium Animal Care Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 45976486,
+            "center": {
+                "lat": 42.4308721,
+                "lon": -71.4792815
+            },
+            "nodes": [
+                585533494,
+                585533495,
+                9118804095,
+                9118804096,
+                9118804097,
+                9118804098,
+                585533501,
+                9118804093,
+                585533499,
+                585533494
+            ],
+            "tags": {
+                "addr:city": "Stow",
+                "addr:country": "US",
+                "addr:housenumber": "35",
+                "addr:postcode": "01775",
+                "addr:state": "MA",
+                "addr:street": "Great Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:facebook": "https://www.facebook.com/applecountryanimalhospital",
+                "email": "staff@applecountry.com",
+                "name": "Apple Country Animal Hospital",
+                "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-16:30; Sa-Su off",
+                "phone": "+1-978-897-9271",
+                "website": "https://applecountry.com",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 135620068,
+            "center": {
+                "lat": 42.4561993,
+                "lon": -71.0654664
+            },
+            "nodes": [
+                327244156,
+                1489243256,
+                327244158,
+                1702791382,
+                1702791385,
+                327244160,
+                1489243293,
+                1489256713,
+                327244156
+            ],
+            "tags": {
+                "addr:city": "Melrose",
+                "addr:housenumber": "26",
+                "addr:postcode": "02176",
+                "addr:state": "MA",
+                "addr:street": "Essex Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Melrose Animal Clinic",
+                "phone": "+1 781 6624888",
+                "website": "https://www.melroseanimalclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 137185501,
+            "center": {
+                "lat": 42.678308,
+                "lon": -71.4231733
+            },
+            "nodes": [
+                1504693803,
+                1504693804,
+                1504693805,
+                1504693806,
+                1504693809,
+                1504693808,
+                1504693803
+            ],
+            "tags": {
+                "addr:city": "Tyngsborough",
+                "addr:housenumber": "3",
+                "addr:postcode": "01879",
+                "addr:street": "Farwell Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Tyngsboro Veterinary Hospital",
+                "website": "https://www.tyngvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 137759977,
+            "center": {
+                "lat": 42.3131207,
+                "lon": -71.2754361
+            },
+            "nodes": [
+                1510736187,
+                1510736185,
+                1510736173,
+                1510736177,
+                1510736187
+            ],
+            "tags": {
+                "addr:city": "Wellesley",
+                "addr:housenumber": "459",
+                "addr:postcode": "02481",
+                "addr:state": "MA",
+                "addr:street": "Worcester Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-781-237-6333",
+                "name": "The Cat's Hospital",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "phone": "+1-781-237-6565",
+                "roof:shape": "pyramidal",
+                "source": "Bing",
+                "website": "https://www.thecatshospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 151303259,
+            "center": {
+                "lat": 42.33394,
+                "lon": -72.6609255
+            },
+            "nodes": [
+                1641248202,
+                9143659413,
+                1641248198,
+                1641248180,
+                1641248186,
+                1641248202
+            ],
+            "tags": {
+                "addr:city": "Northampton",
+                "addr:housenumber": "185",
+                "addr:postcode": "01060",
+                "addr:state": "MA",
+                "addr:street": "Locust Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Florence Animal Clinic",
+                "note": "Lobby is closed due to COVID-19.",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+1-413-584-9477",
+                "website": "https://www.florenceac.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 196044791,
+            "center": {
+                "lat": 42.1295432,
+                "lon": -70.9507559
+            },
+            "nodes": [
+                2064109238,
+                2064109173,
+                2064109177,
+                2064109323,
+                2064109318,
+                2064109274,
+                2064109272,
+                2064109237,
+                2064109238
+            ],
+            "tags": {
+                "addr:city": "Abington",
+                "addr:housenumber": "19",
+                "addr:postcode": "02351",
+                "addr:state": "MA",
+                "addr:street": "Randolph Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "reception@abingtonanimalhospital.com",
+                "name": "Abington Animal Hospital",
+                "opening_hours": "Mo-Tu 09:00-17:00; Th 09:00-17:00; Fr-Sa 09:00-16:00",
+                "phone": "+17819820606",
+                "website": "https://www.abingtonanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 196425824,
+            "center": {
+                "lat": 42.4799003,
+                "lon": -71.4456376
+            },
+            "nodes": [
+                2067693682,
+                2067693610,
+                2067693501,
+                2067693598,
+                2067693557,
+                2067693699,
+                2067693577,
+                2067693671,
+                2067693792,
+                2067693735,
+                2067693858,
+                2067693642,
+                2067693682
+            ],
+            "tags": {
+                "addr:housenumber": "363",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Acton Animal Hospital",
+                "phone": "+1-978-263-7477",
+                "website": "https://actonanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 196426454,
+            "center": {
+                "lat": 42.4925516,
+                "lon": -71.415823
+            },
+            "nodes": [
+                2067736018,
+                2067735920,
+                2067735946,
+                2067735926,
+                2067735986,
+                2067735966,
+                2067736024,
+                2067736176,
+                2067736112,
+                2067736196,
+                2067736143,
+                2067736039,
+                2067736018
+            ],
+            "tags": {
+                "addr:city": "Acton",
+                "addr:country": "US",
+                "addr:housenumber": "4",
+                "addr:state": "MA",
+                "addr:street": "Strawberry Hill Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sager Animal Hospital",
+                "phone": "+1 978-263-3535",
+                "shop": "yes",
+                "website": "https://www.sageranimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 196436814,
+            "center": {
+                "lat": 42.4849651,
+                "lon": -71.4169782
+            },
+            "nodes": [
+                2067706220,
+                2067706197,
+                2067706322,
+                2067706349,
+                2067706470,
+                2067706631,
+                2067706254,
+                2067706158,
+                2067706220
+            ],
+            "tags": {
+                "addr:city": "Acton",
+                "addr:country": "US",
+                "addr:housenumber": "164",
+                "addr:postcode": "01720",
+                "addr:state": "MA",
+                "addr:street": "Great Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Emergency Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 196449914,
+            "center": {
+                "lat": 42.4236547,
+                "lon": -71.1752259
+            },
+            "nodes": [
+                2067856896,
+                2067857293,
+                2067857193,
+                2067856798,
+                2067856896
+            ],
+            "tags": {
+                "addr:city": "Arlington",
+                "addr:housenumber": "1183;1185;1187",
+                "addr:postcode": "02476",
+                "addr:state": "MA",
+                "addr:street": "Massachusetts Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mill Brook Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 211940881,
+            "center": {
+                "lat": 42.555164,
+                "lon": -71.603967
+            },
+            "nodes": [
+                2218650469,
+                2218650461,
+                2218650460,
+                2218650459,
+                2218650458,
+                2218650462,
+                2218650457,
+                2218650451,
+                2218650452,
+                2218650453,
+                2218650456,
+                2218650465,
+                2218650466,
+                2218650463,
+                2218650464,
+                2218650467,
+                2218650455,
+                2218650454,
+                2218650470,
+                2218650468,
+                2218650469
+            ],
+            "tags": {
+                "addr:city": "Ayer",
+                "addr:housenumber": "196",
+                "addr:postcode": "01432",
+                "addr:state": "MA",
+                "addr:street": "West Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ayer Animal Medical Center",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "phone": "+1 978-772-4413",
+                "website": "https://thrivepetcare.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 211942704,
+            "center": {
+                "lat": 41.6989089,
+                "lon": -70.2758382
+            },
+            "nodes": [
+                2218664739,
+                2218664750,
+                2218664747,
+                2218664748,
+                2218664751,
+                2218664754,
+                2218664753,
+                2218664756,
+                2218664755,
+                2218664757,
+                2218664742,
+                2218664758,
+                2218664741,
+                2218664740,
+                2218664743,
+                2218664744,
+                2218664745,
+                2218664746,
+                2218664752,
+                2218664749,
+                2218664739
+            ],
+            "tags": {
+                "addr:housenumber": "4011",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Birdsey Cape Wildlife Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 211948592,
+            "center": {
+                "lat": 41.6792656,
+                "lon": -70.3876236
+            },
+            "nodes": [
+                2218716174,
+                2218716177,
+                2218716169,
+                2218716175,
+                2218716176,
+                2218716178,
+                2218716172,
+                2218716173,
+                2218716170,
+                2218716171,
+                2218716174
+            ],
+            "tags": {
+                "addr:city": "West Barnstable",
+                "addr:housenumber": "1415",
+                "addr:postcode": "02668",
+                "addr:street": "Osterville-West Barnstable Road",
+                "amenity": "veterinary",
+                "building": "hospital",
+                "name": "Cape Cod Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+1 508 428 6393",
+                "website": "http://www.capecodanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 211950244,
+            "center": {
+                "lat": 41.6431717,
+                "lon": -70.3920282
+            },
+            "nodes": [
+                2218731131,
+                2218731129,
+                2218731139,
+                2218731141,
+                2218731143,
+                2218731145,
+                2218731137,
+                2218731151,
+                2218731149,
+                2218731155,
+                2218731153,
+                2218731147,
+                2218731133,
+                2218731135,
+                2218731131
+            ],
+            "tags": {
+                "addr:city": "Barnstable",
+                "addr:housenumber": "34",
+                "addr:postcode": "02655",
+                "addr:state": "MA",
+                "addr:street": "Osterville-West Barnstable Road",
+                "addr:suburb": "Osterville",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Osterville Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 211990500,
+            "center": {
+                "lat": 42.2670445,
+                "lon": -72.3826361
+            },
+            "nodes": [
+                2219042620,
+                2219042590,
+                2219042588,
+                2219042617,
+                2219042631,
+                2219042586,
+                2219042630,
+                2219042625,
+                2219042627,
+                2219042623,
+                2219042620
+            ],
+            "tags": {
+                "addr:housenumber": "224",
+                "addr:street": "Mill Valley Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mill Valley Veterinary Clinic",
+                "phone": "+1-413-323-9201",
+                "website": "https://www.millvalleyvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 212119084,
+            "center": {
+                "lat": 42.4307721,
+                "lon": -71.5961922
+            },
+            "nodes": [
+                2220085714,
+                2220085715,
+                2220085719,
+                2220085716,
+                2220085713,
+                2220085711,
+                2220085712,
+                2220085710,
+                2220085709,
+                2220085708,
+                2220085717,
+                2220085718,
+                2220085714
+            ],
+            "tags": {
+                "addr:city": "Bolton",
+                "addr:housenumber": "556",
+                "addr:postcode": "01740",
+                "addr:state": "MA",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Integrative Animal Health",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+                "website": "https://www.iahcbolton.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 212149989,
+            "center": {
+                "lat": 41.745181,
+                "lon": -70.6125
+            },
+            "nodes": [
+                13038492992,
+                13038492991,
+                2220363757,
+                2220363748,
+                2220363751,
+                2220363754,
+                13038492994,
+                13038492993,
+                2220364635,
+                2220364637,
+                2220364633,
+                2220364611,
+                2220364605,
+                2220364608,
+                2220364599,
+                2220364602,
+                13038492992
+            ],
+            "tags": {
+                "addr:city": "Buzzards Bay",
+                "addr:housenumber": "120",
+                "addr:postcode": "02532-3223",
+                "addr:state": "MA",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "National Marine Life Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 212372370,
+            "center": {
+                "lat": 42.5838268,
+                "lon": -71.3862328
+            },
+            "nodes": [
+                2222273523,
+                2222273522,
+                2222273521,
+                2222273520,
+                2222273516,
+                2222273517,
+                2222273514,
+                2222273515,
+                2222273519,
+                2222273526,
+                2222273527,
+                2222273518,
+                2222273524,
+                2222273525,
+                2222273523
+            ],
+            "tags": {
+                "addr:housenumber": "289",
+                "addr:street": "Littleton Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Countryside Veterinary Hospital",
+                "opening_hours": "Mo-Th 07:00-21:00; Fr 07:00-19:00; Sa 08:00-18:00",
+                "phone": "+1-978-256-9555",
+                "website": "http://www.countrysideveterinaryhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 212577516,
+            "center": {
+                "lat": 42.2326679,
+                "lon": -70.8207577
+            },
+            "nodes": [
+                2224175509,
+                2224175504,
+                2224175505,
+                2224175506,
+                2224175507,
+                2224175502,
+                7067930419,
+                7067930420,
+                7067930421,
+                7067930423,
+                7067930422,
+                7067930424,
+                2224175511,
+                2224175508,
+                2224175509
+            ],
+            "tags": {
+                "addr:housenumber": "234",
+                "addr:street": "King Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Crazy Paws Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 212586596,
+            "center": {
+                "lat": 42.4585723,
+                "lon": -71.3849839
+            },
+            "nodes": [
+                2224252760,
+                2224252761,
+                2224252766,
+                2224252758,
+                2224252748,
+                2224252757,
+                2224252756,
+                2224252747,
+                2224252755,
+                2224252753,
+                2224252752,
+                2224252751,
+                2224252750,
+                2224252754,
+                2224252762,
+                2224252765,
+                2224252763,
+                2224252764,
+                2224252749,
+                2224252759,
+                2224252760
+            ],
+            "tags": {
+                "addr:housenumber": "245",
+                "addr:state": "MA",
+                "addr:street": "Baker Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Concord Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213273650,
+            "center": {
+                "lat": 42.1050291,
+                "lon": -71.3681328
+            },
+            "nodes": [
+                2230039872,
+                2230039873,
+                2230039879,
+                2230039871,
+                2230039880,
+                2230039877,
+                2230039878,
+                2230039875,
+                2230039874,
+                2230039876,
+                2230039872
+            ],
+            "tags": {
+                "addr:housenumber": "20",
+                "addr:street": "Earls Way",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Acorn Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213304201,
+            "center": {
+                "lat": 42.5661199,
+                "lon": -71.980948
+            },
+            "nodes": [
+                2230321508,
+                2230321504,
+                2230321506,
+                2230321533,
+                2230321522,
+                2230321525,
+                2230321527,
+                11808848658,
+                2230321531,
+                2230321529,
+                2230321515,
+                2230321512,
+                2230321510,
+                2230321517,
+                2230321519,
+                2230321508
+            ],
+            "tags": {
+                "addr:housenumber": "7",
+                "addr:street": "Pearson Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Tender Heart Veterinary Care PC"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213343492,
+            "center": {
+                "lat": 42.2462371,
+                "lon": -71.6773349
+            },
+            "nodes": [
+                3867144357,
+                2230623878,
+                2230623901,
+                2230623902,
+                2230623903,
+                2230623904,
+                2230623900,
+                2230623895,
+                2230623896,
+                2230623897,
+                2230623898,
+                2230623899,
+                2230623911,
+                2230623910,
+                2230623913,
+                2230623912,
+                2230623914,
+                2230623905,
+                2230623906,
+                2230623907,
+                2230623908,
+                2230623909,
+                2230623888,
+                2230623887,
+                2230623886,
+                2230623885,
+                2230623889,
+                2230623894,
+                2230623893,
+                2230623892,
+                2230623891,
+                2230623890,
+                2230623876,
+                2230623877,
+                2230623875,
+                2230623883,
+                2230623884,
+                2230623882,
+                2230623881,
+                2230623880,
+                3867144357
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Foster Hospital for Small Animals"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213385797,
+            "center": {
+                "lat": 42.3548714,
+                "lon": -72.5581449
+            },
+            "nodes": [
+                2230939917,
+                2230939920,
+                2230939924,
+                2230939928,
+                2230939914,
+                2230939931,
+                2230939943,
+                2230939937,
+                2230939934,
+                2230939940,
+                2230939910,
+                2230939907,
+                2230939949,
+                2230939946,
+                2230939917
+            ],
+            "tags": {
+                "addr:housenumber": "320",
+                "addr:street": "Russell Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2026-04-05",
+                "name": "Valley Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213598038,
+            "center": {
+                "lat": 42.3408401,
+                "lon": -71.842946
+            },
+            "nodes": [
+                2232696576,
+                2232696575,
+                2232696577,
+                2232696570,
+                2232696571,
+                2232696572,
+                2232696574,
+                2232696573,
+                2232696576
+            ],
+            "tags": {
+                "addr:city": "Holden",
+                "addr:housenumber": "11",
+                "addr:postcode": "01520",
+                "addr:state": "MA",
+                "addr:street": "Industrial Drive",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Holden Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213736803,
+            "center": {
+                "lat": 42.4997885,
+                "lon": -71.7323784
+            },
+            "nodes": [
+                2233865528,
+                2233865530,
+                2233865531,
+                2233865532,
+                2233865527,
+                2233865529,
+                2233865528
+            ],
+            "tags": {
+                "addr:housenumber": "129",
+                "addr:street": "New Lancaster Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Leominster Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213742498,
+            "center": {
+                "lat": 42.4874657,
+                "lon": -71.7477694
+            },
+            "nodes": [
+                2233912841,
+                2233912843,
+                2233912835,
+                2233912832,
+                2233912829,
+                2233912826,
+                2233912823,
+                2233912820,
+                2233912845,
+                2233912848,
+                2233912839,
+                2233912837,
+                2233912841
+            ],
+            "tags": {
+                "addr:housenumber": "1285",
+                "addr:street": "Central Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Central Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213966621,
+            "center": {
+                "lat": 42.1772782,
+                "lon": -70.7455973
+            },
+            "nodes": [
+                2236073934,
+                2236073931,
+                2236073923,
+                2236073924,
+                2236073925,
+                2236073926,
+                2236073922,
+                2236073928,
+                2236073927,
+                2236073930,
+                2236073929,
+                2236073921,
+                2236073932,
+                2236073933,
+                2236073934
+            ],
+            "tags": {
+                "addr:city": "Scituate",
+                "addr:housenumber": "53",
+                "addr:postcode": "02066",
+                "addr:street": "New Driftway",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Driftway Animal Hospital",
+                "phone": "+1-781-545-0952",
+                "website": "https://driftway.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213984945,
+            "center": {
+                "lat": 42.1399853,
+                "lon": -72.7349346
+            },
+            "nodes": [
+                2236217766,
+                2236217767,
+                2236217764,
+                2236217765,
+                2236217766
+            ],
+            "tags": {
+                "addr:housenumber": "422",
+                "addr:street": "North Elm Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Westfield Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 213991760,
+            "center": {
+                "lat": 42.1488804,
+                "lon": -72.7568875
+            },
+            "nodes": [
+                988771368,
+                2236277936,
+                2236277932,
+                2236277937,
+                2236277945,
+                2236277946,
+                2236277938,
+                2236277942,
+                2236277931,
+                2236277940,
+                2236277941,
+                2236277939,
+                2236277944,
+                2236277933,
+                2236277949,
+                2236277943,
+                2236277930,
+                2236277950,
+                2236277947,
+                2236277948,
+                2236277952,
+                2236277951,
+                988771368
+            ],
+            "tags": {
+                "addr:city": "Westfield",
+                "addr:housenumber": "207",
+                "addr:postcode": "01085",
+                "addr:state": "MA",
+                "addr:street": "Montgomery Road",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Montgomery Road Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214004397,
+            "center": {
+                "lat": 42.5611088,
+                "lon": -71.4210765
+            },
+            "nodes": [
+                2236380139,
+                2236380138,
+                2236380141,
+                2236380140,
+                2236380137,
+                2236380148,
+                2236380136,
+                2236380149,
+                2236380150,
+                2236380147,
+                2236380135,
+                2236380144,
+                2236380143,
+                2236380146,
+                2236380145,
+                2236380142,
+                2236380139
+            ],
+            "tags": {
+                "addr:city": "Westford",
+                "addr:housenumber": "25",
+                "addr:postcode": "01886",
+                "addr:state": "MA",
+                "addr:street": "Carlisle Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Veterinary Dermatology of New England",
+                "phone": "+1 978-399-0100",
+                "website": "https://itchydog.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214012100,
+            "center": {
+                "lat": 42.5612327,
+                "lon": -71.8787061
+            },
+            "nodes": [
+                2236444865,
+                2236444866,
+                2236444863,
+                13228776541,
+                13228776542,
+                13228776543,
+                2236444864,
+                13228776544,
+                13228776545,
+                13228776546,
+                13228776547,
+                13228776548,
+                2236444868,
+                2236444869,
+                2236444865
+            ],
+            "tags": {
+                "addr:housenumber": "29",
+                "addr:street": "Theodore Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Wachusett Animal Hospital & Pet Retreat"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214107230,
+            "center": {
+                "lat": 42.3965673,
+                "lon": -72.7407501
+            },
+            "nodes": [
+                2237200163,
+                2237200164,
+                2237200165,
+                2237200166,
+                2237200167,
+                2237200168,
+                2237200169,
+                2237200170,
+                2237200159,
+                2237200160,
+                2237200161,
+                2237200162,
+                2237200163
+            ],
+            "tags": {
+                "addr:housenumber": "14",
+                "addr:street": "Goshen Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Williamsburg Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214121073,
+            "center": {
+                "lat": 42.5453703,
+                "lon": -71.174978
+            },
+            "nodes": [
+                2237302408,
+                2237302416,
+                2237302419,
+                2237302420,
+                2237302421,
+                2237302422,
+                2237302418,
+                2237302413,
+                2237302414,
+                2237302411,
+                2237302412,
+                2237302407,
+                2237302415,
+                2237302410,
+                2237302417,
+                2237302409,
+                2237302408
+            ],
+            "tags": {
+                "addr:city": "Wilmington",
+                "addr:housenumber": "15",
+                "addr:postcode": "01887",
+                "addr:street": "Burlington Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Wilmington Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214293314,
+            "center": {
+                "lat": 42.4755026,
+                "lon": -71.2510221
+            },
+            "nodes": [
+                2238649633,
+                2238649626,
+                2238649631,
+                2238649629,
+                2238649633
+            ],
+            "tags": {
+                "addr:housenumber": "476",
+                "addr:street": "Bedford Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lexington Veternary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214321157,
+            "center": {
+                "lat": 42.6150771,
+                "lon": -71.3029506
+            },
+            "nodes": [
+                2238866804,
+                2238866805,
+                2238866803,
+                2238866796,
+                2238866795,
+                2238866794,
+                2238866809,
+                2238866808,
+                2238866798,
+                2238866797,
+                2238866800,
+                2238866799,
+                2238866801,
+                2238866813,
+                2238866802,
+                2238866812,
+                2238866811,
+                2238866810,
+                2238866806,
+                2238866807,
+                2238866804
+            ],
+            "tags": {
+                "addr:housenumber": "1500",
+                "addr:street": "Gorham Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Linwood Animal Hospital",
+                "opening_hours": "Mo-Th 08:00-18:30; Fr 08:00-15:00",
+                "phone": "+1-978-453-1784",
+                "website": "https://linwoodah.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214373607,
+            "center": {
+                "lat": 42.5886075,
+                "lon": -71.7678102
+            },
+            "nodes": [
+                2239283712,
+                2239283713,
+                2239283710,
+                2239283711,
+                2239283717,
+                2239283714,
+                2239283715,
+                2239283716,
+                2239283712
+            ],
+            "tags": {
+                "addr:housenumber": "109",
+                "addr:street": "Massachusetts Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lunenburg Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214498951,
+            "center": {
+                "lat": 42.341615,
+                "lon": -71.5804771
+            },
+            "nodes": [
+                2240354544,
+                2240354542,
+                2240354543,
+                2240354545,
+                2240354544
+            ],
+            "tags": {
+                "addr:housenumber": "441",
+                "addr:street": "Lakeside Avenue",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214508923,
+            "center": {
+                "lat": 41.6270576,
+                "lon": -70.4861248
+            },
+            "nodes": [
+                2240432427,
+                2240432426,
+                2240432424,
+                2240432425,
+                2240432427
+            ],
+            "tags": {
+                "addr:housenumber": "430",
+                "addr:street": "Great Neck Road North",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mashpee Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214509884,
+            "center": {
+                "lat": 41.6530814,
+                "lon": -70.4904605
+            },
+            "nodes": [
+                2240439411,
+                2240439412,
+                2240439413,
+                2240439415,
+                2240439414,
+                2240439408,
+                2240439416,
+                2240439410,
+                2240439411
+            ],
+            "tags": {
+                "addr:city": "Mashpee",
+                "addr:housenumber": "482",
+                "addr:postcode": "02649",
+                "addr:state": "MA",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Leach Animal Hospital",
+                "phone": "+1-508-477-3320",
+                "website": "https://leachanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214589698,
+            "center": {
+                "lat": 42.1534759,
+                "lon": -71.5606248
+            },
+            "nodes": [
+                2241017513,
+                2241017539,
+                2241017541,
+                2241017524,
+                2241017532,
+                2241017530,
+                2241017528,
+                2241017526,
+                2241017520,
+                2241017522,
+                2241017516,
+                2241017518,
+                2241017537,
+                2241017534,
+                2241017513
+            ],
+            "tags": {
+                "addr:housenumber": "329",
+                "addr:street": "West Street",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214645595,
+            "center": {
+                "lat": 42.3070714,
+                "lon": -71.2443698
+            },
+            "nodes": [
+                2241458076,
+                2241458079,
+                2241458082,
+                2241458085,
+                2241458088,
+                2241458040,
+                2241458037,
+                2241458032,
+                2241458029,
+                2241458072,
+                2241458092,
+                2241458105,
+                9271048681,
+                9271048682,
+                9271048680,
+                2241458095,
+                2241458102,
+                2241458099,
+                2241458076
+            ],
+            "tags": {
+                "addr:city": "Needham",
+                "addr:housenumber": "31",
+                "addr:postcode": "02494",
+                "addr:state": "MA",
+                "addr:street": "Wellesley Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:facebook": "https://www.facebook.com/HighlandAnimalHospitalMA",
+                "email": "info@highlandanimalhospitalma.com",
+                "name": "Highland Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-14:00; Su off",
+                "phone": "+1-781-433-0467",
+                "website": "https://www.highlandanimalhospitalma.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214717748,
+            "center": {
+                "lat": 42.7903885,
+                "lon": -70.8777798
+            },
+            "nodes": [
+                2241974732,
+                2241974721,
+                2241974725,
+                2241974717,
+                2241974709,
+                2241974714,
+                2241974701,
+                2241974705,
+                2241974697,
+                2241974736,
+                2241974729,
+                2241974732
+            ],
+            "tags": {
+                "addr:housenumber": "96",
+                "addr:street": "Hanover Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Newbury Animal Hospital",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214834372,
+            "center": {
+                "lat": 42.700247,
+                "lon": -73.1714391
+            },
+            "nodes": [
+                2243039474,
+                2243039471,
+                2243039472,
+                2243039469,
+                2243039473,
+                2243039470,
+                2243039474
+            ],
+            "tags": {
+                "addr:housenumber": "1028",
+                "addr:street": "State Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2024-07-11",
+                "name": "Greylock Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214945377,
+            "center": {
+                "lat": 41.7768851,
+                "lon": -69.9932055
+            },
+            "nodes": [
+                2243913805,
+                2243913809,
+                2243913811,
+                2243913806,
+                2243913807,
+                2243913801,
+                2243913802,
+                2243913810,
+                2243913803,
+                2243913808,
+                2243913805
+            ],
+            "tags": {
+                "addr:city": "Orleans",
+                "addr:housenumber": "65",
+                "addr:street": "Finlay Road",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214969062,
+            "center": {
+                "lat": 42.1588617,
+                "lon": -72.3295866
+            },
+            "nodes": [
+                2244099901,
+                2244099900,
+                2244099899,
+                2244099898,
+                2244099897,
+                2244099908,
+                2244099909,
+                2244099907,
+                2244099905,
+                2244099906,
+                2244099902,
+                2244099903,
+                2244099896,
+                2244099904,
+                2244099901
+            ],
+            "tags": {
+                "addr:housenumber": "1028",
+                "addr:street": "Thorndike Street",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Palmer",
+                "operator": "VCA"
+            }
+        },
+        {
+            "type": "way",
+            "id": 215142295,
+            "center": {
+                "lat": 42.5882118,
+                "lon": -71.7687535
+            },
+            "nodes": [
+                2245620545,
+                2245620546,
+                4272626413,
+                2245620544,
+                2245620542,
+                2245620543,
+                2245620540,
+                2245620541,
+                2245620539,
+                2245620553,
+                2245620552,
+                2245620551,
+                2245620550,
+                2245620549,
+                2245620557,
+                2245620558,
+                13937619606,
+                2245620555,
+                2245620556,
+                2245620554,
+                2245620547,
+                2245620548,
+                2245620545
+            ],
+            "tags": {
+                "addr:housenumber": "79",
+                "addr:street": "Massachusetts Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Fallon Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 215144449,
+            "center": {
+                "lat": 42.3492884,
+                "lon": -71.5194686
+            },
+            "nodes": [
+                2245641598,
+                2245641596,
+                2245641579,
+                2245641594,
+                2245641592,
+                2245641603,
+                2245641606,
+                2245641601,
+                2245641602,
+                2245641600,
+                2245641585,
+                2245641588,
+                2245641590,
+                2245641583,
+                2245641581,
+                2245641598
+            ],
+            "tags": {
+                "addr:housenumber": "275",
+                "addr:street": "Boston Post Road East",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 215766627,
+            "center": {
+                "lat": 42.1493321,
+                "lon": -71.0433852
+            },
+            "nodes": [
+                2252077362,
+                2252077360,
+                2252077352,
+                2252077366,
+                2252077364,
+                2252077368,
+                2252077358,
+                2252077355,
+                2252077362
+            ],
+            "tags": {
+                "addr:housenumber": "400",
+                "addr:street": "South Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Randolph Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 215772725,
+            "center": {
+                "lat": 42.1947573,
+                "lon": -71.0603213
+            },
+            "nodes": [
+                2252119102,
+                2252119103,
+                2252119101,
+                2252119100,
+                2252119102
+            ],
+            "tags": {
+                "addr:housenumber": "1147",
+                "addr:street": "North Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Compassionate Care Veterinary Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 215786788,
+            "center": {
+                "lat": 42.5530346,
+                "lon": -71.1053863
+            },
+            "nodes": [
+                2252266768,
+                2252266771,
+                2252266760,
+                2252266763,
+                2252266756,
+                2252266775,
+                2252266784,
+                2252266780,
+                2252266768
+            ],
+            "tags": {
+                "addr:city": "Reading",
+                "addr:housenumber": "1312",
+                "addr:postcode": "01867",
+                "addr:state": "MA",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Reading Animal Clinic",
+                "phone": "+1 781 9441699",
+                "website": "https://www.readinganimalclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 215952904,
+            "center": {
+                "lat": 41.8199389,
+                "lon": -71.3390467
+            },
+            "nodes": [
+                2253547083,
+                2253547082,
+                2253547085,
+                2253547084,
+                2253547087,
+                2253547086,
+                2253547083
+            ],
+            "tags": {
+                "addr:housenumber": "288",
+                "addr:street": "Fall River Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bristol County Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 215960689,
+            "center": {
+                "lat": 42.0999779,
+                "lon": -71.2151513
+            },
+            "nodes": [
+                2253609538,
+                2253609535,
+                2253609537,
+                2253609534,
+                2253609536,
+                2253609531,
+                7685140397,
+                7685140396,
+                7685140395,
+                7685140394,
+                2253609530,
+                2253609529,
+                2253609532,
+                2253609533,
+                2253609538
+            ],
+            "tags": {
+                "addr:housenumber": "586",
+                "addr:street": "South Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sharon Veterinary Clinic",
+                "phone": "+1 781-784-7554"
+            }
+        },
+        {
+            "type": "way",
+            "id": 216175408,
+            "center": {
+                "lat": 42.4381011,
+                "lon": -71.7550441
+            },
+            "nodes": [
+                2255341777,
+                2255341779,
+                2255341781,
+                2255341782,
+                2255341780,
+                2255341774,
+                2255341773,
+                2255341775,
+                2255341778,
+                2255341776,
+                2255341777
+            ],
+            "tags": {
+                "addr:city": "Sterling",
+                "addr:housenumber": "4",
+                "addr:postcode": "01564",
+                "addr:state": "MA",
+                "addr:street": "Clinton Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-978-422-6605",
+                "name": "VCA Sterling Animal Hospital",
+                "phone": "+1-978-422-6262",
+                "source": "local knowledge",
+                "website": "https://vcahospitals.com/sterling"
+            }
+        },
+        {
+            "type": "way",
+            "id": 216282191,
+            "center": {
+                "lat": 42.1130577,
+                "lon": -72.096952
+            },
+            "nodes": [
+                2256389304,
+                2256389306,
+                2256389311,
+                2256389294,
+                2256389292,
+                2256389298,
+                2256389296,
+                2256389291,
+                2256389287,
+                2256389289,
+                2256389286,
+                2256389301,
+                2256389299,
+                2256389303,
+                2256389308,
+                2256389309,
+                2256389304
+            ],
+            "tags": {
+                "addr:housenumber": "6",
+                "addr:street": "Cedar Street",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 216356469,
+            "center": {
+                "lat": 42.5555483,
+                "lon": -72.0658677
+            },
+            "nodes": [
+                2257165749,
+                2257165750,
+                2257165751,
+                2257165752,
+                2257165748,
+                2257165747,
+                2257165746,
+                2257165745,
+                2257165749
+            ],
+            "tags": {
+                "addr:housenumber": "461",
+                "addr:street": "Patriots Road",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 216418072,
+            "center": {
+                "lat": 42.1247333,
+                "lon": -71.2551376
+            },
+            "nodes": [
+                2257672561,
+                2257672562,
+                2257672558,
+                2257672554,
+                2257672555,
+                2257672556,
+                2257672557,
+                2257672565,
+                2257672567,
+                2257672566,
+                2257672564,
+                2257672563,
+                2257672568,
+                2257672559,
+                2257672560,
+                2257672561
+            ],
+            "tags": {
+                "addr:housenumber": "505;525",
+                "addr:street": "South Street",
+                "amenity": "veterinary",
+                "building": "civic",
+                "name": "Tuffs Veterinary Emergency Services",
+                "opening_hours": "24/7"
+            }
+        },
+        {
+            "type": "way",
+            "id": 216428747,
+            "center": {
+                "lat": 42.378499,
+                "lon": -71.225093
+            },
+            "nodes": [
+                2257754832,
+                2257754822,
+                2257754828,
+                2257754829,
+                2257754826,
+                2257754827,
+                2257754825,
+                2257754818,
+                2257754817,
+                2257754820,
+                2257754819,
+                2257754821,
+                2257754831,
+                2257754830,
+                2257754816,
+                2257754824,
+                2257754823,
+                2257754832
+            ],
+            "tags": {
+                "addr:housenumber": "20",
+                "addr:street": "Linden Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Kindness Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 217035206,
+            "center": {
+                "lat": 42.3184151,
+                "lon": -71.3632482
+            },
+            "nodes": [
+                2263538843,
+                2263538844,
+                2263538841,
+                2263538842,
+                2263538840,
+                2263538845,
+                2263538846,
+                2263538847,
+                2263538848,
+                2263538849,
+                2263538843
+            ],
+            "tags": {
+                "addr:city": "Wayland",
+                "addr:housenumber": "6",
+                "addr:postcode": "01778",
+                "addr:state": "MA",
+                "addr:street": "Winter Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Wayland Animal Clinic",
+                "opening_hours": "Mo,Tu,Th 08:00-19:00; We 08:00-17:00; Fr 08:00-18:00; Sa 08:00-13:00; PH off"
+            }
+        },
+        {
+            "type": "way",
+            "id": 217245538,
+            "center": {
+                "lat": 42.3661982,
+                "lon": -72.5319281
+            },
+            "nodes": [
+                2265336128,
+                2265336127,
+                2265336126,
+                2265336125,
+                2265336130,
+                2265336123,
+                2265336122,
+                2265336121,
+                2265336124,
+                2265336129,
+                2265336128
+            ],
+            "tags": {
+                "addr:housenumber": "260",
+                "addr:street": "Snell Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hampshire Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 272800672,
+            "center": {
+                "lat": 42.5267274,
+                "lon": -70.8866333
+            },
+            "nodes": [
+                2777213117,
+                2777213130,
+                2777213129,
+                2777213128,
+                2777213127,
+                2777213118,
+                2777213119,
+                2777213120,
+                2777213121,
+                2777213122,
+                2777213126,
+                2777213125,
+                2777213124,
+                2777213123,
+                2777213117
+            ],
+            "tags": {
+                "addr:housenumber": "81",
+                "addr:street": "Webb Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Feline Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 393444230,
+            "center": {
+                "lat": 42.3483168,
+                "lon": -71.0678296
+            },
+            "nodes": [
+                3966396279,
+                3966396278,
+                3966394003,
+                3966394004,
+                3966396277,
+                3966396280,
+                7983357928,
+                3966396283,
+                3966396282,
+                3966396279
+            ],
+            "tags": {
+                "addr:city": "Boston",
+                "addr:housenumber": "363",
+                "addr:postcode": "02116",
+                "addr:state": "MA",
+                "addr:street": "Tremont Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "info@bostonveterinary.com",
+                "fax": "+1-857-998-6272",
+                "fee": "yes",
+                "level": "0",
+                "name": "Boston Veterinary Clinic",
+                "opening_hours": "Mo-Th 08:30-19:00; Fr 08:30-18:00; Sa 08:30-13:00",
+                "phone": "+1-857-362-8672",
+                "start_date": "2014",
+                "website": "https://www.bostonveterinary.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 443687393,
+            "center": {
+                "lat": 42.590871,
+                "lon": -70.9761489
+            },
+            "nodes": [
+                4412485740,
+                4412485741,
+                4412485742,
+                4412485743,
+                4412485744,
+                4412485745,
+                4412485746,
+                4412485747,
+                4412485748,
+                4412485749,
+                4412485740
+            ],
+            "tags": {
+                "addr:city": "Danvers",
+                "addr:housenumber": "565",
+                "addr:postcode": "01923",
+                "addr:state": "MA",
+                "addr:street": "Maple Street",
+                "addr:unit": "Q",
+                "amenity": "veterinary",
+                "building": "yes",
+                "description": "Hosts a business called \"Angell at Essex\". Ran by the students and also sells pet supplies.",
+                "name": "Animal Science Building"
+            }
+        },
+        {
+            "type": "way",
+            "id": 579008245,
+            "center": {
+                "lat": 42.3864222,
+                "lon": -71.0065309
+            },
+            "nodes": [
+                9346976123,
+                6900703589,
+                6900703590,
+                327847796,
+                327847793,
+                5546122406,
+                9346976123
+            ],
+            "tags": {
+                "addr:city": "East Boston",
+                "addr:housenumber": "1007,1009",
+                "addr:postcode": "02128",
+                "addr:state": "MA",
+                "addr:street": "Saratoga Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "esri/Boston_MA_Addresses"
+            }
+        },
+        {
+            "type": "way",
+            "id": 751753236,
+            "center": {
+                "lat": 42.0418594,
+                "lon": -71.3059536
+            },
+            "nodes": [
+                7027504473,
+                7027504474,
+                7027504475,
+                7027504476,
+                7027504473
+            ],
+            "tags": {
+                "addr:housenumber": "5",
+                "addr:street": "Ledgeview Way",
+                "amenity": "veterinary",
+                "building": "retail",
+                "name": "Wrentham Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 830603068,
+            "center": {
+                "lat": 42.5602102,
+                "lon": -71.8639711
+            },
+            "nodes": [
+                7755294271,
+                7755294272,
+                7755294273,
+                11880467668,
+                7755294274,
+                7755294275,
+                7755294276,
+                7755294277,
+                7755294278,
+                7755294279,
+                7755294280,
+                11880467667,
+                7755294281,
+                7755294282,
+                7755294271
+            ],
+            "tags": {
+                "addr:housenumber": "216",
+                "addr:street": "State Road East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Monty Tech Veteranary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 908855557,
+            "center": {
+                "lat": 42.0567883,
+                "lon": -72.4404295
+            },
+            "nodes": [
+                8438803460,
+                8438803461,
+                8438803462,
+                8438803463,
+                8438803464,
+                8438803465,
+                8438803466,
+                8438803467,
+                8438803468,
+                8438803469,
+                8438803460
+            ],
+            "tags": {
+                "addr:city": "Hampden",
+                "addr:housenumber": "28",
+                "addr:postcode": "01036",
+                "addr:state": "MA",
+                "addr:street": "Somers Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hampden Veterinary Clinic",
+                "phone": "+1 413-566-2455",
+                "website": "https://hampdenvetclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1097488737,
+            "center": {
+                "lat": 42.3227575,
+                "lon": -71.1109003
+            },
+            "nodes": [
+                10049090728,
+                10049090729,
+                10049090730,
+                10049090731,
+                10049090732,
+                10049090733,
+                10049090734,
+                10049090735,
+                10049090736,
+                10049090737,
+                10049090738,
+                10049090739,
+                10049090740,
+                10049090741,
+                10049090742,
+                10049090743,
+                10049090744,
+                10049090745,
+                10049090746,
+                10049090747,
+                10049090728
+            ],
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1378467341,
+            "center": {
+                "lat": 42.258896,
+                "lon": -72.2375025
+            },
+            "nodes": [
+                12763532875,
+                12763532876,
+                12763532877,
+                12763532878,
+                12763532879,
+                12763532880,
+                12763532881,
+                12763532882,
+                12763532875
+            ],
+            "tags": {
+                "addr:city": "Ware",
+                "addr:housenumber": "40",
+                "addr:postcode": "01082",
+                "addr:state": "MA",
+                "addr:street": "East Main Street",
+                "addr:unit": "10",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Canterbury Tails Veterinary Clinic",
+                "opening_hours": "Mo,We,Th 07:30-18:00; Tu 07:30-20:00; Fr-Su off",
+                "phone": "+1-413-967-4545",
+                "website": "https://canterburytailsvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1425338653,
+            "center": {
+                "lat": 41.7998076,
+                "lon": -69.9828603
+            },
+            "nodes": [
+                13100894995,
+                13100894996,
+                13100894997,
+                13100894998,
+                13100894999,
+                13100895000,
+                13100934201,
+                13100934202,
+                13100894995
+            ],
+            "tags": {
+                "addr:housenumber": "10",
+                "addr:street": "Smith Lane",
+                "amenity": "veterinary"
+            }
+        }
+    ]
+}

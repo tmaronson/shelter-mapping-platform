@@ -1,0 +1,3515 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:57:06Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 2321913361,
+            "lat": 38.663188,
+            "lon": -94.3598864,
+            "tags": {
+                "addr:city": "Harrisonville",
+                "addr:housenumber": "1304",
+                "addr:postcode": "64701",
+                "addr:street": "Locust Street",
+                "amenity": "veterinary",
+                "name": "Kling Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2578591971,
+            "lat": 38.8175288,
+            "lon": -90.5150303,
+            "tags": {
+                "addr:city": "St. Charles",
+                "addr:housenumber": "3250",
+                "addr:postcode": "63201",
+                "addr:street": "Elm Point Industrial Drive",
+                "amenity": "veterinary",
+                "name": "Elm Point Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-16:00",
+                "phone": "+1 636 757 7350",
+                "website": "https://www.elmpointvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2597272081,
+            "lat": 39.071779,
+            "lon": -94.5850945,
+            "tags": {
+                "addr:housenumber": "3025",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "check_date": "2024-03-10",
+                "name": "Union Hill Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-12:00",
+                "phone": "+1 816-931-4930"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2711769432,
+            "lat": 37.1174836,
+            "lon": -93.4711809,
+            "tags": {
+                "addr:housenumber": "564",
+                "addr:postcode": "65738",
+                "addr:street": "US Hwy 60 East",
+                "amenity": "veterinary",
+                "name": "Animal House",
+                "phone": "+1-417-732-2282",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2767129273,
+            "lat": 37.1286638,
+            "lon": -92.0902444,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cabool Veterinary Clinic",
+                "source": "local_knowledge"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2775970123,
+            "lat": 38.6387115,
+            "lon": -90.3452279,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Metrovet"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2854395444,
+            "lat": 38.5990777,
+            "lon": -90.2921825,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "St Louis Cat Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2910020358,
+            "lat": 37.626279,
+            "lon": -93.1055537,
+            "tags": {
+                "addr:city": "Buffalo",
+                "addr:postcode": "65622",
+                "addr:state": "MO",
+                "addr:street": "S Ash St",
+                "amenity": "veterinary",
+                "name": "Moore"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3189517797,
+            "lat": 38.8050171,
+            "lon": -90.3004199,
+            "tags": {
+                "addr:city": "Florissant",
+                "addr:housenumber": "13927",
+                "addr:postcode": "63033",
+                "addr:street": "New Halls Ferry Road",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4382317592,
+            "lat": 38.5599209,
+            "lon": -90.3003353,
+            "tags": {
+                "addr:housenumber": "8100",
+                "addr:postcode": "63123",
+                "addr:street": "Gravois Road",
+                "amenity": "veterinary",
+                "name": "Affton Veterinary Clinic",
+                "name:en": "Affton Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4839185103,
+            "lat": 39.2136656,
+            "lon": -94.6455795,
+            "tags": {
+                "addr:city": "Kansas City",
+                "addr:housenumber": "6519",
+                "addr:postcode": "64151",
+                "addr:state": "MO",
+                "addr:street": "North Cosby Avenue",
+                "amenity": "veterinary",
+                "name": "Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Su 09:00-12:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4848031612,
+            "lat": 39.0310404,
+            "lon": -94.2906453,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cavanaugh Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4970845736,
+            "lat": 37.1376551,
+            "lon": -93.3015196,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4993504471,
+            "lat": 37.1808302,
+            "lon": -93.2296043,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Sunshine Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5001884289,
+            "lat": 37.2156552,
+            "lon": -89.5313128,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Scott City Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5029469056,
+            "lat": 37.1595209,
+            "lon": -93.2916341,
+            "tags": {
+                "addr:city": "Springfield",
+                "addr:housenumber": "330",
+                "addr:postcode": "65807",
+                "addr:state": "MO",
+                "addr:street": "East Battlefield Road",
+                "addr:unit": "B",
+                "amenity": "veterinary",
+                "name": "Springfield Veterinary Center",
+                "phone": "+1-417-887-8030",
+                "website": "https://www.springfieldvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5035083307,
+            "lat": 37.139145,
+            "lon": -93.3399261,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Wilson's Creek Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5256659216,
+            "lat": 37.1890333,
+            "lon": -93.2577896,
+            "tags": {
+                "addr:city": "Springfield",
+                "addr:housenumber": "1959",
+                "addr:postcode": "65804",
+                "addr:state": "MO",
+                "addr:street": "East Bennett Street",
+                "amenity": "veterinary",
+                "name": "Country Club Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5277795842,
+            "lat": 39.1734663,
+            "lon": -91.8942529,
+            "tags": {
+                "addr:city": "Mexico",
+                "addr:housenumber": "1001",
+                "addr:postcode": "65265",
+                "addr:street": "West Monroe Street",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5282892036,
+            "lat": 39.1675246,
+            "lon": -91.864607,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5446860072,
+            "lat": 38.8126154,
+            "lon": -94.4986136,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5526177748,
+            "lat": 38.4333806,
+            "lon": -90.9756211,
+            "tags": {
+                "addr:city": "Union",
+                "addr:housenumber": "51",
+                "addr:postcode": "63084",
+                "addr:state": "MO",
+                "addr:street": "Silo Drive",
+                "amenity": "veterinary",
+                "name": "East Central Animal Hospital",
+                "phone": "+1-636-744-8387"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5633600884,
+            "lat": 38.8112877,
+            "lon": -90.8727453,
+            "tags": {
+                "addr:city": "Wentzville",
+                "addr:housenumber": "1120",
+                "addr:postcode": "63385",
+                "addr:state": "MO",
+                "addr:street": "West Pearce Boulevard",
+                "amenity": "veterinary",
+                "name": "Wentzville Animal Hospital",
+                "phone": "+1-636-332-4411",
+                "website": "https://lovefamilyvet.com/team/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5753133128,
+            "lat": 38.9801202,
+            "lon": -94.5818662,
+            "tags": {
+                "addr:city": "Kansas City",
+                "addr:housenumber": "8131",
+                "addr:postcode": "64131",
+                "addr:state": "MO",
+                "addr:street": "Holmes Road",
+                "amenity": "veterinary",
+                "facebook": "https://www.facebook.com/Countryside-Animal-Clinic-120869231584923/",
+                "name": "Countryside Animal Clinic",
+                "opening_hours": "Mo-We, Fr 08:00-15:00; Th, Sa, Su 08:00-11:00",
+                "phone": "+1-816-333-5050",
+                "website": "http://countrysideanimalclinicmo.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5840642842,
+            "lat": 38.5696031,
+            "lon": -90.4772076,
+            "tags": {
+                "addr:city": "St. Louis",
+                "addr:housenumber": "2951",
+                "addr:postcode": "63122",
+                "addr:street": "Dougherty Ferry Road",
+                "addr:unit": "102",
+                "amenity": "veterinary",
+                "name": "Arch Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5864235582,
+            "lat": 37.8385791,
+            "lon": -94.3892576,
+            "tags": {
+                "addr:city": "Nevada",
+                "addr:housenumber": "13615",
+                "addr:postcode": "64772",
+                "addr:state": "MO",
+                "addr:street": "East 54 Highway",
+                "amenity": "veterinary",
+                "name": "54 Veterinary Clinic",
+                "phone": "+1-417-667-8381"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5989024324,
+            "lat": 39.2383843,
+            "lon": -94.5752963,
+            "tags": {
+                "addr:city": "Kansas City",
+                "addr:housenumber": "7915",
+                "addr:postcode": "64118",
+                "addr:state": "MO",
+                "addr:street": "North Oak Trafficway",
+                "amenity": "veterinary",
+                "name": "Gladstone Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6841136270,
+            "lat": 38.5986324,
+            "lon": -90.4139493,
+            "tags": {
+                "addr:city": "Kirkwood",
+                "addr:housenumber": "11114",
+                "addr:postcode": "63122",
+                "addr:street": "Manchester Road",
+                "amenity": "veterinary",
+                "name": "Kirkwood Animal Hospital",
+                "phone": "+1 314 965 2660",
+                "source:addr": "St. Louis County GIS Service Center (https://data.stlouisco.com/pages/open-data 2019-08)",
+                "website": "https://kirkwoodvets.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6848064775,
+            "lat": 38.569145,
+            "lon": -90.5236329,
+            "tags": {
+                "addr:city": "Manchester",
+                "addr:housenumber": "621",
+                "addr:postcode": "63021",
+                "addr:street": "Big Bend Road",
+                "amenity": "veterinary",
+                "name": "Sulphur Springs Veterinary Clinic",
+                "phone": "+1-636-394-3227",
+                "source:addr": "St. Louis County GIS Service Center (https://data.stlouisco.com/pages/open-data 2019-08)",
+                "website": "https://www.sulphurspringsvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6955125658,
+            "lat": 38.5985797,
+            "lon": -90.5863072,
+            "tags": {
+                "addr:city": "Ellisville",
+                "addr:housenumber": "210",
+                "addr:postcode": "63011",
+                "addr:street": "Clarkson Road",
+                "amenity": "veterinary",
+                "source:addr": "St. Louis County GIS Service Center (https://data.stlouisco.com/pages/open-data 2019-08)"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6955127046,
+            "lat": 38.6036473,
+            "lon": -90.5888037,
+            "tags": {
+                "addr:city": "Ellisville",
+                "addr:housenumber": "1360",
+                "addr:postcode": "63011",
+                "addr:street": "Clarkson Clayton Center",
+                "amenity": "veterinary",
+                "name": "Ark Pet Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7885826523,
+            "lat": 38.5935723,
+            "lon": -90.2980157,
+            "tags": {
+                "addr:city": "Saint Louis",
+                "addr:housenumber": "6400",
+                "addr:postcode": "63109",
+                "addr:state": "MO",
+                "addr:street": "Chippewa Street",
+                "amenity": "veterinary",
+                "name": "Jewell Animal Hospital",
+                "phone": "+13143514700",
+                "website": "https://jewellanimalhospitalstl.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7965474900,
+            "lat": 38.5959369,
+            "lon": -90.3012174,
+            "tags": {
+                "addr:city": "Saint Louis",
+                "addr:housenumber": "3725",
+                "addr:postcode": "63109",
+                "addr:state": "MO",
+                "addr:street": "Watson Road",
+                "amenity": "veterinary",
+                "name": "Watson Road Animal Hospital",
+                "opening_hours": "Mo-Th 09:00-19:00, Fr 09:00-17:00, Sa 08:00-13:00",
+                "phone": "+13146441544",
+                "website": "https://watsonrdvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8115524438,
+            "lat": 38.9660149,
+            "lon": -94.4930084,
+            "tags": {
+                "addr:city": "Raytown",
+                "addr:housenumber": "8201",
+                "addr:postcode": "64138",
+                "addr:state": "MO",
+                "addr:street": "East 87th Street",
+                "amenity": "veterinary",
+                "name": "Bannister Veterinary Clinic",
+                "opening_hours": "Mo-Sa 08:30-18:00",
+                "phone": "+1-816-765-7979",
+                "source": "Bannister Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8537287044,
+            "lat": 38.6819235,
+            "lon": -90.4799034,
+            "tags": {
+                "addr:city": "Creve Coeur",
+                "addr:housenumber": "12952",
+                "addr:postcode": "63141",
+                "addr:state": "MO",
+                "addr:street": "Olive Boulevard",
+                "amenity": "veterinary",
+                "name": "Heritage Veterinary Hospital",
+                "opening_hours": "Mo-Tu, Th 08:00-20:00; We, Fr 08:00-17:00; Sa 08:00-13:00",
+                "phone": "+1-314-878-8454",
+                "website": "https://www.heritageveterinary.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8953745363,
+            "lat": 36.8049952,
+            "lon": -89.9919431,
+            "tags": {
+                "addr:housenumber": "2030",
+                "addr:street": "North Outer Road",
+                "amenity": "veterinary",
+                "name": "Animal Health Center of Dexter",
+                "shop": "pet_services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9451375369,
+            "lat": 38.7915221,
+            "lon": -90.4844464,
+            "tags": {
+                "addr:city": "Saint Charles",
+                "addr:housenumber": "980",
+                "addr:state": "MO",
+                "addr:street": "Kingshighway",
+                "amenity": "veterinary",
+                "name": "St. Charles Animal Hospital",
+                "opening_hours": "Mo-Th 08:00-18:00; Fr 08:00-16:00; Sa 08:00-12:00; Su off",
+                "phone": "+1-636-723-2400"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9568731493,
+            "lat": 38.8289089,
+            "lon": -91.0199422,
+            "tags": {
+                "addr:housenumber": "111",
+                "addr:street": "Veterans Memorial Parkway",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10074096119,
+            "lat": 38.6266685,
+            "lon": -90.2762013,
+            "tags": {
+                "addr:city": "Saint Louis",
+                "addr:housenumber": "1201",
+                "addr:postcode": "63110",
+                "addr:state": "MO",
+                "addr:street": "Macklind Avenue",
+                "amenity": "veterinary",
+                "contact:phone": "+1-314-951-1534",
+                "name": "Animal Medical Center of Mid-America - St. Louis City",
+                "source:contact:phone": "https://www.amcma.org/",
+                "website": "https://www.amcma.org/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10269142467,
+            "lat": 39.0365219,
+            "lon": -94.5874258,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2024-02-18",
+                "name": "Plaza Animal Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 09:00-13:00",
+                "website": "https://plazaanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10566532538,
+            "lat": 37.2705141,
+            "lon": -93.1289442,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10882084328,
+            "lat": 38.6103995,
+            "lon": -90.2216017,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Jefferson Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10928907067,
+            "lat": 38.5849731,
+            "lon": -90.3187743,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10940434348,
+            "lat": 39.8314056,
+            "lon": -93.5428607,
+            "tags": {
+                "addr:city": "Chillicothe",
+                "addr:housenumber": "3145",
+                "addr:postcode": "64601",
+                "addr:state": "MO",
+                "addr:street": "North Washington Street",
+                "amenity": "veterinary",
+                "name": "Young Veterinary Clinic",
+                "phone": "+1 660 646 7878",
+                "website": "https://www.youngvetclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10978445817,
+            "lat": 38.5909116,
+            "lon": -90.2701917,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11132900403,
+            "lat": 39.013559,
+            "lon": -94.5881158,
+            "tags": {
+                "addr:city": "Kansas City",
+                "addr:housenumber": "6305",
+                "addr:postcode": "64113",
+                "addr:state": "MO",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "name": "Noah's Ark Animal Clinic",
+                "website": "https://noahsarkanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11261697563,
+            "lat": 38.4963169,
+            "lon": -90.3807159,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Tesson Ferry Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11366541009,
+            "lat": 37.6326701,
+            "lon": -93.1049234,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11642368889,
+            "lat": 38.9991468,
+            "lon": -94.588974,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2024-02-19",
+                "name": "KC Cat Clinic",
+                "opening_hours": "Mo-Tu 07:30-19:00; We-Fr 07:30-18:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11769372819,
+            "lat": 39.168208,
+            "lon": -92.6954935,
+            "tags": {
+                "addr:city": "FAYETTE",
+                "addr:housenumber": "293",
+                "addr:postcode": "65248",
+                "addr:state": "MO",
+                "addr:street": "Hwy 5",
+                "amenity": "veterinary",
+                "name": "Howard County Veterinary Service, P.C.",
+                "phone": "+1 660-248-3382",
+                "website": "https://howardcountyvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11913848106,
+            "lat": 39.0136701,
+            "lon": -94.5780649,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Rockhill Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12043795421,
+            "lat": 38.0368607,
+            "lon": -92.7064919,
+            "tags": {
+                "addr:city": "Linn Creek",
+                "addr:housenumber": "76",
+                "addr:postcode": "65052",
+                "addr:state": "MO",
+                "addr:street": "Business Park Rd",
+                "amenity": "veterinary",
+                "name": "R Veterinary at The Lake"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12209219061,
+            "lat": 36.6035035,
+            "lon": -91.6631413,
+            "tags": {
+                "addr:city": "Koshkonong",
+                "addr:country": "US",
+                "addr:housenumber": "593",
+                "addr:postcode": "65692",
+                "addr:state": "MO",
+                "addr:street": "Co Rd 387",
+                "amenity": "veterinary",
+                "name": "Mo Cat & Cow Vetinary Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:30,Sa 07:30-12:00",
+                "operator": "Dr. Ann Dye",
+                "phone": "+1-417-867-3262"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12360510028,
+            "lat": 38.9911618,
+            "lon": -92.3230767,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Vet Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12531788377,
+            "lat": 38.8123648,
+            "lon": -90.8792999,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Bear Creek Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12644114936,
+            "lat": 38.7005076,
+            "lon": -90.3663087,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Overland Animal Clinic",
+                "opening_hours": "\"By appointment only\"",
+                "phone": "+1 314-427-1515"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12710515484,
+            "lat": 38.7555356,
+            "lon": -90.7020222,
+            "tags": {
+                "addr:city": "O'Fallon",
+                "addr:housenumber": "3079",
+                "addr:postcode": "63368",
+                "addr:state": "MO",
+                "addr:street": "State Hwy K",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/gentledoctorah",
+                "name": "Gentle Doctor Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-13:00",
+                "phone": "+1-636-272-5950",
+                "website": "https://www.gentledranimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12762428617,
+            "lat": 38.6387083,
+            "lon": -90.2588332,
+            "tags": {
+                "addr:city": "Saint Louis",
+                "addr:housenumber": "4491",
+                "addr:postcode": "63108",
+                "addr:state": "MO",
+                "addr:street": "Forest Park Avenue",
+                "amenity": "veterinary",
+                "name": "City Cat Clinic",
+                "phone": "+13146521919",
+                "website": "https://www.citycatclinic-stl.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12776806604,
+            "lat": 38.6223873,
+            "lon": -90.3489242,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Veterinary Emergency Group",
+                "opening_hours": "24/7"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12784539905,
+            "lat": 38.7140405,
+            "lon": -90.4387758,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Family Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13240208296,
+            "lat": 38.5584465,
+            "lon": -90.3818076,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Hometown Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13609530532,
+            "lat": 39.0633797,
+            "lon": -94.3731848,
+            "tags": {
+                "addr:city": "Independence",
+                "addr:housenumber": "17501",
+                "addr:postcode": "64057",
+                "addr:state": "MO",
+                "addr:street": "Hidden Valley Road",
+                "amenity": "veterinary",
+                "name": "Hidden Valley Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-16:00",
+                "website": "https://www.hvahpets.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13684837901,
+            "lat": 37.8979183,
+            "lon": -91.7849419,
+            "tags": {
+                "addr:housenumber": "13651",
+                "addr:postcode": "65401",
+                "addr:street": "S US Highway 63",
+                "amenity": "veterinary",
+                "email": "reception.rolla@quickfixpetclinic.com",
+                "name": "Carol House Quick Fix",
+                "opening_hours": "Tu-Fr 07:30-17:00; Mo 10:30-14:00",
+                "phone": "+1-573-465-3099",
+                "website": "https://stlspayneuter.org/rolla/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13685059502,
+            "lat": 37.8083641,
+            "lon": -92.2255894,
+            "tags": {
+                "addr:housenumber": "320",
+                "addr:postcode": "65583",
+                "addr:street": "Ichord Avenue",
+                "amenity": "veterinary",
+                "contact:facebook": "434721696578704",
+                "contact:instagram": "kittendivision_tnr",
+                "email": "KittenDivision@gmail.com",
+                "name": "Kitten Division",
+                "opening_hours": "Mo-Fr 11:00-17:00; Sa-Su 11:00-16:00",
+                "phone": "+1-573-336-3939",
+                "website": "https://kittendivision.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13687692204,
+            "lat": 38.798674,
+            "lon": -90.7086707,
+            "tags": {
+                "addr:housenumber": "334",
+                "addr:postcode": "63366",
+                "addr:street": "Fort Zumwalt Square",
+                "amenity": "veterinary",
+                "name": "Animal Emergency Clinic",
+                "opening_hours": "24/7",
+                "phone": "+1-636-339-4345",
+                "website": "https://www.stlouisanimalemergencyclinic.org/site/home"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13806895101,
+            "lat": 37.0413159,
+            "lon": -93.3017262,
+            "tags": {
+                "addr:housenumber": "213",
+                "addr:postcode": "65714",
+                "addr:street": "Village Center Street",
+                "amenity": "veterinary",
+                "name": "Heartland Animal Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+14177250533",
+                "website": "https://heartlandnixa.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13877886873,
+            "lat": 37.647726,
+            "lon": -93.4739375,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Countryside Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13946112801,
+            "lat": 38.9649544,
+            "lon": -92.3636232,
+            "tags": {
+                "addr:housenumber": "1700",
+                "addr:postcode": "65203",
+                "addr:street": "I- 70 Drive Southwest",
+                "amenity": "veterinary",
+                "check_date": "2026-06-16",
+                "check_date:opening_hours": "2026-06-16",
+                "name": "Tiger Town Veterinary Services",
+                "opening_hours": "Mo-Fr 07:30-17:00",
+                "phone": "+1-573-445-4466",
+                "website": "http://covetruspharmacy.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14084285977,
+            "lat": 38.6798921,
+            "lon": -90.5193565,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Chesterfield Veterinary Center",
+                "website": "https://www.chesterfieldvets.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 192653291,
+            "center": {
+                "lat": 38.4390168,
+                "lon": -91.0159145
+            },
+            "nodes": [
+                1909150336,
+                2031964351,
+                2031964349,
+                2031964350,
+                5252336543,
+                5252336540,
+                1909150336
+            ],
+            "tags": {
+                "addr:city": "Union",
+                "addr:housenumber": "540",
+                "addr:postcode": "63084",
+                "addr:state": "MO",
+                "addr:street": "US 50 West",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Clinic of Union",
+                "website": "https://animalclinicofunion.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 195211924,
+            "center": {
+                "lat": 39.2438604,
+                "lon": -94.4392315
+            },
+            "nodes": [
+                2056833263,
+                14107769486,
+                14107769485,
+                14107769484,
+                14107769483,
+                2056833296,
+                2056833367,
+                14107769490,
+                2056833478,
+                2056833289,
+                2056833402,
+                2056833562,
+                2056833569,
+                2056833263
+            ],
+            "tags": {
+                "addr:city": "Liberty",
+                "addr:housenumber": "1127",
+                "addr:postcode": "64068",
+                "addr:state": "MO",
+                "addr:street": "West Kansas Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-816-708-0747",
+                "name": "Veterinary Center of Liberty",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-13:00",
+                "phone": "+1-816-781-0778",
+                "website": "https://www.vetcenterofliberty.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 195211932,
+            "center": {
+                "lat": 39.2490297,
+                "lon": -94.4658871
+            },
+            "nodes": [
+                2056833304,
+                2056833238,
+                2056833605,
+                2056833302,
+                2056833304
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Shoal Creek Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 195465429,
+            "center": {
+                "lat": 39.2089558,
+                "lon": -94.6836222
+            },
+            "nodes": [
+                2937890047,
+                7844324677,
+                7844324678,
+                2059155930,
+                2059156272,
+                2059156267,
+                2937890047
+            ],
+            "tags": {
+                "addr:housenumber": "8830",
+                "addr:postcode": "64152",
+                "addr:street": "Northwest 63rd Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "designation": "Animal Hospital",
+                "name": "Parkville Heights Animal Hospital",
+                "source": "GPS",
+                "website": "https://www.parkvilleheightsanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 233421477,
+            "center": {
+                "lat": 38.5303077,
+                "lon": -90.4914158
+            },
+            "nodes": [
+                2418128382,
+                2418128468,
+                2418128349,
+                2418128523,
+                2418128382
+            ],
+            "tags": {
+                "addr:city": "Fenton",
+                "addr:housenumber": "1819",
+                "addr:postcode": "63026",
+                "addr:street": "Smizer Station Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bentley Animal Hospital",
+                "veterinary": "hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 254783915,
+            "center": {
+                "lat": 39.268214,
+                "lon": -94.4463372
+            },
+            "nodes": [
+                2605979703,
+                2605979623,
+                2605979616,
+                2605979697,
+                2605979703
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Eagle Animal Hospital at Liberty",
+                "source": "bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 264243186,
+            "center": {
+                "lat": 36.6704301,
+                "lon": -93.2245025
+            },
+            "nodes": [
+                2699244842,
+                2699244848,
+                2699244835,
+                2699244851,
+                2699244832,
+                2699244829,
+                2699244813,
+                2699244821,
+                2699244842
+            ],
+            "tags": {
+                "addr:city": "Branson",
+                "addr:housenumber": "29",
+                "addr:postcode": "65616",
+                "addr:state": "MO",
+                "addr:street": "Wintergreen Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Branson Veterinary Hospital",
+                "phone": "+1 417-337-9777",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 283884239,
+            "center": {
+                "lat": 39.2623444,
+                "lon": -94.6690015
+            },
+            "nodes": [
+                2876972435,
+                2876972436,
+                2876972437,
+                2876972438,
+                2876972435
+            ],
+            "tags": {
+                "addr:housenumber": "9300",
+                "addr:street": "North Congress Avenue",
+                "amenity": "veterinary",
+                "building": "hospital",
+                "building:levels": "1",
+                "name": "Eagle Animal Hospital and Pet Resort",
+                "roof:levels": "1",
+                "roof:shape": "gabled"
+            }
+        },
+        {
+            "type": "way",
+            "id": 356992383,
+            "center": {
+                "lat": 39.2778442,
+                "lon": -94.5725833
+            },
+            "nodes": [
+                3623907885,
+                3623907886,
+                3623907887,
+                3623907888,
+                3623907885
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Clinic of Newmark"
+            }
+        },
+        {
+            "type": "way",
+            "id": 358910503,
+            "center": {
+                "lat": 38.9924709,
+                "lon": -94.5922143
+            },
+            "nodes": [
+                3637303687,
+                3637303689,
+                3637303690,
+                3637303691,
+                3637303692,
+                3637303688,
+                3637303687
+            ],
+            "tags": {
+                "addr:city": "Kansas City",
+                "addr:housenumber": "204",
+                "addr:postcode": "64114",
+                "addr:state": "MO",
+                "addr:street": "West 75th Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Animal Medical Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 359255357,
+            "center": {
+                "lat": 39.2456246,
+                "lon": -94.6258899
+            },
+            "nodes": [
+                3640123058,
+                3640123059,
+                3640123060,
+                3640123061,
+                3640123058
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Barry Road Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 359872398,
+            "center": {
+                "lat": 39.2525471,
+                "lon": -94.6886598
+            },
+            "nodes": [
+                3645033994,
+                3645033995,
+                3645033996,
+                3645033997,
+                3645033998,
+                3645033999,
+                3645034000,
+                3645034001,
+                3645034002,
+                3645034003,
+                3645033994
+            ],
+            "tags": {
+                "addr:housenumber": "9300",
+                "addr:postcode": "64153",
+                "addr:state": "MO",
+                "addr:street": "Northwest 87th Terrace",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Amity Woods Animal Hospital",
+                "source": "http://maps.kcmo.org/apps/parcelviewer/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 361448568,
+            "center": {
+                "lat": 39.2028582,
+                "lon": -94.5464392
+            },
+            "nodes": [
+                3659226420,
+                3659226421,
+                3659226422,
+                3659226423,
+                3659226424,
+                3659227025,
+                3659226420
+            ],
+            "tags": {
+                "addr:city": "Gladstone",
+                "addr:housenumber": "2770",
+                "addr:postcode": "64119",
+                "addr:state": "MO",
+                "addr:street": "Northeast 60th Street",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 384675246,
+            "center": {
+                "lat": 38.9993363,
+                "lon": -94.2734071
+            },
+            "nodes": [
+                3880320216,
+                3880320217,
+                3880320218,
+                3880320219,
+                3880320216
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "AniMed Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 423040721,
+            "center": {
+                "lat": 38.5553026,
+                "lon": -90.4031958
+            },
+            "nodes": [
+                4227609784,
+                4227609785,
+                4227609786,
+                4227609787,
+                4227609784
+            ],
+            "tags": {
+                "addr:city": "Sunset Hills",
+                "addr:housenumber": "10400",
+                "addr:postcode": "63127",
+                "addr:street": "Watson Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Family Pet Hospital",
+                "opening_hours": "Mo-Th 08:00-18:00; Fr 08:00-16:00; Sa 08:00-13:00",
+                "phone": "+1-314-720-1704",
+                "website": "https://www.familypetstl.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 424471837,
+            "center": {
+                "lat": 39.3475583,
+                "lon": -94.5820451
+            },
+            "nodes": [
+                4238771879,
+                4238771880,
+                4238771881,
+                4238771882,
+                4238771879
+            ],
+            "tags": {
+                "addr:city": "Smithville",
+                "addr:housenumber": "14105",
+                "addr:postcode": "64089",
+                "addr:state": "MO",
+                "addr:street": "Earthworks Drive",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Brisbane Veterinary Services",
+                "roof:shape": "flat"
+            }
+        },
+        {
+            "type": "way",
+            "id": 477212864,
+            "center": {
+                "lat": 38.5372071,
+                "lon": -90.9798955
+            },
+            "nodes": [
+                4706015463,
+                4761133360,
+                4706015465,
+                5150535221,
+                5150535228,
+                5150535227,
+                5150535226,
+                4706015466,
+                4706015463
+            ],
+            "tags": {
+                "addr:city": "Washington",
+                "addr:housenumber": "5585",
+                "addr:postcode": "63090",
+                "addr:state": "MO",
+                "addr:street": "MO-100",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Washington Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 479717208,
+            "center": {
+                "lat": 38.6729407,
+                "lon": -90.4172503
+            },
+            "nodes": [
+                4727715910,
+                5528632264,
+                5528632265,
+                4727715911,
+                4727715912,
+                4727715913,
+                4727715910
+            ],
+            "tags": {
+                "addr:city": "Creve Coeur",
+                "addr:housenumber": "10842",
+                "addr:postcode": "63141",
+                "addr:state": "MO",
+                "addr:street": "Olive Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Spoede Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 480688809,
+            "center": {
+                "lat": 38.6760053,
+                "lon": -90.4650381
+            },
+            "nodes": [
+                4736554879,
+                4736554880,
+                4736554881,
+                4736554882,
+                4736554883,
+                4736554884,
+                4736554879
+            ],
+            "tags": {
+                "addr:city": "Creve Coeur",
+                "addr:housenumber": "12550",
+                "addr:postcode": "63141",
+                "addr:state": "MO",
+                "addr:street": "Olive Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Creve Coeur Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 481051582,
+            "center": {
+                "lat": 38.4746861,
+                "lon": -90.8677249
+            },
+            "nodes": [
+                4739931310,
+                4739931311,
+                4938876150,
+                4938876151,
+                4938876152,
+                4938876157,
+                4739931312,
+                4938876153,
+                4938876155,
+                4938876156,
+                4938876154,
+                4739931313,
+                4739931310
+            ],
+            "tags": {
+                "addr:city": "Villa Ridge",
+                "addr:housenumber": "105",
+                "addr:postcode": "63089",
+                "addr:state": "MO",
+                "addr:street": "Whispering Hope Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Homestead Veterinary Hospital",
+                "website": "https://homesteadvet.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 483027173,
+            "center": {
+                "lat": 38.4852853,
+                "lon": -90.7755503
+            },
+            "nodes": [
+                4757830323,
+                5194705387,
+                5176976804,
+                5194705373,
+                4757830325,
+                4757830326,
+                4757830327,
+                4757830328,
+                5194705382,
+                4757830323
+            ],
+            "tags": {
+                "addr:city": "Pacific",
+                "addr:housenumber": "450",
+                "addr:postcode": "63069",
+                "addr:state": "MO",
+                "addr:street": "West Flier Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pacific Animal Hospital",
+                "phone": "+1-636-257-2100",
+                "website": "https://pacificvets.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 488038828,
+            "center": {
+                "lat": 38.5044735,
+                "lon": -90.6513339
+            },
+            "nodes": [
+                4804054988,
+                4804054989,
+                4804054990,
+                4804054991,
+                4804054992,
+                4804054993,
+                4804054988
+            ],
+            "tags": {
+                "addr:city": "Eureka",
+                "addr:housenumber": "1415",
+                "addr:postcode": "63025",
+                "addr:street": "West 5th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Eureka Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 490620235,
+            "center": {
+                "lat": 38.5468109,
+                "lon": -90.9909268
+            },
+            "nodes": [
+                4828063661,
+                4828063662,
+                4828063663,
+                4828063664,
+                4828063665,
+                4828063666,
+                4828063667,
+                4828063668,
+                4828063661
+            ],
+            "tags": {
+                "addr:city": "Washington",
+                "addr:housenumber": "1750",
+                "addr:postcode": "63090",
+                "addr:state": "MO",
+                "addr:street": "East 5th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "level": "1",
+                "name": "Animal Care Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 498408981,
+            "center": {
+                "lat": 39.0894294,
+                "lon": -94.4138172
+            },
+            "nodes": [
+                4898482016,
+                4898482017,
+                4898482018,
+                4898482019,
+                4898482020,
+                4898482021,
+                4898482022,
+                4898482023,
+                4898482016
+            ],
+            "tags": {
+                "addr:city": "Independence",
+                "addr:housenumber": "300",
+                "addr:postcode": "64050",
+                "addr:state": "MO",
+                "addr:street": "South Noland Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Independence Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 507431064,
+            "center": {
+                "lat": 38.1849036,
+                "lon": -91.9467259
+            },
+            "nodes": [
+                4969389798,
+                4969389799,
+                4969389800,
+                4969389801,
+                4969389798
+            ],
+            "tags": {
+                "addr:city": "Vienna",
+                "addr:housenumber": "302",
+                "addr:postcode": "65582",
+                "addr:state": "MO",
+                "addr:street": "South Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vienna Ceterinary Clinic",
+                "phone": "+1-573-422-3437"
+            }
+        },
+        {
+            "type": "way",
+            "id": 507665242,
+            "center": {
+                "lat": 37.1601043,
+                "lon": -93.2292113
+            },
+            "nodes": [
+                4971263921,
+                4971263922,
+                4971263923,
+                4971263924,
+                4971263921
+            ],
+            "tags": {
+                "addr:city": "Springfield",
+                "addr:housenumber": "2850",
+                "addr:postcode": "65804",
+                "addr:state": "MO",
+                "addr:street": "South Ingram Mill Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Deerfield Veterinary Hospital",
+                "phone": "+1-417-889-2727"
+            }
+        },
+        {
+            "type": "way",
+            "id": 508264639,
+            "center": {
+                "lat": 37.1440185,
+                "lon": -93.2760356
+            },
+            "nodes": [
+                4976041426,
+                4976041427,
+                4976041428,
+                4976041429,
+                4976041430,
+                4976041431,
+                4976041432,
+                4976041433,
+                4976041434,
+                4976041435,
+                4976041436,
+                4976041437,
+                4976041438,
+                4976041439,
+                4976041440,
+                4976041441,
+                4976041426
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bradford Park Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 508314356,
+            "center": {
+                "lat": 39.1044247,
+                "lon": -94.5046173
+            },
+            "nodes": [
+                4976471083,
+                4976471084,
+                4976471085,
+                4976471086,
+                4976471083
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Northeast Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 508500037,
+            "center": {
+                "lat": 37.19588,
+                "lon": -93.2996945
+            },
+            "nodes": [
+                4978009103,
+                4978009104,
+                4978009105,
+                4978009106,
+                4978009107,
+                4978009108,
+                4978009109,
+                4978009110,
+                4978009111,
+                4978009112,
+                4978009113,
+                4978009103
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 509085472,
+            "center": {
+                "lat": 37.2405291,
+                "lon": -93.3008891
+            },
+            "nodes": [
+                4983758544,
+                4983758545,
+                4983758546,
+                4983758547,
+                4983758548,
+                4983758549,
+                4983758544
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Creatures Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 509318486,
+            "center": {
+                "lat": 37.2415261,
+                "lon": -93.322604
+            },
+            "nodes": [
+                4985656893,
+                4985656894,
+                4985656895,
+                4985656896,
+                4985656893
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 510282255,
+            "center": {
+                "lat": 37.1828139,
+                "lon": -93.2506322
+            },
+            "nodes": [
+                4993215939,
+                4993215940,
+                4993215941,
+                4993215942,
+                4993215943,
+                4993215944,
+                4993215939
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 515618085,
+            "center": {
+                "lat": 37.1393452,
+                "lon": -93.3243171
+            },
+            "nodes": [
+                5035083263,
+                5035083264,
+                5035083265,
+                5035083266,
+                5035083269,
+                5035083268,
+                5035083267,
+                5035083263
+            ],
+            "tags": {
+                "addr:city": "Springfield",
+                "addr:country": "US",
+                "addr:housenumber": "2215",
+                "addr:postcode": "65807",
+                "addr:state": "MO",
+                "addr:street": "West Republic Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hometown Veterinary Hospital",
+                "website": "https://htvet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 531530481,
+            "center": {
+                "lat": 39.0204086,
+                "lon": -94.5738286
+            },
+            "nodes": [
+                5159620141,
+                8495747258,
+                5159620142,
+                5159620143,
+                5159620144,
+                5159620145,
+                5159620146,
+                5159620147,
+                5159620148,
+                5159620154,
+                5159620155,
+                5159620149,
+                5159620150,
+                5159620151,
+                5159620152,
+                5159620141
+            ],
+            "tags": {
+                "addr:housenumber": "1116",
+                "addr:postcode": "64110",
+                "addr:street": "East 59th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:facebook": "prckcmo",
+                "contact:instagram": "petresourcecenterofkansascity",
+                "contact:twitter": "prckcmo",
+                "email": "info@prckc.org",
+                "name": "Pet Resource Center of Kansas City",
+                "opening_hours": "Mo-Fr 08:00-16:00",
+                "phone": "+1-816-353-0940",
+                "website": "https://prckc.org",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 538882395,
+            "center": {
+                "lat": 38.5888732,
+                "lon": -90.2514207
+            },
+            "nodes": [
+                5215390977,
+                5215390978,
+                5215390979,
+                5215390980,
+                5215390977
+            ],
+            "tags": {
+                "addr:city": "Saint Louis",
+                "addr:housenumber": "3850",
+                "addr:postcode": "63118",
+                "addr:state": "MO",
+                "addr:street": "Chippewa Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "chippewaanimalhosp@att.net",
+                "name": "Chippewa Animal Hospital",
+                "opening_hours": "Mo-Th 07:30-19:00, Fr 07:30-18:00, Sa 08:00-14:00",
+                "phone": "+1-314-772-0292"
+            }
+        },
+        {
+            "type": "way",
+            "id": 541407841,
+            "center": {
+                "lat": 38.4463735,
+                "lon": -91.0300164
+            },
+            "nodes": [
+                5235394549,
+                5235394550,
+                5235394551,
+                5235394552,
+                5235394549
+            ],
+            "tags": {
+                "addr:city": "Union",
+                "addr:housenumber": "1220",
+                "addr:postcode": "63084",
+                "addr:state": "MO",
+                "addr:street": "West Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pet Station, P.C.",
+                "phone": "+1-636-583-2858",
+                "website": "https://www.petstationvets.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 543809902,
+            "center": {
+                "lat": 38.91201,
+                "lon": -92.3310645
+            },
+            "nodes": [
+                5256956120,
+                5256957121,
+                5256957122,
+                5256957123,
+                5256956120
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rolling Hills Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 543925953,
+            "center": {
+                "lat": 36.7020541,
+                "lon": -91.8790042
+            },
+            "nodes": [
+                5257999344,
+                5257999345,
+                5257999346,
+                5257999347,
+                5257999344
+            ],
+            "tags": {
+                "addr:city": "West Plains",
+                "addr:housenumber": "1716",
+                "addr:postcode": "65775",
+                "addr:state": "MO",
+                "addr:street": "US 160",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "West Plains Veterinary Clinic",
+                "phone": "+1 417-256-4515"
+            }
+        },
+        {
+            "type": "way",
+            "id": 546381331,
+            "center": {
+                "lat": 38.2289539,
+                "lon": -91.1522375
+            },
+            "nodes": [
+                4231947597,
+                5280008668,
+                5280008673,
+                5280008669,
+                5280008670,
+                5280008671,
+                5280008672,
+                4231947597
+            ],
+            "tags": {
+                "addr:street": "N Service Road West",
+                "amenity": "veterinary",
+                "building": "yes",
+                "level": "0",
+                "name": "Sullivan Veterinary Hospital",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "way",
+            "id": 547081816,
+            "center": {
+                "lat": 38.9049075,
+                "lon": -92.3363946
+            },
+            "nodes": [
+                5286167964,
+                5286167965,
+                5286167966,
+                5286167967,
+                5286167968,
+                5286167969,
+                5286167970,
+                5286167971,
+                5286167964
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 547514183,
+            "center": {
+                "lat": 38.9667553,
+                "lon": -92.3570785
+            },
+            "nodes": [
+                5290448114,
+                5290448115,
+                5290448116,
+                5290448117,
+                5290448118,
+                5290448119,
+                5290448120,
+                5290448121,
+                5290448114
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Creatures Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 550674702,
+            "center": {
+                "lat": 36.7157948,
+                "lon": -91.8511206
+            },
+            "nodes": [
+                5318653911,
+                5318653912,
+                5318653913,
+                5318653914,
+                5318653915,
+                5318653916,
+                5318653911
+            ],
+            "tags": {
+                "addr:city": "West Plains",
+                "addr:housenumber": "1101",
+                "addr:postcode": "65775",
+                "addr:state": "MO",
+                "addr:street": "MO-17",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Clinic of West Plains",
+                "opening_hours": "Mo-Fr 07:30-17:00",
+                "phone": "+1 417-256-6145",
+                "website": "https://www.bigredbarnvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 555852620,
+            "center": {
+                "lat": 39.0310304,
+                "lon": -94.2906596
+            },
+            "nodes": [
+                5362449362,
+                11299226866,
+                11299226865,
+                11299226864,
+                11299226867,
+                5362449364,
+                5362449365,
+                11299233674,
+                11299233673,
+                11299233672,
+                11299233675,
+                5362449363,
+                11299233670,
+                11299233671,
+                5362449366,
+                11299233669,
+                11299226868,
+                5362449367,
+                5362449368,
+                5362449369,
+                5362449362
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 556911853,
+            "center": {
+                "lat": 38.8120424,
+                "lon": -91.1371389
+            },
+            "nodes": [
+                5371715040,
+                5371715041,
+                5371715042,
+                5371715043,
+                5371715044,
+                5371715045,
+                5371715046,
+                5371715047,
+                5371715048,
+                5371715049,
+                5371715050,
+                5371715051,
+                5371715052,
+                5371715053,
+                5371715040
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 564806210,
+            "center": {
+                "lat": 38.81329,
+                "lon": -94.5182953
+            },
+            "nodes": [
+                5440967471,
+                5440967472,
+                5440967473,
+                5440967474,
+                5440967471
+            ],
+            "tags": {
+                "addr:city": "Belton",
+                "addr:housenumber": "1001",
+                "addr:postcode": "64012",
+                "addr:state": "MO",
+                "addr:street": "East North Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Belton Veterniary Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 583990081,
+            "center": {
+                "lat": 38.5933257,
+                "lon": -90.5261465
+            },
+            "nodes": [
+                5582831723,
+                5582831724,
+                5582831725,
+                5582831726,
+                5582831723
+            ],
+            "tags": {
+                "addr:city": "Manchester",
+                "addr:housenumber": "14571",
+                "addr:postcode": "63011",
+                "addr:street": "Manchester Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "West County Animal Clinic",
+                "phone": "+1-636-227-3505"
+            }
+        },
+        {
+            "type": "way",
+            "id": 594376429,
+            "center": {
+                "lat": 37.8144061,
+                "lon": -92.2206451
+            },
+            "nodes": [
+                5668104784,
+                5668104785,
+                5668104786,
+                5668104787,
+                5668104784
+            ],
+            "tags": {
+                "addr:city": "Waynesville",
+                "addr:housenumber": "1135",
+                "addr:postcode": "65583",
+                "addr:state": "MO",
+                "addr:street": "US HIstoric Rt 66 West",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "R Veterinary at Cross Creek",
+                "opening_hours": "Mo-Fr 08:00-17:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 601054700,
+            "center": {
+                "lat": 39.3661467,
+                "lon": -93.4858797
+            },
+            "nodes": [
+                5713478362,
+                5713478363,
+                5713478364,
+                5713478365,
+                5713478362
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "bell veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 613154975,
+            "center": {
+                "lat": 38.7788133,
+                "lon": -90.7005846
+            },
+            "nodes": [
+                5802480150,
+                5802480149,
+                5802480148,
+                5802480147,
+                5802480146,
+                5802480145,
+                5802480144,
+                5802480143,
+                5802480142,
+                5802480141,
+                5802480140,
+                5802480139,
+                5802480150
+            ],
+            "tags": {
+                "addr:city": "O'Fallon",
+                "addr:housenumber": "2205",
+                "addr:postcode": "63368",
+                "addr:street": "Highway K",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "VCA All Creatures Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-20:00; Sa 08:00-15:00; Su off",
+                "phone": "+1 636-240-8387",
+                "website": "https://vcahospitals.com/all-creatures"
+            }
+        },
+        {
+            "type": "way",
+            "id": 617911565,
+            "center": {
+                "lat": 38.806752,
+                "lon": -90.3044864
+            },
+            "nodes": [
+                5840775309,
+                5840775308,
+                5840775307,
+                5840775306,
+                5840775309
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 640428313,
+            "center": {
+                "lat": 38.619556,
+                "lon": -90.2192481
+            },
+            "nodes": [
+                6033195303,
+                6033195304,
+                6033195305,
+                6033195306,
+                6033195303
+            ],
+            "tags": {
+                "addr:city": "Saint Louis",
+                "addr:housenumber": "1218",
+                "addr:postcode": "63104",
+                "addr:state": "MO",
+                "addr:street": "South Jefferson Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "building:levels": "1",
+                "name": "Carol House Quick Fix Pet Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 642319043,
+            "center": {
+                "lat": 38.7893693,
+                "lon": -90.6392542
+            },
+            "nodes": [
+                6047464849,
+                6047464844,
+                6047464843,
+                6047464848,
+                6047464847,
+                6047464846,
+                6047464845,
+                6047464849
+            ],
+            "tags": {
+                "addr:city": "Saint Peters",
+                "addr:country": "US",
+                "addr:housenumber": "7464",
+                "addr:postcode": "63376",
+                "addr:state": "MO",
+                "addr:street": "Mexico Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pet Pals Animal Hospital",
+                "opening_hours": "Mo 08:00-16:00; Tu,Th 08:00-20:00; We 09:00-15:00; Fr 10:00-15:00; Sa 08:00-15:00; Su off",
+                "phone": "+1 636-278-7257"
+            }
+        },
+        {
+            "type": "way",
+            "id": 660067529,
+            "center": {
+                "lat": 37.1279539,
+                "lon": -94.4748052
+            },
+            "nodes": [
+                6179972753,
+                6179972750,
+                6179972744,
+                6179972745,
+                6179972746,
+                6179972747,
+                6179972748,
+                6179972749,
+                6179972753
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pet Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 661228147,
+            "center": {
+                "lat": 38.7847408,
+                "lon": -90.6626124
+            },
+            "nodes": [
+                6190519097,
+                6190519098,
+                6190519099,
+                6190519100,
+                6190519101,
+                6190519102,
+                6190519103,
+                6190519104,
+                6246453306,
+                6190519097
+            ],
+            "tags": {
+                "addr:city": "Saint Peters",
+                "addr:housenumber": "117",
+                "addr:postcode": "63376",
+                "addr:street": "Birdie Hills Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Fisher Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 670796504,
+            "center": {
+                "lat": 38.0368557,
+                "lon": -92.7065104
+            },
+            "nodes": [
+                6281746938,
+                6281746939,
+                6281746935,
+                6281746940,
+                6281746941,
+                6281746938
+            ],
+            "tags": {
+                "addr:city": "Linn Creek",
+                "addr:housenumber": "76",
+                "addr:postcode": "65052",
+                "addr:state": "MO",
+                "addr:street": "Business Park Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lake of the Ozarks Animal Hospital",
+                "website": "https://www.lake.vet/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 687180291,
+            "center": {
+                "lat": 40.0739882,
+                "lon": -93.5958213
+            },
+            "nodes": [
+                6441032165,
+                6441032166,
+                6441032167,
+                6441032168,
+                6441032169,
+                6441032170,
+                6441032165
+            ],
+            "tags": {
+                "addr:city": "Trenton",
+                "addr:housenumber": "818",
+                "addr:postcode": "64683",
+                "addr:street": "Kerfoot Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Kingdom Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 688992108,
+            "center": {
+                "lat": 40.0730984,
+                "lon": -93.5954221
+            },
+            "nodes": [
+                6462944325,
+                6462944326,
+                6462944327,
+                6462944328,
+                6462944325
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Affordable Veterinary Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 697895302,
+            "center": {
+                "lat": 38.9262625,
+                "lon": -94.5848431
+            },
+            "nodes": [
+                6554238672,
+                6554238673,
+                6554238674,
+                6554238675,
+                6554238672
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Red Bridge Animal Clinic",
+                "opening_hours": "Mo-Th 08:00-18:00; Fr 08:00-17:30; Sa 08:00-12:00",
+                "phone": "+1-816-942-3201",
+                "website": "https://redbridgeanimalclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 707208585,
+            "center": {
+                "lat": 39.0343231,
+                "lon": -94.3923759
+            },
+            "nodes": [
+                6646039772,
+                6646039799,
+                6646039773,
+                6646039774,
+                6646039775,
+                6646039776,
+                6646039777,
+                6646039778,
+                6646039794,
+                6646039779,
+                6646039780,
+                6646039781,
+                6646039782,
+                6646039783,
+                6646039784,
+                6646039785,
+                6646039786,
+                6646039787,
+                6646039772
+            ],
+            "tags": {
+                "addr:city": "Kansas City",
+                "addr:housenumber": "16021",
+                "addr:postcode": "64136",
+                "addr:state": "MO",
+                "addr:street": "E US Highway 40",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Arrowhead Veterinary Services"
+            }
+        },
+        {
+            "type": "way",
+            "id": 741805094,
+            "center": {
+                "lat": 39.3620023,
+                "lon": -94.5844006
+            },
+            "nodes": [
+                6944251562,
+                6944251563,
+                6944251564,
+                6944251565,
+                6944251562
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Smithville Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 812971332,
+            "center": {
+                "lat": 37.6153156,
+                "lon": -93.3959359
+            },
+            "nodes": [
+                7593589814,
+                7593589815,
+                7593589816,
+                7593589817,
+                7593589814
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 824955546,
+            "center": {
+                "lat": 39.1825138,
+                "lon": -94.6127963
+            },
+            "nodes": [
+                7703116755,
+                7703116756,
+                7703116757,
+                7703116758,
+                7703116759,
+                7703116760,
+                7703116761,
+                7703116762,
+                7703116763,
+                7703116764,
+                7703116765,
+                7703116766,
+                7703116755
+            ],
+            "tags": {
+                "addr:city": "Riverside",
+                "addr:housenumber": "4825",
+                "addr:postcode": "64150",
+                "addr:state": "MO",
+                "addr:street": "Northwest Gateway Avenue",
+                "amenity": "veterinary",
+                "building": "hospital",
+                "name": "Eagle Animal Hospital and Resort",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+                "phone": "+1-816-239-1913",
+                "website": "https://www.eagleanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 847952423,
+            "center": {
+                "lat": 40.3409195,
+                "lon": -94.8734336
+            },
+            "nodes": [
+                7912609349,
+                7912609350,
+                7912609351,
+                7912609352,
+                7912609349
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Francis Kirk DVM"
+            }
+        },
+        {
+            "type": "way",
+            "id": 854404333,
+            "center": {
+                "lat": 38.6078747,
+                "lon": -90.2883475
+            },
+            "nodes": [
+                7967880072,
+                7967880073,
+                7967880074,
+                7967880075,
+                7967880072
+            ],
+            "tags": {
+                "addr:city": "Saint Louis",
+                "addr:housenumber": "2826",
+                "addr:postcode": "63139",
+                "addr:state": "MO",
+                "addr:street": "Hampton Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hampton Animal Hospital",
+                "not:brand:wikidata": "Q5646230",
+                "opening_hours": "Mo-Th 09:00-17:00, Fr 09:00-16:00, Sa 09:00-12:00",
+                "phone": "+13146478818",
+                "website": "http://hamptonanimal.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 872341590,
+            "center": {
+                "lat": 38.9659982,
+                "lon": -94.4929682
+            },
+            "nodes": [
+                8124887876,
+                8124887877,
+                8124887878,
+                8124887879,
+                8124887880,
+                8124887876
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bannister Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 925242515,
+            "center": {
+                "lat": 38.1504081,
+                "lon": -92.6009764
+            },
+            "nodes": [
+                8586897837,
+                8586897836,
+                8586897835,
+                8586897833,
+                8586897832,
+                8586897834,
+                8586897837
+            ],
+            "tags": {
+                "addr:city": "Osage Beach",
+                "addr:country": "US",
+                "addr:housenumber": "835",
+                "addr:postcode": "65065",
+                "addr:state": "MO",
+                "addr:street": "State Highway 42",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Osage Animal Hospital",
+                "phone": "+1-573-348-1788",
+                "website": "https://www.osageanimalhospital.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 928260807,
+            "center": {
+                "lat": 38.7177847,
+                "lon": -93.9990813
+            },
+            "nodes": [
+                8610949784,
+                8610949785,
+                8610949786,
+                8610949787,
+                8610949788,
+                8610949789,
+                8610949790,
+                8610949791,
+                8610949792,
+                8610949793,
+                8610949784
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Holden Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1067625419,
+            "center": {
+                "lat": 39.7128213,
+                "lon": -91.4335614
+            },
+            "nodes": [
+                9801850298,
+                9801850299,
+                9801850300,
+                9801850301,
+                9801850298
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1084152002,
+            "center": {
+                "lat": 38.5578026,
+                "lon": -90.3064996
+            },
+            "nodes": [
+                9934884364,
+                9934884358,
+                9934884365,
+                9934884359,
+                9934884360,
+                9934884367,
+                9934884364
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Afton Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1095773207,
+            "center": {
+                "lat": 38.9766329,
+                "lon": -92.2982703
+            },
+            "nodes": [
+                10035355147,
+                10035355148,
+                10035355149,
+                10035355150,
+                10035355151,
+                10035355152,
+                10035355147
+            ],
+            "tags": {
+                "addr:city": "Columbia",
+                "addr:housenumber": "2608",
+                "addr:postcode": "65202",
+                "addr:state": "MO",
+                "addr:street": "Paris Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Hortons Animal Hospital Northeast",
+                "short_name": "Hortons NE"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1103587061,
+            "center": {
+                "lat": 40.3244586,
+                "lon": -94.8730067
+            },
+            "nodes": [
+                10098599427,
+                10098599428,
+                10098599429,
+                10098599430,
+                10098599431,
+                10098599432,
+                10098599433,
+                10098599434,
+                10098599427
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "South Paws Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1105000687,
+            "center": {
+                "lat": 39.7325418,
+                "lon": -94.2329935
+            },
+            "nodes": [
+                10111728370,
+                10111728371,
+                10111728372,
+                10111728373,
+                10111728374,
+                10111728375,
+                10111728376,
+                10111728377,
+                10111728370
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cameron Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1135431870,
+            "center": {
+                "lat": 39.3732524,
+                "lon": -93.485365
+            },
+            "nodes": [
+                10584135028,
+                10584135029,
+                10584135030,
+                10584135072,
+                10584135031,
+                10584135028
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "mail@carrollcovetservices.com",
+                "name": "Carroll County Veterinary Services",
+                "phone": "+1-660-542-6149",
+                "website": "https://carrollcovetservices.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1136362357,
+            "center": {
+                "lat": 38.4445274,
+                "lon": -90.4028431
+            },
+            "nodes": [
+                10593326107,
+                10609208779,
+                10593326106,
+                10609208781,
+                10609208782,
+                10609208783,
+                10609208784,
+                11098135356,
+                11098135354,
+                11098135355,
+                11098135357,
+                10609208785,
+                10609208786,
+                10593280104,
+                10593326107
+            ],
+            "tags": {
+                "addr:city": "Arnold",
+                "addr:country": "US",
+                "addr:housenumber": "11",
+                "addr:postcode": "63010",
+                "addr:state": "MO",
+                "addr:street": "Municipal Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:email": "arnoldvetsaccess@aol.com",
+                "contact:fax": "+1-636-296-4289",
+                "contact:phone": "+1-636-296-7060",
+                "name": "Arnold Animal Hospital",
+                "source:addr": "https://www.arnoldanimalhosp.com/contact-us.html",
+                "source:contact": "https://www.arnoldanimalhosp.com/contact-us.html",
+                "website": "https://www.arnoldanimalhosp.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1137688112,
+            "center": {
+                "lat": 38.9992069,
+                "lon": -94.1301531
+            },
+            "nodes": [
+                10604878977,
+                10604878978,
+                13098759741,
+                10604878979,
+                10604878980,
+                10604878981,
+                10604878982,
+                10604878977
+            ],
+            "tags": {
+                "addr:city": "Oak Grove",
+                "addr:housenumber": "1604",
+                "addr:postcode": "64075",
+                "addr:state": "MO",
+                "addr:street": "South Broadway Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Oak Grove Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1153595831,
+            "center": {
+                "lat": 37.0634712,
+                "lon": -94.5324167
+            },
+            "nodes": [
+                10728398582,
+                10728398583,
+                10728398584,
+                10728398595,
+                10728398594,
+                10728398591,
+                10728398592,
+                10728398593,
+                10728398590,
+                10728398585,
+                10728398586,
+                10728398587,
+                10728398588,
+                10728398589,
+                10728398582
+            ],
+            "tags": {
+                "addr:city": "Joplin",
+                "addr:housenumber": "2508",
+                "addr:postcode": "64804",
+                "addr:state": "MO",
+                "addr:street": "South Maiden Lane",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Parkview Animal Hospital",
+                "phone": "+1-417-781-0906"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1201415875,
+            "center": {
+                "lat": 36.5087091,
+                "lon": -94.2829939
+            },
+            "nodes": [
+                11138786628,
+                11138786627,
+                11138786626,
+                11138786625,
+                11138786619,
+                11138786618,
+                11138786617,
+                11138786620,
+                11138786628
+            ],
+            "tags": {
+                "addr:city": "Pineville",
+                "addr:housenumber": "155",
+                "addr:postcode": "64856",
+                "addr:state": "MO",
+                "addr:street": "Gordon Hollow Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hancock Veterinary Services of Bella Vista"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1208184697,
+            "center": {
+                "lat": 40.2496213,
+                "lon": -92.5836937
+            },
+            "nodes": [
+                11195031117,
+                11195031118,
+                11195031119,
+                11195031120,
+                11195031117
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1266852860,
+            "center": {
+                "lat": 37.8601654,
+                "lon": -92.4194102
+            },
+            "nodes": [
+                11766680998,
+                11766680999,
+                11766681000,
+                11766681001,
+                11766681002,
+                11766681003,
+                11766680998
+            ],
+            "tags": {
+                "addr:city": "Richland",
+                "addr:housenumber": "7440",
+                "addr:postcode": "65556",
+                "addr:state": "MO",
+                "addr:street": "MO H",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1302179483,
+            "center": {
+                "lat": 39.7367558,
+                "lon": -94.0003135
+            },
+            "nodes": [
+                12060521633,
+                12060521634,
+                12060521635,
+                12060521636,
+                12060521637,
+                12060521638,
+                12060521639,
+                12060521640,
+                12060521633
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Allen Veterinary Services",
+                "phone": "+18335838387"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1317643206,
+            "center": {
+                "lat": 37.3060093,
+                "lon": -89.9622907
+            },
+            "nodes": [
+                12195090110,
+                12195090107,
+                12195090108,
+                12195090109,
+                12195090110
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Bollinger County Vetrinary Services",
+                "website": "https://www.bollingercountyvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1319130729,
+            "center": {
+                "lat": 40.3793996,
+                "lon": -94.8708254
+            },
+            "nodes": [
+                12207905970,
+                12207905972,
+                12207905973,
+                12207905974,
+                12207905975,
+                12207905976,
+                12207905977,
+                12207905978,
+                12207905979,
+                12207905980,
+                12207905970
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "farm_auxiliary",
+                "name": "Nodaway Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1348399036,
+            "center": {
+                "lat": 39.1659815,
+                "lon": -90.7826735
+            },
+            "nodes": [
+                12472753180,
+                12472753177,
+                12472753178,
+                12472753182,
+                12472753180
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Elsberry Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1361888759,
+            "center": {
+                "lat": 37.9275913,
+                "lon": -91.7374535
+            },
+            "nodes": [
+                12609079915,
+                12609079916,
+                12609079917,
+                12609079918,
+                12609079919,
+                12609079920,
+                12609079921,
+                12609079922,
+                12609079923,
+                12609079924,
+                12609079925,
+                12609079926,
+                12609079927,
+                12609079928,
+                12609079915
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1370086800,
+            "center": {
+                "lat": 39.7971843,
+                "lon": -94.8128791
+            },
+            "nodes": [
+                12688394050,
+                12688394051,
+                12688394052,
+                12688394053,
+                12688394054,
+                12688394055,
+                12688394050
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Green Hills Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1371212408,
+            "center": {
+                "lat": 39.7529703,
+                "lon": -93.9963506
+            },
+            "nodes": [
+                12699191702,
+                12699191703,
+                12699191704,
+                12699191705,
+                12699191706,
+                12699191707,
+                12699191708,
+                12699191709,
+                12699191702
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hamilton Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1391290946,
+            "center": {
+                "lat": 37.2275802,
+                "lon": -93.2850777
+            },
+            "nodes": [
+                12878292572,
+                12878292573,
+                12878292574,
+                12878292575,
+                12878292572
+            ],
+            "tags": {
+                "addr:city": "Springfield",
+                "addr:housenumber": "1600",
+                "addr:postcode": "65803",
+                "addr:state": "MO",
+                "addr:street": "North Washington Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "SAAF Spay Neuter Clinic",
+                "opening_hours": "Mo-Fr 07:15-17:00",
+                "phone": "+14178317223",
+                "website": "https://www.spayneuterspringfield.org/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1465169674,
+            "center": {
+                "lat": 40.3749202,
+                "lon": -94.8732143
+            },
+            "nodes": [
+                13438376575,
+                13438376576,
+                13438376577,
+                13438376578,
+                13438376579,
+                13438376580,
+                13438376575
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Maryville Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1465172203,
+            "center": {
+                "lat": 39.7757295,
+                "lon": -93.5489021
+            },
+            "nodes": [
+                13438365484,
+                13438365485,
+                13438365486,
+                13438365487,
+                13438365488,
+                13438365489,
+                13438365490,
+                13438365491,
+                13438365492,
+                13438365493,
+                13438365494,
+                13438365495,
+                13438365484
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Chillicothe Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1465185739,
+            "center": {
+                "lat": 39.236326,
+                "lon": -94.4311225
+            },
+            "nodes": [
+                13438464261,
+                13438464262,
+                13438464263,
+                13438464264,
+                13438464265,
+                13438464266,
+                13438464267,
+                13438464268,
+                13438464261
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ark Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1465421755,
+            "center": {
+                "lat": 39.3698481,
+                "lon": -94.3627359
+            },
+            "nodes": [
+                13440652901,
+                13440652902,
+                13440652903,
+                13440652904,
+                13440652905,
+                13440652906,
+                13440652901
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "The Animal Clinic of Kearney"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1467359284,
+            "center": {
+                "lat": 39.2031999,
+                "lon": -94.5472741
+            },
+            "nodes": [
+                13458689284,
+                13458689285,
+                13458689286,
+                13458689287,
+                13458689288,
+                13458689289,
+                13458689290,
+                13458689291,
+                13458689284
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Clinic of the Woodlands"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1480470748,
+            "center": {
+                "lat": 38.4134482,
+                "lon": -90.5796387
+            },
+            "nodes": [
+                13578470698,
+                13578470699,
+                13578470700,
+                13578708901,
+                13578708902,
+                13578708903,
+                13578708904,
+                13578708905,
+                13578708906,
+                13578708907,
+                13578708908,
+                13578708909,
+                13578708910,
+                13578708911,
+                13578708912,
+                13578708913,
+                13578708914,
+                13578708915,
+                13578470698
+            ],
+            "tags": {
+                "addr:city": "House Springs",
+                "addr:housenumber": "30",
+                "addr:postcode": "63051",
+                "addr:state": "MO",
+                "addr:street": "Walters Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ivan Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1498152253,
+            "center": {
+                "lat": 40.2045495,
+                "lon": -92.5746462
+            },
+            "nodes": [
+                13720359323,
+                13720359322,
+                13720359321,
+                13720359320,
+                13720359323
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1531087806,
+            "center": {
+                "lat": 39.1883423,
+                "lon": -94.5186091
+            },
+            "nodes": [
+                13954499795,
+                13954499796,
+                13954499797,
+                13954499798,
+                13954499799,
+                13954499800,
+                13954499801,
+                13954499802,
+                13954499803,
+                13954499804,
+                13954499795
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1532814178,
+            "center": {
+                "lat": 39.7839922,
+                "lon": -93.0719914
+            },
+            "nodes": [
+                13969025594,
+                13969025595,
+                13969025596,
+                13969025597,
+                13969025594
+            ],
+            "tags": {
+                "addr:city": "Brookfield",
+                "addr:housenumber": "124",
+                "addr:postcode": "64628",
+                "addr:state": "MO",
+                "addr:street": "East Helm Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Montgomery Veterinary Clinic",
+                "phone": "+16602587452"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1532814208,
+            "center": {
+                "lat": 39.7823402,
+                "lon": -93.072313
+            },
+            "nodes": [
+                13969025703,
+                13969025704,
+                13969025705,
+                13969025706,
+                13969025703
+            ],
+            "tags": {
+                "addr:city": "Brookfield",
+                "addr:housenumber": "219",
+                "addr:postcode": "64628",
+                "addr:state": "MO",
+                "addr:street": "South Main Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Harland's Veterinary Office",
+                "phone": "+16602684032"
+            }
+        }
+    ]
+}

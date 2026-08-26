@@ -1,0 +1,630 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:47:56Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 465099255,
+            "lat": 39.5943901,
+            "lon": -75.7004886,
+            "tags": {
+                "addr:housenumber": "3052",
+                "addr:street": "Wrangle Hill Road",
+                "amenity": "veterinary",
+                "name": "Lums Pond Animal Hospital",
+                "url": "http://www.lumspondanimalhospital.vetsuite.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4383898043,
+            "lat": 39.7751025,
+            "lon": -75.7097572,
+            "tags": {
+                "addr:city": "Hockessin",
+                "addr:housenumber": "306",
+                "addr:postcode": "19707",
+                "addr:state": "DE",
+                "addr:street": "Lantana Drive",
+                "amenity": "veterinary",
+                "check_date": "2025-07-31",
+                "contact:facebook": "https://www.facebook.com/LantanaVetCenter.LantanaSquare/",
+                "email": "contact@lantanavetcenter.com",
+                "fax": "+1-302-234-3286",
+                "name": "Lantana Veterinary Center",
+                "opening_hours": "Mo,We,Fr 08:00-18:00; Tu,Th 08:00-20:00; Sa 08:30-12:00; Su off",
+                "phone": "+1-302-234-3275",
+                "website": "https://www.lantanavetcenter.com",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6373326298,
+            "lat": 39.8144074,
+            "lon": -75.5476504,
+            "tags": {
+                "addr:city": "Wilmington",
+                "addr:housenumber": "4401",
+                "addr:postcode": "19803",
+                "addr:state": "DE",
+                "addr:street": "Concord Pike",
+                "amenity": "veterinary",
+                "check_date": "2024-11-04",
+                "name": "First State Urgent Vet",
+                "opening_hours": "10:00-19:00",
+                "phone": "+1 302-609-0011",
+                "website": "https://www.firststateurgentvet.com/index-wilmington.html"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12034139253,
+            "lat": 38.9240628,
+            "lon": -75.5609299,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "A. Little Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12287798154,
+            "lat": 39.7992095,
+            "lon": -75.5473419,
+            "tags": {
+                "addr:city": "Wilmington",
+                "addr:housenumber": "3001",
+                "addr:postcode": "19803",
+                "addr:state": "DE",
+                "addr:street": "Concord Pike",
+                "amenity": "veterinary",
+                "check_date": "2024-10-24",
+                "contact:facebook": "https://www.facebook.com/talleyvillevet/",
+                "email": "talleyvet@tvh.pet",
+                "name": "Talleyville Veterinary Hospital",
+                "phone": "+1 302-478-0648",
+                "website": "https://talleyvilleveterinary.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12322796361,
+            "lat": 39.7119716,
+            "lon": -75.7423793,
+            "tags": {
+                "addr:city": "Newark",
+                "addr:housenumber": "301",
+                "addr:state": "DE",
+                "addr:street": "Louviers Drive",
+                "amenity": "veterinary",
+                "check_date": "2024-11-07",
+                "fixme": "location",
+                "name": "First State Urgent Vet",
+                "opening_hours": "10:00-19:00",
+                "phone": "+1 302-273-0616",
+                "website": "https://www.firststateurgentvet.com/newark/index.html"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12994481695,
+            "lat": 39.4498109,
+            "lon": -75.7040082,
+            "tags": {
+                "addr:city": "Middletown",
+                "addr:housenumber": "370",
+                "addr:postcode": "19709",
+                "addr:state": "DE",
+                "addr:street": "East Main Street",
+                "amenity": "veterinary",
+                "check_date": "2025-07-11",
+                "contact:facebook": "https://www.facebook.com/msvmiddletown/",
+                "name": "Main Street Veterinary Clinic",
+                "opening_hours": "\"by appointment\"",
+                "phone": "+1 302-376-1400",
+                "website": "https://msvmiddletown.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13032240075,
+            "lat": 39.8222018,
+            "lon": -75.4642903,
+            "tags": {
+                "addr:city": "Wilmington",
+                "addr:housenumber": "6",
+                "addr:postcode": "19810",
+                "addr:state": "DE",
+                "addr:street": "Carpenter Plaza",
+                "amenity": "veterinary",
+                "check_date": "2025-07-28",
+                "fixme": "location within shopping center",
+                "name": "Naamans Animal Hospital",
+                "opening_hours": "Mo-We,Fr 09:00-18:00; Th 09:00-14:00; Sa 09:00-16:30; Su off",
+                "phone": "+1 302-439-3064",
+                "website": "https://naamansanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 84085546,
+            "center": {
+                "lat": 39.6871694,
+                "lon": -75.6494193
+            },
+            "nodes": [
+                978214444,
+                978214445,
+                978214446,
+                978214447,
+                978214448,
+                978214449,
+                3769882435,
+                3769882434,
+                3769882438,
+                3769882433,
+                3769882436,
+                3769882430,
+                3769882432,
+                3769882431,
+                978214444
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "BluePearl",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 90061883,
+            "center": {
+                "lat": 39.6836952,
+                "lon": -75.7310586
+            },
+            "nodes": [
+                1043844912,
+                1043844930,
+                1043844950,
+                1043844928,
+                1043844935,
+                1043844953,
+                1043898980,
+                1043898974,
+                1043844939,
+                1043844944,
+                1043844912
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "amenity:source": "knowledge",
+                "building": "yes",
+                "name": "VCA Newark Animal Hospital",
+                "name:source": "knowledge",
+                "source": "Bing, Jun-Oct 2006"
+            }
+        },
+        {
+            "type": "way",
+            "id": 272712029,
+            "center": {
+                "lat": 39.7200198,
+                "lon": -75.7121309
+            },
+            "nodes": [
+                2776437714,
+                2776437715,
+                2776437716,
+                2776437717,
+                2776437718,
+                2776437721,
+                2776437722,
+                2776437723,
+                2776437724,
+                2776437725,
+                2776437726,
+                2776437727,
+                2776437728,
+                2776437730,
+                2776437731,
+                2776437732,
+                2776437733,
+                2776437714
+            ],
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 469906112,
+            "center": {
+                "lat": 38.5397857,
+                "lon": -75.5578041
+            },
+            "nodes": [
+                4641664333,
+                4641664334,
+                4641664335,
+                4641664336,
+                4641664337,
+                4641664338,
+                4641664339,
+                4641664340,
+                4641664341,
+                4641664342,
+                4641664343,
+                4641664344,
+                4641664333
+            ],
+            "tags": {
+                "addr:city": "Laurel",
+                "addr:housenumber": "32384",
+                "addr:state": "DE",
+                "addr:street": "Sussex Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Eastern Shore Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 556072830,
+            "center": {
+                "lat": 38.6691802,
+                "lon": -75.6368388
+            },
+            "nodes": [
+                5364227745,
+                5364227746,
+                5364227747,
+                5364227748,
+                5364227745
+            ],
+            "tags": {
+                "addr:city": "Seaford",
+                "addr:housenumber": "22661",
+                "addr:postcode": "19973",
+                "addr:state": "DE",
+                "addr:street": "Atlanta Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Seaford Animal Hospital",
+                "website": "https://seafordah.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 667571512,
+            "center": {
+                "lat": 39.7659075,
+                "lon": -75.7068389
+            },
+            "nodes": [
+                6250529793,
+                6250529794,
+                6250529795,
+                6250529796,
+                6250529797,
+                6250529798,
+                6250529799,
+                6250529800,
+                6250529793
+            ],
+            "tags": {
+                "addr:city": "Hockessin",
+                "addr:housenumber": "6102",
+                "addr:state": "DE",
+                "addr:street": "Limestone Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2023-07-10",
+                "name": "Limestone Veterinary",
+                "opening_hours": "Mo-Th 07:00-19:00; Fr 07:00-18:00; Sa 08:00-14:00",
+                "phone": "+1 302-239-5415",
+                "website": "https://www.limestonevet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 678876663,
+            "center": {
+                "lat": 39.8220079,
+                "lon": -75.617303
+            },
+            "nodes": [
+                6356500955,
+                6356500910,
+                6356500948,
+                6356503086,
+                6356503125,
+                6356500939,
+                6356500979,
+                6356503116,
+                6356500955
+            ],
+            "tags": {
+                "addr:city": "Wilmington",
+                "addr:housenumber": "5804",
+                "addr:postcode": "19807",
+                "addr:state": "DE",
+                "addr:street": "Kennett Pike",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2023-12-19",
+                "contact:facebook": "https://www.facebook.com/centrevillevet",
+                "name": "Centreville Veterinary Hospital",
+                "opening_hours": "Mo,Th 08:30-18:00; Tu,Fr 08:30-16:00; We,Sa \"call for availability\"; Su off",
+                "phone": "+1 302-655-3315",
+                "website": "https://centrevilleveterinary.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 693987867,
+            "center": {
+                "lat": 39.6990238,
+                "lon": -75.7073223
+            },
+            "nodes": [
+                6515676529,
+                6515676520,
+                6515676525,
+                6515676513,
+                6515676510,
+                6515676519,
+                6515676527,
+                6515676512,
+                6515676518,
+                6515676528,
+                6515676529
+            ],
+            "tags": {
+                "addr:housenumber": "1501",
+                "addr:street": "Capitol Trail",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2023-04-05",
+                "contact:phone": "+1 302-737-1098",
+                "contact:website": "https://vcahospitals.com/kirkwood",
+                "name": "Kirkwood Animal Hospital",
+                "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-18:00; Sa 08:00-13:00; Su off"
+            }
+        },
+        {
+            "type": "way",
+            "id": 718497718,
+            "center": {
+                "lat": 38.6080692,
+                "lon": -75.2099596
+            },
+            "nodes": [
+                6747276273,
+                6747276274,
+                6747276275,
+                6747276276,
+                6747276277,
+                6747276278,
+                6747276273
+            ],
+            "tags": {
+                "addr:city": "Millsboro",
+                "addr:housenumber": "26984",
+                "addr:postcode": "19966",
+                "addr:state": "DE",
+                "addr:street": "John J Williams Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Millsboro Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 727004135,
+            "center": {
+                "lat": 38.7120737,
+                "lon": -75.0995331
+            },
+            "nodes": [
+                6813426987,
+                6813426988,
+                6813426989,
+                6813426990,
+                6813426991,
+                6813426992,
+                6813426993,
+                6813426994,
+                6813426995,
+                6813426996,
+                6813426987
+            ],
+            "tags": {
+                "addr:city": "Rehoboth Beach",
+                "addr:housenumber": "20259",
+                "addr:postcode": "19971",
+                "addr:state": "DE",
+                "addr:street": "Coastal Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rehoboth Beach Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 728865760,
+            "center": {
+                "lat": 38.7488125,
+                "lon": -75.1598722
+            },
+            "nodes": [
+                6828704421,
+                6828704422,
+                6828704423,
+                6828704424,
+                6828704425,
+                6828704426,
+                6828704427,
+                6828704428,
+                6828704459,
+                6828704429,
+                6828704430,
+                6828704431,
+                6828704432,
+                6828704421
+            ],
+            "tags": {
+                "addr:city": "Lewes",
+                "addr:housenumber": "33818",
+                "addr:postcode": "19958",
+                "addr:state": "DE",
+                "addr:street": "Wescoats Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Savannah Animal Hospital",
+                "opening_hours": "24/7"
+            }
+        },
+        {
+            "type": "way",
+            "id": 728865761,
+            "center": {
+                "lat": 38.7487126,
+                "lon": -75.160127
+            },
+            "nodes": [
+                6828704433,
+                6828704434,
+                6828704435,
+                6828704436,
+                6828704437,
+                6828704438,
+                6828704439,
+                6828704440,
+                6828704441,
+                6828704442,
+                6828704443,
+                6828704444,
+                6828704445,
+                6828704446,
+                6828704447,
+                6828704448,
+                6828704449,
+                6828704450,
+                6828704451,
+                6828704433
+            ],
+            "tags": {
+                "addr:city": "Lewes",
+                "addr:housenumber": "33818",
+                "addr:postcode": "19958",
+                "addr:state": "DE",
+                "addr:street": "Wescoats Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Savannah Animal Hospital",
+                "opening_hours": "24/7"
+            }
+        },
+        {
+            "type": "way",
+            "id": 740944427,
+            "center": {
+                "lat": 38.693544,
+                "lon": -75.3999501
+            },
+            "nodes": [
+                6936767708,
+                6936990533,
+                6936990534,
+                6936990535,
+                6936767708
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Georgetown Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1011608339,
+            "center": {
+                "lat": 39.712592,
+                "lon": -75.676495
+            },
+            "nodes": [
+                9333496390,
+                9333496391,
+                9333496392,
+                9333496393,
+                9333496394,
+                9333496395,
+                9333496396,
+                9333496397,
+                9333496390
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1080596963,
+            "center": {
+                "lat": 39.6956067,
+                "lon": -75.765154
+            },
+            "nodes": [
+                9904550908,
+                9904550909,
+                9904550910,
+                9904550911,
+                9904550908
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "New London Vetinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1430918324,
+            "center": {
+                "lat": 39.450525,
+                "lon": -75.7227171
+            },
+            "nodes": [
+                13153204278,
+                13153204279,
+                13153204280,
+                13153204281,
+                13153204282,
+                13153204283,
+                13153204284,
+                13153204277,
+                13153204278
+            ],
+            "tags": {
+                "addr:city": "Middletown",
+                "addr:housenumber": "311",
+                "addr:postcode": "19709",
+                "addr:state": "DE",
+                "addr:street": "West Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Willow Grace Veterinary Hospital",
+                "opening_hours": "Mo-Sa 08:00-19:00"
+            }
+        }
+    ]
+}

@@ -1,0 +1,2814 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T18:04:06Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 2605399860,
+            "lat": 35.5650768,
+            "lon": -97.63788,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Rockwell Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2889222713,
+            "lat": 36.745304,
+            "lon": -95.9324041,
+            "tags": {
+                "addr:city": "Bartlesville",
+                "addr:housenumber": "3812",
+                "addr:postcode": "74006",
+                "addr:street": "Southeast Adams Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Manley Animal Hospital",
+                "phone": "+1-918-333-7286"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4562043366,
+            "lat": 36.0469821,
+            "lon": -95.8869535,
+            "tags": {
+                "addr:housenumber": "8046",
+                "addr:street": "South Memorial Drive East",
+                "amenity": "veterinary",
+                "name": "Wynter Wheat Callison"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4833220525,
+            "lat": 35.6105078,
+            "lon": -97.536938,
+            "tags": {
+                "addr:city": "Edmond",
+                "addr:state": "OK",
+                "addr:street": "West Memorial Road",
+                "amenity": "veterinary",
+                "name": "Bluepearl Veterinary",
+                "operator": "BluePearl"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5794470254,
+            "lat": 34.6663563,
+            "lon": -99.315961,
+            "tags": {
+                "addr:city": "Altus",
+                "addr:housenumber": "1300",
+                "addr:postcode": "73521",
+                "addr:street": "East Tamarack Road",
+                "amenity": "veterinary",
+                "name": "All Pets Medical Center",
+                "opening_hours": "Mo-Fr 08:00-17:30",
+                "website": "https://allpetsaltus.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6988123999,
+            "lat": 34.5281268,
+            "lon": -97.9701029,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "VetIQ"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7829952393,
+            "lat": 35.5798811,
+            "lon": -97.5662887,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "The Village Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7829952394,
+            "lat": 35.579907,
+            "lon": -97.5660705,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10215001930,
+            "lat": 35.989597,
+            "lon": -95.7969078,
+            "tags": {
+                "amenity": "veterinary",
+                "entrance": "yes",
+                "name": "Premier Animal Wellness and Surgery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10838702146,
+            "lat": 36.4435076,
+            "lon": -95.7089719,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10929281585,
+            "lat": 35.4056946,
+            "lon": -94.5495846,
+            "tags": {
+                "addr:housenumber": "2905",
+                "addr:street": "East Shawntel Smith Boulevard",
+                "amenity": "veterinary",
+                "name": "Sparkman Animal Clinic",
+                "phone": "+1-918-427-7606",
+                "website": "https://sparkmananimalclinic.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11209398615,
+            "lat": 35.5355969,
+            "lon": -97.5673044,
+            "tags": {
+                "addr:city": "Oklahoma City",
+                "addr:housenumber": "2932",
+                "addr:postcode": "73116",
+                "addr:state": "OK",
+                "addr:street": "Northwest 63rd Street",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "phone": "+1 405 848 8387"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11244998540,
+            "lat": 35.5448225,
+            "lon": -97.5652167,
+            "tags": {
+                "addr:city": "Oklahoma City",
+                "addr:housenumber": "7324",
+                "addr:postcode": "73116",
+                "addr:state": "OK",
+                "addr:street": "North May Avenue",
+                "amenity": "veterinary",
+                "contact:facebook": "MAAHOKC",
+                "name": "May Avenue Animal Hospital",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:00; Su \"by appointment\"",
+                "phone": "+1 405 843 5572",
+                "website": "https://mayanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11380283370,
+            "lat": 35.5554059,
+            "lon": -97.6415369,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11380283399,
+            "lat": 35.5626891,
+            "lon": -97.620338,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Crestwood Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11656485092,
+            "lat": 36.0612276,
+            "lon": -95.7323535,
+            "tags": {
+                "addr:city": "Broken Arrow",
+                "addr:housenumber": "21910",
+                "addr:postcode": "74014-6707",
+                "addr:street": "East 71st Street South",
+                "amenity": "veterinary",
+                "fax": "+1 918 893 2226",
+                "name": "Animal Medical and Surgical Hospital East",
+                "opening_hours": "Mo 07:30-18:00; Tu 07:30-18:30; We 07:30-18:00; Th 07:30-18:30; Fr 07:30-18:00;Sa 08:00+",
+                "phone": "+1 918 355 5662",
+                "website": "https://amshpetvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11767534812,
+            "lat": 36.729765,
+            "lon": -102.494487,
+            "tags": {
+                "addr:city": "Boise City",
+                "addr:postcode": "73933",
+                "addr:state": "OK",
+                "amenity": "veterinary",
+                "name": "Boise City Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11769564178,
+            "lat": 35.8978501,
+            "lon": -97.9320878,
+            "tags": {
+                "addr:city": "KINGFISHER",
+                "addr:housenumber": "15554",
+                "addr:postcode": "73750",
+                "addr:state": "OK",
+                "addr:street": "E0770 RD",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11826816569,
+            "lat": 35.6385596,
+            "lon": -97.4974861,
+            "tags": {
+                "addr:city": "Edmond",
+                "addr:housenumber": "1001",
+                "addr:postcode": "73013",
+                "addr:state": "OK",
+                "addr:street": "West 15th Street",
+                "amenity": "veterinary",
+                "name": "Pet Medical Center of Edmond"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12015358145,
+            "lat": 36.097489,
+            "lon": -95.9167878,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Woodland Central Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12175413404,
+            "lat": 36.074717,
+            "lon": -95.8680908,
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:housenumber": "6119",
+                "addr:postcode": "74133",
+                "addr:street": "South Mingo Road East",
+                "amenity": "veterinary",
+                "email": "info@tulsaauc.com",
+                "name": "Tulsa Animal Urgent Care",
+                "phone": "+1 918 417 8887"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12187344411,
+            "lat": 36.061278,
+            "lon": -95.8891346,
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:housenumber": "7811",
+                "addr:postcode": "74133",
+                "addr:street": "East 71st Street South",
+                "addr:unit": "A",
+                "amenity": "veterinary",
+                "check_date": "2022-09-10",
+                "fax": "+1 539 367 3668",
+                "name": "Animal Medical and Surgical Hospital",
+                "opening_hours": "Mo-Tu 07:30-19:00; We-Fr 07:30-18:00; Sa 08:00-18:00; Su off",
+                "phone": "+1 918 492 2674",
+                "website": "https://amshpetvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12208459201,
+            "lat": 36.2811628,
+            "lon": -99.8568797,
+            "tags": {
+                "addr:housenumber": "9401",
+                "addr:postcode": "73858",
+                "addr:street": "Highway 15 East",
+                "amenity": "veterinary",
+                "contact:facebook": "EllisCoVet",
+                "email": "elliscah@pldi.net",
+                "name": "Ellis County Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30",
+                "phone": "+1-580-938-2962",
+                "website": "https://elliscountyanimalhospital.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12996715151,
+            "lat": 36.0903257,
+            "lon": -95.9022949,
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "6705",
+                "addr:postcode": "74145",
+                "addr:state": "OK",
+                "addr:street": "East 51st Street South",
+                "amenity": "veterinary",
+                "building": "retail",
+                "name": "Capron Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13130640001,
+            "lat": 35.2029909,
+            "lon": -97.4223555,
+            "tags": {
+                "addr:housenumber": "1218",
+                "addr:postcode": "73071",
+                "addr:street": "Lindsey Plaza Drive",
+                "amenity": "veterinary",
+                "name": "University Animal Hospital",
+                "opening_hours": "Mo-Fr 19:30-18:00; Sa 08:30-13:00",
+                "phone": "+1-405-907-2161",
+                "website": "https://uahok.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13135709837,
+            "lat": 35.6670114,
+            "lon": -97.5309282,
+            "tags": {
+                "addr:city": "Edmond",
+                "addr:housenumber": "1020",
+                "addr:postcode": "73012",
+                "addr:state": "Oklahoma",
+                "addr:street": "Northwest 192nd Street",
+                "addr:unit": "L",
+                "amenity": "veterinary",
+                "email": "okobojivet@gmail.com",
+                "healthcare:speciality": "veterinary",
+                "name": "Okoboji Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "phone": "+1-405-531-5905",
+                "website": "https://okobojivet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13136856215,
+            "lat": 35.5654516,
+            "lon": -97.5663862,
+            "tags": {
+                "addr:housenumber": "2826",
+                "addr:street": "West Britton Road",
+                "amenity": "veterinary",
+                "check_date": "2025-09-11",
+                "dog": "leashed",
+                "fax": "+1 405 751 0334",
+                "name": "Britton Road Veterinary Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:00 \"Office\"; Sa 08:00-12:00 \"Office\"; Mo-Fr 08:00-11:30,13:30-16:30 \"Doctors\"; Sa 08:00-11:30 \"Doctors by appointment.\"",
+                "phone": "+1 405 751 8007"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13137235239,
+            "lat": 35.6041547,
+            "lon": -97.5332614,
+            "tags": {
+                "addr:city": "Oklahoma City",
+                "addr:housenumber": "13230",
+                "addr:postcode": "73114",
+                "addr:state": "OK",
+                "addr:street": "Pawnee Drive",
+                "amenity": "veterinary",
+                "name": "Veterinary Emergency Group",
+                "opening_hours": "24/7",
+                "phone": "+1 405 256 4391",
+                "website": "https://www.veterinaryemergencygroup.com/locations/oklahoma"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13160080924,
+            "lat": 35.4730337,
+            "lon": -97.7251204,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13309111837,
+            "lat": 36.1080707,
+            "lon": -95.975951,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Riverbrook Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13312440431,
+            "lat": 36.1155894,
+            "lon": -95.9400062,
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "3241",
+                "addr:postcode": "74135",
+                "addr:state": "OK",
+                "addr:street": "South Harvard Avenue East",
+                "amenity": "veterinary",
+                "building": "retail",
+                "name": "Ranch Acres Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa-Su off",
+                "phone": "+1 918 747 5970",
+                "website": "http://www.ranchacresvet.net/index.html"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13527463106,
+            "lat": 36.1582414,
+            "lon": -95.988265,
+            "tags": {
+                "addr:unit": "B",
+                "amenity": "veterinary",
+                "name": "Skyline Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-17:30"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13599386446,
+            "lat": 36.0955009,
+            "lon": -95.9752925,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2023-01-25",
+                "name": "Brookside Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13799543026,
+            "lat": 34.8875021,
+            "lon": -95.7871007,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13915250451,
+            "lat": 35.9888864,
+            "lon": -96.1088906,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2024-10-02",
+                "name": "Petsense"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13927936177,
+            "lat": 34.6673826,
+            "lon": -99.330532,
+            "tags": {
+                "addr:city": "Altus",
+                "addr:housenumber": "311",
+                "addr:postcode": "73521",
+                "addr:state": "OK",
+                "addr:street": "East Tamarack Road",
+                "amenity": "veterinary",
+                "name": "Western Prarie Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14014747001,
+            "lat": 35.2913887,
+            "lon": -97.6921522,
+            "tags": {
+                "addr:housenumber": "100",
+                "addr:postcode": "73089",
+                "addr:street": "Ridgecrest Drive",
+                "amenity": "veterinary",
+                "check_date": "2026-07-14",
+                "email": "info@getfixedok.com",
+                "name": "GetFixedOK",
+                "phone": "+1-405-505-2545",
+                "website": "https://www.getfixedok.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 133347378,
+            "center": {
+                "lat": 35.4924678,
+                "lon": -97.5317453
+            },
+            "nodes": [
+                1467935298,
+                1467935352,
+                1467935406,
+                1467935374,
+                1467935298
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "landuse": "commercial",
+                "name": "James G Graham DVM Classen View Veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 133405169,
+            "center": {
+                "lat": 35.492819,
+                "lon": -97.5664872
+            },
+            "nodes": [
+                1468422662,
+                1468422629,
+                1468422621,
+                1468527903,
+                1468527767,
+                1468527806,
+                1468527834,
+                1468422677,
+                1468422662
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "landuse": "commercial",
+                "name": "Nancy Worland DVM Oklahoma City Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 223328602,
+            "center": {
+                "lat": 36.7754217,
+                "lon": -95.9360179
+            },
+            "nodes": [
+                2322365162,
+                2322365164,
+                2322365166,
+                2322365167,
+                2322365168,
+                2322365163,
+                2322365162
+            ],
+            "tags": {
+                "addr:city": "Bartlesville",
+                "addr:country": "US",
+                "addr:housenumber": "1055",
+                "addr:postcode": "74006",
+                "addr:street": "Northeast Washington Boulevard",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Bartlesville Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 242159596,
+            "center": {
+                "lat": 36.1239555,
+                "lon": -97.0844543
+            },
+            "nodes": [
+                2496789038,
+                2496789039,
+                2496789040,
+                2496789041,
+                2496789042,
+                2496789043,
+                2496789044,
+                2496789045,
+                2496789046,
+                2496789047,
+                2496789048,
+                2496789049,
+                2496789050,
+                2496789051,
+                2496789052,
+                2496789053,
+                2496789054,
+                2496789055,
+                2496789056,
+                2496789057,
+                2496789058,
+                2496789059,
+                2496789060,
+                2496789061,
+                2496789062,
+                2496789063,
+                2496789064,
+                2496789065,
+                2496789066,
+                2496789067,
+                2496789068,
+                2496789069,
+                2496789070,
+                2496789071,
+                2496789038
+            ],
+            "tags": {
+                "addr:housenumber": "131",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "David L Boren Veterinary Medical Teaching Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 260054797,
+            "center": {
+                "lat": 36.1420506,
+                "lon": -97.0680507
+            },
+            "nodes": [
+                2655259522,
+                2655259523,
+                2655259524,
+                2655259525,
+                2655259526,
+                2655259527,
+                2655259528,
+                2655259529,
+                2655259522
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Baker Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 260383384,
+            "center": {
+                "lat": 36.1154721,
+                "lon": -97.0878052
+            },
+            "nodes": [
+                2658570417,
+                2658570419,
+                2658570421,
+                4770489878,
+                2658570417
+            ],
+            "tags": {
+                "addr:city": "Stillwater",
+                "addr:country": "US",
+                "addr:full": "2315 W 6TH AVE",
+                "addr:housenumber": "2315",
+                "addr:postcode": "74074",
+                "addr:state": "OK",
+                "addr:street": "West 6th Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Western Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 260553140,
+            "center": {
+                "lat": 36.1061949,
+                "lon": -97.0867319
+            },
+            "nodes": [
+                2557664840,
+                2660595699,
+                3171698147,
+                2660595701,
+                2660595703,
+                2557664832,
+                2557664840
+            ],
+            "tags": {
+                "addr:city": "Stillwater",
+                "addr:postcode": "74074",
+                "addr:street": "South Western Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Pets",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 274189000,
+            "center": {
+                "lat": 35.5395128,
+                "lon": -97.5945799
+            },
+            "nodes": [
+                2789498534,
+                2789498532,
+                2789498529,
+                2789498543,
+                2789498537,
+                2789498546,
+                2789498538,
+                2789498545,
+                2789498534
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Wedgewood Pet Clinic",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 301016344,
+            "center": {
+                "lat": 36.1115203,
+                "lon": -97.0518406
+            },
+            "nodes": [
+                3051254982,
+                3051254983,
+                3051254984,
+                3051254985,
+                3051254982
+            ],
+            "tags": {
+                "addr:city": "Stillwater",
+                "addr:housenumber": "900",
+                "addr:postcode": "74074",
+                "addr:state": "OK",
+                "addr:street": "South Perkins Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-405-624-3088",
+                "opening_hours": "Mo-Sa 07:00-20:00;Sa 08:00-18:00;Su 12:00-18:00",
+                "phone": "+1-405-624-3086",
+                "website": "https://www.perkinsroadpetclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 306471394,
+            "center": {
+                "lat": 35.9915245,
+                "lon": -96.1627895
+            },
+            "nodes": [
+                3114151283,
+                3114151284,
+                3114151285,
+                3114151286,
+                3114151287,
+                3114151288,
+                3114151289,
+                3114151290,
+                3114151283
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Branscum Vet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 316700545,
+            "center": {
+                "lat": 36.0636968,
+                "lon": -95.7784551
+            },
+            "nodes": [
+                11063505747,
+                3228602912,
+                3228602910,
+                3228602909,
+                4890558044,
+                4890558045,
+                4890558046,
+                4890558047,
+                4890558043,
+                11063505747
+            ],
+            "tags": {
+                "addr:city": "Broken Arrow",
+                "addr:country": "US",
+                "addr:housenumber": "1034",
+                "addr:postcode": "74012",
+                "addr:state": "OK",
+                "addr:street": "East Lansing Street",
+                "amenity": "veterinary",
+                "building": "retail",
+                "name": "Southern Agriculture",
+                "opening_hours": "Mo-Sa 09:00-19:00; Su 11:00-17:00",
+                "phone": "+1-918-251-0267",
+                "shop": "pet",
+                "website": "https://southernagriculture.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 323396890,
+            "center": {
+                "lat": 35.2046627,
+                "lon": -97.4682557
+            },
+            "nodes": [
+                3301949828,
+                3301949829,
+                3301949830,
+                3301949831,
+                3301949832,
+                3301949833,
+                3301949828
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "McGee Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 324091016,
+            "center": {
+                "lat": 35.2192321,
+                "lon": -97.4679593
+            },
+            "nodes": [
+                3308421091,
+                3308421092,
+                3308421093,
+                3308421094,
+                3308421095,
+                3308421096,
+                3308421091
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Westwood Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 324886881,
+            "center": {
+                "lat": 35.5662881,
+                "lon": -97.6588375
+            },
+            "nodes": [
+                3315643180,
+                4633809095,
+                4633809094,
+                3315642936,
+                3759236360,
+                3759236361,
+                3315642911,
+                3315642955,
+                4633809101,
+                4633809099,
+                4633809098,
+                4633809100,
+                4633809097,
+                4633809096,
+                3315643180
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "office",
+                "building:levels": "1",
+                "roof:shape": "flat"
+            }
+        },
+        {
+            "type": "way",
+            "id": 324886924,
+            "center": {
+                "lat": 35.5797859,
+                "lon": -97.6397821
+            },
+            "nodes": [
+                3315646460,
+                3315646385,
+                3315646384,
+                3315646402,
+                3315646403,
+                3315646437,
+                3315646438,
+                3315646561,
+                3315646460
+            ],
+            "tags": {
+                "addr:city": "Oklahoma City",
+                "addr:housenumber": "7124",
+                "addr:postcode": "73162",
+                "addr:state": "OK",
+                "addr:street": "West Hefner Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Hefner Road Animal Hospital",
+                "phone": "+1-405-773-5557",
+                "roof:shape": "gabled",
+                "website": "https://hefnerroadanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 348037059,
+            "center": {
+                "lat": 36.6916762,
+                "lon": -101.4823945
+            },
+            "nodes": [
+                3542689939,
+                3542689940,
+                3542689941,
+                3542689942,
+                3542689943,
+                3542689944,
+                3542689945,
+                3542689946,
+                3542689947,
+                3542689948,
+                3542689949,
+                3542689950,
+                3542689939
+            ],
+            "tags": {
+                "addr:city": "Guymon",
+                "addr:housenumber": "115",
+                "addr:postcode": "73942",
+                "addr:state": "OK",
+                "addr:street": "Northwest 14th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Panhandle Veterinary Clinic",
+                "opening_hours": "Mo,Tu,Th,Fr 07:30-17:30; We 07:30-14:00; Sa,Su closed",
+                "phone": "+1-580-338-6723",
+                "website": "http://www.panhandlevetclinic.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 363494711,
+            "center": {
+                "lat": 36.0312376,
+                "lon": -95.8494668
+            },
+            "nodes": [
+                3676622286,
+                3676622287,
+                3676622288,
+                3676622289,
+                3676622290,
+                3676622291,
+                3676622286
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bent Arrow Veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 366750652,
+            "center": {
+                "lat": 36.1682824,
+                "lon": -95.9049954
+            },
+            "nodes": [
+                3707362855,
+                3707362912,
+                3707362913,
+                3707362932,
+                3707362884,
+                3707362910,
+                3707362873,
+                3707362874,
+                3707362896,
+                3707362853,
+                3707362911,
+                3707362923,
+                3707362895,
+                3707362866,
+                3707362909,
+                3707362901,
+                3707362855
+            ],
+            "tags": {
+                "addr:housenumber": "1010",
+                "addr:street": "North Sheridan Road East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sheridan Road Veterinary Clinic",
+                "website": "https://www.sheridanroadvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 386402669,
+            "center": {
+                "lat": 35.2326195,
+                "lon": -97.4414282
+            },
+            "nodes": [
+                3897230992,
+                3897230990,
+                3897230991,
+                3897230989,
+                3897230992
+            ],
+            "tags": {
+                "addr:city": "Norman",
+                "addr:housenumber": "1130",
+                "addr:postcode": "73071",
+                "addr:street": "North Porter Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Norman Vetinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 426743052,
+            "center": {
+                "lat": 35.3630608,
+                "lon": -97.5125293
+            },
+            "nodes": [
+                4260069362,
+                4260069363,
+                4260069364,
+                4260069370,
+                4260069373,
+                4260069372,
+                4260069371,
+                4260069365,
+                4260069366,
+                4260069367,
+                4260069368,
+                4260069369,
+                4260069362
+            ],
+            "tags": {
+                "addr:city": "Oklahoma City",
+                "addr:housenumber": "10505",
+                "addr:postcode": "73170",
+                "addr:state": "OK",
+                "addr:street": "South Santa Fe Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ranchwood Veterinary Hospital",
+                "phone": "+1 405 794 5551",
+                "website": "https://www.ranchwoodvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 462176659,
+            "center": {
+                "lat": 36.030186,
+                "lon": -95.9203072
+            },
+            "nodes": [
+                4575817971,
+                4575817972,
+                4575817977,
+                4575817978,
+                4575817969,
+                13030193657,
+                4575817963,
+                4575817962,
+                4575817967,
+                4575817966,
+                4575817971
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "9150",
+                "addr:postcode": "74137",
+                "addr:state": "OK",
+                "addr:street": "South Braden Avenue East",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Hunters Glen Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 468824692,
+            "center": {
+                "lat": 35.608199,
+                "lon": -97.5448081
+            },
+            "nodes": [
+                4632937924,
+                4632937925,
+                4632937926,
+                4632937927,
+                4632937928,
+                4632937929,
+                4632937924
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Veterinary Emergency"
+            }
+        },
+        {
+            "type": "way",
+            "id": 468824693,
+            "center": {
+                "lat": 35.6078093,
+                "lon": -97.5447918
+            },
+            "nodes": [
+                4632937930,
+                4632937931,
+                4632937932,
+                4632937933,
+                4632937934,
+                4632937935,
+                4632937930
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Blue Pearl Vet Surgery"
+            }
+        },
+        {
+            "type": "way",
+            "id": 480060615,
+            "center": {
+                "lat": 36.0226451,
+                "lon": -95.9510585
+            },
+            "nodes": [
+                4730851358,
+                4730851357,
+                4730851354,
+                4730851352,
+                4730851351,
+                4730851353,
+                4730851356,
+                4730851355,
+                5503594121,
+                5503594221,
+                4730851358
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:housenumber": "9702",
+                "addr:postcode": "74137",
+                "addr:state": "OK",
+                "addr:street": "Riverside Parkway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Feline Specialties",
+                "opening_hours": "Mo-Fr 08:00-18:00, Sa 09:00-12:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 491176452,
+            "center": {
+                "lat": 35.6104879,
+                "lon": -97.5368137
+            },
+            "nodes": [
+                4833220526,
+                4833220527,
+                4833220528,
+                4833220529,
+                11478734942,
+                4833220526
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 491987610,
+            "center": {
+                "lat": 35.4356886,
+                "lon": -97.3755632
+            },
+            "nodes": [
+                4840711389,
+                4840711390,
+                4840711391,
+                4840711392,
+                4840711389
+            ],
+            "tags": {
+                "addr:city": "Midwest City",
+                "addr:housenumber": "8701",
+                "addr:postcode": "73110",
+                "addr:state": "OK",
+                "addr:street": "Southeast 29th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Medical Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 496130507,
+            "center": {
+                "lat": 36.1452375,
+                "lon": -95.9753761
+            },
+            "nodes": [
+                4878604642,
+                4878604643,
+                4878604644,
+                4878604645,
+                4878604646,
+                4878604647,
+                4878604642
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "1219",
+                "addr:postcode": "74120",
+                "addr:state": "OK",
+                "addr:street": "South Peoria Avenue East",
+                "amenity": "veterinary",
+                "building": "detached",
+                "email": "staff@elmcreekah.com",
+                "mobile": "+1 918 508 7013",
+                "name": "Elm Creek Animal Hospital",
+                "phone": "+1 918 508 7010",
+                "website": "https://elmcreekanimalhospital.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 545324400,
+            "center": {
+                "lat": 35.9136489,
+                "lon": -94.9485859
+            },
+            "nodes": [
+                5270623042,
+                5270623038,
+                5270623037,
+                5270623039,
+                5270623035,
+                5270623036,
+                5270623040,
+                5270623041,
+                5270623042
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "house"
+            }
+        },
+        {
+            "type": "way",
+            "id": 575120441,
+            "center": {
+                "lat": 36.1557397,
+                "lon": -96.0210044
+            },
+            "nodes": [
+                5519248023,
+                5519248022,
+                5519248021,
+                5519226423,
+                5519226422,
+                5519226424,
+                5519226425,
+                5502079957,
+                5519248023
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "104",
+                "addr:postcode": "74127",
+                "addr:state": "OK",
+                "addr:street": "North Gilcrease Museum Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "email": "pawsitivevetcare@gmail.com",
+                "name": "Pawsitive Veterinary Care",
+                "phone": "+1 918 585 9369",
+                "website": "https://pawsitiveveterinarycare.us/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 618120225,
+            "center": {
+                "lat": 36.0811639,
+                "lon": -95.9587884
+            },
+            "nodes": [
+                5842870152,
+                5842870149,
+                5842870145,
+                5842870144,
+                5842870143,
+                5842870146,
+                5842870150,
+                5842870147,
+                5842870148,
+                5842870151,
+                5842870152
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2026-05-08",
+                "check_date:opening_hours": "2026-05-08",
+                "name": "Southern Hills Veterinary Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:30",
+                "phone": "+1 918 747 1311"
+            }
+        },
+        {
+            "type": "way",
+            "id": 642248443,
+            "center": {
+                "lat": 35.2460569,
+                "lon": -97.6006929
+            },
+            "nodes": [
+                6046828846,
+                6046828847,
+                6046828848,
+                6046828849,
+                6046828850,
+                6046828851,
+                6046828846
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Newcastle Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 651219765,
+            "center": {
+                "lat": 35.2252693,
+                "lon": -97.6010121
+            },
+            "nodes": [
+                6107107108,
+                6107107109,
+                6107107110,
+                6107107111,
+                6107107112,
+                6107107113,
+                6107107114,
+                6107107115,
+                6107107116,
+                6107107117,
+                6107107118,
+                6107107119,
+                6107107108
+            ],
+            "tags": {
+                "addr:city": "Newcastle",
+                "addr:housenumber": "2005",
+                "addr:postcode": "73065",
+                "addr:state": "OK",
+                "addr:street": "South Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Professional Animal Health Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 651219766,
+            "center": {
+                "lat": 35.2253538,
+                "lon": -97.6006982
+            },
+            "nodes": [
+                6107107120,
+                6107107121,
+                6107107122,
+                6107107123,
+                6107107120
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 662531724,
+            "center": {
+                "lat": 36.2797821,
+                "lon": -95.8339599
+            },
+            "nodes": [
+                6202473651,
+                6202473650,
+                6202473663,
+                6202473662,
+                6202473661,
+                6202473660,
+                6202473659,
+                6202473658,
+                6202473657,
+                6202473656,
+                6202473655,
+                6202473654,
+                6202473653,
+                6202473652,
+                6202473651
+            ],
+            "tags": {
+                "addr:city": "Owasso",
+                "addr:country": "US",
+                "addr:housenumber": "12555",
+                "addr:postcode": "74055",
+                "addr:state": "OK",
+                "addr:street": "East 86th Street North",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Small Animal Hospital of Owasso",
+                "opening_hours": "Mo-Fr 07:00-22:00; Sa,Su 08:00-20:00",
+                "phone": "+1-918-274-8387",
+                "website": "https://sahovets.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 667027008,
+            "center": {
+                "lat": 35.2110443,
+                "lon": -97.6065975
+            },
+            "nodes": [
+                6245448372,
+                6245448373,
+                6245448374,
+                6245448375,
+                6245448376,
+                6245448377,
+                6245448378,
+                6245448379,
+                6245448380,
+                6245448381,
+                6245448372
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Maness Veterinary Services"
+            }
+        },
+        {
+            "type": "way",
+            "id": 705586932,
+            "center": {
+                "lat": 36.3276384,
+                "lon": -95.6072553
+            },
+            "nodes": [
+                6629685778,
+                12742506302,
+                12742506303,
+                12742506304,
+                12742506305,
+                6629685779,
+                6629685780,
+                6629685781,
+                6629685782,
+                6629685783,
+                6629685784,
+                6629695785,
+                6629695786,
+                6629695787,
+                6629685778
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 722652008,
+            "center": {
+                "lat": 35.1285736,
+                "lon": -97.6526291
+            },
+            "nodes": [
+                6778610379,
+                6778610380,
+                6778610381,
+                6778610382,
+                6778610379
+            ],
+            "tags": {
+                "addr:city": "Blanchard",
+                "addr:housenumber": "500",
+                "addr:postcode": "73010",
+                "addr:state": "OK",
+                "addr:street": "Roosevelt Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Blanchard Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "phone": "+1-405-485-3992",
+                "website": "https://www.facebook.com/pages/category/Hospital/Blanchard-Animal-Hospital-312376892206835/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 728930660,
+            "center": {
+                "lat": 36.1826727,
+                "lon": -95.7456868
+            },
+            "nodes": [
+                6829302359,
+                6829302360,
+                13639778064,
+                13639778063,
+                13639778065,
+                1900686304,
+                6829302363,
+                6829302364,
+                13639778062,
+                6829302366,
+                6829302367,
+                6829302368,
+                6829302369,
+                6829302370,
+                6829302371,
+                6829302372,
+                6829302373,
+                6829302359
+            ],
+            "tags": {
+                "addr:housenumber": "1901",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2023-07-04",
+                "name": "Catoosa Small Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 745077249,
+            "center": {
+                "lat": 36.0286492,
+                "lon": -95.8669821
+            },
+            "nodes": [
+                6974801888,
+                6974801889,
+                6974801890,
+                6974801891,
+                6974801892,
+                6974801931,
+                6974801942,
+                6974801941,
+                6974801940,
+                6974801939,
+                6974801938,
+                6974801937,
+                6974801936,
+                6974801935,
+                6974801893,
+                6974801894,
+                6974801895,
+                6974801896,
+                6974801897,
+                6974801898,
+                6974801899,
+                6974801900,
+                6974801901,
+                6974801902,
+                6974801903,
+                6974801904,
+                6974801888
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "9717",
+                "addr:postcode": "74133",
+                "addr:state": "OK",
+                "addr:street": "East 93rd Street South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "CARE Animal Hospital",
+                "source": "INCOG"
+            }
+        },
+        {
+            "type": "way",
+            "id": 826563732,
+            "center": {
+                "lat": 36.0613133,
+                "lon": -95.9599343
+            },
+            "nodes": [
+                7717379985,
+                7717379986,
+                7717379987,
+                7717379988,
+                7717379989,
+                7717379990,
+                7717379991,
+                7717379992,
+                7717379993,
+                7717379994,
+                7717379995,
+                7717379996,
+                7717379997,
+                7717379998,
+                7717379999,
+                7717380000,
+                7717380001,
+                7717380002,
+                7717379985
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "2301",
+                "addr:postcode": "74136",
+                "addr:state": "OK",
+                "addr:street": "East 71st Street South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2025-01-22",
+                "name": "Hammond Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 947018988,
+            "center": {
+                "lat": 35.3348914,
+                "lon": -97.5117062
+            },
+            "nodes": [
+                8766073188,
+                8766073189,
+                8766073190,
+                8766073191,
+                8766073188
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Spray Perts"
+            }
+        },
+        {
+            "type": "way",
+            "id": 990181466,
+            "center": {
+                "lat": 36.7980576,
+                "lon": -98.6854536
+            },
+            "nodes": [
+                9150226155,
+                9150226156,
+                9150226151,
+                9150226157,
+                9150226155
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "landuse": "commercial",
+                "name": "Alva Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 990181486,
+            "center": {
+                "lat": 36.796837,
+                "lon": -98.7008446
+            },
+            "nodes": [
+                9150226222,
+                9150226221,
+                9150226216,
+                9150226242,
+                9150226243,
+                9150226244,
+                9150226245,
+                9150226246,
+                9150226247,
+                9150226248,
+                9150226249,
+                9150226250,
+                9150226251,
+                9150226252,
+                9150226253,
+                9150226254,
+                9150226215,
+                9150226223,
+                9150226222
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "landuse": "commercial",
+                "name": "Ridgeview Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 997304467,
+            "center": {
+                "lat": 34.5068338,
+                "lon": -97.0072485
+            },
+            "nodes": [
+                9208792433,
+                9208792434,
+                9208792435,
+                9208792436,
+                9208792433
+            ],
+            "tags": {
+                "addr:city": "Sulphur",
+                "addr:housenumber": "2800",
+                "addr:postcode": "73086",
+                "addr:street": "West Broadway Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Arbuckle Veterinary Clinic",
+                "website": "https://arbucklevetclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1009158004,
+            "center": {
+                "lat": 36.1417033,
+                "lon": -95.9406621
+            },
+            "nodes": [
+                9311171901,
+                9311171898,
+                9311171899,
+                9311171900,
+                9311171901
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:housenumber": "1420",
+                "addr:postcode": "74112",
+                "addr:street": "South Harvard Avenue East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cedarwood Veterinary Clinic",
+                "source:addr": "INCOG"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1009158005,
+            "center": {
+                "lat": 36.1419242,
+                "lon": -95.9407025
+            },
+            "nodes": [
+                9311171905,
+                9311171902,
+                9311171903,
+                9311171904,
+                9311171905
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:housenumber": "1416",
+                "addr:postcode": "74112",
+                "addr:street": "South Harvard Avenue East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cedarwood Veterinary Clinic",
+                "source:addr": "INCOG"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1009707957,
+            "center": {
+                "lat": 36.0270942,
+                "lon": -95.8873762
+            },
+            "nodes": [
+                9316272179,
+                9316272178,
+                9316272177,
+                9316272174,
+                13013008417,
+                9316272176,
+                9316272179
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "9340",
+                "addr:postcode": "74133",
+                "addr:state": "OK",
+                "addr:street": "South Memorial Drive East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Woodland South Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1011538139,
+            "center": {
+                "lat": 36.1402451,
+                "lon": -95.9500949
+            },
+            "nodes": [
+                9332908135,
+                9332908132,
+                13014433405,
+                9332908128,
+                9332908130,
+                9332908124,
+                9332908125,
+                9332908126,
+                9332908127,
+                9332908131,
+                9332908133,
+                9332908134,
+                9332908135
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "2732",
+                "addr:postcode": "74104",
+                "addr:state": "OK",
+                "addr:street": "East 15th Street South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Jacox Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1011538165,
+            "center": {
+                "lat": 36.1402503,
+                "lon": -95.9513219
+            },
+            "nodes": [
+                9332908262,
+                9332908259,
+                9332908257,
+                9332908258,
+                13014433411,
+                9332908261,
+                9332908262
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "2702",
+                "addr:postcode": "74104",
+                "addr:state": "OK",
+                "addr:street": "East 15th Street South",
+                "amenity": "veterinary",
+                "building": "retail",
+                "name": "STATVet Animal Urgent Care",
+                "opening_hours": "Mo-Fr 12:00-22:00; Sa,Su 10:00-20:00",
+                "phone": "+1 918 398 0838",
+                "website": "https://statvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1011937713,
+            "center": {
+                "lat": 36.0199614,
+                "lon": -95.7103263
+            },
+            "nodes": [
+                9336100247,
+                9336100244,
+                9336100242,
+                9336100243,
+                9336100245,
+                9336100246,
+                9336100247
+            ],
+            "tags": {
+                "addr:city": "Broken Arrow",
+                "addr:housenumber": "9819",
+                "addr:postcode": "74014",
+                "addr:street": "South 239th East Avenue",
+                "amenity": "veterinary",
+                "building": "house",
+                "name": "Oneta Animal Care",
+                "opening_hours": "\"by appointment\"",
+                "opening_hours:office": "Mo-Tu 07:30-18:00; We off; Th-Fr 07:30-18:00; Sa 08:00-12:00; Su off"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1012138655,
+            "center": {
+                "lat": 35.9764885,
+                "lon": -95.6625672
+            },
+            "nodes": [
+                9337818776,
+                9337818773,
+                9337818769,
+                9529930252,
+                9337818770,
+                9337818771,
+                9337818772,
+                9337818774,
+                9337818775,
+                9337818776
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Oak Grove Veterinary Hospital",
+                "phone": "+1 918 486 8387"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1060121372,
+            "center": {
+                "lat": 36.0745001,
+                "lon": -95.8837391
+            },
+            "nodes": [
+                9740055320,
+                9740055321,
+                1145036637,
+                1145037165,
+                1145036929,
+                1145037161,
+                1145036606,
+                9740055320
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "retail",
+                "name": "Applebaum Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1084945547,
+            "center": {
+                "lat": 36.0937158,
+                "lon": -96.012051
+            },
+            "nodes": [
+                9941317184,
+                9941316964,
+                9941316709,
+                13307297865,
+                9941317184
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "4750",
+                "addr:postcode": "74107",
+                "addr:state": "OK",
+                "addr:street": "South Union Avenue West",
+                "amenity": "veterinary",
+                "building": "retail",
+                "check_date": "2025-06-21",
+                "name": "Carbondale Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1111618647,
+            "center": {
+                "lat": 34.0168923,
+                "lon": -95.5332825
+            },
+            "nodes": [
+                10170099977,
+                10170099978,
+                10170099979,
+                10170099980,
+                10170099981,
+                10170099982,
+                10170099983,
+                10170099984,
+                10170099985,
+                10170099986,
+                10170099987,
+                10170099988,
+                10170099977
+            ],
+            "tags": {
+                "addr:city": "Hugo",
+                "addr:housenumber": "1808",
+                "addr:postcode": "74743",
+                "addr:state": "OK",
+                "addr:street": "Old Highway 70",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Choctaw Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1112554736,
+            "center": {
+                "lat": 36.0518047,
+                "lon": -96.0077251
+            },
+            "nodes": [
+                10178817920,
+                10178817988,
+                10178818005,
+                10178817917,
+                10178817954,
+                10178817918,
+                10178817936,
+                10178817963,
+                10178817965,
+                10178818007,
+                10178817959,
+                10178817914,
+                10178817920
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "1501",
+                "addr:postcode": "74132",
+                "addr:state": "OK",
+                "addr:street": "West 78th Street South",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "emergency": "yes",
+                "name": "Oklahoma Veterinary Specialists",
+                "phone": "+1 918 299 4900"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1171730514,
+            "center": {
+                "lat": 35.7577843,
+                "lon": -95.3406563
+            },
+            "nodes": [
+                10887442101,
+                10887442102,
+                10887442103,
+                10887442104,
+                10887442101
+            ],
+            "tags": {
+                "addr:city": "Muskogee",
+                "addr:housenumber": "1301",
+                "addr:postcode": "74403",
+                "addr:state": "OK",
+                "addr:street": "North York Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Care Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1171730528,
+            "center": {
+                "lat": 35.7735488,
+                "lon": -95.357942
+            },
+            "nodes": [
+                10887458373,
+                10887458374,
+                10887458375,
+                10887458376,
+                10887458373
+            ],
+            "tags": {
+                "addr:city": "Muskogee",
+                "addr:housenumber": "2320",
+                "addr:postcode": "74403",
+                "addr:state": "OK",
+                "addr:street": "North Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "drive_through": "yes",
+                "name": "Northside Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1173386742,
+            "center": {
+                "lat": 35.7546768,
+                "lon": -95.4126039
+            },
+            "nodes": [
+                10902404850,
+                10902404851,
+                10902404852,
+                10902404853,
+                10902404850
+            ],
+            "tags": {
+                "addr:city": "Muskogee",
+                "addr:housenumber": "4011",
+                "addr:postcode": "74403",
+                "addr:state": "OK",
+                "addr:street": "West Okmulgee Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2024-10-07",
+                "name": "Honor Heights Veterinary Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 08:00-12:00",
+                "phone": "+1 918 682 6652",
+                "website": "https://honorheightsvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1188371175,
+            "center": {
+                "lat": 36.1153778,
+                "lon": -95.9230425
+            },
+            "nodes": [
+                11034916162,
+                11034916163,
+                11034916159,
+                11034916166,
+                13019949820,
+                11034916168,
+                11034916162
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "4820",
+                "addr:postcode": "74135",
+                "addr:state": "OK",
+                "addr:street": "East 33rd Street South",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "building:levels": "1",
+                "check_date": "2024-12-16",
+                "name": "Small Animal Clinic of Tulsa",
+                "roof:levels": "0"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1190300354,
+            "center": {
+                "lat": 36.3042582,
+                "lon": -95.820838
+            },
+            "nodes": [
+                11052118979,
+                11052118981,
+                11052118982,
+                11052118985,
+                11052118977,
+                11052118866,
+                11052118867,
+                11052118978,
+                11052118979
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Family Animal Medicine",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1204452359,
+            "center": {
+                "lat": 35.4636202,
+                "lon": -97.4140101
+            },
+            "nodes": [
+                11163185613,
+                11163185614,
+                11163185615,
+                11163185616,
+                11163185617,
+                11163185618,
+                11163185613
+            ],
+            "tags": {
+                "addr:city": "Midwest City",
+                "addr:housenumber": "6400",
+                "addr:postcode": "73110",
+                "addr:state": "OK",
+                "addr:street": "East Reno Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Reno Animal Hospital",
+                "phone": "+1-405-733-3346"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1227222777,
+            "center": {
+                "lat": 35.5626258,
+                "lon": -97.6202194
+            },
+            "nodes": [
+                11380283400,
+                11380283401,
+                11380283402,
+                11380283403,
+                11380283400
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1227232198,
+            "center": {
+                "lat": 35.5481348,
+                "lon": -97.618366
+            },
+            "nodes": [
+                11380365555,
+                11380365556,
+                11380365557,
+                11380365558,
+                11380365559,
+                11380365560,
+                11380365561,
+                11380365562,
+                11380365563,
+                11380365564,
+                13998334479,
+                11380365565,
+                13998334478,
+                11380365566,
+                11380365555
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1235026400,
+            "center": {
+                "lat": 35.9799202,
+                "lon": -95.887673
+            },
+            "nodes": [
+                13013008346,
+                11463858637,
+                11463858638,
+                11463858639,
+                11463858640,
+                11463858641,
+                11463858642,
+                11463858643,
+                13013008346
+            ],
+            "tags": {
+                "addr:city": "Bixby",
+                "addr:country": "US",
+                "addr:housenumber": "12630",
+                "addr:postcode": "74008",
+                "addr:state": "OK",
+                "addr:street": "South Memorial Drive East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "River Trail Animal Hospital",
+                "source": "microsoft/BuildingFootprints;INCOG"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1235320163,
+            "center": {
+                "lat": 36.0453043,
+                "lon": -95.7800926
+            },
+            "nodes": [
+                11467340281,
+                11467340278,
+                11467340279,
+                11467340280,
+                11467340281
+            ],
+            "tags": {
+                "addr:housenumber": "710",
+                "addr:postcode": "74012",
+                "addr:street": "South 9th Street",
+                "amenity": "veterinary",
+                "building": "retail",
+                "name": "Avalon Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1237355951,
+            "center": {
+                "lat": 36.061932,
+                "lon": -95.8994908
+            },
+            "nodes": [
+                11492500570,
+                11492500571,
+                11492500572,
+                11492500573,
+                11492500574,
+                11492500575,
+                11492500576,
+                11492500577,
+                11492500578,
+                11492500579,
+                11492500580,
+                11492500581,
+                11492500582,
+                11492500583,
+                11492500570
+            ],
+            "tags": {
+                "addr:housenumber": "6925",
+                "addr:postcode": "74133",
+                "addr:street": "South 69th East Avenue",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Veterinary Associates"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1240050363,
+            "center": {
+                "lat": 36.1338141,
+                "lon": -95.8902902
+            },
+            "nodes": [
+                11520724298,
+                11520724297,
+                11520724296,
+                11520724295,
+                11520724298
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "7717",
+                "addr:postcode": "74129",
+                "addr:state": "OK",
+                "addr:street": "East 21st Street South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Alta Vista Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1289777331,
+            "center": {
+                "lat": 36.1039282,
+                "lon": -95.9408073
+            },
+            "nodes": [
+                13030481604,
+                11959462634,
+                11959462635,
+                11959462636,
+                13030481604
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "3166",
+                "addr:postcode": "74105",
+                "addr:state": "OK",
+                "addr:street": "East 41st Street South",
+                "amenity": "veterinary",
+                "building": "retail",
+                "name": "Tulsa Town Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1292669069,
+            "center": {
+                "lat": 34.6156728,
+                "lon": -98.4139014
+            },
+            "nodes": [
+                11983467482,
+                11983467483,
+                11983467484,
+                11983467485,
+                11983467487,
+                11983467488,
+                11983467489,
+                11983467486,
+                11983467482
+            ],
+            "tags": {
+                "addr:city": "Lawton",
+                "addr:housenumber": "1702",
+                "addr:postcode": "73507",
+                "addr:state": "OK",
+                "addr:street": "Northwest Ferris Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Freeman Veterinary Clinic",
+                "phone": "+1-580-280-2400",
+                "website": "https://freemanvetclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1294626427,
+            "center": {
+                "lat": 36.0756666,
+                "lon": -95.8701257
+            },
+            "nodes": [
+                11998077805,
+                11998077802,
+                11998077800,
+                11998077801,
+                11998077803,
+                11998077804,
+                11998077805
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1300970226,
+            "center": {
+                "lat": 36.4344311,
+                "lon": -97.7274807
+            },
+            "nodes": [
+                12049899310,
+                12049899311,
+                12049899312,
+                12049899313,
+                12049899314,
+                12049899315,
+                12049899316,
+                12049899317,
+                12049899318,
+                12049899319,
+                12049899310
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Steinert Vetinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1315569031,
+            "center": {
+                "lat": 36.1056641,
+                "lon": -95.8629796
+            },
+            "nodes": [
+                12177199902,
+                12177199935,
+                12177199937,
+                12177199936,
+                12177199927,
+                12177199933,
+                12177199932,
+                12177199926,
+                12177199938,
+                12177199939,
+                12177199934,
+                12177166799,
+                12177199905,
+                12177199906,
+                12177166800,
+                12177199940,
+                12177199942,
+                12177199945,
+                12177199929,
+                12177199931,
+                12177199930,
+                12177199928,
+                12177199944,
+                12177199943,
+                12177199941,
+                12177199903,
+                12177199904,
+                12177199901,
+                12177199902
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "4005",
+                "addr:postcode": "74146",
+                "addr:state": "OK",
+                "addr:street": "South 102nd Avenue East",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Tulsa Veterinary Specialists"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1315569032,
+            "center": {
+                "lat": 36.1053993,
+                "lon": -95.8632618
+            },
+            "nodes": [
+                12177199921,
+                12177199920,
+                12177199912,
+                12177199909,
+                12177199919,
+                12177199918,
+                12177199910,
+                12177199925,
+                12177199922,
+                12177199907,
+                12177199917,
+                12177199916,
+                12177199908,
+                12177199923,
+                1904177888,
+                12177199914,
+                12177199915,
+                12177199913,
+                12177199924,
+                12177199911,
+                12177199921
+            ],
+            "tags": {
+                "addr:city": "Tulsa",
+                "addr:country": "US",
+                "addr:housenumber": "4055",
+                "addr:postcode": "74146",
+                "addr:state": "OK",
+                "addr:street": "South 102nd Avenue East",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "emergency": "yes",
+                "name": "Animal Emergency Center",
+                "phone": "+1 918 665 0508",
+                "website": "http://www.tulsaanimalemergency.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1342541733,
+            "center": {
+                "lat": 36.1118051,
+                "lon": -95.9761092
+            },
+            "nodes": [
+                12421673058,
+                12421673059,
+                12421673060,
+                12421673061,
+                12421673062,
+                12421673063,
+                4852985282,
+                12421673065,
+                12421673066,
+                12421673067,
+                12421673058
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2024-07-10",
+                "name": "City Veteranary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1417990874,
+            "center": {
+                "lat": 34.0449207,
+                "lon": -95.9212976
+            },
+            "nodes": [
+                13030882229,
+                13030882226,
+                13030882227,
+                13030882228,
+                13030882229
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Boswell Animal Kare"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1433912369,
+            "center": {
+                "lat": 35.9175017,
+                "lon": -95.8856296
+            },
+            "nodes": [
+                13179305453,
+                13179305451,
+                4829302992,
+                13179305449,
+                13179305450,
+                13179305452,
+                13179305453
+            ],
+            "tags": {
+                "addr:city": "Bixby",
+                "addr:country": "US",
+                "addr:housenumber": "16917",
+                "addr:postcode": "74008",
+                "addr:state": "OK",
+                "addr:street": "South Memorial Drive East",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Southside Veteranary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1486986737,
+            "center": {
+                "lat": 36.2529966,
+                "lon": -96.4231947
+            },
+            "nodes": [
+                13630896594,
+                13630896591,
+                13630896590,
+                13630896589,
+                13630896592,
+                13630896593,
+                13630896594
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cleveland Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1488980003,
+            "center": {
+                "lat": 36.1997861,
+                "lon": -97.1024531
+            },
+            "nodes": [
+                13648554785,
+                13648554784,
+                13648554783,
+                13648554782,
+                13648554785
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Veterinary House Call Services"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1495869265,
+            "center": {
+                "lat": 36.3942303,
+                "lon": -97.9272238
+            },
+            "nodes": [
+                13703772191,
+                13703772192,
+                13703772193,
+                13703772194,
+                13703772191
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "The Cat Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1511787369,
+            "center": {
+                "lat": 35.9369015,
+                "lon": -95.3965283
+            },
+            "nodes": [
+                13816396334,
+                13816396333,
+                13816396332,
+                13816396331,
+                13816396334
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2024-03-24",
+                "name": "Pryor Vet South"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1529959096,
+            "center": {
+                "lat": 35.4571253,
+                "lon": -95.9635684
+            },
+            "nodes": [
+                13944361887,
+                13944361884,
+                13944361883,
+                13944361882,
+                13944361885,
+                13944361880,
+                13944361881,
+                13944361886,
+                13944361887
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        }
+    ]
+}

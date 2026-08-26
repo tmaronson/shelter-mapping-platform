@@ -1,0 +1,2798 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:53:06Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 358644130,
+            "lat": 38.7677239,
+            "lon": -94.6745161,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "326",
+                "gnis:feature_id": "2098800",
+                "name": "Stilwell Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644150,
+            "lat": 39.016099,
+            "lon": -94.7420759,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "310",
+                "gnis:feature_id": "2098825",
+                "name": "Mill Creek Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644153,
+            "lat": 39.0216413,
+            "lon": -94.6653038,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "310",
+                "gnis:feature_id": "2098826",
+                "name": "Mission Animal Clinic",
+                "note": "FIXME"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644155,
+            "lat": 38.9549772,
+            "lon": -94.6510948,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "288",
+                "gnis:feature_id": "2098827",
+                "name": "Nall Hills Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644164,
+            "lat": 38.9858,
+            "lon": -94.6665,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "321",
+                "gnis:feature_id": "2098831",
+                "name": "Overland Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644166,
+            "lat": 38.8938331,
+            "lon": -94.7969275,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "323",
+                "gnis:feature_id": "2098832",
+                "name": "Ridgeview Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644207,
+            "lat": 38.8036275,
+            "lon": -94.8260769,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "328",
+                "gnis:feature_id": "2098850",
+                "name": "Anderson Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644213,
+            "lat": 38.774404,
+            "lon": -94.6681524,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "327",
+                "gnis:feature_id": "2098852",
+                "name": "Aubry Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644215,
+            "lat": 38.8971,
+            "lon": -94.7425,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "301",
+                "gnis:feature_id": "2098853",
+                "name": "Bradford Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644218,
+            "lat": 38.8335423,
+            "lon": -94.6682001,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "313",
+                "gnis:feature_id": "2098854",
+                "name": "Blue Valley Ferrett Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644227,
+            "lat": 38.973,
+            "lon": -94.6866,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "327",
+                "gnis:feature_id": "2098858",
+                "name": "Companion Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644228,
+            "lat": 38.970098,
+            "lon": -94.765965,
+            "tags": {
+                "addr:city": "Lenexa",
+                "addr:housenumber": "15585",
+                "addr:postcode": "66219",
+                "addr:street": "West 87th Street Parkway",
+                "amenity": "veterinary",
+                "ele": "317",
+                "gnis:feature_id": "2098859",
+                "name": "Country Hill Animal Clinic",
+                "website": "https://countryhillanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644231,
+            "lat": 38.9349,
+            "lon": -94.6367,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "259",
+                "gnis:feature_id": "2098861",
+                "name": "Fox Hill Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644232,
+            "lat": 38.8104654,
+            "lon": -94.9067575,
+            "tags": {
+                "addr:city": "Gardner",
+                "addr:housenumber": "945",
+                "addr:postcode": "66030",
+                "addr:street": "East Santa Fe Street",
+                "amenity": "veterinary",
+                "ele": "322",
+                "gnis:feature_id": "2098862",
+                "name": "Gardner Animal Hospital",
+                "website": "https://www.gardnerah.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644237,
+            "lat": 38.854,
+            "lon": -94.8114,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "327",
+                "gnis:feature_id": "2098864",
+                "name": "Knappenberger Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 358644239,
+            "lat": 38.9072,
+            "lon": -94.6088,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "293",
+                "gnis:feature_id": "2098865",
+                "name": "Leawood Plaza Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1074300755,
+            "lat": 39.2080793,
+            "lon": -96.5732028,
+            "tags": {
+                "addr:city": "Manhattan",
+                "addr:housenumber": "2313",
+                "addr:postcode": "66502",
+                "addr:state": "KS",
+                "addr:street": "Tuttle Creek Boulevard",
+                "amenity": "veterinary",
+                "name": "Blue Hills Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "phone": "+1-785-537-8482"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2081344319,
+            "lat": 38.9868137,
+            "lon": -95.6012401,
+            "tags": {
+                "addr:city": "Berryton",
+                "addr:housenumber": "4144",
+                "addr:postcode": "66409",
+                "addr:state": "KS",
+                "addr:street": "Southeast 45th Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2081637168,
+            "lat": 39.0285371,
+            "lon": -95.7253512,
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "2113",
+                "addr:postcode": "66614",
+                "addr:state": "KS",
+                "addr:street": "Southwest Gage Boulevard",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2081839389,
+            "lat": 39.1364257,
+            "lon": -95.9544292,
+            "tags": {
+                "addr:city": "Rossville",
+                "addr:housenumber": "213",
+                "addr:postcode": "66533",
+                "addr:state": "KS",
+                "addr:street": "West Perry Street",
+                "amenity": "veterinary",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2532320553,
+            "lat": 39.2043343,
+            "lon": -96.6194846,
+            "tags": {
+                "addr:city": "Manhattan",
+                "addr:housename": "Candlewood Veterinary Clinic",
+                "addr:housenumber": "3262",
+                "addr:postcode": "66503",
+                "addr:street": "Kimball Avenue",
+                "amenity": "veterinary",
+                "fax": "+1-785-537-0538",
+                "name": "Candlewood Veterinary Clinic",
+                "opening_hours": "Mo-Tu,Th-Fr 07:30-18:00; We,Sa closed \"By Appt\"; Su closed",
+                "phone": "+1-785-537-0537"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2637691488,
+            "lat": 39.0241057,
+            "lon": -94.6892493,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2670074201,
+            "lat": 38.9138899,
+            "lon": -94.6370534,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Camelot Court Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3011367585,
+            "lat": 39.030063,
+            "lon": -95.7814617,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Sherwood Animal Clinic",
+                "phone": "+1-785-273-4700"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3252932566,
+            "lat": 38.880059,
+            "lon": -94.6672866,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Firehouse Subs",
+                "brand:wikidata": "Q5451873",
+                "check_date": "2025-12-04",
+                "name": "Urgent Vet",
+                "opening_hours": "Mo-Fr 15:00-23:00; Sa-Su 10:00-20:00",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3260935886,
+            "lat": 38.868523,
+            "lon": -94.6669892,
+            "tags": {
+                "addr:city": "Overland Park",
+                "addr:housenumber": "14327",
+                "addr:postcode": "66223",
+                "addr:street": "Metcalf Avenue",
+                "amenity": "veterinary",
+                "name": "Lionsgate Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5000349633,
+            "lat": 39.1172884,
+            "lon": -94.9398311,
+            "tags": {
+                "addr:city": "Basehor",
+                "addr:housenumber": "15510",
+                "addr:postcode": "66007",
+                "addr:state": "KS",
+                "addr:street": "State Avenue",
+                "addr:unit": "#9",
+                "amenity": "veterinary",
+                "name": "Basehor Veterinary Clinic",
+                "phone": "+1-913-724-1711",
+                "website": "https://basehor.vet/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6378797950,
+            "lat": 38.9266733,
+            "lon": -94.7217863,
+            "tags": {
+                "addr:city": "Overland Park",
+                "addr:housenumber": "11733",
+                "addr:postcode": "66210",
+                "addr:state": "KS",
+                "addr:street": "College Boulevard",
+                "amenity": "veterinary",
+                "description": "Full-service, AAHA-accredited animal hospital.",
+                "name": "College Boulevard Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-17:30, Sa 07:00-12:00",
+                "phone": "+1-913-469-5869",
+                "website": "https://www.collegeblvdanimalhospital.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6993592828,
+            "lat": 39.0270877,
+            "lon": -94.8550385,
+            "tags": {
+                "addr:city": "Shawnee",
+                "addr:housenumber": "5576",
+                "addr:postcode": "66226",
+                "addr:state": "KS",
+                "addr:street": "Hedge Lane Terrace",
+                "amenity": "veterinary",
+                "name": "Animal Care Clinic",
+                "opening_hours": "Mo-Fr 08:00-15:30, Sa 08:00-12:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7142150254,
+            "lat": 37.9976303,
+            "lon": -97.3355702,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Newton Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7179807644,
+            "lat": 37.7575025,
+            "lon": -97.2619539,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Heartland Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7859605046,
+            "lat": 37.6936398,
+            "lon": -97.1404742,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "VCA Andover Animal Hospital and Pet Resort"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8072511072,
+            "lat": 38.8841725,
+            "lon": -94.7217748,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Quivira Crossing Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8115416595,
+            "lat": 37.6651589,
+            "lon": -97.2131011,
+            "tags": {
+                "addr:housenumber": "10712",
+                "addr:street": "East Harry Street",
+                "amenity": "veterinary",
+                "description": "One of Wichita\u2019s oldest continuously operating veterinary practices.",
+                "name": "Animal Clinic",
+                "phone": "+1-316-686-8516",
+                "website": "https://animalclinicvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8263027964,
+            "lat": 38.9710178,
+            "lon": -95.2832857,
+            "tags": {
+                "addr:city": "Lawrence",
+                "addr:housenumber": "601",
+                "addr:postcode": "66049",
+                "addr:state": "KS",
+                "addr:street": "Kasold Drive",
+                "amenity": "veterinary",
+                "name": "Gentle Care Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9576609454,
+            "lat": 38.9384543,
+            "lon": -95.2630797,
+            "tags": {
+                "addr:city": "Lawrence",
+                "addr:housenumber": "2201",
+                "addr:postcode": "66047",
+                "addr:state": "KS",
+                "addr:street": "West 25th Street",
+                "addr:unit": "A",
+                "amenity": "veterinary",
+                "check_date:opening_hours": "2023-06-11",
+                "name": "Jarrett Small Animal Clinic",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:30-12:30",
+                "phone": "+1-785-749-2993",
+                "website": "https://www.jarrettsmallanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9771407973,
+            "lat": 38.8329883,
+            "lon": -94.6848189,
+            "tags": {
+                "addr:city": "Overland Park",
+                "addr:housenumber": "8301",
+                "addr:postcode": "66223",
+                "addr:state": "KS",
+                "addr:street": "West 163rd Street",
+                "amenity": "veterinary",
+                "name": "Overland Park Veterinary Emergency and Specialty",
+                "phone": "+1-913-361-3800",
+                "website": "https://www.overlandparkveterinaryspecialists.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9951550552,
+            "lat": 39.0145756,
+            "lon": -96.8292618,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11021349602,
+            "lat": 38.9709947,
+            "lon": -95.3104811,
+            "tags": {
+                "addr:city": "Lawrence",
+                "addr:housenumber": "650",
+                "addr:postcode": "66049",
+                "addr:state": "KS",
+                "addr:street": "Congressional Drive",
+                "addr:unit": "C",
+                "amenity": "veterinary",
+                "name": "Pawsitive Pets",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+1-785-856-7387",
+                "website": "https://www.pawsitivepetsvetcare.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11267671679,
+            "lat": 37.6951172,
+            "lon": -97.2655619,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cat Hospital of Wichita"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11458646172,
+            "lat": 38.8824101,
+            "lon": -94.6605206,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Vetco"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11463474180,
+            "lat": 38.8563382,
+            "lon": -94.7804579,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11851428958,
+            "lat": 39.0353025,
+            "lon": -94.6402653,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Roeland Park Veterinary Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11870258436,
+            "lat": 38.9614697,
+            "lon": -94.6691505,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Petworks Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12208464801,
+            "lat": 39.2250724,
+            "lon": -96.3127011,
+            "tags": {
+                "addr:housenumber": "5210",
+                "addr:postcode": "66547",
+                "addr:street": "Highway 99",
+                "amenity": "veterinary",
+                "contact:facebook": "greenvalleyvetwamego",
+                "contact:instagram": "greenvalleyvet",
+                "name": "Green Valley Veterinary Service",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 09:00-12:00",
+                "phone": "+1 785-456-7577",
+                "website": "https://www.greenvalleyvetswamego.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12906254214,
+            "lat": 37.6937586,
+            "lon": -97.4825759,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Oakcrest Pet Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 08:00-12:00; Su closed",
+                "phone": "+1 316-722-4828",
+                "website": "https://www.vetinwichita.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12984279931,
+            "lat": 37.8324426,
+            "lon": -97.3728963,
+            "tags": {
+                "addr:city": "Valley Center",
+                "addr:housenumber": "122",
+                "addr:postcode": "67147",
+                "addr:state": "KS",
+                "addr:street": "West Main Street",
+                "amenity": "veterinary",
+                "name": "Valley Center Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa,Su off"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13107395165,
+            "lat": 38.3578052,
+            "lon": -98.7925327,
+            "tags": {
+                "addr:city": "Great Bend",
+                "addr:housenumber": "622",
+                "addr:postcode": "67530",
+                "addr:state": "KS",
+                "addr:street": "McKinley Street",
+                "amenity": "veterinary",
+                "name": "Animal Medical Center",
+                "phone": "+1-620-792-1265",
+                "source": "esri/USA_NAD_Addresses",
+                "website": "https://www.myamcvets.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13200594478,
+            "lat": 37.5485973,
+            "lon": -97.2474573,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Tanglewood Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13482067503,
+            "lat": 38.9866622,
+            "lon": -94.7250849,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13591371802,
+            "lat": 38.883192,
+            "lon": -94.7767268,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Sante Fe Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13660456060,
+            "lat": 37.7381986,
+            "lon": -97.2440928,
+            "tags": {
+                "addr:housenumber": "3000",
+                "addr:unit": "200",
+                "amenity": "veterinary",
+                "name": "UrgentVet"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13849504772,
+            "lat": 38.0861776,
+            "lon": -97.9074767,
+            "tags": {
+                "addr:housenumber": "1201",
+                "addr:street": "East 30th Avenue",
+                "amenity": "veterinary",
+                "fax": "+1-620-665-9816",
+                "mapillary": "1967083307265112",
+                "name": "Hutchinson Small Animal Hospital",
+                "phone": "+1-620-665-8743",
+                "website": "https://hutchinsonsmallanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13888949436,
+            "lat": 39.0138983,
+            "lon": -95.7480114,
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "5501",
+                "addr:postcode": "66614",
+                "addr:state": "KS",
+                "addr:street": "Southwest 29th Street",
+                "addr:unit": "1",
+                "amenity": "veterinary",
+                "name": "Emergency Animal Clinic of Topeka",
+                "opening_hours": "Mo-Fr 05:30-24:00; Sa 12:00-24:00; Su 08:00-24:00",
+                "phone": "+1-785-272-2926",
+                "website": "https://eactopeka.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13993658998,
+            "lat": 37.8330309,
+            "lon": -97.3729991,
+            "tags": {
+                "addr:city": "Valley Center",
+                "addr:housenumber": "122",
+                "addr:postcode": "67147",
+                "addr:state": "KS",
+                "addr:street": "North Park Avenue",
+                "amenity": "veterinary",
+                "check_date:opening_hours": "2026-07-07",
+                "name": "Ark Valley Animal Hospital",
+                "opening_hours:signed": "no",
+                "phone": "+13162016690",
+                "website": "http://www.arkvalleyvcks.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 72254987,
+            "center": {
+                "lat": 39.3594116,
+                "lon": -94.9197319
+            },
+            "nodes": [
+                858629650,
+                858629653,
+                858629658,
+                858629662,
+                858629650
+            ],
+            "tags": {
+                "addr:city": "Fort Leavenworth",
+                "addr:housenumber": "831",
+                "addr:postcode": "66027",
+                "addr:state": "KS",
+                "addr:street": "McClellan Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Fort Leavenworth Veterinary Treatment Facility"
+            }
+        },
+        {
+            "type": "way",
+            "id": 159794907,
+            "center": {
+                "lat": 39.2108173,
+                "lon": -96.3241939
+            },
+            "nodes": [
+                1718999014,
+                1718999012,
+                1718998998,
+                1718998997,
+                1718999013,
+                1718999014
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Wamego Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 170670010,
+            "center": {
+                "lat": 39.1219949,
+                "lon": -100.8487444
+            },
+            "nodes": [
+                1818283355,
+                1781830525,
+                1818283351,
+                1818283343,
+                1818283342,
+                1818283339,
+                1818283338,
+                1818283341,
+                1818283340,
+                1818283346,
+                1818283344,
+                1818283350,
+                1818283348,
+                1818283353,
+                1818283355
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Oakley Veterinary Service"
+            }
+        },
+        {
+            "type": "way",
+            "id": 191287307,
+            "center": {
+                "lat": 39.1938123,
+                "lon": -96.5275534
+            },
+            "nodes": [
+                2018436829,
+                2018699976,
+                2018699913,
+                2018699909,
+                2018436829
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Konza Vetinary Clinic",
+                "phone": "+1 785 776 9111"
+            }
+        },
+        {
+            "type": "way",
+            "id": 195368256,
+            "center": {
+                "lat": 39.0588571,
+                "lon": -95.7048429
+            },
+            "nodes": [
+                2058180490,
+                2058180510,
+                2058180508,
+                2058180488,
+                2058180490
+            ],
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "2408",
+                "addr:postcode": "66606",
+                "addr:state": "KS",
+                "addr:street": "Southwest 6th Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "way",
+            "id": 196385800,
+            "center": {
+                "lat": 39.1303616,
+                "lon": -95.6592883
+            },
+            "nodes": [
+                2067286040,
+                2067286039,
+                2067286037,
+                2067286038,
+                2067286040
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 196722681,
+            "center": {
+                "lat": 38.9306878,
+                "lon": -94.7252895
+            },
+            "nodes": [
+                2070218740,
+                12300372076,
+                12300372078,
+                12300372079,
+                12300372077,
+                2070219001,
+                2070218996,
+                2070218750,
+                2070218786,
+                2070218964,
+                2070218966,
+                2070218836,
+                2070218834,
+                2070219099,
+                2070218740
+            ],
+            "tags": {
+                "addr:city": "Overland Park",
+                "addr:housenumber": "11950",
+                "addr:postcode": "66210",
+                "addr:state": "KS",
+                "addr:street": "West 110th Street",
+                "amenity": "veterinary",
+                "branch": "Pet Hospital",
+                "brand": "BluePearl",
+                "brand:wikidata": "Q4928764",
+                "building": "yes",
+                "email": "info.kc@bluepearlvet.com",
+                "fax": "+1-913-381-0421",
+                "name": "BluePearl",
+                "opening_hours": "24/7",
+                "phone": "+1-913-642-9563",
+                "website": "https://bluepearlvet.com/hospital/overland-park-ks/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 197835254,
+            "center": {
+                "lat": 39.0137974,
+                "lon": -95.6114665
+            },
+            "nodes": [
+                2080291135,
+                2080291119,
+                2080291120,
+                2080291136,
+                2080291135
+            ],
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "2925",
+                "addr:postcode": "66605",
+                "addr:state": "KS",
+                "addr:street": "Southeast Walnut Drive",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "way",
+            "id": 198367797,
+            "center": {
+                "lat": 39.0367322,
+                "lon": -95.710562
+            },
+            "nodes": [
+                2085053732,
+                2085053731,
+                2085053729,
+                2085053730,
+                2085053732
+            ],
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "2619",
+                "addr:postcode": "66604",
+                "addr:state": "KS",
+                "addr:street": "Southwest 17th Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "way",
+            "id": 203542539,
+            "center": {
+                "lat": 37.091844,
+                "lon": -97.0398352
+            },
+            "nodes": [
+                2135533832,
+                2135533834,
+                2135533898,
+                2135534150,
+                2135533832
+            ],
+            "tags": {
+                "addr:housenumber": "2800",
+                "addr:postcode": "67005",
+                "addr:street": "North Summit Street",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Ark City Veterinary Clinic",
+                "source": "bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 204002172,
+            "center": {
+                "lat": 39.0274817,
+                "lon": -95.7567568
+            },
+            "nodes": [
+                2140143883,
+                2140143893,
+                2140143892,
+                2140143882,
+                9477781544,
+                2140143883
+            ],
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "2147",
+                "addr:postcode": "66614",
+                "addr:state": "KS",
+                "addr:street": "Southwest Westport Drive",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "West Ridge Animal Health Center",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 07:30-12:00",
+                "phone": "+1-785-272-3333",
+                "source": "esri_USDOT_Kansas",
+                "website": "https://www.wrahc.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 205585349,
+            "center": {
+                "lat": 37.2428793,
+                "lon": -96.9717443
+            },
+            "nodes": [
+                2155592239,
+                2155592325,
+                2155592349,
+                2155592365,
+                2155592285,
+                2155592227,
+                2155592217,
+                2155592300,
+                2155592312,
+                2155592272,
+                2155592314,
+                2155592244,
+                2155592290,
+                2155592362,
+                2155592253,
+                2155592327,
+                2155592239
+            ],
+            "tags": {
+                "addr:housenumber": "1920",
+                "addr:postcode": "67156",
+                "addr:street": "East 9th Avenue",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Winfield Veterinary Clinic",
+                "source": "bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 208063994,
+            "center": {
+                "lat": 39.0573145,
+                "lon": -95.6927589
+            },
+            "nodes": [
+                2183674173,
+                2183674167,
+                2082995743,
+                2183674164,
+                2183674173
+            ],
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "526",
+                "addr:postcode": "66606",
+                "addr:state": "KS",
+                "addr:street": "Southwest Washburn Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "way",
+            "id": 219195688,
+            "center": {
+                "lat": 38.9534281,
+                "lon": -95.2363027
+            },
+            "nodes": [
+                2283926214,
+                2283926216,
+                2283926206,
+                2283926205,
+                2283926214
+            ],
+            "tags": {
+                "addr:city": "Lawrence",
+                "addr:housenumber": "1701",
+                "addr:postcode": "66044",
+                "addr:state": "KS",
+                "addr:street": "Massachusetts Street",
+                "amenity": "veterinary",
+                "building": "church",
+                "email": "info@catcliniclawrence.com",
+                "fax": "+1-785-856-6372",
+                "name": "Cat Clinic of Lawrence",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:00-12:00",
+                "phone": "+1-785-856-6369",
+                "website": "https://catcliniclawrence.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 219236923,
+            "center": {
+                "lat": 38.9710116,
+                "lon": -95.2510062
+            },
+            "nodes": [
+                2284299644,
+                9646986471,
+                9646986472,
+                2284299645,
+                9646986474,
+                9646986473,
+                2284299635,
+                2284299634,
+                2284299644
+            ],
+            "tags": {
+                "addr:city": "Lawrence",
+                "addr:housenumber": "701",
+                "addr:postcode": "66044",
+                "addr:state": "KS",
+                "addr:street": "Michigan Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "info@ahlawrence.com",
+                "fax": "+1-785-842-1707",
+                "name": "Animal Hospital of Lawrence",
+                "opening_hours": "Mo-Th 08:00-18:00; Fr 08:00-17:30; Sa 08:00-12:00",
+                "phone": "+1-785-842-0609",
+                "start_date": "1972",
+                "website": "https://www.ahlawrence.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 219358910,
+            "center": {
+                "lat": 38.9712902,
+                "lon": -95.2741058
+            },
+            "nodes": [
+                11150821857,
+                2285172833,
+                11849146524,
+                11849146523,
+                11150821890,
+                11150820955,
+                11150821940,
+                11150821129,
+                2285172801,
+                2285172803,
+                2285172834,
+                11150820218,
+                11150821857
+            ],
+            "tags": {
+                "addr:city": "Lawrence",
+                "addr:housenumber": "3101",
+                "addr:postcode": "66049",
+                "addr:state": "KS",
+                "addr:street": "West 6th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lewis Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00; Sa 08:00-12:00",
+                "phone": "+1-785-843-1901",
+                "website": "https://www.veterinarianslawrenceks.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 219358925,
+            "center": {
+                "lat": 38.9508711,
+                "lon": -95.3076445
+            },
+            "nodes": [
+                2285172153,
+                2285172165,
+                13606369608,
+                13606369609,
+                13606369610,
+                13606369611,
+                13606369612,
+                13606369613,
+                13606369614,
+                13606369615,
+                2285172164,
+                2285172152,
+                13606369616,
+                13606369617,
+                13606369618,
+                13606369619,
+                13606369620,
+                13606369621,
+                13606369622,
+                13606369623,
+                11170980369,
+                11170980368,
+                2285172153
+            ],
+            "tags": {
+                "addr:city": "Lawrence",
+                "addr:housenumber": "1825",
+                "addr:postcode": "66047",
+                "addr:state": "KS",
+                "addr:street": "Wakarusa Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "pet@wakavet.com",
+                "fax": "+17858437406",
+                "name": "Wakarusa Veterinary Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:00; Sa 07:30-12:00",
+                "phone": "+17858435577",
+                "website": "https://wakavet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 219637625,
+            "center": {
+                "lat": 38.9422407,
+                "lon": -95.27736
+            },
+            "nodes": [
+                2287822448,
+                8095629400,
+                8095629401,
+                2287822440,
+                8095629402,
+                8095629410,
+                8095629411,
+                8095629409,
+                8095629408,
+                2287822334,
+                8095629407,
+                8095629406,
+                2287822338,
+                8095629405,
+                8095629404,
+                8095629403,
+                2287822448
+            ],
+            "tags": {
+                "addr:city": "Lawrence",
+                "addr:housenumber": "3210",
+                "addr:postcode": "66047",
+                "addr:state": "KS",
+                "addr:street": "Clinton Parkway Court",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "welcome@lawrencevethospital.com",
+                "fax": "+17858412406",
+                "name": "Lawrence Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00; Su closed",
+                "phone": "+17858419956",
+                "website": "https://lawrencevethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 229243318,
+            "center": {
+                "lat": 39.7107063,
+                "lon": -96.4166463
+            },
+            "nodes": [
+                2378687372,
+                2378687370,
+                2378687371,
+                2378687373,
+                2378687372
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 273780173,
+            "center": {
+                "lat": 38.8387369,
+                "lon": -94.7782601
+            },
+            "nodes": [
+                2191880224,
+                2785979753,
+                2785979755,
+                2785979749,
+                2785979744,
+                2191880219,
+                2191880224
+            ],
+            "tags": {
+                "addr:city": "Olathe",
+                "addr:housenumber": "15971",
+                "addr:postcode": "66062",
+                "addr:state": "KS",
+                "addr:street": "South Bradley Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Arbor Creek Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 293586535,
+            "center": {
+                "lat": 38.9973015,
+                "lon": -94.7805256
+            },
+            "nodes": [
+                2972001938,
+                2972001937,
+                2972001942,
+                2972001941,
+                2972001951,
+                2972001952,
+                2972001959,
+                2972001960,
+                2972001953,
+                2972001956,
+                2972001938
+            ],
+            "tags": {
+                "addr:city": "Shawnee",
+                "addr:housenumber": "7252",
+                "addr:postcode": "66217",
+                "addr:state": "KS",
+                "addr:street": "Renner Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Allcare Animal Hospital",
+                "website": "https://allcareanimalhosp.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 318895824,
+            "center": {
+                "lat": 38.8860723,
+                "lon": -94.6999903
+            },
+            "nodes": [
+                3252925687,
+                8265906674,
+                8265906673,
+                3252925688,
+                8265906672,
+                8265906671,
+                8265906670,
+                8265906669,
+                3252925689,
+                3252925690,
+                3252925691,
+                3252925692,
+                8265906678,
+                3252925693,
+                3252925694,
+                3252925695,
+                3252925696,
+                8265906675,
+                3252925687
+            ],
+            "tags": {
+                "addr:city": "Overland Park",
+                "addr:housenumber": "13433",
+                "addr:postcode": "66213",
+                "addr:state": "KS",
+                "addr:street": "Switzer Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Oxford Animal Hospital",
+                "website": "https://www.oxfordanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 350877937,
+            "center": {
+                "lat": 38.992344,
+                "lon": -94.6961692
+            },
+            "nodes": [
+                3566062272,
+                3566062273,
+                3566062274,
+                3566062275,
+                3566062276,
+                3566062283,
+                3566062277,
+                3566062278,
+                3566062279,
+                3566062280,
+                3566062281,
+                3566062282,
+                3566062272
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Johnson County Animal Clinic",
+                "phone": "+1 913-642-2714"
+            }
+        },
+        {
+            "type": "way",
+            "id": 465092096,
+            "center": {
+                "lat": 39.0226254,
+                "lon": -94.6542988
+            },
+            "nodes": [
+                4601005780,
+                13424587374,
+                13424587375,
+                4601005781,
+                4601005787,
+                4601005782,
+                4601005786,
+                4601005783,
+                4601005785,
+                4601005784,
+                4601005780
+            ],
+            "tags": {
+                "addr:housenumber": "5914",
+                "addr:street": "Johnson Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mission Veterinary Emergency & Specialty",
+                "opening_hours": "24/7",
+                "phone": "+1 913-722-5566",
+                "website": "https://www.missionveterinaryspecialists.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 502730941,
+            "center": {
+                "lat": 39.3278274,
+                "lon": -94.9176851
+            },
+            "nodes": [
+                4931129796,
+                4931129797,
+                4931129798,
+                4931129799,
+                4931129800,
+                4931129801,
+                4931129796
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Dog & Cat Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 502737321,
+            "center": {
+                "lat": 39.3276994,
+                "lon": -94.9230668
+            },
+            "nodes": [
+                4931174195,
+                4931174196,
+                4931174197,
+                4931174198,
+                4931174199,
+                4931174200,
+                4931174195
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Broadway Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 504490628,
+            "center": {
+                "lat": 39.281807,
+                "lon": -94.9009184
+            },
+            "nodes": [
+                4946457951,
+                4946457952,
+                4946457953,
+                4946457954,
+                4946457955,
+                4946457956,
+                4946457957,
+                4946457958,
+                4946457959,
+                4946457960,
+                4946457951
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pioneer Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 569770966,
+            "center": {
+                "lat": 39.2107682,
+                "lon": -96.3100697
+            },
+            "nodes": [
+                5479036829,
+                5479036828,
+                5479036827,
+                5479036826,
+                5479036829
+            ],
+            "tags": {
+                "addr:city": "Wamego",
+                "addr:housenumber": "1202",
+                "addr:postcode": "66547",
+                "addr:state": "KS",
+                "addr:street": "Lilac Lane",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "deercreekvet007@gmail.com",
+                "name": "Deer Creek Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:00-11:30",
+                "phone": "+1-785-456-3300",
+                "website": "https://www.deercreekvetwamego.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 581234379,
+            "center": {
+                "lat": 38.8640554,
+                "lon": -99.3167494
+            },
+            "nodes": [
+                5561895879,
+                5561895878,
+                5561895877,
+                5561895876,
+                5561895879
+            ],
+            "tags": {
+                "addr:housenumber": "1016",
+                "addr:street": "East 8th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "hvhosp@eaglecom.net",
+                "name": "Hays Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+1-785-625-2719",
+                "website": "https://haysvethosp.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 591773659,
+            "center": {
+                "lat": 39.8389437,
+                "lon": -95.5262161
+            },
+            "nodes": [
+                5649235674,
+                5649235673,
+                5649235672,
+                7619090834,
+                5649235671,
+                5649235674
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 603812619,
+            "center": {
+                "lat": 39.2059551,
+                "lon": -96.5685326
+            },
+            "nodes": [
+                5730898044,
+                5730898046,
+                5730898047,
+                5730898045,
+                5730898044
+            ],
+            "tags": {
+                "addr:city": "Manhattan",
+                "addr:housenumber": "2044",
+                "addr:postcode": "66502",
+                "addr:state": "KS",
+                "addr:street": "Tuttle Creek Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Wildcat Vet",
+                "website": "https://www.wildcatvetservices.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 613956203,
+            "center": {
+                "lat": 39.0504981,
+                "lon": -95.742608
+            },
+            "nodes": [
+                5808166288,
+                2081633323,
+                5808166286,
+                5808166285,
+                5808166288
+            ],
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "1010",
+                "addr:postcode": "66604",
+                "addr:state": "KS",
+                "addr:street": "Southwest Fairlawn Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "way",
+            "id": 615421695,
+            "center": {
+                "lat": 37.6935028,
+                "lon": -97.1525023
+            },
+            "nodes": [
+                5819591887,
+                5819591888,
+                5819591889,
+                5819591890,
+                5819591891,
+                5819591892,
+                5819591893,
+                5819591894,
+                5819591895,
+                5819591896,
+                5819591887
+            ],
+            "tags": {
+                "addr:city": "Andover",
+                "addr:housenumber": "1607",
+                "addr:postcode": "67002",
+                "addr:state": "KS",
+                "addr:street": "West Central Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Kutter Pet Care Center",
+                "opening_hours": "Mo 07:30-20:00; Tu-Fr 07:30-18:00; Sa 07:30-12:00; Su 13:00-17:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 623569107,
+            "center": {
+                "lat": 39.1714243,
+                "lon": -96.6026446
+            },
+            "nodes": [
+                5888760304,
+                5888760303,
+                5891688287,
+                5891688286,
+                5891688285,
+                5891686984,
+                5888760302,
+                5888760301,
+                5891688289,
+                5891688291,
+                5891688290,
+                5891688292,
+                5891688288,
+                5888760304
+            ],
+            "tags": {
+                "addr:city": "Manhattan",
+                "addr:housenumber": "909",
+                "addr:postcode": "66502",
+                "addr:street": "South Seth Child Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:website": "https://www.littleapplevet.com/",
+                "name": "Little Apple Veterinary Clinic",
+                "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-17:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 627416673,
+            "center": {
+                "lat": 39.1894572,
+                "lon": -96.6164821
+            },
+            "nodes": [
+                5922761036,
+                5922761033,
+                5922761029,
+                5922761030,
+                5922761032,
+                5922761031,
+                5922761034,
+                5922761035,
+                5922761036
+            ],
+            "tags": {
+                "addr:city": "Manhattan",
+                "addr:housenumber": "3130",
+                "addr:postcode": "66503",
+                "addr:street": "Anderson Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Westside Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 630320368,
+            "center": {
+                "lat": 38.9577513,
+                "lon": -94.74188
+            },
+            "nodes": [
+                5952159698,
+                5952159699,
+                5952159700,
+                5952159701,
+                5952159702,
+                5952159703,
+                5952159704,
+                5952159705,
+                5952159706,
+                5952159707,
+                5952159698
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cat Clinic of Johnson County",
+                "phone": "+1-913-541-0478",
+                "website": "https://catclinicofjc.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 630430614,
+            "center": {
+                "lat": 39.5072387,
+                "lon": -98.5539797
+            },
+            "nodes": [
+                5952987075,
+                5952987078,
+                5952987079,
+                5952987071,
+                5952987072,
+                5952987073,
+                5952987075
+            ],
+            "tags": {
+                "addr:city": "Downs",
+                "addr:postcode": "67437",
+                "addr:state": "KS",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 633279446,
+            "center": {
+                "lat": 38.7491267,
+                "lon": -94.8253874
+            },
+            "nodes": [
+                5978079665,
+                5978079666,
+                5978079667,
+                5978079668,
+                5978079669,
+                5978079670,
+                5978079665
+            ],
+            "tags": {
+                "addr:city": "Spring Hill",
+                "addr:housenumber": "602",
+                "addr:postcode": "66083",
+                "addr:state": "KS",
+                "addr:street": "North Webster Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Spring Hill Veterinary Clinic",
+                "phone": "+1-913-592-2770",
+                "website": "https://www.springhillveterinaryclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 657638460,
+            "center": {
+                "lat": 38.1407713,
+                "lon": -97.4356392
+            },
+            "nodes": [
+                6159082556,
+                6159082555,
+                6159082554,
+                6159082553,
+                6159082556
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hesston Vetrenary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 669660579,
+            "center": {
+                "lat": 37.5561714,
+                "lon": -97.246233
+            },
+            "nodes": [
+                6271150691,
+                13523158598,
+                6271150689,
+                6271150690,
+                6271150691
+            ],
+            "tags": {
+                "addr:city": "Derby",
+                "addr:housenumber": "1630",
+                "addr:postcode": "67037",
+                "addr:state": "KS",
+                "addr:street": "East James Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "esri/USA_NAD_Addresses"
+            }
+        },
+        {
+            "type": "way",
+            "id": 669858958,
+            "center": {
+                "lat": 37.5074389,
+                "lon": -97.2452413
+            },
+            "nodes": [
+                6273287498,
+                6273287497,
+                6273287496,
+                6273287495,
+                6273287498
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 680759331,
+            "center": {
+                "lat": 39.251818,
+                "lon": -94.901089
+            },
+            "nodes": [
+                6374500560,
+                6374504649,
+                6374495003,
+                6374499548,
+                6374500560
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lansing Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 693615360,
+            "center": {
+                "lat": 38.8877073,
+                "lon": -94.8370618
+            },
+            "nodes": [
+                6512025514,
+                9232405535,
+                9232405538,
+                9232405537,
+                9232405536,
+                6512025511,
+                6512025512,
+                6512025513,
+                6512025514
+            ],
+            "tags": {
+                "addr:city": "Olathe",
+                "addr:housenumber": "457",
+                "addr:postcode": "66061",
+                "addr:state": "KS",
+                "addr:street": "North K7 Hwy",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Southside Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 731125667,
+            "center": {
+                "lat": 37.1930426,
+                "lon": -99.7739962
+            },
+            "nodes": [
+                6848038516,
+                6848038517,
+                6848038518,
+                6848038519,
+                6848038520,
+                6848038521,
+                6848038522,
+                6848038523,
+                6848038524,
+                6848038525,
+                6848038526,
+                6848038527,
+                6848038528,
+                6848038529,
+                6848038530,
+                6848038531,
+                6848038532,
+                6848038533,
+                6848038516
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 733537546,
+            "center": {
+                "lat": 38.4922333,
+                "lon": -98.7756356
+            },
+            "nodes": [
+                6869619082,
+                6869619083,
+                6869619084,
+                6869632485,
+                6869619082
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hoisington Veterinary Hospital",
+                "website": "https://www.hoisingtonvet.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 774922603,
+            "center": {
+                "lat": 38.1953653,
+                "lon": -99.1146916
+            },
+            "nodes": [
+                7229676749,
+                7229676750,
+                7229676751,
+                7229676752,
+                9417872622,
+                9417872619,
+                9417872620,
+                9417872621,
+                7229676753,
+                7229676754,
+                7229676755,
+                7229676756,
+                7229676757,
+                7229676758,
+                7229676749
+            ],
+            "tags": {
+                "addr:city": "Larned",
+                "addr:housenumber": "1443",
+                "addr:postcode": "67550",
+                "addr:state": "KS",
+                "addr:street": "120th Ave",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Larned Veterinary Clinic, PA"
+            }
+        },
+        {
+            "type": "way",
+            "id": 828412781,
+            "center": {
+                "lat": 38.8885852,
+                "lon": -99.3551097
+            },
+            "nodes": [
+                7733489136,
+                7733489137,
+                7733489138,
+                7733489139,
+                7733489136
+            ],
+            "tags": {
+                "addr:housenumber": "2807",
+                "addr:street": "Highway 183 Alternate",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Big Creek Veterinary Services",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 09:00-12:00",
+                "source": "microsoft/BuildingFootprints",
+                "website": "https://www.bigcreekvethays.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 852730308,
+            "center": {
+                "lat": 37.689715,
+                "lon": -97.298753
+            },
+            "nodes": [
+                7954606664,
+                7954606665,
+                7954606666,
+                7954606667,
+                7954606668,
+                7954606669,
+                7954606664
+            ],
+            "tags": {
+                "addr:city": "Wichita",
+                "addr:housenumber": "244",
+                "addr:postcode": "67214",
+                "addr:state": "ks",
+                "addr:street": "North Hillside Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "College Hill Animal Hospital",
+                "opening_hours": "Mo-We,Fr 08:00-17:30; Th,Sa 08:00-12:00",
+                "phone": "+1 316-618-8881",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 940811174,
+            "center": {
+                "lat": 39.0291456,
+                "lon": -95.794485
+            },
+            "nodes": [
+                8712958877,
+                8712958878,
+                8712958879,
+                8712958880,
+                8712958881,
+                8712958882,
+                8712958883,
+                8712958884,
+                8712958877
+            ],
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "2025",
+                "addr:postcode": "66615",
+                "addr:state": "KS",
+                "addr:street": "Southwest Stutley Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Topeka Veterinary Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-12:00",
+                "phone": "+1-785-272-7400",
+                "source": "esri_USDOT_Kansas",
+                "website": "https://www.topekavethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 949836350,
+            "center": {
+                "lat": 38.9774542,
+                "lon": -94.8612555
+            },
+            "nodes": [
+                8793034373,
+                8793034375,
+                8793034376,
+                8793034374,
+                8793034373
+            ],
+            "tags": {
+                "addr:city": "Shawnee",
+                "addr:housenumber": "23734",
+                "addr:postcode": "66227",
+                "addr:state": "KS",
+                "addr:street": "West 83rd Terrace",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "height": "6.4008",
+                "name": "Perimeter Veterinary Center",
+                "phone": "+1 913 742 8387",
+                "website": "https://www.perimeterveterinarycenter.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1005039926,
+            "center": {
+                "lat": 38.8695581,
+                "lon": -94.8354892
+            },
+            "nodes": [
+                9272945854,
+                9272945856,
+                9272945857,
+                9272945858,
+                9272945854
+            ],
+            "tags": {
+                "addr:city": "Olathe",
+                "addr:housenumber": "1220",
+                "addr:postcode": "66061",
+                "addr:state": "KS",
+                "addr:street": "West Dennis Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "height": "4.1148",
+                "name": "Southwest Plaza Animal Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 08:00-12:00",
+                "phone": "+1-913-829-1919",
+                "website": "https://www.olathepets.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1055214217,
+            "center": {
+                "lat": 37.4613808,
+                "lon": -94.7042833
+            },
+            "nodes": [
+                9696259514,
+                9696259515,
+                9696259516,
+                9696263317,
+                9696263318,
+                9696263319,
+                9696263320,
+                9696263321,
+                9696259514
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "note": "Town and Country Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1055549295,
+            "center": {
+                "lat": 37.4104385,
+                "lon": -94.6818573
+            },
+            "nodes": [
+                9699241557,
+                9699241558,
+                9699241559,
+                9699241560,
+                9699241561,
+                9699241562,
+                9699241563,
+                9699241564,
+                9699241565,
+                9699241566,
+                9699241567,
+                9699241568,
+                9699241557
+            ],
+            "tags": {
+                "addr:city": "Pittsburg",
+                "addr:housenumber": "1404",
+                "addr:postcode": "66762",
+                "addr:state": "KS",
+                "addr:street": "East 4th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-12:00",
+                "website": "https://www.petcarecenter.org/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1078841262,
+            "center": {
+                "lat": 39.0356059,
+                "lon": -95.7252305
+            },
+            "nodes": [
+                9889994576,
+                9889994573,
+                9889994571,
+                9889994572,
+                9889994574,
+                9889994575,
+                9889994576
+            ],
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "1719",
+                "addr:postcode": "66604",
+                "addr:street": "Southwest Gage Boulevard",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1102437456,
+            "center": {
+                "lat": 38.9281144,
+                "lon": -95.0982699
+            },
+            "nodes": [
+                10087840153,
+                10087840154,
+                10087840155,
+                10087840156,
+                10087840153
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1128042485,
+            "center": {
+                "lat": 39.0965018,
+                "lon": -95.8590597
+            },
+            "nodes": [
+                10313362465,
+                10313362462,
+                10313362461,
+                10313362460,
+                10313362463,
+                10313362464,
+                10313362465
+            ],
+            "tags": {
+                "addr:city": "Silver Lake",
+                "addr:housenumber": "445",
+                "addr:postcode": "66539",
+                "addr:state": "KS",
+                "addr:street": "South Chestnut Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1153086732,
+            "center": {
+                "lat": 39.0163955,
+                "lon": -95.6811976
+            },
+            "nodes": [
+                10724698056,
+                10724698060,
+                10724698059,
+                10724698062,
+                10724698061,
+                2082994414,
+                10724698058,
+                10724698057,
+                10724698056
+            ],
+            "tags": {
+                "addr:city": "Topeka",
+                "addr:housenumber": "2855",
+                "addr:postcode": "66611",
+                "addr:state": "KS",
+                "addr:street": "Southeast Kansas Place",
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1153366773,
+            "center": {
+                "lat": 38.9150013,
+                "lon": -95.8161118
+            },
+            "nodes": [
+                10726828627,
+                10726828631,
+                10726828632,
+                10726828633,
+                10726828630,
+                1044595969,
+                10726828628,
+                10726828629,
+                10726828627
+            ],
+            "tags": {
+                "addr:city": "Auburn",
+                "addr:housenumber": "1571",
+                "addr:postcode": "66402",
+                "addr:state": "KS",
+                "addr:street": "North Washington Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Auburn Animal Clinic",
+                "source": "esri_USDOT_Kansas"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1216099985,
+            "center": {
+                "lat": 37.6935121,
+                "lon": -97.2744934
+            },
+            "nodes": [
+                11267671943,
+                11267671944,
+                11267671945,
+                11267671946,
+                11267671943
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "East Central Veterinary Hospital",
+                "opening_hours": "Mo,Tu,Th,Fr 07:30-18:00; We 07:30-12:00; Sa 08:00-12:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1233471531,
+            "center": {
+                "lat": 38.9434033,
+                "lon": -95.2974998
+            },
+            "nodes": [
+                11445799969,
+                11445799970,
+                11445799971,
+                11445799972,
+                11445799973,
+                11445799974,
+                11445799969
+            ],
+            "tags": {
+                "addr:city": "Lawrence",
+                "addr:housenumber": "4340",
+                "addr:postcode": "66047",
+                "addr:state": "KS",
+                "addr:street": "Clinton Parkway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "wecare@cpah.com",
+                "fax": "+1-785-841-3160",
+                "name": "Clinton Parkway Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-12:00",
+                "phone": "+1-785-841-3131",
+                "website": "https://cpah.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1271378219,
+            "center": {
+                "lat": 38.9867769,
+                "lon": -95.6012393
+            },
+            "nodes": [
+                11806511939,
+                11806511940,
+                11806511941,
+                11806511942,
+                11806511943,
+                11806511944,
+                11806511945,
+                11806511946,
+                11806511947,
+                11806511948,
+                11806511939
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1382799939,
+            "center": {
+                "lat": 37.5511888,
+                "lon": -97.2719091
+            },
+            "nodes": [
+                13510386861,
+                12802561065,
+                12802561066,
+                12802561067,
+                12802561068,
+                12802561069,
+                12802561070,
+                12802561071,
+                12802561072,
+                12802561073,
+                12802561074,
+                12802561075,
+                12802561079,
+                12802561076,
+                12802561077,
+                12802561078,
+                13510386861
+            ],
+            "tags": {
+                "addr:city": "Derby",
+                "addr:housenumber": "841",
+                "addr:postcode": "67037",
+                "addr:state": "KS",
+                "addr:street": "North Buckner Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "El Paso Veterinary Hospital",
+                "source": "esri/USA_NAD_Addresses"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1390686023,
+            "center": {
+                "lat": 38.9445186,
+                "lon": -94.8142212
+            },
+            "nodes": [
+                12873006639,
+                12873006640,
+                12873006642,
+                12873006641,
+                12873006639
+            ],
+            "tags": {
+                "addr:city": "Lenexa",
+                "addr:housenumber": "10111",
+                "addr:postcode": "66220",
+                "addr:state": "KS",
+                "addr:street": "Stevenson Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Falcon Valley Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-13:00",
+                "phone": "+1-913-764-7387",
+                "website": "https://falconvalleyanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1393002433,
+            "center": {
+                "lat": 38.7970191,
+                "lon": -94.8214581
+            },
+            "nodes": [
+                12894783769,
+                12894783770,
+                12894783771,
+                12894783772,
+                12894783769
+            ],
+            "tags": {
+                "addr:city": "Spring Hill",
+                "addr:housenumber": "20440",
+                "addr:postcode": "66062",
+                "addr:state": "KS",
+                "addr:street": "West 183rd Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Heritage Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 09:00-13:00",
+                "phone": "+1-913-592-0099",
+                "website": "https://heritageanimal.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1410791771,
+            "center": {
+                "lat": 38.9695405,
+                "lon": -94.9815081
+            },
+            "nodes": [
+                12963597930,
+                12963597931,
+                12963597932,
+                12963597933,
+                12963597934,
+                12963597935,
+                12963597936,
+                12963597937,
+                12963597938,
+                12963597939,
+                12963597940,
+                12963597941,
+                12963597930
+            ],
+            "tags": {
+                "addr:city": "De Soto",
+                "addr:housenumber": "8761",
+                "addr:postcode": "66018",
+                "addr:state": "KS",
+                "addr:street": "Lexington Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "email": "desotovetclinic@gmail.com",
+                "name": "De Soto Veterinary Clinic",
+                "opening_hours": "Mo-Fr 07:45-12:00, 13:30-17:30",
+                "phone": "+1-913-585-1115",
+                "website": "https://www.desotovetclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1411557812,
+            "center": {
+                "lat": 37.5736926,
+                "lon": -97.134051
+            },
+            "nodes": [
+                12970730840,
+                12970730841,
+                12970730842,
+                12970730843,
+                12970730844,
+                12970730845,
+                12970730846,
+                12970730847,
+                12970730840
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1415352393,
+            "center": {
+                "lat": 38.9699854,
+                "lon": -94.7615792
+            },
+            "nodes": [
+                13006012886,
+                13006012889,
+                13006012887,
+                13006012888,
+                13006012886
+            ],
+            "tags": {
+                "addr:city": "Lenexa",
+                "addr:housenumber": "8734",
+                "addr:postcode": "66219",
+                "addr:state": "KS",
+                "addr:street": "Lackman Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Parkway Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa-Su off",
+                "phone": "+1-913-492-5300",
+                "website": "https://www.parkwayah.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1432610295,
+            "center": {
+                "lat": 37.4064932,
+                "lon": -94.7044613
+            },
+            "nodes": [
+                13168062049,
+                13168062050,
+                13168062051,
+                13168062052,
+                13168062053,
+                13168062054,
+                13168062049
+            ],
+            "tags": {
+                "addr:city": "Pittsburg",
+                "addr:state": "KS",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Broadway Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1451019394,
+            "center": {
+                "lat": 37.7241679,
+                "lon": -97.4088381
+            },
+            "nodes": [
+                13307741003,
+                13307741026,
+                13307741025,
+                13307741024,
+                13307741039,
+                13307741038,
+                13307741037,
+                13307741036,
+                13307741035,
+                13307741034,
+                13307741033,
+                13307741032,
+                13307741031,
+                13307741030,
+                13307741029,
+                13307741028,
+                13307741027,
+                13307731700,
+                13307741001,
+                13307741007,
+                13307741006,
+                13307741005,
+                13307741004,
+                12655686683,
+                13307741023,
+                13307741022,
+                12655686684,
+                13307741021,
+                13307741020,
+                13307741019,
+                13307741018,
+                13307741017,
+                13307741016,
+                13307741015,
+                13307741014,
+                13307741013,
+                13307741012,
+                13307741011,
+                13307741010,
+                13307741009,
+                13307741008,
+                13307741002,
+                13307741003
+            ],
+            "tags": {
+                "addr:city": "Wichita",
+                "addr:housenumber": "5618",
+                "addr:postcode": "67205",
+                "addr:state": "KS",
+                "addr:street": "West 21st Street North",
+                "amenity": "veterinary",
+                "building": "yes",
+                "emergency": "yes",
+                "name": "Veterinary Emergency & Specialty Hospital",
+                "official_name": "Veterinary Emergency & Specialty Hospital of Wichita",
+                "source": "esri_USDOT_Kansas",
+                "website": "https://www.vetwichita.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1462479143,
+            "center": {
+                "lat": 37.8299323,
+                "lon": -94.7001646
+            },
+            "nodes": [
+                13414881196,
+                13414881197,
+                13414881198,
+                13414881199,
+                13414881200,
+                13414897401,
+                13414881196
+            ],
+            "tags": {
+                "addr:city": "Fort Scott",
+                "addr:housenumber": "601",
+                "addr:postcode": "66701",
+                "addr:state": "KS",
+                "addr:street": "East 10th Street",
+                "alt_name": "Animal Care Center of Fort Scott",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-620-223-3240",
+                "name": "Animal Care Center",
+                "opening_hours": "Mo-Th 07:30-17:30",
+                "phone": "+1-620-223-1770",
+                "website": "https://animalcarefs.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1503810666,
+            "center": {
+                "lat": 38.2754512,
+                "lon": -95.2523483
+            },
+            "nodes": [
+                13762383893,
+                13762383892,
+                13762383891,
+                13762383890,
+                13762383893
+            ],
+            "tags": {
+                "addr:city": "Garnett",
+                "addr:country": "US",
+                "addr:housenumber": "1002",
+                "addr:postcode": "66032",
+                "addr:state": "KS",
+                "addr:street": "South Heyes Street",
+                "amenity": "veterinary",
+                "name": "Countryside Veterinary Clinic",
+                "phone": "+1 785 448 6454",
+                "website": "https://www.countrysidevetgarnett.com"
+            }
+        }
+    ]
+}

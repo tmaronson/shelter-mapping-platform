@@ -1,0 +1,3322 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T18:07:03Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 838019585,
+            "lat": 36.068124,
+            "lon": -86.6939749,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Apache Trail Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1849165464,
+            "lat": 35.9802291,
+            "lon": -84.1126502,
+            "tags": {
+                "addr:housenumber": "7752",
+                "addr:postcode": "37931",
+                "addr:street": "Oak Ridge Highway",
+                "amenity": "veterinary",
+                "name": "Karns Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1849165467,
+            "lat": 35.9802204,
+            "lon": -84.1126663,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Karns Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1851985486,
+            "lat": 35.9797647,
+            "lon": -84.0993278,
+            "tags": {
+                "addr:housenumber": "7545",
+                "addr:postcode": "37931",
+                "addr:street": "Oak Ridge Hwy",
+                "amenity": "veterinary",
+                "name": "Butler Animal Clinic",
+                "source": "knowledge"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2045046530,
+            "lat": 36.0851525,
+            "lon": -86.727828,
+            "tags": {
+                "addr:housename": "Grassmere Animal Hospital",
+                "addr:housenumber": "3926",
+                "addr:postcode": "37211",
+                "addr:street": "Nolensville Pike",
+                "amenity": "veterinary",
+                "name": "Grassmere Animal Hospital",
+                "website": "https://www.grassmereanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2186609608,
+            "lat": 35.1664412,
+            "lon": -85.2607474,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2188702334,
+            "lat": 35.1180683,
+            "lon": -85.2485583,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4046010561,
+            "lat": 35.4356798,
+            "lon": -84.5868151,
+            "tags": {
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/287701771783341",
+                "full_name": "McMinn Regional Humane Society Spay & Neuter Clinic",
+                "name": "MRHS Spay & Neuter Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "operator": "Dr. Erin Dols",
+                "phone": "+1-423-649-0370",
+                "website": "https://mrhumane.org"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4333608781,
+            "lat": 36.3450767,
+            "lon": -84.1619783,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Hospital of Campbell County",
+                "phone": "+1-423-566-8387"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5166214656,
+            "lat": 35.9459436,
+            "lon": -83.9409513,
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "2407",
+                "addr:postcode": "37996",
+                "addr:state": "TN",
+                "addr:street": "River Drive",
+                "amenity": "veterinary",
+                "contact:website": "https://vetmed.tennessee.edu/vmc/SmallAnimalHospital/Pages/default.aspx",
+                "description": "Immediate care for any companion animal issues.",
+                "emergency": "yes",
+                "internet_access": "wlan",
+                "name": "John and Ann Tickle Small Animal Hospital",
+                "opening_hours": "24/7",
+                "operator": "University of Tennessee Veterinary Teaching Hospital",
+                "phone": "+1-865-974-8387",
+                "veterinary": "hospital",
+                "website": "https://vetmed.tennessee.edu/vmc/SmallAnimalHospital/Pages/default.aspx"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5166214657,
+            "lat": 35.9450667,
+            "lon": -83.9398128,
+            "tags": {
+                "alt_name": "Equine Hospital",
+                "amenity": "veterinary",
+                "contact:website": "https://vetmed.tennessee.edu/vmc/EquineHospital/Pages/default.aspx",
+                "internet_access": "wlan",
+                "name": "Large Animal Hospital",
+                "opening_hours": "24/7",
+                "operator": "University of Tennessee Veterinary Teaching Hospital",
+                "phone": "+1-865-974-8387",
+                "veterinary": "hospital",
+                "website": "https://vetmed.tennessee.edu/vmc/EquineHospital/Pages/default.aspx"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5891786585,
+            "lat": 35.6172921,
+            "lon": -87.8459859,
+            "tags": {
+                "addr:housenumber": "240",
+                "addr:postcode": "37096",
+                "addr:street": "West Main Street",
+                "amenity": "veterinary",
+                "name": "Linden Animal Clinic",
+                "opening_hours": "Tu, Th, Sa 08:00-12:00",
+                "phone": "+1-931-589-5116"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6194140956,
+            "lat": 36.2605177,
+            "lon": -85.9501855,
+            "tags": {
+                "addr:city": "Carthage",
+                "addr:housenumber": "104",
+                "addr:postcode": "37030",
+                "addr:street": "Ervin Drive",
+                "amenity": "veterinary",
+                "name": "Smith County Animal Clinic",
+                "website": "https://www.smithcountyanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6335915940,
+            "lat": 35.0944164,
+            "lon": -89.731447,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "The Pet Hospitals"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6335915946,
+            "lat": 35.0943456,
+            "lon": -89.7314056,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "The Pet Hospitals"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7039962980,
+            "lat": 36.0443208,
+            "lon": -86.6636716,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "VCA PetMed Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7476754452,
+            "lat": 35.1018982,
+            "lon": -89.8527985,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Pet Hospitals",
+                "phone": "+1 901-457-2995"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7894723778,
+            "lat": 35.7444624,
+            "lon": -86.8926589,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Veterinary Wellness Clinic of Spring Hill"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8542904000,
+            "lat": 35.8467636,
+            "lon": -86.4926514,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "CreekWood Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8691350070,
+            "lat": 35.9595659,
+            "lon": -83.9044016,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Riverside Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8779097318,
+            "lat": 35.8109137,
+            "lon": -86.4613075,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Care Vetinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8994326194,
+            "lat": 35.9003513,
+            "lon": -86.3829494,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Stones River Vetinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9002421804,
+            "lat": 35.7829778,
+            "lon": -86.400293,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Barfield Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9004528873,
+            "lat": 35.7936786,
+            "lon": -86.4002864,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Indian Hills Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9163659086,
+            "lat": 35.5681257,
+            "lon": -86.367357,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cascade Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9177374879,
+            "lat": 35.1763766,
+            "lon": -89.8397257,
+            "tags": {
+                "alt_name": "VetIQ Smarter Pet Health",
+                "amenity": "veterinary",
+                "branch": "Veterinary Clinic",
+                "brand": "VetIQ Petcare",
+                "brand:wikidata": "Q109887581",
+                "name": "VetIQ"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9370671144,
+            "lat": 35.2178754,
+            "lon": -86.0994766,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Town & Country Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9480213378,
+            "lat": 35.9611297,
+            "lon": -86.8010505,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Carothers Parkway Vet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9593245148,
+            "lat": 35.9907944,
+            "lon": -83.9991427,
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "2828",
+                "addr:postcode": "37912",
+                "addr:state": "TN",
+                "addr:street": "Merchant Drive",
+                "amenity": "veterinary",
+                "name": "Norwood Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9842458517,
+            "lat": 36.3353462,
+            "lon": -86.6167396,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "New Shackle Island Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10104624593,
+            "lat": 36.0412656,
+            "lon": -84.2151591,
+            "tags": {
+                "addr:city": "Oak Ridge",
+                "addr:country": "US",
+                "addr:housenumber": "244",
+                "addr:postcode": "37830",
+                "addr:state": "TN",
+                "addr:street": "Brisbane Road",
+                "amenity": "veterinary",
+                "name": "Ideal Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10202851590,
+            "lat": 36.0338029,
+            "lon": -84.2244557,
+            "tags": {
+                "addr:city": "Oak Ridge",
+                "addr:country": "US",
+                "addr:housenumber": "513",
+                "addr:postcode": "37830",
+                "addr:state": "TN",
+                "addr:street": "Oak Ridge Turnpike",
+                "amenity": "veterinary",
+                "name": "Oak Ridge Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00;Sa 09:00-12:00",
+                "phone": "+1 865 483 6614",
+                "website": "https://www.oakridgevets.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10742393611,
+            "lat": 36.1769415,
+            "lon": -85.9469255,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Gordonsville Vetinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10746903905,
+            "lat": 36.1917627,
+            "lon": -82.0488775,
+            "tags": {
+                "addr:housenumber": "8651",
+                "addr:postcode": "37687",
+                "addr:street": "US 19E",
+                "amenity": "veterinary",
+                "name": "Roan Mountain Animal Hospital",
+                "opening_hours": "Mo-Tu, Th-Fr 08:00-18:00",
+                "phone": "+1-423-772-4124",
+                "website": "https://rmah.org/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10967024094,
+            "lat": 35.938883,
+            "lon": -84.1485223,
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:country": "US",
+                "addr:housenumber": "1727",
+                "addr:postcode": "37932",
+                "addr:state": "TN",
+                "addr:street": "Schaeffer Rd",
+                "amenity": "veterinary",
+                "name": "Pellissippi Veterinary Hospital",
+                "phone": "+18656918387",
+                "website": "https://www.pellissippiveterinaryhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10996329281,
+            "lat": 35.2499358,
+            "lon": -85.1816076,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11063512007,
+            "lat": 35.0310925,
+            "lon": -85.3616416,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Lookout Valley Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11173160773,
+            "lat": 36.6317523,
+            "lon": -87.4115208,
+            "tags": {
+                "addr:city": "Clarksville",
+                "addr:country": "US",
+                "addr:housenumber": "1998",
+                "addr:postcode": "37042",
+                "addr:state": "TN",
+                "addr:street": "Sunset Meadows Way",
+                "amenity": "veterinary",
+                "name": "Clarksville Animal Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:30",
+                "phone": "+1 931-500-7297",
+                "website": "https://www.clarksvilleanimalclinic.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11250333647,
+            "lat": 36.2962235,
+            "lon": -85.369354,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospital",
+                "brand:wikidata": "Q7906620",
+                "name": "VCA Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11283500909,
+            "lat": 36.3824506,
+            "lon": -86.4577337,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11283500940,
+            "lat": 36.3823256,
+            "lon": -86.4658117,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11283500959,
+            "lat": 36.384692,
+            "lon": -86.4582508,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Critter Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11283573445,
+            "lat": 36.3863654,
+            "lon": -86.4453702,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "South Water Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11448317293,
+            "lat": 35.9513959,
+            "lon": -84.156523,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "my pets wellness"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11581200091,
+            "lat": 35.9997674,
+            "lon": -84.3033448,
+            "tags": {
+                "addr:city": "Oak Ridge",
+                "addr:country": "US",
+                "addr:housenumber": "2190",
+                "addr:postcode": "37830",
+                "addr:state": "TN",
+                "addr:street": "Oak Ridge Highway",
+                "amenity": "veterinary",
+                "contact:phone": "+1 865-482-1797",
+                "name": "McArthur Animal Hospital",
+                "website": "https://mcarthuranimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11673404122,
+            "lat": 35.1479216,
+            "lon": -85.2514433,
+            "tags": {
+                "addr:city": "Hixson",
+                "addr:housenumber": "5591",
+                "addr:postcode": "37343",
+                "addr:state": "TN",
+                "addr:street": "TN 153",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12001678218,
+            "lat": 36.5954068,
+            "lon": -82.2062402,
+            "tags": {
+                "addr:city": "Bristol",
+                "addr:housenumber": "2012",
+                "addr:postcode": "37620",
+                "addr:state": "TN",
+                "addr:street": "W State Street",
+                "amenity": "veterinary",
+                "name": "Animal Medical Clinic",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 09:00-13:00; Su 09:30-10:00",
+                "phone": "+1 423-764-2428",
+                "website": "https://www.animalmedclinic.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12119079631,
+            "lat": 35.2156555,
+            "lon": -84.8832724,
+            "tags": {
+                "addr:housenumber": "2987",
+                "addr:street": "Hunting Dr NW",
+                "amenity": "veterinary",
+                "name": "Creekside Veterinary Hospital",
+                "website": "https://creeksidepetvet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12148293791,
+            "lat": 36.0224912,
+            "lon": -84.2455821,
+            "tags": {
+                "addr:city": "Oak Ridge",
+                "addr:country": "US",
+                "addr:housenumber": "1030",
+                "addr:postcode": "37830",
+                "addr:state": "TN",
+                "addr:street": "Oak Ridge Turnpike",
+                "amenity": "veterinary",
+                "contact:phone": "+1 865-328-0102",
+                "name": "Grace Veterinary Center",
+                "opening_hours": "Mo-Sa 08:00-17:00",
+                "website": "https://gracevets.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12271148753,
+            "lat": 35.8645636,
+            "lon": -83.7480942,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "name": "Boyd Creek Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12271149562,
+            "lat": 35.8752978,
+            "lon": -83.7637934,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Seymour Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12282698501,
+            "lat": 36.0250193,
+            "lon": -83.4286484,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Town & Country Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12488140249,
+            "lat": 36.3107878,
+            "lon": -82.4334249,
+            "tags": {
+                "addr:city": "Johnson City",
+                "addr:housenumber": "3741",
+                "addr:postcode": "37604",
+                "addr:state": "Tennessee",
+                "addr:street": "West Market Street",
+                "addr:unit": "Suite 1",
+                "amenity": "veterinary",
+                "contact:facebook": "blueridgeanimalhospitaltn",
+                "email": "blueridgeanimalhospitaltn@gmail.com",
+                "name": "Blue Ridge Animal Hospital",
+                "opening_hours": "Mo,Tu,Th,Fr 08:00-17:30; We 13:00-17:30; Sa,Su off",
+                "phone": "+1-423-753-7387",
+                "website": "http://www.blueridgeanimalhospitaltn.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12587625537,
+            "lat": 36.0731717,
+            "lon": -86.9260766,
+            "tags": {
+                "addr:city": "Nashville",
+                "addr:housenumber": "7098",
+                "addr:postcode": "37221",
+                "addr:state": "TN",
+                "addr:street": "Old Harding Pike",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/people/Bellevue-Animal-Hospital/100089332745454/",
+                "name": "Bellevue Animal Hospital",
+                "phone": "+16156464545",
+                "website": "https://www.bahnashville.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12903234678,
+            "lat": 35.900274,
+            "lon": -84.1535736,
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "11134",
+                "addr:postcode": "37934",
+                "addr:state": "TN",
+                "addr:street": "Parkside Drive",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Su 08:00-18:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12931390802,
+            "lat": 35.2287761,
+            "lon": -89.5028978,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Main Street Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12974624659,
+            "lat": 35.412005,
+            "lon": -89.827582,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "English Veterinary Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12980307009,
+            "lat": 35.4397476,
+            "lon": -89.7976789,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Munford Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12987815182,
+            "lat": 36.1469031,
+            "lon": -85.5003715,
+            "tags": {
+                "addr:city": "Cookeville",
+                "addr:housenumber": "650",
+                "addr:postcode": "38501",
+                "addr:state": "TN",
+                "addr:street": "South Jefferson Avenue",
+                "amenity": "veterinary",
+                "name": "Best Friends Veterinary Hospital",
+                "phone": "+1-931-881-2037",
+                "website": "https://bestfriendsvet.org/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12988863207,
+            "lat": 36.5504775,
+            "lon": -82.442968,
+            "tags": {
+                "addr:city": "Kingsport",
+                "addr:country": "US",
+                "addr:housenumber": "101",
+                "addr:postcode": "37664",
+                "addr:state": "TN",
+                "addr:street": "Island Road",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/cherrypointah/",
+                "contact:instagram": "cherrypointah",
+                "email": "info@cherrypointanimalhospital.com",
+                "name": "Cherry Point Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-13:00; Su 17:00-18:00",
+                "phone": "+1-423-279-9996",
+                "website": "https://www.cherrypointah.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13012937187,
+            "lat": 35.9638345,
+            "lon": -86.8029926,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 10:00-17:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13057835802,
+            "lat": 35.9025168,
+            "lon": -84.1240498,
+            "tags": {
+                "addr:housenumber": "10213",
+                "addr:postcode": "37922",
+                "addr:street": "Kingston Pike",
+                "amenity": "veterinary",
+                "name": "Animal Emergency & Specialty Center of Knoxville",
+                "opening_hours": "24/7",
+                "phone": "+1-865-693-4440",
+                "website": "https://animalerspecialty.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13057835901,
+            "lat": 35.9037857,
+            "lon": -84.0201663,
+            "tags": {
+                "addr:housenumber": "7656",
+                "addr:postcode": "37919",
+                "addr:street": "South Northshore Drive",
+                "amenity": "veterinary",
+                "contact:facebook": "rocky.hill.animal.hospital",
+                "contact:instagram": "rockyhillvet",
+                "name": "Rocky Hill Animal Hospital",
+                "opening_hours": "Mo-Sa 07:30-18:00",
+                "phone": "+1-865-691-8826",
+                "website": "https://www.rockyhillvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13207778101,
+            "lat": 35.8648904,
+            "lon": -84.2228991,
+            "tags": {
+                "addr:housenumber": "204",
+                "addr:postcode": "37934",
+                "addr:street": "Watt Road",
+                "amenity": "veterinary",
+                "email": "info@admiralvet.com",
+                "name": "Admiral Veterinary Hospital",
+                "opening_hours": "Mo, We, Fr 08:00-18:00; Tu, Th 07:30-19:00",
+                "phone": "+1-865-675-1833",
+                "website": "https://admiralvet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13547475174,
+            "lat": 35.4314726,
+            "lon": -84.5829645,
+            "tags": {
+                "addr:city": "Athens",
+                "addr:housenumber": "111",
+                "addr:postcode": "37303-4707",
+                "addr:state": "TN",
+                "addr:street": "New Englewood Road",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/100684212337138",
+                "name": "Family & Friend Pet Clinic",
+                "phone": "+14237458107",
+                "website": "http://familyandfriendpetclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13803874712,
+            "lat": 36.1411446,
+            "lon": -86.8824195,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "VEG",
+                "opening_hours": "24/7",
+                "website": "https://www.veg.com/locations/tennessee/west-nashville"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13910954901,
+            "lat": 36.1723907,
+            "lon": -86.7957033,
+            "tags": {
+                "addr:housenumber": "1016",
+                "addr:postcode": "37208",
+                "addr:street": "Jefferson Street",
+                "amenity": "veterinary",
+                "check_date": "2026-06-04",
+                "check_date:opening_hours": "2026-06-04",
+                "contact:instagram": "citypets_nash",
+                "email": "info@citypets.vet",
+                "name": "City Pets Animal Care",
+                "opening_hours": "Mo-Fr 07:30-17:30",
+                "phone": "+1-615-678-8013",
+                "website": "https://citypetsanimalcare.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13994924833,
+            "lat": 35.1039112,
+            "lon": -86.5658766,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Farrar Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 50236281,
+            "center": {
+                "lat": 35.0647017,
+                "lon": -85.3127086
+            },
+            "nodes": [
+                638571066,
+                638571051,
+                638571057,
+                638571064,
+                638571055,
+                638571050,
+                638571066
+            ],
+            "tags": {
+                "addr:housename": "The Cat Clinic",
+                "addr:housenumber": "310",
+                "addr:postcode": "37405",
+                "addr:street": "Cherokee Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "check_date": "2026-05-28",
+                "check_date:opening_hours": "2026-05-28",
+                "name": "Cat Clinic Chattanooga",
+                "opening_hours": "Mo-Fr 07:30-18:30; Sa 09:00-13:00",
+                "phone": "+1-423-752-0737",
+                "website": "http://www.chattcatvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 53368839,
+            "center": {
+                "lat": 35.1280564,
+                "lon": -85.2833515
+            },
+            "nodes": [
+                674895519,
+                674895518,
+                674895520,
+                674895517,
+                674895519
+            ],
+            "tags": {
+                "addr:city": "Chattanooga",
+                "addr:housenumber": "4416",
+                "addr:postcode": "37415",
+                "addr:street": "Dayton Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Red Bank Animal Hospital",
+                "phone": "+1-423-877-8174",
+                "website": "http://redbankah.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 80436730,
+            "center": {
+                "lat": 35.1496967,
+                "lon": -85.3215723
+            },
+            "nodes": [
+                938599015,
+                938599029,
+                6403161639,
+                938599019,
+                938599031,
+                938599021,
+                938599037,
+                938599025,
+                938599017,
+                938599033,
+                938599036,
+                938599015
+            ],
+            "tags": {
+                "addr:city": "Walden",
+                "addr:housenumber": "1801",
+                "addr:postcode": "37377",
+                "addr:state": "TN",
+                "addr:street": "Taft Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Hospital of Signal Mountain",
+                "phone": "+1-423-509-8718",
+                "website": "https://www.animalhospitalsm.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 81101793,
+            "center": {
+                "lat": 35.0165248,
+                "lon": -85.1624185
+            },
+            "nodes": [
+                945173833,
+                2905102354,
+                2905102353,
+                945173836,
+                945173835,
+                945173829,
+                945173831,
+                945173833
+            ],
+            "tags": {
+                "addr:city": "Chattanooga",
+                "addr:country": "US",
+                "addr:housenumber": "1414",
+                "addr:postcode": "37421",
+                "addr:street": "Gunbarrel Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Clinic East"
+            }
+        },
+        {
+            "type": "way",
+            "id": 130665182,
+            "center": {
+                "lat": 35.1546669,
+                "lon": -85.1978492
+            },
+            "nodes": [
+                1438429029,
+                1438429403,
+                1438429312,
+                13433604105,
+                1438429262,
+                13433604104,
+                1438429029
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Middle Valley Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 150237199,
+            "center": {
+                "lat": 35.0188904,
+                "lon": -85.3219157
+            },
+            "nodes": [
+                1631655395,
+                1631655445,
+                1847066282,
+                1631655859,
+                1631655395
+            ],
+            "tags": {
+                "addr:city": "Chattanooga",
+                "addr:housenumber": "3201",
+                "addr:postcode": "37408",
+                "addr:state": "TN",
+                "addr:street": "Broad Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "emergency": "yes",
+                "name": "Veterinary Care and Specialty Group",
+                "opening_hours": "24/7",
+                "short_name": "VCSG"
+            }
+        },
+        {
+            "type": "way",
+            "id": 207914122,
+            "center": {
+                "lat": 35.7458095,
+                "lon": -83.9698174
+            },
+            "nodes": [
+                2181591200,
+                2181591197,
+                2181591193,
+                2181591184,
+                2181591202,
+                2181591204,
+                2181591200
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 263690160,
+            "center": {
+                "lat": 35.9603512,
+                "lon": -83.9268459
+            },
+            "nodes": [
+                2693234944,
+                2693234946,
+                12169337563,
+                12169337564,
+                2693234948,
+                2693234949,
+                2693234952,
+                2693234955,
+                2693234956,
+                2693234961,
+                2693234960,
+                12169337562,
+                12169337561,
+                2693234958,
+                2693234944
+            ],
+            "tags": {
+                "addr:housenumber": "1212",
+                "addr:postcode": "37916",
+                "addr:street": "Clinch Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2026-02-24",
+                "check_date:opening_hours": "2026-02-24",
+                "contact:facebook": "CentralVeterinaryHospital",
+                "contact:instagram": "centralveterinary",
+                "name": "Central Veterinary Hospital",
+                "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-13:00",
+                "phone": "+1-865-525-1167",
+                "website": "https://www.centralvethospital.com/contact/downtown-knoxville/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 293864059,
+            "center": {
+                "lat": 35.1353966,
+                "lon": -89.9629244
+            },
+            "nodes": [
+                2974411705,
+                2974411706,
+                2974411707,
+                6806186319,
+                6806186318,
+                6806186317,
+                6806186316,
+                2974411708,
+                6806186315,
+                6806186314,
+                2974411709,
+                2974411710,
+                2974411711,
+                6806186313,
+                6806186312,
+                6806186311,
+                6806186310,
+                2974411712,
+                2974411705
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Walnut Grove Animal Clinic",
+                "source": "bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 304580726,
+            "center": {
+                "lat": 35.852157,
+                "lon": -86.3977321
+            },
+            "nodes": [
+                8687938445,
+                3091410462,
+                3091410463,
+                3091410464,
+                8687938445
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Value Vet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 340128666,
+            "center": {
+                "lat": 36.4256959,
+                "lon": -83.6315097
+            },
+            "nodes": [
+                3473319112,
+                3473319113,
+                3473319114,
+                3473319115,
+                3473319116,
+                3473319117,
+                3473319118,
+                3473319119,
+                3473319120,
+                3473319112
+            ],
+            "tags": {
+                "addr:city": "New Tazewell",
+                "addr:housenumber": "1210",
+                "addr:postcode": "37825",
+                "addr:state": "TN",
+                "addr:street": "Highway 33 South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rowland Veterinary Services"
+            }
+        },
+        {
+            "type": "way",
+            "id": 372328757,
+            "center": {
+                "lat": 35.8653694,
+                "lon": -84.06266
+            },
+            "nodes": [
+                3758808171,
+                3758808172,
+                3758808173,
+                3758808174,
+                3758808171
+            ],
+            "tags": {
+                "addr:housenumber": "9315",
+                "addr:postcode": "37922",
+                "addr:street": "South Northshore Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:facebook": "northshoreah",
+                "name": "Northshore Animal Hospital",
+                "opening_hours": "Mo-Th 07:30-18:00; Fr 07:30-17:30; Sa 09:00-12:00",
+                "phone": "+1-865-769-8800",
+                "website": "https://northshoreah.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 372503113,
+            "center": {
+                "lat": 35.8829836,
+                "lon": -84.1586554
+            },
+            "nodes": [
+                3760591864,
+                3760591865,
+                12519303991,
+                12519303992,
+                12519303993,
+                12519303994,
+                3760591866,
+                3760591867,
+                12519303990,
+                12519303989,
+                12519303988,
+                12519303987,
+                3760591864
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "layer": "1",
+                "name": "Village Veterinary Medical Center",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-14:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 403269847,
+            "center": {
+                "lat": 35.1290718,
+                "lon": -90.058738
+            },
+            "nodes": [
+                4056330901,
+                4056330900,
+                7276842520,
+                7276842522,
+                7276842521,
+                7276842519,
+                4056330896,
+                4056330897,
+                4056330894,
+                4056330895,
+                4056330898,
+                4056330899,
+                4056330901
+            ],
+            "tags": {
+                "addr:city": "Memphis",
+                "addr:housenumber": "668",
+                "addr:postcode": "38103",
+                "addr:state": "TN",
+                "addr:street": "South Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Berclair Downtown Animal Hospital",
+                "phone": "+1-901-685-8205"
+            }
+        },
+        {
+            "type": "way",
+            "id": 439376804,
+            "center": {
+                "lat": 35.0493456,
+                "lon": -89.7998022
+            },
+            "nodes": [
+                4369919382,
+                4369919383,
+                7530392853,
+                7530392854,
+                7530392858,
+                7530392857,
+                7530392856,
+                7530392855,
+                4369919384,
+                4369919385,
+                4369919386,
+                4369919387,
+                4369919382
+            ],
+            "tags": {
+                "addr:city": "Memphis",
+                "addr:housenumber": "7910",
+                "addr:postcode": "38125",
+                "addr:state": "TN",
+                "addr:street": "Winchester Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-901-795-9127",
+                "name": "Southwind Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:30-12:00",
+                "phone": "+1-901-362-8321",
+                "website": "https://southwindvets.com/site/home"
+            }
+        },
+        {
+            "type": "way",
+            "id": 444929319,
+            "center": {
+                "lat": 36.3123508,
+                "lon": -82.3861872
+            },
+            "nodes": [
+                4423894478,
+                4423894479,
+                4423894480,
+                4423894481,
+                4423894478
+            ],
+            "tags": {
+                "addr:city": "Johnson City",
+                "addr:housenumber": "1802",
+                "addr:postcode": "37604",
+                "addr:state": "TN",
+                "addr:street": "West Market Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "contact:facebook": "https://www.facebook.com/Youngs-Animal-Hospital-147705318602087/",
+                "name": "Youngs Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-12:30,13:30-18:00; Sa 07:30-13:00",
+                "phone": "+1-423-926-3878",
+                "website": "https://youngsanimalhosp.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 446404900,
+            "center": {
+                "lat": 36.2939128,
+                "lon": -82.4959637
+            },
+            "nodes": [
+                4436834236,
+                4436834237,
+                4436834238,
+                4436834239,
+                4436834240,
+                4436834241,
+                4436834242,
+                4436834243,
+                4436834244,
+                4436834245,
+                4436834246,
+                4436834247,
+                4436834248,
+                4436834249,
+                4436834250,
+                4436834236
+            ],
+            "tags": {
+                "addr:city": "Jonesborough",
+                "addr:housenumber": "1398",
+                "addr:postcode": "37659",
+                "addr:state": "TN",
+                "addr:street": "West Jackson Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:facebook": "https://www.facebook.com/jonesboroughanimalhospital/",
+                "name": "Jonesborough Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-16:00",
+                "phone": "+1-423-753-5868",
+                "website": "https://jonesboroughanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 446755542,
+            "center": {
+                "lat": 36.5867378,
+                "lon": -87.3899466
+            },
+            "nodes": [
+                4439949379,
+                4439949399,
+                4439949528,
+                4449935275,
+                4449935901,
+                4439949510,
+                4439949379
+            ],
+            "tags": {
+                "addr:city": "Clarksville",
+                "addr:country": "US",
+                "addr:housenumber": "909",
+                "addr:postcode": "37042",
+                "addr:state": "TN",
+                "addr:street": "McClardy Road",
+                "amenity": "veterinary",
+                "building": "office",
+                "email": "parkwayanimalclinic@gmail.com",
+                "name": "Parkway Animal Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 07:30-12:00",
+                "phone": "+1 931-551-9898",
+                "website": "http://www.parkwayanimalclinic.org/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 456283769,
+            "center": {
+                "lat": 35.7936639,
+                "lon": -86.4002429
+            },
+            "nodes": [
+                4525605696,
+                9004528867,
+                9004528866,
+                4525605697,
+                9004528869,
+                9004528871,
+                9004528872,
+                9004528870,
+                4525605698,
+                9004528865,
+                9004528868,
+                4525605699,
+                4525605696
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 491821574,
+            "center": {
+                "lat": 35.955534,
+                "lon": -83.9567432
+            },
+            "nodes": [
+                4839111292,
+                4839111293,
+                7782625135,
+                7782625134,
+                4839111294,
+                4839111295,
+                7782625133,
+                7782625132,
+                4839111296,
+                4839111297,
+                4839111298,
+                7782625131,
+                7782625130,
+                4839111253,
+                4839111299,
+                4839111300,
+                4839111301,
+                4839111302,
+                4839111303,
+                7782625129,
+                7782625128,
+                7782625127,
+                4839111304,
+                7782625126,
+                7782625125,
+                7782625124,
+                4839111305,
+                4839111292
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 492224573,
+            "center": {
+                "lat": 36.0079356,
+                "lon": -83.9658028
+            },
+            "nodes": [
+                4842771122,
+                4842771123,
+                4842771124,
+                4842771125,
+                4842771122
+            ],
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "4700",
+                "addr:postcode": "37912",
+                "addr:state": "TN",
+                "addr:street": "Central Avenue Pike",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "nkvc@bellsouth.net",
+                "fax": "+1-865-689-8606",
+                "name": "North Knox Veterinary Clinic",
+                "opening_hours": "Mo,Th,Fr 07:30-12:00,13:00-18:00, Tu 08:30-12:00,13:00-17:00, We 08:30-12:00,13:00-12:00, Sa 08:30-12:00; Sa[1] off, Su off",
+                "phone": "+1-865-687-2515",
+                "website": "https://nknoxvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 503699588,
+            "center": {
+                "lat": 36.1096801,
+                "lon": -84.1261672
+            },
+            "nodes": [
+                4939761782,
+                4939761781,
+                13991675042,
+                13991675041,
+                4939761780,
+                4939761779,
+                4939761778,
+                4939761777,
+                4939761776,
+                4939761775,
+                4939761782
+            ],
+            "tags": {
+                "addr:city": "Clinton",
+                "addr:housenumber": "730",
+                "addr:postcode": "37716",
+                "addr:state": "TN",
+                "addr:street": "North Charles G Seivers Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Clinton Animal Hospital",
+                "website": "https://www.clinton-norrisanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 509708746,
+            "center": {
+                "lat": 35.0163686,
+                "lon": -85.2073984
+            },
+            "nodes": [
+                4989055254,
+                4989055253,
+                4989055252,
+                4989055251,
+                4989055254
+            ],
+            "tags": {
+                "addr:city": "Chattanooga",
+                "addr:housenumber": "5950",
+                "addr:postcode": "37421",
+                "addr:state": "TN",
+                "addr:street": "Brainerd Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "building:levels": "1",
+                "building:material": "concrete",
+                "check_date": "2024-05-26",
+                "email": "info@chattaneuter.org",
+                "name": "Chattaneuter",
+                "phone": "+1-423-531-7729",
+                "roof:levels": "0",
+                "roof:shape": "flat",
+                "website": "https://www.chattaneuter.org/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 511155853,
+            "center": {
+                "lat": 36.3384985,
+                "lon": -82.2070396
+            },
+            "nodes": [
+                5000683515,
+                5000683516,
+                5000683517,
+                5000683518,
+                5000683519,
+                5000683520,
+                5000683515
+            ],
+            "tags": {
+                "addr:city": "Elizabethton",
+                "addr:housenumber": "1261",
+                "addr:postcode": "37643",
+                "addr:state": "TN",
+                "addr:street": "Veterans Memorial Parkway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:facebook": "https://www.facebook.com/pages/category/Pet-Service/Elizabethton-Veterinary-Clinic-462054347177928",
+                "name": "Elizabethton Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00; Sa 08:30-12:00",
+                "phone": "+1-423-543-1271",
+                "start_date": "1971",
+                "website": "https://www.elizabethtonveterinaryclinic.info"
+            }
+        },
+        {
+            "type": "way",
+            "id": 515114499,
+            "center": {
+                "lat": 36.0245826,
+                "lon": -84.3145417
+            },
+            "nodes": [
+                5031449330,
+                5031449329,
+                5031449328,
+                5031449327,
+                5031449326,
+                5031449325,
+                5031449330
+            ],
+            "tags": {
+                "addr:city": "Oliver Springs",
+                "addr:housenumber": "1054",
+                "addr:postcode": "37840",
+                "addr:state": "TN",
+                "addr:street": "East Tri County Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Tri-County Small Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 517604538,
+            "center": {
+                "lat": 36.3940832,
+                "lon": -83.0367786
+            },
+            "nodes": [
+                5050786691,
+                5050786692,
+                5050786693,
+                5050786694,
+                5050786695,
+                5050786696,
+                5050786691
+            ],
+            "tags": {
+                "addr:city": "Rogersville",
+                "addr:housenumber": "318",
+                "addr:state": "TN",
+                "addr:street": "Farside Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Dog and Cat Depot",
+                "website": "https://www.dogandcatdepot.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 517967282,
+            "center": {
+                "lat": 35.8428212,
+                "lon": -86.4291745
+            },
+            "nodes": [
+                5045530423,
+                5053607724,
+                5053607725,
+                5045530422,
+                5045530423
+            ],
+            "tags": {
+                "addr:city": "Murfreesboro",
+                "addr:country": "US",
+                "addr:housenumber": "198",
+                "addr:postcode": "37129",
+                "addr:state": "TN",
+                "addr:street": "Chaffin Place",
+                "amenity": "veterinary",
+                "landuse": "commercial",
+                "name": "Williams Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 532071299,
+            "center": {
+                "lat": 36.5255345,
+                "lon": -87.3613476
+            },
+            "nodes": [
+                5163899249,
+                5163899246,
+                5163899245,
+                5163899244,
+                5163899247,
+                5163899248,
+                5163899249
+            ],
+            "tags": {
+                "addr:city": "Clarksville",
+                "addr:country": "US",
+                "addr:housenumber": "136",
+                "addr:postcode": "37040",
+                "addr:state": "TN",
+                "addr:street": "Commerce Street",
+                "amenity": "veterinary",
+                "animal_boarding": "cat",
+                "building": "yes",
+                "email": "info@thecatsoncommerce.com",
+                "heritage": "2",
+                "heritage:operator": "nrhp",
+                "name": "Cats on Commerce",
+                "nrhp:criteria": "A;C",
+                "nrhp:inscription_date": "1987-11-25",
+                "old_name": "Clarksville Foundry and Machine Works Office",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 11:00-15:00",
+                "phone": "+1 931-292-2829",
+                "ref:nrhp": "87002007",
+                "website": "https://thecatsoncommerce.com/",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "way",
+            "id": 546821891,
+            "center": {
+                "lat": 36.1752532,
+                "lon": -85.4875838
+            },
+            "nodes": [
+                5283969888,
+                5283969889,
+                5283969890,
+                5283969891,
+                5283969892,
+                5283969893,
+                5283969894,
+                5283969895,
+                5283969896,
+                5283969897,
+                5283969898,
+                5283969899,
+                5283969900,
+                5283969901,
+                5283969888
+            ],
+            "tags": {
+                "addr:city": "Cookeville",
+                "addr:housenumber": "821",
+                "addr:postcode": "38501",
+                "addr:state": "TN",
+                "addr:street": "East 10th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Copeland Veterinary Hospital",
+                "phone": "+1-931-528-1111"
+            }
+        },
+        {
+            "type": "way",
+            "id": 551182355,
+            "center": {
+                "lat": 36.1457013,
+                "lon": -85.5216125
+            },
+            "nodes": [
+                5323139652,
+                5323139653,
+                5323139654,
+                5323139655,
+                5323139652
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Flatt Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 553781987,
+            "center": {
+                "lat": 36.1424086,
+                "lon": -85.4554434
+            },
+            "nodes": [
+                5345120132,
+                5345120133,
+                5345120134,
+                5345120135,
+                5345120136,
+                5345120137,
+                5345120138,
+                5345120139,
+                5345120132
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Boyd Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 581947060,
+            "center": {
+                "lat": 35.1174678,
+                "lon": -85.2669965
+            },
+            "nodes": [
+                5566942017,
+                5566942014,
+                5566942341,
+                5566942342,
+                5566942329,
+                5566942322,
+                5566942017
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 583582326,
+            "center": {
+                "lat": 36.36483,
+                "lon": -88.8505478
+            },
+            "nodes": [
+                5579262903,
+                5579262904,
+                5579262905,
+                5579262906,
+                5579262907,
+                5579262908,
+                5579262909,
+                5579262910,
+                5579262911,
+                5579262912,
+                5579262913,
+                5579262914,
+                5579262903
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Weakley County Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 598260350,
+            "center": {
+                "lat": 35.9993256,
+                "lon": -87.0689828
+            },
+            "nodes": [
+                5694301091,
+                5694301033,
+                5694301053,
+                5694301067,
+                5694301083,
+                5694301096,
+                5694301113,
+                5694301040,
+                5694301091
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "White Oak Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 627463357,
+            "center": {
+                "lat": 35.1222061,
+                "lon": -85.3419772
+            },
+            "nodes": [
+                5923205038,
+                5923205037,
+                5923205036,
+                5923205035,
+                5923205038
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Signal Mountain Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 645828103,
+            "center": {
+                "lat": 36.1067691,
+                "lon": -87.2192051
+            },
+            "nodes": [
+                6069804144,
+                6069804145,
+                6069804146,
+                6069804147,
+                6069804144
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 684196324,
+            "center": {
+                "lat": 36.1165376,
+                "lon": -86.7975031
+            },
+            "nodes": [
+                6409703793,
+                6409703799,
+                6409703800,
+                6409703801,
+                6409703802,
+                6409703794,
+                6409703795,
+                6409703796,
+                6409703797,
+                6409703798,
+                6409703793
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Belmont Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 743426867,
+            "center": {
+                "lat": 36.5513607,
+                "lon": -85.5049145
+            },
+            "nodes": [
+                6958651898,
+                6958651899,
+                6958651900,
+                6958651901,
+                6958651902,
+                6958651903,
+                6958651898
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 816231880,
+            "center": {
+                "lat": 35.72758,
+                "lon": -86.8933412
+            },
+            "nodes": [
+                7623170949,
+                7623170950,
+                7623170951,
+                7623170952,
+                7623170953,
+                7623170954,
+                7623170955,
+                7623170956,
+                7623170957,
+                7623170958,
+                7623170959,
+                7623170960,
+                7623170961,
+                7623170962,
+                7623170963,
+                7623170964,
+                7623170965,
+                7623170966,
+                7623170949
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Healthy Petz Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 823181195,
+            "center": {
+                "lat": 35.9220229,
+                "lon": -83.8799951
+            },
+            "nodes": [
+                7685406742,
+                7685406743,
+                7685406744,
+                7685406745,
+                7685406742
+            ],
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "5900",
+                "addr:postcode": "37920",
+                "addr:state": "TN",
+                "addr:street": "Chapman Highway",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Dogwood Animal Hospital",
+                "phone": "+1-865-577-0344",
+                "website": "https://dahknoxville.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 823678041,
+            "center": {
+                "lat": 35.2046625,
+                "lon": -89.8325551
+            },
+            "nodes": [
+                7690312344,
+                7690312345,
+                7690312346,
+                7690312347,
+                7690312348,
+                7690312349,
+                7690312350,
+                7690312351,
+                7690312352,
+                7690312353,
+                7690312354,
+                7690312355,
+                7690312356,
+                7690312357,
+                7690312358,
+                7690312359,
+                7690312360,
+                7690312361,
+                7690312362,
+                7690312363,
+                7690312364,
+                7690312365,
+                7690312366,
+                7690312344
+            ],
+            "tags": {
+                "addr:city": "Memphis",
+                "addr:housenumber": "6923",
+                "addr:postcode": "38133",
+                "addr:state": "TN",
+                "addr:street": "Stage Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Shelby Center Hospital for Animals",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa08:00-12:00",
+                "website": "https://shelbycentervet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 828618454,
+            "center": {
+                "lat": 35.0387534,
+                "lon": -85.1516798
+            },
+            "nodes": [
+                7735283315,
+                7735283316,
+                7735283317,
+                7735283318,
+                7735283315
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "easyvetclinic Veterinarian Chattanooga"
+            }
+        },
+        {
+            "type": "way",
+            "id": 835563627,
+            "center": {
+                "lat": 35.9198752,
+                "lon": -84.0745025
+            },
+            "nodes": [
+                7799179733,
+                7799179734,
+                7799179735,
+                7799179736,
+                7799179737,
+                7799179738,
+                7799179739,
+                7799179740,
+                7799179741,
+                7799179742,
+                7799179743,
+                7799179744,
+                7799179733
+            ],
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "8706",
+                "addr:postcode": "37923",
+                "addr:state": "TN",
+                "addr:street": "Unicorn Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "West Bearden Veterinary Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 08:00-13:30",
+                "phone": "+1-865-690-4141",
+                "website": "https://beardenvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 848647351,
+            "center": {
+                "lat": 35.8724925,
+                "lon": -84.179179
+            },
+            "nodes": [
+                7918450495,
+                7918450496,
+                7918450497,
+                7918450498,
+                7918450495
+            ],
+            "tags": {
+                "addr:city": "Farragut",
+                "addr:housenumber": "11904",
+                "addr:postcode": "37934",
+                "addr:state": "TN",
+                "addr:street": "Kingston Pike",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Concord Veterinary Hospital",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 859941361,
+            "center": {
+                "lat": 35.0338243,
+                "lon": -85.1812035
+            },
+            "nodes": [
+                8015216373,
+                8015216374,
+                8015216375,
+                8015216376,
+                8015216373
+            ],
+            "tags": {
+                "addr:city": "Chattanooga",
+                "addr:housenumber": "6393",
+                "addr:postcode": "37421",
+                "addr:street": "Lee Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Emergency & Specialty Center of Chattanooga",
+                "website": "https://chattanoogaspecialty.vet/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 899653012,
+            "center": {
+                "lat": 36.0267408,
+                "lon": -83.7336185
+            },
+            "nodes": [
+                8358930376,
+                8358930377,
+                8358930378,
+                8358930379,
+                8358930380,
+                8358930381,
+                8358930382,
+                8358930383,
+                8358930384,
+                8358930385,
+                8358930376
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Crossings Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 903452312,
+            "center": {
+                "lat": 36.3373127,
+                "lon": -83.2817786
+            },
+            "nodes": [
+                8391038118,
+                8391038119,
+                8391038120,
+                8391038121,
+                8391038118
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 905164420,
+            "center": {
+                "lat": 36.154267,
+                "lon": -83.7061181
+            },
+            "nodes": [
+                8406000641,
+                8406000642,
+                8406000643,
+                8406000644,
+                8406000645,
+                8406000646,
+                8406000641
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 919963968,
+            "center": {
+                "lat": 35.8467478,
+                "lon": -86.492581
+            },
+            "nodes": [
+                8542903987,
+                8542903988,
+                8542903989,
+                8542903990,
+                8542903991,
+                8542903992,
+                8542903993,
+                8542903994,
+                8542903995,
+                8542903996,
+                8542903997,
+                8542903998,
+                8542903999,
+                8542903987
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 924591187,
+            "center": {
+                "lat": 35.9759549,
+                "lon": -86.5385299
+            },
+            "nodes": [
+                8581178579,
+                8581178580,
+                8581178581,
+                8581178582,
+                8581178583,
+                8581178584,
+                8581178585,
+                8581178586,
+                8581178587,
+                8581178588,
+                8581178589,
+                8581178590,
+                8581178591,
+                8581178592,
+                8581178593,
+                8581178594,
+                8581178595,
+                8581178596,
+                8581178597,
+                8581178598,
+                8581178599,
+                8581178600,
+                8581178579
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Premier Vetcare"
+            }
+        },
+        {
+            "type": "way",
+            "id": 955146047,
+            "center": {
+                "lat": 36.1055638,
+                "lon": -83.5326248
+            },
+            "nodes": [
+                8840434003,
+                8840434002,
+                8840434001,
+                8840434000,
+                8840433999,
+                8840433998,
+                8840433997,
+                8840433996,
+                8840433995,
+                8840433994,
+                8840434003
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Town & Country Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 964468797,
+            "center": {
+                "lat": 36.0578862,
+                "lon": -89.3863787
+            },
+            "nodes": [
+                8921141615,
+                8921141616,
+                8921141617,
+                8921141618,
+                8921141619,
+                8921141620,
+                8921141615
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Dyer County Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 971785831,
+            "center": {
+                "lat": 35.9003499,
+                "lon": -86.3828952
+            },
+            "nodes": [
+                8994326180,
+                8994326181,
+                8994326182,
+                8994326183,
+                8994326184,
+                8994326185,
+                8994326186,
+                8994326187,
+                8994326188,
+                8994326189,
+                8994326190,
+                8994326191,
+                8994326192,
+                8994326193,
+                8994326180
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 972682336,
+            "center": {
+                "lat": 35.7829739,
+                "lon": -86.4002737
+            },
+            "nodes": [
+                9002421800,
+                9002421801,
+                9002421802,
+                9002421803,
+                9002421800
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 973215374,
+            "center": {
+                "lat": 35.0808212,
+                "lon": -85.0541061
+            },
+            "nodes": [
+                9007635533,
+                9007635534,
+                9007635535,
+                9007635536,
+                9007635537,
+                9007635538,
+                9007635539,
+                9007635540,
+                9007635533
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Applebrook Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 985815953,
+            "center": {
+                "lat": 36.41388,
+                "lon": -89.0622394
+            },
+            "nodes": [
+                9113463396,
+                9113463397,
+                9113463398,
+                9113463399,
+                9113463400,
+                9113463401,
+                9113463402,
+                9113463403,
+                9113463404,
+                9113463396
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Reelfoot Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 987386111,
+            "center": {
+                "lat": 35.9341147,
+                "lon": -86.5334326
+            },
+            "nodes": [
+                9126580655,
+                9126580656,
+                9126580657,
+                9126580658,
+                9126580659,
+                9126580660,
+                9126580661,
+                9126580662,
+                9126580663,
+                9126580664,
+                9126580665,
+                9126580666,
+                9126580655
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "PetsR Us Veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 991807336,
+            "center": {
+                "lat": 35.5681138,
+                "lon": -86.3673617
+            },
+            "nodes": [
+                9163659066,
+                9163659067,
+                9163659068,
+                9163659069,
+                9163659070,
+                9163659071,
+                9163659072,
+                9163659073,
+                9163659074,
+                9163659075,
+                9163659076,
+                9163659077,
+                9163659066
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1002194904,
+            "center": {
+                "lat": 36.0107062,
+                "lon": -83.9251331
+            },
+            "nodes": [
+                9249656478,
+                9249656479,
+                9249656480,
+                9249656481,
+                9249656478
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1015909655,
+            "center": {
+                "lat": 35.2178553,
+                "lon": -86.0994156
+            },
+            "nodes": [
+                9370671132,
+                9370671133,
+                9370671134,
+                9370671135,
+                9370671136,
+                9370671137,
+                9370671138,
+                9370671139,
+                9370671140,
+                9370671141,
+                9370671142,
+                9370671143,
+                9370671132
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1051309157,
+            "center": {
+                "lat": 36.2850248,
+                "lon": -88.3039584
+            },
+            "nodes": [
+                9661071478,
+                9661071479,
+                9661071480,
+                9661071481,
+                9661071482,
+                9661071483,
+                9661071478
+            ],
+            "tags": {
+                "addr:city": "Paris",
+                "addr:housenumber": "1116",
+                "addr:postcode": "38242",
+                "addr:state": "TN",
+                "addr:street": "Volunteer Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Mineral Wells Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1081179581,
+            "center": {
+                "lat": 35.8932445,
+                "lon": -84.6201165
+            },
+            "nodes": [
+                11396288848,
+                9909777113,
+                9909777114,
+                9909777115,
+                11396288848
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Medical Center",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1098675307,
+            "center": {
+                "lat": 35.2903305,
+                "lon": -89.6732363
+            },
+            "nodes": [
+                10059661207,
+                10059661208,
+                10059661209,
+                10059661210,
+                10059661211,
+                10059661212,
+                10059661213,
+                10059661214,
+                10059661215,
+                10059661216,
+                10059661217,
+                10059661218,
+                10059661207
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Arlington Animal Clinic",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1131961350,
+            "center": {
+                "lat": 36.2309279,
+                "lon": -86.725419
+            },
+            "nodes": [
+                10554563824,
+                10554563825,
+                10554563826,
+                10554563827,
+                10554563828,
+                10554563829,
+                10554563830,
+                10554563831,
+                10554563824
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mobley Veterinary Clinic",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1137978056,
+            "center": {
+                "lat": 34.9923085,
+                "lon": -85.3544459
+            },
+            "nodes": [
+                10607464275,
+                10607464276,
+                10607464277,
+                10607464278,
+                10607464275
+            ],
+            "tags": {
+                "addr:housenumber": "128",
+                "addr:street": "North Watauga Lane",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mountain Hospital for Animals"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1194602088,
+            "center": {
+                "lat": 36.2986138,
+                "lon": -87.0474122
+            },
+            "nodes": [
+                11087787437,
+                11087787438,
+                11087787439,
+                11087787440,
+                11087787453,
+                11087787441,
+                11087787442,
+                11087787443,
+                11087787444,
+                11087787437
+            ],
+            "tags": {
+                "addr:city": "Ashland City",
+                "addr:housenumber": "358",
+                "addr:postcode": "37015",
+                "addr:state": "TN",
+                "addr:street": "Frey Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:facebook": "https://www.facebook.com/cheathamcountyanimalclinic/",
+                "email": "ccac09@gmail.com",
+                "name": "Cheatham County Animal Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 07:30-13:00",
+                "phone": "+1-615-792-4829",
+                "website": "https://www.cheathamcountyanimalclinictn.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1236763446,
+            "center": {
+                "lat": 35.9769762,
+                "lon": -84.0094517
+            },
+            "nodes": [
+                11484461495,
+                11484461496,
+                11484461509,
+                11484461497,
+                11484461498,
+                11484461495
+            ],
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "5401",
+                "addr:postcode": "37921",
+                "addr:state": "TN",
+                "addr:street": "Western Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Scruffy City Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00, Sa 08:00-12:00",
+                "phone": "+1-865-584-4141",
+                "website": "https://www.scruffycityanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1266575444,
+            "center": {
+                "lat": 36.4392096,
+                "lon": -82.3028907
+            },
+            "nodes": [
+                11764360679,
+                11764360680,
+                11764360681,
+                11764360682,
+                11764360683,
+                11764360684,
+                11764360685,
+                11764360686,
+                11764360679
+            ],
+            "tags": {
+                "addr:city": "Piney Flats",
+                "addr:housenumber": "5462",
+                "addr:postcode": "37686",
+                "addr:state": "TN",
+                "addr:street": "US 11E",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Appalachian Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1273958864,
+            "center": {
+                "lat": 36.0962557,
+                "lon": -86.1413921
+            },
+            "nodes": [
+                11829409971,
+                13447045781,
+                13447045780,
+                13447045782,
+                11829409971
+            ],
+            "tags": {
+                "addr:city": "Watertown",
+                "addr:housenumber": "8500",
+                "addr:postcode": "37184",
+                "addr:state": "TN",
+                "addr:street": "Sparta Pike",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "macwatertowntn@gmail.com",
+                "fax": "+1 615-697-2200",
+                "name": "Moses Animal Clinic",
+                "opening_hours": "Mo-Th 07:00-17:00, Fr 07:00-12:00,14:00-17:00",
+                "phone": "+1 615-697-2207",
+                "website": "https://www.mosesanimal.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1286112522,
+            "center": {
+                "lat": 35.9578978,
+                "lon": -85.806436
+            },
+            "nodes": [
+                11929460796,
+                11929460797,
+                11929460798,
+                11929460799,
+                11929460796
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Clinic of Smithville"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1286342196,
+            "center": {
+                "lat": 35.9655362,
+                "lon": -85.8476156
+            },
+            "nodes": [
+                11931213998,
+                11931213999,
+                11931214000,
+                11931214001,
+                11931214002,
+                11931214003,
+                11931214004,
+                11931214005,
+                11931213998
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "DeKalb Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1308671807,
+            "center": {
+                "lat": 35.2354359,
+                "lon": -84.8890746
+            },
+            "nodes": [
+                12119079641,
+                12119079642,
+                12119079643,
+                12119079644,
+                12119079645,
+                12119079646,
+                12119079647,
+                12119079648,
+                12119079641
+            ],
+            "tags": {
+                "addr:housenumber": "5527",
+                "addr:street": "Georgetown Road Northwest",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bradley Veterinary Hospital",
+                "website": "https://bradleyvet.vetstreet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1337302731,
+            "center": {
+                "lat": 35.0285017,
+                "lon": -89.7587607
+            },
+            "nodes": [
+                12368973447,
+                12368973452,
+                12368973456,
+                12368973454,
+                12368973449,
+                12368973455,
+                12368973462,
+                12368973453,
+                12368973447
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bluff City Veterinary Specialist"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1337304152,
+            "center": {
+                "lat": 35.0437171,
+                "lon": -89.6879456
+            },
+            "nodes": [
+                12369036073,
+                12369036082,
+                12369036087,
+                12369064004,
+                12369064002,
+                12369036084,
+                12369036091,
+                12369064003,
+                12369064005,
+                12369036077,
+                12369036073
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "The Pet Hospitals Collierville"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1394003164,
+            "center": {
+                "lat": 35.8995807,
+                "lon": -84.1280282
+            },
+            "nodes": [
+                12903276396,
+                12903276397,
+                12903276398,
+                12903276399,
+                12903276396
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Heartstrings Pet Hospice",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1417756966,
+            "center": {
+                "lat": 35.6509874,
+                "lon": -88.8342718
+            },
+            "nodes": [
+                13028660301,
+                13028660302,
+                13028660303,
+                13028660304,
+                13028660301
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Parkway Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1432178570,
+            "center": {
+                "lat": 35.7777156,
+                "lon": -86.3596535
+            },
+            "nodes": [
+                13164329287,
+                13164329288,
+                13164329289,
+                13164329290,
+                13164329291,
+                13164329292,
+                13164329293,
+                13164329294,
+                13164329295,
+                13164329296,
+                13164329297,
+                13164329298,
+                13164329299,
+                13164329300,
+                13164365601,
+                13164365602,
+                13164329287
+            ],
+            "tags": {
+                "addr:city": "Murfreesboro",
+                "addr:housenumber": "3907",
+                "addr:postcode": "37127",
+                "addr:state": "TN",
+                "addr:street": "Richard Reeves Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:facebook": "http://www.familypethealth.com/",
+                "name": "Family Pet Health",
+                "opening_hours": "Mo-Fr 07:00-18:00",
+                "operator": "Amy B Shirley, DVM"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1474300810,
+            "center": {
+                "lat": 35.8741728,
+                "lon": -84.0949925
+            },
+            "nodes": [
+                13525377353,
+                13525377354,
+                13525377355,
+                13525377356,
+                13525377357,
+                13525377358,
+                13525377359,
+                13525377360,
+                13525377361,
+                13525377362,
+                13525377363,
+                13525377364,
+                13525377353
+            ],
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "9708",
+                "addr:postcode": "37922",
+                "addr:state": "TN",
+                "addr:street": "Westland Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "info.westland@embassyvets.com",
+                "name": "Embassy Veterinary Center",
+                "opening_hours": "Mo-Fr 07:00-18:00, Sa 07:00-13:00",
+                "website": "https://embassyvets.com/locations/westland-drive/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1502709174,
+            "center": {
+                "lat": 35.1994807,
+                "lon": -88.2442434
+            },
+            "nodes": [
+                13753880168,
+                13753880169,
+                13753880170,
+                13753880171,
+                13753880168
+            ],
+            "tags": {
+                "addr:city": "Savannah",
+                "addr:housenumber": "1945",
+                "addr:postcode": "38372",
+                "addr:state": "TN",
+                "addr:street": "Pickwick Street South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "facebook": "https://www.facebook.com/conawayforpets/",
+                "mapillary": "1263969988704946",
+                "name": "Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1510377077,
+            "center": {
+                "lat": 35.4562769,
+                "lon": -85.0114689
+            },
+            "nodes": [
+                13807018900,
+                13807045501,
+                13807045512,
+                13807045511,
+                13807045502,
+                13807045503,
+                13807045514,
+                13807045513,
+                13807018900
+            ],
+            "tags": {
+                "addr:city": "Dayton",
+                "addr:housenumber": "2040",
+                "addr:postcode": "37321",
+                "addr:state": "TN",
+                "addr:street": "Hiwassee Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rhea Pet Medical Center",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1530182249,
+            "center": {
+                "lat": 35.3569891,
+                "lon": -85.0820898
+            },
+            "nodes": [
+                13946138483,
+                13946138484,
+                13946138485,
+                13946138487,
+                13946138488,
+                13946138489,
+                13946138490,
+                13946138486,
+                13946138483
+            ],
+            "tags": {
+                "addr:city": "Sale Creek",
+                "addr:housenumber": "14801",
+                "addr:postcode": "37373",
+                "addr:state": "TN",
+                "addr:street": "May Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2026-06-16",
+                "email": "petdesk@salecreek.vet",
+                "fax": "+1-423-815-1087",
+                "internet_access": "wlan",
+                "internet_access:fee": "customers",
+                "name": "Sale Creek Veterinary Services",
+                "opening_hours": "Mo,We-Th 07:00-18:30; Tu 07:00-16:00; Fr 07:00-15:00; Sa-Su off",
+                "payment:cash": "yes",
+                "payment:cash:USD": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+1-423-280-1436",
+                "source": "microsoft/BuildingFootprints",
+                "website": "https://salecreek.vet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1544629965,
+            "center": {
+                "lat": 34.9983308,
+                "lon": -85.0965489
+            },
+            "nodes": [
+                14049650715,
+                14049650717,
+                14049650718,
+                14049650716,
+                14049650715
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Highland Vet Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1550184452,
+            "center": {
+                "lat": 36.0692643,
+                "lon": -83.9375051
+            },
+            "nodes": [
+                14099386314,
+                14099386315,
+                14099386316,
+                14099386317,
+                14099386314
+            ],
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "3524",
+                "addr:postcode": "37918",
+                "addr:state": "TN",
+                "addr:street": "Neal Drive",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "building:levels": "1",
+                "email": "gentledoctortn@gmail.com",
+                "name": "The Gentle Doctor of East Tennessee",
+                "opening_hours": "Tu-Fr 07:30-17:30, Sa 09:00-13:00",
+                "phone": "+1-865-377-3236",
+                "website": "http://www.gentledoctortn.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1551308374,
+            "center": {
+                "lat": 35.9576498,
+                "lon": -84.1319576
+            },
+            "nodes": [
+                14109940116,
+                14109940117,
+                14109940118,
+                14109940119,
+                14109940120,
+                14109940121,
+                14109940122,
+                14109940123,
+                14109940124,
+                14109940125,
+                14109940126,
+                14109940127,
+                14109940128,
+                14109940129,
+                14109940130,
+                14109940131,
+                14109940116
+            ],
+            "tags": {
+                "addr:city": "Knoxville",
+                "addr:housenumber": "10017",
+                "addr:postcode": "37932",
+                "addr:state": "TN",
+                "addr:street": "Hardin Valley Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hardin Valley Animal Hospital"
+            }
+        },
+        {
+            "type": "relation",
+            "id": 18323067,
+            "center": {
+                "lat": 35.0438768,
+                "lon": -89.6886961
+            },
+            "members": [
+                {
+                    "type": "way",
+                    "ref": 1337304153,
+                    "role": "outer"
+                }
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "The Pet Hospitals Collierville",
+                "type": "multipolygon"
+            }
+        },
+        {
+            "type": "relation",
+            "id": 18323068,
+            "center": {
+                "lat": 35.043841,
+                "lon": -89.6883737
+            },
+            "members": [
+                {
+                    "type": "way",
+                    "ref": 1337304148,
+                    "role": "outer"
+                }
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "The Pet Hospitals Collierville",
+                "type": "multipolygon"
+            }
+        }
+    ]
+}

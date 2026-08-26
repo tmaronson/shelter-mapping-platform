@@ -1,0 +1,4417 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:56:06Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 436809988,
+            "lat": 45.0645738,
+            "lon": -92.956523,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cat Care Clinic",
+                "operator": "Sue Swamson, DVM"
+            }
+        },
+        {
+            "type": "node",
+            "id": 460005308,
+            "lat": 44.830148,
+            "lon": -93.1628973,
+            "tags": {
+                "addr:city": "Eagan",
+                "addr:housenumber": "1278",
+                "addr:postcode": "55123",
+                "addr:state": "MN",
+                "addr:street": "Town Centre Drive",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "check_date": "2024-09-25",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-17:00",
+                "phone": "+1 651-688-3001",
+                "website": "https://www.banfield.com/locations/veterinarians/mn/eagan/eag/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 536308348,
+            "lat": 44.7806977,
+            "lon": -93.5099358,
+            "tags": {
+                "addr:city": "Shakopee",
+                "addr:housenumber": "1176",
+                "addr:postcode": "55379",
+                "addr:state": "MN",
+                "addr:street": "Vierling Drive East",
+                "amenity": "veterinary",
+                "name": "Marschall Road Animal Hospital",
+                "phone": "+1-952-445-7956",
+                "website": "https://www.marschallroadvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 568958880,
+            "lat": 44.7462277,
+            "lon": -93.3583502,
+            "tags": {
+                "addr:postcode": "55378",
+                "addr:street": "Egan Drive",
+                "amenity": "veterinary",
+                "name": "Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 660909454,
+            "lat": 44.9176056,
+            "lon": -93.1863349,
+            "tags": {
+                "addr:housenumber": "2032",
+                "addr:street": "Ford Parkway",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 796644784,
+            "lat": 45.1855834,
+            "lon": -93.2337517,
+            "tags": {
+                "addr:housenumber": "11850",
+                "addr:street": "Aberdeen St. NE",
+                "amenity": "veterinary",
+                "name": "Blaine Area Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 886685065,
+            "lat": 45.3380633,
+            "lon": -93.0063059,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Blue Sky Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1707840521,
+            "lat": 44.9249593,
+            "lon": -93.391645,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Hopkins Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1719957774,
+            "lat": 44.8269277,
+            "lon": -93.1651804,
+            "tags": {
+                "addr:city": "Eagan",
+                "addr:housenumber": "1380",
+                "addr:postcode": "55123",
+                "addr:state": "MN",
+                "addr:street": "Duckwood Drive",
+                "addr:unit": "109",
+                "amenity": "veterinary",
+                "name": "Vet Eye Pros"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1773276669,
+            "lat": 45.0807233,
+            "lon": -93.144538,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1985883426,
+            "lat": 44.743663,
+            "lon": -93.280233,
+            "tags": {
+                "addr:city": "Burnsville",
+                "addr:country": "US",
+                "addr:housenumber": "14321",
+                "addr:postcode": "55337",
+                "addr:state": "MN",
+                "addr:street": "Nicollet Court",
+                "amenity": "veterinary",
+                "name": "Crossroads Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2026689008,
+            "lat": 44.745714,
+            "lon": -93.3011824,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2035249167,
+            "lat": 44.9305887,
+            "lon": -93.3469531,
+            "tags": {
+                "addr:city": "Saint Louis Park",
+                "addr:country": "US",
+                "addr:housenumber": "5225, 5301",
+                "addr:postcode": "55416",
+                "addr:state": "MN",
+                "addr:street": "Excelsior Boulevard",
+                "amenity": "veterinary",
+                "name": "All Paws Animal Hospital",
+                "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-18:00; Sa 09:00-13:00; PH closed",
+                "phone": "+19528480913",
+                "website": "https://www.allpawsvets.com/?y_source=1_MTg0MjgxMjUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2084924756,
+            "lat": 44.529231,
+            "lon": -94.722507,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Fairfax Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2149826509,
+            "lat": 46.349001,
+            "lon": -94.2598933,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2250642945,
+            "lat": 45.0829271,
+            "lon": -95.0407945,
+            "tags": {
+                "addr:city": "Willmar",
+                "addr:housenumber": "4223",
+                "addr:postcode": "56201",
+                "addr:state": "MN",
+                "addr:street": "Abbott Drive",
+                "amenity": "veterinary",
+                "name": "South 71 Vet",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+                "website": "https://south71vet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2359061273,
+            "lat": 44.9252482,
+            "lon": -93.2906583,
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "4249",
+                "addr:postcode": "55419",
+                "addr:state": "MN",
+                "addr:street": "Bryant Avenue South",
+                "amenity": "veterinary",
+                "name": "Lake Harriet Veterinary",
+                "opening_hours": "Mo-We,Fr 07:30-18:00; PH off; Sa 08:00-12:00; Th 07:30-18:00",
+                "phone": "+1-812-822-1545",
+                "website": "https://lakeharrietvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2616826936,
+            "lat": 44.7472088,
+            "lon": -93.3319005,
+            "tags": {
+                "addr:city": "Savage",
+                "addr:housenumber": "4134",
+                "addr:postcode": "55378",
+                "addr:street": "County Road 42",
+                "amenity": "veterinary",
+                "emergency": "no",
+                "name": "The Gentle Doctor Veterinary Clinic",
+                "website": "https://gentledocvetclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2968308672,
+            "lat": 46.838676,
+            "lon": -92.0090526,
+            "tags": {
+                "addr:housenumber": "6001",
+                "addr:street": "East Superior Street",
+                "amenity": "veterinary",
+                "name": "North Shore Veterinary Hospital",
+                "phone": "+1-218-525-1937"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3012239854,
+            "lat": 45.1525239,
+            "lon": -93.3614223,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Champlin Park Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3163557838,
+            "lat": 44.9058121,
+            "lon": -93.2886299,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Blue Cross Animal Hospital",
+                "source": "local knowledge"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3269922301,
+            "lat": 44.7942327,
+            "lon": -93.2039653,
+            "tags": {
+                "addr:city": "Eagan",
+                "addr:housenumber": "1960",
+                "addr:postcode": "55122",
+                "addr:street": "Cliff Lake Road",
+                "amenity": "veterinary",
+                "name": "Cliff Lake Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3713959900,
+            "lat": 45.1150938,
+            "lon": -95.0708833,
+            "tags": {
+                "addr:city": "Willmar",
+                "addr:country": "US",
+                "addr:housenumber": "705",
+                "addr:postcode": "56201",
+                "addr:state": "MN",
+                "addr:street": "Industrial Drive Southwest",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Willmar Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4617470784,
+            "lat": 44.9625145,
+            "lon": -93.276947,
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "25",
+                "addr:postcode": "55404",
+                "addr:state": "MN",
+                "addr:street": "East Franklin Avenue",
+                "amenity": "veterinary",
+                "description": "Animal hospital",
+                "name": "Pet Doctors",
+                "opening_hours": "Mo-We 08:30-18:00; Th 08:30-20:00; Fr 08:30-18:00; Sa 10:00-14:00; Su closed",
+                "phone": "+1-612-607-0044",
+                "website": "https://petdoctorsanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4806273389,
+            "lat": 44.9396935,
+            "lon": -93.2878266,
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "3447",
+                "addr:postcode": "55408",
+                "addr:state": "MN",
+                "addr:street": "Lyndale Avenue South",
+                "amenity": "veterinary",
+                "name": "Kitty Klinic",
+                "opening_hours": "08:00-18:00",
+                "website": "https://www.kittyklinicmpls.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4938993346,
+            "lat": 43.6314115,
+            "lon": -96.214086,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Rock Vet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4993586040,
+            "lat": 44.9553295,
+            "lon": -93.2966517,
+            "tags": {
+                "addr:housenumber": "2603",
+                "addr:street": "Hennepin Avenue South",
+                "amenity": "veterinary",
+                "check_date": "2026-07-17",
+                "check_date:opening_hours": "2026-07-17",
+                "name": "MetroPet Animal Hospital",
+                "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-15:00",
+                "phone": "+1-612-374-4414",
+                "website": "https://metropetmn.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5270684071,
+            "lat": 44.3231586,
+            "lon": -93.9567617,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5553349708,
+            "lat": 44.0501821,
+            "lon": -92.5230337,
+            "tags": {
+                "addr:city": "Rochester",
+                "addr:housename": "Cascade Animal Medical Center and Inn",
+                "addr:housenumber": "4020",
+                "addr:postcode": "55901",
+                "addr:state": "MN",
+                "addr:street": "26th St. NW",
+                "amenity": "veterinary",
+                "name": "Cascade Animal medical Center and Inn"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5752836960,
+            "lat": 45.0954689,
+            "lon": -93.429158,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "WellHaven",
+                "brand:wikidata": "Q107784406",
+                "name": "WellHaven Pet Health"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6344354180,
+            "lat": 44.0626969,
+            "lon": -92.5055676,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6417826210,
+            "lat": 44.9339796,
+            "lon": -93.4250377,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6540836046,
+            "lat": 47.7730817,
+            "lon": -96.60945,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Crookston Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6573378989,
+            "lat": 48.6912801,
+            "lon": -96.1902309,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Greenbush Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6636466382,
+            "lat": 45.0318083,
+            "lon": -92.9841065,
+            "tags": {
+                "addr:city": "Oakdale",
+                "addr:housenumber": "5707",
+                "addr:postcode": "55128",
+                "addr:state": "MN",
+                "addr:street": "Hadley Avenue North",
+                "amenity": "veterinary",
+                "name": "Silver Lake Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "phone": "+1-651-748-1900",
+                "website": "http://silverlakeanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6684299879,
+            "lat": 44.7566764,
+            "lon": -93.2464666,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Palomino Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6698121913,
+            "lat": 45.0763209,
+            "lon": -94.1768702,
+            "tags": {
+                "addr:city": "Cokato",
+                "addr:housenumber": "14094",
+                "addr:postcode": "55321",
+                "addr:state": "MN",
+                "addr:street": "53rd Street Southwest",
+                "amenity": "veterinary",
+                "name": "Cokato Veterinary Services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6817863834,
+            "lat": 45.5950548,
+            "lon": -96.8333973,
+            "tags": {
+                "addr:city": "Browns Valley",
+                "addr:housenumber": "321",
+                "addr:postcode": "56219",
+                "addr:street": "Broadway",
+                "amenity": "veterinary",
+                "name": "Valley Veterinarian Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6887255266,
+            "lat": 48.8473519,
+            "lon": -95.7624683,
+            "tags": {
+                "addr:housenumber": "200",
+                "addr:street": "Main Avenue North",
+                "amenity": "veterinary",
+                "name": "Roseau County Veterinary Clinic",
+                "website": "https://roseaucountyvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7147743970,
+            "lat": 44.9916652,
+            "lon": -93.1480947,
+            "tags": {
+                "addr:city": "Roseville",
+                "addr:housenumber": "1136",
+                "addr:postcode": "55113",
+                "addr:state": "MN",
+                "addr:street": "Larpenteur Avenue West",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "check_date": "2024-12-04",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7183565969,
+            "lat": 45.5715933,
+            "lon": -93.2018263,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "VetCare Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7213662597,
+            "lat": 45.5806927,
+            "lon": -93.2185695,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "East Central Veterinarians"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7524084503,
+            "lat": 44.9689231,
+            "lon": -93.1980119,
+            "tags": {
+                "addr:floor": "G",
+                "addr:housenumber": "918",
+                "addr:street": "Raymond Avenue",
+                "addr:unit": "Suite 100",
+                "amenity": "veterinary",
+                "check_date": "2025-01-29",
+                "internet_access": "wlan",
+                "internet_access:fee": "customers",
+                "level": "0",
+                "name": "Minnepau Veterinary Clinic",
+                "opening_hours": "Mo,We 08:00-17:00; Tu,Th 08:00-18:00; Fr 08:00-12:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+1-612-314-3969",
+                "website": "https://www.minnepau.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7568292466,
+            "lat": 44.9157108,
+            "lon": -93.2624387,
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "4809",
+                "addr:postcode": "55417",
+                "addr:state": "MN",
+                "addr:street": "Chicago Avenue",
+                "amenity": "veterinary",
+                "check_date": "2026-08-15",
+                "name": "Minnehaha Animal Hospital",
+                "phone": "+1-612-825-4427",
+                "website": "https://minnehahaanimalhospital.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7617951433,
+            "lat": 47.9452477,
+            "lon": -97.0221151,
+            "tags": {
+                "addr:city": "East Grand Forks",
+                "addr:housenumber": "229",
+                "addr:postcode": "56721",
+                "addr:state": "MN",
+                "addr:street": "20th Street Northwest",
+                "amenity": "veterinary",
+                "name": "Peterson Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7933611501,
+            "lat": 44.6079415,
+            "lon": -94.0819623,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Arlington Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8250085691,
+            "lat": 47.7463804,
+            "lon": -93.653742,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Bigfork Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8541854051,
+            "lat": 44.9722969,
+            "lon": -93.5014397,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Golden Veterinary Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8928738839,
+            "lat": 44.799272,
+            "lon": -93.5197834,
+            "tags": {
+                "addr:city": "Shakopee",
+                "addr:housenumber": "536",
+                "addr:postcode": "55379",
+                "addr:state": "MN",
+                "addr:street": "1st Avenue East",
+                "amenity": "veterinary",
+                "name": "Main Street Veterinary Service",
+                "phone": "+1-952-445-5222",
+                "website": "https://msvets.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9093868218,
+            "lat": 46.7640388,
+            "lon": -92.126574,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "BluePearl Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9161403654,
+            "lat": 44.9666318,
+            "lon": -92.9851775,
+            "tags": {
+                "addr:housenumber": "839",
+                "addr:street": "Century Avenue North",
+                "amenity": "veterinary",
+                "name": "Century Animal Clinic",
+                "website": "https://www.centuryanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9175674007,
+            "lat": 44.9615196,
+            "lon": -93.3081779,
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "2107",
+                "addr:postcode": "55405",
+                "addr:state": "MN",
+                "addr:street": "Penn Avenue South",
+                "amenity": "veterinary",
+                "name": "Kenwood Pet Clinic",
+                "phone": "+16123775551",
+                "website": "https://www.kenwoodpetclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9190490289,
+            "lat": 44.9632037,
+            "lon": -93.1672911,
+            "tags": {
+                "addr:housenumber": "731",
+                "addr:street": "Snelling Avenue",
+                "amenity": "veterinary",
+                "check_date:opening_hours": "2025-09-22",
+                "name": "Midway Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-13:00",
+                "phone": "+1 651 644 2100",
+                "website": "https://midwayanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9211110994,
+            "lat": 46.7307976,
+            "lon": -95.710744,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Acorn Lake Veterinary Service"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9253746090,
+            "lat": 47.6022647,
+            "lon": -94.7578524,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Turtle River Equine Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9338833150,
+            "lat": 45.0562044,
+            "lon": -93.3841845,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Bass Lake Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9501992041,
+            "lat": 44.7308979,
+            "lon": -93.2151307,
+            "tags": {
+                "addr:city": "Apple Valley",
+                "addr:housenumber": "15050",
+                "addr:postcode": "55124",
+                "addr:state": "MN",
+                "addr:street": "Cedar Avenue",
+                "addr:unit": "118",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "phone": "+1-952-997-4346"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9610113022,
+            "lat": 44.022514,
+            "lon": -92.499855,
+            "tags": {
+                "addr:city": "Rochester",
+                "addr:housenumber": "121",
+                "addr:postcode": "55902",
+                "addr:state": "MN",
+                "addr:street": "23rd Avenue SW",
+                "alt_name": "BluePearl Specialty & Emergency Pet Hospital",
+                "amenity": "veterinary",
+                "brand": "BluePearl",
+                "brand:wikidata": "Q4928764",
+                "email": "clientcare.mn.rc@bluepearlvet.com",
+                "emergency": "yes",
+                "fax": "+1 507 424 3980",
+                "name": "BluePearl",
+                "opening_hours": "Tu-We 18:00-08:00; Fr 17:00-08:00; Sa-Su 08:00-20:00",
+                "phone": "+1 507 424 3976"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10601691699,
+            "lat": 44.6950598,
+            "lon": -93.2153526,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Lakeville Family Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10968004705,
+            "lat": 44.431533,
+            "lon": -93.1955463,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Countryside Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11089833557,
+            "lat": 45.0048831,
+            "lon": -93.2302409,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-17:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11098487980,
+            "lat": 44.9174303,
+            "lon": -93.5012412,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11238333197,
+            "lat": 44.7354734,
+            "lon": -93.2191808,
+            "tags": {
+                "addr:city": "Apple Valley",
+                "addr:housenumber": "7611",
+                "addr:postcode": "55124",
+                "addr:state": "MN",
+                "addr:street": "147th stree",
+                "amenity": "veterinary",
+                "name": "Cedar View Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11349272149,
+            "lat": 45.0098578,
+            "lon": -93.3157008,
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "2727",
+                "addr:postcode": "55411",
+                "addr:state": "MN",
+                "addr:street": "West Broadway Avenue",
+                "amenity": "veterinary",
+                "name": "Broadway Robbinsdale Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11926406676,
+            "lat": 45.2817139,
+            "lon": -93.5682138,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Amvet Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11985813281,
+            "lat": 45.054248,
+            "lon": -93.15556,
+            "tags": {
+                "addr:city": "Arden Hills",
+                "addr:housenumber": "1285",
+                "addr:postcode": "55112",
+                "addr:state": "MN",
+                "addr:street": "Grey Fox Road",
+                "amenity": "veterinary",
+                "brand": "BluePearl",
+                "brand:wikidata": "Q4928764",
+                "name": "BluePearl"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12200020660,
+            "lat": 44.8393228,
+            "lon": -93.3094946,
+            "tags": {
+                "addr:city": "Bloomington",
+                "addr:housenumber": "9056",
+                "addr:postcode": "55431",
+                "addr:state": "MN",
+                "addr:street": "Penn Avenue South",
+                "amenity": "veterinary",
+                "name": "Nova Veterinary Clinic",
+                "website": "https://www.novavetclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12216966073,
+            "lat": 44.0520642,
+            "lon": -91.6360789,
+            "tags": {
+                "addr:housenumber": "57",
+                "addr:street": "East 3rd Street",
+                "amenity": "veterinary",
+                "check_date": "2024-10-02",
+                "name": "Pet Medical Center",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 09:00-14:30; Su off",
+                "phone": "+1 507-454-2600",
+                "website": "https://pmcwinona.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12272163245,
+            "lat": 44.9115144,
+            "lon": -93.3528654,
+            "tags": {
+                "addr:city": "Edina",
+                "addr:housenumber": "5103",
+                "addr:postcode": "55436",
+                "addr:state": "MN",
+                "addr:street": "Gus Young Lane",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-17:00",
+                "website": "https://www.banfield.com/locations/veterinarians/mn/edina/edi/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12475233201,
+            "lat": 44.9920929,
+            "lon": -93.1271067,
+            "tags": {
+                "addr:housenumber": "621",
+                "addr:postcode": "55113",
+                "addr:street": "Larpenteur Avenue West",
+                "amenity": "veterinary",
+                "name": "Como Park Animal Hospital",
+                "website": "https://www.comoparkanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12615886742,
+            "lat": 44.8215176,
+            "lon": -93.3991499,
+            "tags": {
+                "addr:city": "Eden Prairie",
+                "addr:housenumber": "10140",
+                "addr:postcode": "55347",
+                "addr:state": "MN",
+                "addr:street": "Hennepin Town Road",
+                "addr:unit": "100",
+                "amenity": "veterinary",
+                "name": "Bush Lake Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "phone": "+1-952-944-5320",
+                "website": "https://bushlakepethospital.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12761529073,
+            "lat": 44.7491001,
+            "lon": -93.3823527,
+            "tags": {
+                "addr:city": "Savage",
+                "addr:housenumber": "14020",
+                "addr:postcode": "55378",
+                "addr:state": "MN",
+                "addr:street": "Highway 13 South",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "website": "https://www.banfield.com/locations/veterinarians/mn/savage/sav/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12793964546,
+            "lat": 44.9757135,
+            "lon": -93.2532522,
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "1030",
+                "addr:postcode": "55415",
+                "addr:state": "MN",
+                "addr:street": "Washington Avenue South",
+                "amenity": "veterinary",
+                "email": "Mpls@MyVetPartners.com",
+                "name": "Vet Partners Pet Hospital",
+                "phone": "+1-612-746-0300",
+                "website": "https://myvetpartners.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12810902035,
+            "lat": 44.8746628,
+            "lon": -93.3267873,
+            "tags": {
+                "addr:city": "Edina",
+                "addr:housenumber": "7101",
+                "addr:postcode": "55435",
+                "addr:state": "MN",
+                "addr:street": "France Avenue South",
+                "addr:unit": "Suite 117",
+                "amenity": "veterinary",
+                "name": "Vet Partners Edina",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "website": "https://myvetpartners.com/edina-2/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12815146777,
+            "lat": 47.8697407,
+            "lon": -96.267833,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12839501566,
+            "lat": 44.9140597,
+            "lon": -92.93455,
+            "tags": {
+                "addr:city": "Woodbury",
+                "addr:housenumber": "8480",
+                "addr:street": "Woodbury Crossing",
+                "addr:unit": "Suite 130",
+                "amenity": "veterinary",
+                "contact:email": "twincities@vdsvets.com",
+                "contact:facebook": "https://www.facebook.com/VeterinaryDentistrySpecialists/",
+                "language:en": "yes",
+                "name": "Veterinary Dentistry Specialists",
+                "opening_hours": "Tu-Fr 07:30-17:30",
+                "phone": "+1-612-315-0520",
+                "website": "https://vdsvets.com/",
+                "year_of_construction": "2025"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12947152962,
+            "lat": 45.050903,
+            "lon": -93.2174175,
+            "tags": {
+                "addr:city": "New Brighton",
+                "addr:housenumber": "151",
+                "addr:street": "Silver Lake Road Northwest",
+                "addr:unit": "109",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/ArkPet/",
+                "fax": "+1-651-633-0966",
+                "name": "Ark Pet Hospital",
+                "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-13:00",
+                "phone": "+1-651-633-0567",
+                "website": "https://newbrightonpethospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12977934362,
+            "lat": 46.8249071,
+            "lon": -95.8278643,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Detroit Lakes Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13139770975,
+            "lat": 45.0359821,
+            "lon": -93.2246014,
+            "tags": {
+                "addr:city": "Saint Anthony",
+                "addr:housenumber": "2503",
+                "addr:postcode": "55421",
+                "addr:state": "MN",
+                "addr:street": "37th Avenue Northeast",
+                "amenity": "veterinary",
+                "name": "Apache Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13139770976,
+            "lat": 45.035888,
+            "lon": -93.225095,
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "2501",
+                "addr:postcode": "55421",
+                "addr:state": "MN",
+                "addr:street": "37th Avenue Northeast",
+                "amenity": "veterinary",
+                "name": "Tails Of Persia Pet Spa"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13265327123,
+            "lat": 44.9627908,
+            "lon": -92.9637188,
+            "tags": {
+                "addr:housenumber": "7013",
+                "addr:street": "10th Street North",
+                "amenity": "veterinary",
+                "check_date": "2025-10-28",
+                "internet_access": "wlan",
+                "internet_access:fee": "customers",
+                "name": "Homey Gnome Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "phone": "+1 651-202-3388",
+                "website": "https://homeygnomevet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13265327134,
+            "lat": 44.9206519,
+            "lon": -92.9061279,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13265342874,
+            "lat": 44.9163976,
+            "lon": -92.9020923,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13431276378,
+            "lat": 44.9893987,
+            "lon": -93.2565806,
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "307",
+                "addr:postcode": "55413",
+                "addr:state": "MN",
+                "addr:street": "1st Avenue Northeast",
+                "amenity": "veterinary",
+                "name": "Livewell Animal Hospital",
+                "website": "https://www.livewellanimal.com/our-locations/minneapolis-mn/st-anthony/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13714742437,
+            "lat": 44.9029928,
+            "lon": -93.4675668,
+            "tags": {
+                "addr:city": "Minnetonka",
+                "addr:housenumber": "14805",
+                "addr:postcode": "55345",
+                "addr:state": "MN",
+                "addr:street": "Excelsior Boulevard",
+                "amenity": "veterinary",
+                "name": "Glen Lake Animal Hospital",
+                "phone": "+19529351232",
+                "website": "https://glenlakeanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13717650937,
+            "lat": 44.8081952,
+            "lon": -93.3515944,
+            "tags": {
+                "addr:city": "Bloomington",
+                "addr:housenumber": "5400",
+                "addr:postcode": "55437",
+                "addr:state": "MN",
+                "addr:street": "West Old Shakopee Road",
+                "amenity": "veterinary",
+                "name": "South Hyland Pet Hospital",
+                "opening_hours": "Su off; Mo-Fr 07:30-18:00; Sa 08:00-12:00",
+                "phone": "+1-952-884-1868",
+                "website": "https://www.southhyland.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13765036033,
+            "lat": 44.862999,
+            "lon": -93.2935004,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-17:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13783820540,
+            "lat": 44.8121594,
+            "lon": -93.3322128,
+            "tags": {
+                "addr:city": "Bloomington",
+                "addr:housenumber": "10538",
+                "addr:postcode": "55431",
+                "addr:state": "MN",
+                "addr:street": "France Avenue South",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-17:00; Su off",
+                "phone": "+1-952-888-1586",
+                "website": "https://banfield.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13809526457,
+            "lat": 44.810457,
+            "lon": -93.3274513,
+            "tags": {
+                "addr:city": "Bloomington",
+                "addr:housenumber": "3701",
+                "addr:postcode": "55431",
+                "addr:state": "MN",
+                "addr:street": "West Old Shakopee Road",
+                "addr:unit": "280",
+                "amenity": "veterinary",
+                "level": "0",
+                "name": "France Avenue Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa-Su off",
+                "phone": "+1-952-746-9296",
+                "website": "https://franceavepethospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13954353612,
+            "lat": 46.7341208,
+            "lon": -92.1757054,
+            "tags": {
+                "addr:city": "Duluth",
+                "addr:housenumber": "6128",
+                "addr:postcode": "55807",
+                "addr:state": "MN",
+                "addr:street": "Grand Avenue",
+                "amenity": "veterinary",
+                "name": "Twin Ports Spay & Neuter",
+                "opening_hours": "Mo-Th 08:00-15:00",
+                "website": "https://www.northlandspayneuter.org"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13978782352,
+            "lat": 45.0858156,
+            "lon": -93.2213143,
+            "tags": {
+                "addr:housenumber": "2615",
+                "addr:street": "Mississippi Street",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/brightonvethosp",
+                "email": "vettech@brightonvethospital.com",
+                "name": "Brighton Veterinary Hospital",
+                "opening_hours": "Mo,Th 08:00-20:00; Tu 07:00-20:00; We,Fr 08:00-18:00; Sa 08:00-12:00",
+                "phone": "+1-651-636-1063",
+                "website": "https://www.brightonvethospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14054878718,
+            "lat": 45.5492015,
+            "lon": -94.2172698,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14075581436,
+            "lat": 44.807045,
+            "lon": -93.3833794,
+            "tags": {
+                "addr:housenumber": "10861",
+                "amenity": "veterinary",
+                "name": "Petcrossinh"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14084652215,
+            "lat": 44.8630159,
+            "lon": -93.4859234,
+            "tags": {
+                "addr:city": "Eden Prairie",
+                "addr:housenumber": "16490",
+                "addr:postcode": "55346",
+                "addr:state": "MN",
+                "addr:street": "West 78th Street",
+                "addr:unit": "Suite A",
+                "amenity": "veterinary",
+                "name": "VEG ER for pets",
+                "operator": "VEG",
+                "phone": "+1-952-444-1034",
+                "website": "https://www.veg.com/locations/minnesota/eden-prairie"
+            }
+        },
+        {
+            "type": "way",
+            "id": 42742048,
+            "center": {
+                "lat": 44.740772,
+                "lon": -93.379934
+            },
+            "nodes": [
+                534460583,
+                534460371,
+                534460372,
+                534460373,
+                534460583
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Scott Lake Veterinary Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 47233361,
+            "center": {
+                "lat": 44.856418,
+                "lon": -93.4346261
+            },
+            "nodes": [
+                601723210,
+                601723211,
+                601723212,
+                4987325087,
+                4987325086,
+                601723214,
+                601723210
+            ],
+            "tags": {
+                "addr:city": "Eden Prairie",
+                "addr:housenumber": "12365",
+                "addr:postcode": "55344",
+                "addr:state": "MN",
+                "addr:street": "Singletree Lane",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Flying Cloud Animal Hospital",
+                "website": "https://www.flyingcloudanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 55199920,
+            "center": {
+                "lat": 44.9138186,
+                "lon": -93.5044366
+            },
+            "nodes": [
+                693892824,
+                693892690,
+                693892863,
+                693892637,
+                693892824
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Village Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 65066414,
+            "center": {
+                "lat": 45.1855872,
+                "lon": -93.2337704
+            },
+            "nodes": [
+                796645022,
+                796645018,
+                796645023,
+                796645021,
+                796645017,
+                796645024,
+                796645019,
+                796645022
+            ],
+            "tags": {
+                "addr:housename": "Aberdeen St. NE",
+                "addr:housenumber": "11850",
+                "addr:street": "Blaine Pet Area Hospital",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 79236575,
+            "center": {
+                "lat": 44.9397352,
+                "lon": -93.148283
+            },
+            "nodes": [
+                6003885882,
+                6003885881,
+                3400321173,
+                3400321172,
+                925579543,
+                925578832,
+                6003885880,
+                6003885879,
+                925579313,
+                925578469,
+                6003885882
+            ],
+            "tags": {
+                "addr:city": "Saint Paul",
+                "addr:housenumber": "1140",
+                "addr:postcode": "55105",
+                "addr:state": "MN",
+                "addr:street": "Grand Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Grand Avenue Veterinary Center",
+                "phone": "+1 651 2243038",
+                "website": "https://www.grandavevet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 88464299,
+            "center": {
+                "lat": 44.9455433,
+                "lon": -93.298049
+            },
+            "nodes": [
+                1027557824,
+                1027557728,
+                1027557717,
+                1027557584,
+                1027557792,
+                1027557698,
+                1027557824
+            ],
+            "tags": {
+                "addr:housenumber": "3131",
+                "addr:postcode": "55408",
+                "addr:street": "Hennepin Avenue South",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Uptown Veterinarian",
+                "opening_hours": "Mo-Fr 07:45-18:00; Sa 09:00-13:00; PH closed",
+                "phone": "+1-612-825-6859"
+            }
+        },
+        {
+            "type": "way",
+            "id": 100226142,
+            "center": {
+                "lat": 44.9218964,
+                "lon": -93.1349683
+            },
+            "nodes": [
+                1158426973,
+                1158427486,
+                1158427267,
+                1158427203,
+                1158426973
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Fort Road Animal Clinic",
+                "source": "image"
+            }
+        },
+        {
+            "type": "way",
+            "id": 118880403,
+            "center": {
+                "lat": 44.9560055,
+                "lon": -93.2883466
+            },
+            "nodes": [
+                1336181521,
+                1336181525,
+                1336181524,
+                1336181520,
+                12791932450,
+                1336181521
+            ],
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "2544",
+                "addr:postcode": "55405",
+                "addr:state": "MN",
+                "addr:street": "Lyndale Avenue South",
+                "amenity": "veterinary",
+                "building": "retail",
+                "check_date": "2026-06-27",
+                "check_date:opening_hours": "2026-06-27",
+                "lgbtq": "welcome",
+                "name": "Lyndale Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "website": "https://lyndaleanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 138912542,
+            "center": {
+                "lat": 43.8546443,
+                "lon": -92.4887667
+            },
+            "nodes": [
+                1522904291,
+                1522904315,
+                1522904143,
+                1522904292,
+                1522904291
+            ],
+            "tags": {
+                "addr:city": "Stewartville",
+                "addr:housenumber": "205",
+                "addr:postcode": "55976",
+                "addr:state": "MN",
+                "addr:street": "South Main Street",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Stewartville Animal Clinic",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 141901861,
+            "center": {
+                "lat": 44.9509096,
+                "lon": -93.0911263
+            },
+            "nodes": [
+                1553205421,
+                1553205452,
+                1553205515,
+                1553205495,
+                1553205488,
+                1553205421
+            ],
+            "tags": {
+                "addr:housenumber": "178",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pomeroy's Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 142670136,
+            "center": {
+                "lat": 44.0580537,
+                "lon": -92.4446334
+            },
+            "nodes": [
+                1561239139,
+                1561239094,
+                1561239152,
+                1561239137,
+                1561239135,
+                1561239206,
+                1561239139
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Northern Valley Animal Clinic",
+                "source": "MOA"
+            }
+        },
+        {
+            "type": "way",
+            "id": 144868450,
+            "center": {
+                "lat": 43.9912727,
+                "lon": -92.2298631
+            },
+            "nodes": [
+                1583579808,
+                1583579649,
+                1583579788,
+                1583579760,
+                1583579808
+            ],
+            "tags": {
+                "addr:city": "Eyota",
+                "addr:housenumber": "95",
+                "addr:postcode": "55934",
+                "addr:state": "MN",
+                "addr:street": "Center Avenue North",
+                "alt_name": "Eyota Vet Clinic",
+                "amenity": "veterinary",
+                "building": "office",
+                "fax": "+1-507-545-2621",
+                "name": "Eyota Veterinary Clinic",
+                "opening_hours": "Mo-Fr 07:30-18:00,Sa 08:00-12:00",
+                "phone": "+1-507-545-2828",
+                "source": "bing",
+                "website": "https://www.eyotavet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 152761478,
+            "center": {
+                "lat": 44.0348702,
+                "lon": -92.563462
+            },
+            "nodes": [
+                1655445278,
+                1655445244,
+                1655445303,
+                1655445214,
+                1655445272,
+                1655445291,
+                1655445278
+            ],
+            "tags": {
+                "addr:housenumber": "6214",
+                "addr:postcode": "55920",
+                "addr:street": "14th Street Northwest",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Meadow View Veterinary Clinic",
+                "source": "MOA"
+            }
+        },
+        {
+            "type": "way",
+            "id": 161504047,
+            "center": {
+                "lat": 44.0461727,
+                "lon": -92.4902138
+            },
+            "nodes": [
+                1734816327,
+                1734816337,
+                1734816320,
+                1734816372,
+                1734816363,
+                1734816370,
+                1734816253,
+                1734816277,
+                1734816327
+            ],
+            "tags": {
+                "addr:housenumber": "2117",
+                "addr:postcode": "55901",
+                "addr:street": "West Frontage Road Northwest",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Heritage Pet Hospital",
+                "source": "MOA"
+            }
+        },
+        {
+            "type": "way",
+            "id": 162914506,
+            "center": {
+                "lat": 44.0501965,
+                "lon": -92.5230009
+            },
+            "nodes": [
+                1747070906,
+                1747070901,
+                1747070908,
+                1747070975,
+                1747070973,
+                1751845359,
+                1747070877,
+                1751845361,
+                1747070906
+            ],
+            "tags": {
+                "addr:housenumber": "4020",
+                "addr:postcode": "55901",
+                "addr:street": "26th Street Northwest",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Cascade Animal Medical Center",
+                "website": "http://www.cascadevets.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 164978644,
+            "center": {
+                "lat": 43.9939626,
+                "lon": -92.4624017
+            },
+            "nodes": [
+                1765704629,
+                1765704503,
+                1765704504,
+                1765704551,
+                1765704559,
+                1765704629
+            ],
+            "tags": {
+                "addr:city": "Rochester",
+                "addr:housenumber": "1910",
+                "addr:postcode": "55904",
+                "addr:street": "South Broadway Avenue",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Broadway Veterinary Hospital",
+                "source": "bing",
+                "website": "http://www.broadwayvets.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 165482266,
+            "center": {
+                "lat": 44.0068129,
+                "lon": -92.4509001
+            },
+            "nodes": [
+                1770214404,
+                1770214405,
+                1770214406,
+                1770214409,
+                1770214404
+            ],
+            "tags": {
+                "addr:housenumber": "1206",
+                "addr:postcode": "55904",
+                "addr:street": "9th Avenue Southeast",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Animal Health Care",
+                "source": "bing",
+                "website": "http://www.animalhealthcare.vetsuite.com/Templates/DVM.aspx"
+            }
+        },
+        {
+            "type": "way",
+            "id": 200661015,
+            "center": {
+                "lat": 45.9929308,
+                "lon": -95.9604841
+            },
+            "nodes": [
+                2106257286,
+                2106257285,
+                2106257242,
+                2106257241,
+                2106257218,
+                2106257219,
+                2106257174,
+                2106257175,
+                2106257256,
+                2105012203,
+                2106257286
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lake Region Veterinary Center",
+                "source": "Bing",
+                "website": "https://www.lrvc.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 201327225,
+            "center": {
+                "lat": 44.9267483,
+                "lon": -93.2301087
+            },
+            "nodes": [
+                2112836858,
+                2112836855,
+                2112836861,
+                2112836865,
+                2112836858
+            ],
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "2917",
+                "addr:postcode": "55406",
+                "addr:street": "East 42nd Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Nokomis Pet Clinic",
+                "start_date": "1924"
+            }
+        },
+        {
+            "type": "way",
+            "id": 210449297,
+            "center": {
+                "lat": 44.6968209,
+                "lon": -93.2854613
+            },
+            "nodes": [
+                2205188578,
+                2205188646,
+                2205188615,
+                2205188553,
+                2205188694,
+                2205188640,
+                2205188573,
+                2205188551,
+                2205188578
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Southfork Animal Hopsital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 222206258,
+            "center": {
+                "lat": 45.3316066,
+                "lon": -93.7312323
+            },
+            "nodes": [
+                2311929211,
+                2311929209,
+                2311929238,
+                2311929242,
+                2311929255,
+                2311929256,
+                2311929244,
+                2311929246,
+                2311929211
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Big Lake Area Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 239826690,
+            "center": {
+                "lat": 43.631418,
+                "lon": -96.2140856
+            },
+            "nodes": [
+                2476015116,
+                2476014960,
+                2476015009,
+                2476015020,
+                2476015197,
+                2476014997,
+                2476015116
+            ],
+            "tags": {
+                "addr:housenumber": "1295",
+                "addr:postcode": "56156",
+                "addr:street": "101st Street",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Rock Veterinary Clinic PA",
+                "source": "bing",
+                "website": "https://www.rockvetclinic.org/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 259472783,
+            "center": {
+                "lat": 43.6673849,
+                "lon": -93.0177798
+            },
+            "nodes": [
+                2648867996,
+                2648868010,
+                2648868066,
+                2648867979,
+                2648868144,
+                2648868159,
+                2648868156,
+                2648867959,
+                2648867996
+            ],
+            "tags": {
+                "addr:housenumber": "3100",
+                "addr:postcode": "55912",
+                "addr:street": "Oakland Avenue West",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Austin Veterinary Clinic",
+                "phone": "+1-507-433-5225",
+                "source": "Bing",
+                "website": "https://www.austinvetclinic.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 264709280,
+            "center": {
+                "lat": 44.9477246,
+                "lon": -92.7715977
+            },
+            "nodes": [
+                2703641074,
+                2703641076,
+                9356818471,
+                9356818472,
+                2703641078,
+                2703641079,
+                9356818470,
+                9356818469,
+                2703641074
+            ],
+            "tags": {
+                "addr:city": "Lakeland",
+                "addr:housenumber": "92",
+                "addr:postcode": "55043",
+                "addr:street": "Saint Croix Trail South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lakeland Veterinary Hospital",
+                "phone": "+1 651 436 6146",
+                "website": "https://www.lakelandvethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 287791460,
+            "center": {
+                "lat": 44.0364103,
+                "lon": -92.4801484
+            },
+            "nodes": [
+                2913492068,
+                2913492028,
+                2913492027,
+                2913492067,
+                2913492068
+            ],
+            "tags": {
+                "addr:city": "Rochester",
+                "addr:housenumber": "1111",
+                "addr:postcode": "55901",
+                "addr:state": "MN",
+                "addr:street": "14th Street NW",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Med City Animal Hospital",
+                "old_name": "Assisi Drive Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa-Su closed",
+                "phone": "+1 507 258 9011",
+                "website": "https://www.medcityanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 294905841,
+            "center": {
+                "lat": 47.7491246,
+                "lon": -90.353764
+            },
+            "nodes": [
+                874381786,
+                2985507622,
+                2985507623,
+                2985507624,
+                2985507625,
+                2985507626,
+                874381786
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lake County Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 299429456,
+            "center": {
+                "lat": 44.0291742,
+                "lon": -92.839516
+            },
+            "nodes": [
+                3034198703,
+                3034200296,
+                3034200298,
+                3034200326,
+                3034200330,
+                3034200497,
+                3034200269,
+                3034200272,
+                3034198703
+            ],
+            "tags": {
+                "addr:city": "Dodge Center",
+                "addr:housenumber": "17",
+                "addr:postcode": "55927",
+                "addr:state": "MN",
+                "addr:street": "North Airport Drive",
+                "alt_name": "Dodge Vet Clinic",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Dodge Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+                "phone": "+1-507-374-2125",
+                "source": "Bing",
+                "website": "https://www.dodgevetclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 310502453,
+            "center": {
+                "lat": 45.0171335,
+                "lon": -93.2477948
+            },
+            "nodes": [
+                8689340423,
+                3159227297,
+                3159227298,
+                3159227299,
+                3159227300,
+                8689340422,
+                8689340423
+            ],
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "2700",
+                "addr:postcode": "55418",
+                "addr:street": "Northeast Central Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Pet Central Animal Hospital",
+                "phone": "+1 612 781 6941",
+                "start_date": "2005",
+                "website": "https://www.petcentralanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 311065622,
+            "center": {
+                "lat": 45.9659216,
+                "lon": -94.8660495
+            },
+            "nodes": [
+                3166128587,
+                3166128396,
+                3166128388,
+                3166128377,
+                3166128587
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Long Prairie Veterinary Clinic",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 320470602,
+            "center": {
+                "lat": 44.7943272,
+                "lon": -93.2074212
+            },
+            "nodes": [
+                3269922304,
+                3269922299,
+                3269922274,
+                3269922055,
+                3269922280,
+                3269922277,
+                3269922291,
+                3269922309,
+                3269922054,
+                3269922056,
+                3269922296,
+                3269922297,
+                3269922304
+            ],
+            "tags": {
+                "addr:city": "Eagan",
+                "addr:housenumber": "4395",
+                "addr:postcode": "55122",
+                "addr:street": "Rahn Road",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Eagan Pet Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 358201243,
+            "center": {
+                "lat": 44.7402913,
+                "lon": -93.1255979
+            },
+            "nodes": [
+                3631626648,
+                3631626649,
+                3631626638,
+                3631626637,
+                3631626617,
+                3631626616,
+                3631626635,
+                3631626634,
+                3631626646,
+                3631626647,
+                3631626662,
+                3631626663,
+                3631626648
+            ],
+            "tags": {
+                "addr:city": "Rosemount",
+                "addr:country": "US",
+                "addr:housenumber": "14390",
+                "addr:postcode": "55068",
+                "addr:state": "MN",
+                "addr:street": "Robert Trail South",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "building:levels": "1",
+                "name": "Shamrock Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 386192270,
+            "center": {
+                "lat": 47.502695,
+                "lon": -94.9100766
+            },
+            "nodes": [
+                3895202152,
+                3895202153,
+                3895202154,
+                3895202155,
+                3895202152
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Friendly Vet Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 418975386,
+            "center": {
+                "lat": 44.8973411,
+                "lon": -93.7480389
+            },
+            "nodes": [
+                4191767703,
+                10740555413,
+                10740555414,
+                4191767704,
+                4191767705,
+                4191767706,
+                4191767707,
+                4191767708,
+                4191767709,
+                4191767710,
+                4191767703
+            ],
+            "tags": {
+                "addr:city": "Saint Bonifacius",
+                "addr:housenumber": "8801",
+                "addr:postcode": "55375",
+                "addr:state": "MN",
+                "addr:street": "Partridge Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "St Boni Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 440544521,
+            "center": {
+                "lat": 47.5116235,
+                "lon": -92.5330628
+            },
+            "nodes": [
+                4382874461,
+                4382874443,
+                4382874452,
+                4382874435,
+                4382874463,
+                4382874444,
+                4382874461
+            ],
+            "tags": {
+                "addr:city": "Virginia",
+                "addr:housenumber": "1315",
+                "addr:postcode": "55792",
+                "addr:state": "MN",
+                "addr:street": "South 2nd Avenue West",
+                "addr:unit": "No. 1",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Critter Care Pet Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa \"by appointment\"",
+                "opening_hours:emergency": "24/7",
+                "phone": "+1-218-741-2128",
+                "source": "Bing",
+                "website": "https://www.crittercarepetclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 446198627,
+            "center": {
+                "lat": 44.479828,
+                "lon": -93.4288526
+            },
+            "nodes": [
+                4435261343,
+                4435261344,
+                4435261345,
+                4435261346,
+                4435261343
+            ],
+            "tags": {
+                "addr:city": "Lonsdale",
+                "addr:housenumber": "135",
+                "addr:postcode": "55046",
+                "addr:state": "MN",
+                "addr:street": "South Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Windmill Animal Rescue Shop",
+                "phone": "+1-507-210-0118"
+            }
+        },
+        {
+            "type": "way",
+            "id": 450649553,
+            "center": {
+                "lat": 44.0337425,
+                "lon": -91.6068296
+            },
+            "nodes": [
+                4475680584,
+                4475680575,
+                4475680535,
+                13448054617,
+                13448054618,
+                4475680533,
+                13448054614,
+                13448054615,
+                13448054616,
+                13448054613,
+                4475680573,
+                4475680920,
+                13448054610,
+                13448054609,
+                4475680522,
+                13448054611,
+                13448054612,
+                4475680505,
+                4475680582,
+                4475680569,
+                4475680585,
+                4475680542,
+                4475680584
+            ],
+            "tags": {
+                "addr:city": "Winona",
+                "addr:housenumber": "640",
+                "addr:postcode": "55987",
+                "addr:state": "MN",
+                "addr:street": "Innovation Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Companion Animal Care Center",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 08:00-12:00",
+                "website": "https://caccwinona.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 458786658,
+            "center": {
+                "lat": 44.2766544,
+                "lon": -94.1818323
+            },
+            "nodes": [
+                4547362289,
+                4547353353,
+                4547353360,
+                4547353329,
+                4547353337,
+                4547353325,
+                4547362289
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Nicollet Veterinary Clinic",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 490616082,
+            "center": {
+                "lat": 44.5079588,
+                "lon": -96.4252411
+            },
+            "nodes": [
+                4828025192,
+                4828025193,
+                4828025194,
+                4787612152,
+                4828025192
+            ],
+            "tags": {
+                "addr:city": "Hendricks",
+                "addr:housenumber": "115",
+                "addr:postcode": "56136",
+                "addr:state": "MN",
+                "addr:street": "North Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hendricks Veterinary Clinic",
+                "website": "https://www.facebook.com/Hendricks-Veterinary-Clinic-158291449640/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 504272437,
+            "center": {
+                "lat": 44.6827785,
+                "lon": -93.1759796
+            },
+            "nodes": [
+                4944458836,
+                4944458835,
+                4944458834,
+                4944458833,
+                4944458832,
+                4944458831,
+                4944458830,
+                4944458829,
+                4944458828,
+                4944458827,
+                4944458826,
+                4944458825,
+                4944458824,
+                4944458823,
+                4944458822,
+                4944458821,
+                4944458820,
+                4944458819,
+                4944458818,
+                4944458817,
+                4944458836
+            ],
+            "tags": {
+                "addr:city": "Farmington",
+                "addr:country": "US",
+                "addr:housenumber": "18400",
+                "addr:postcode": "55024",
+                "addr:state": "MN",
+                "addr:street": "Pilot Knob Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "info@akinhillspethospital.com",
+                "fax": "+1-651-460-2339",
+                "name": "Akin Hills Pet Hospital",
+                "opening_hours": "Mo,We 09:00-20:00; Tu,Th,Fr 09:00-18:00; Sa 09:00-12:00",
+                "phone": "+1-651-460-8985",
+                "website": "https://akinhillspethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 506236041,
+            "center": {
+                "lat": 44.7179274,
+                "lon": -93.4180159
+            },
+            "nodes": [
+                4960030309,
+                4960030308,
+                4960030307,
+                4960030306,
+                4960030305,
+                4960030304,
+                4960030303,
+                4960030302,
+                4960030301,
+                4960030300,
+                4960030299,
+                4960030298,
+                4960030297,
+                4960030296,
+                4960030295,
+                4960030294,
+                4960030293,
+                4960030292,
+                4960030309
+            ],
+            "tags": {
+                "addr:city": "Prior Lake",
+                "addr:housenumber": "15900",
+                "addr:postcode": "55372",
+                "addr:state": "MN",
+                "addr:street": "Jordan Ave SE",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "River Valley Vetrinary Services",
+                "phone": "+19524474118",
+                "website": "https://www.rvvs.vet/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 522655313,
+            "center": {
+                "lat": 44.7164243,
+                "lon": -93.2160147
+            },
+            "nodes": [
+                5090074870,
+                8357400760,
+                5090074867,
+                5090074865,
+                5090074864,
+                5090074870
+            ],
+            "tags": {
+                "addr:city": "Rosemount",
+                "addr:country": "US",
+                "addr:housenumber": "16065",
+                "addr:postcode": "55068",
+                "addr:state": "MN",
+                "addr:street": "Glacier Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Apple-Lake Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-12:00",
+                "phone": "+1-952-953-4100",
+                "website": "https://www.applelakevet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 526952157,
+            "center": {
+                "lat": 44.8460409,
+                "lon": -93.0429101
+            },
+            "nodes": [
+                5123628423,
+                5123628422,
+                5123628421,
+                5123628420,
+                5123628419,
+                5123628418,
+                5123628417,
+                5123628423
+            ],
+            "tags": {
+                "addr:city": "Inver Grove Heights",
+                "addr:country": "US",
+                "addr:housenumber": "7135",
+                "addr:postcode": "55076",
+                "addr:state": "MN",
+                "addr:street": "Cahill Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "building:levels": "1",
+                "name": "Inver Grove Heights Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 527082912,
+            "center": {
+                "lat": 44.891596,
+                "lon": -93.0773812
+            },
+            "nodes": [
+                5124758257,
+                5124758256,
+                5124758255,
+                5124758254,
+                5124758253,
+                5124758252,
+                5124758257
+            ],
+            "tags": {
+                "addr:city": "West St Paul",
+                "addr:country": "US",
+                "addr:housenumber": "178",
+                "addr:postcode": "55118",
+                "addr:state": "MN",
+                "addr:street": "Marie Avenue East",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Skadron Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 527085041,
+            "center": {
+                "lat": 44.883299,
+                "lon": -93.0833514
+            },
+            "nodes": [
+                5124774347,
+                5124774346,
+                5124774345,
+                5124774344,
+                5124774347
+            ],
+            "tags": {
+                "addr:city": "Inver Grove Heights",
+                "addr:country": "US",
+                "addr:housenumber": "32",
+                "addr:postcode": "55077",
+                "addr:state": "MN",
+                "addr:street": "Mendota Road East",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Southview Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 528914163,
+            "center": {
+                "lat": 44.8069313,
+                "lon": -93.1681027
+            },
+            "nodes": [
+                5138785821,
+                5138785720,
+                5138785719,
+                5138785718,
+                5138785717,
+                5138785716,
+                5138785715,
+                5138785714,
+                5138785821
+            ],
+            "tags": {
+                "addr:city": "Eagan",
+                "addr:country": "US",
+                "addr:housenumber": "4145",
+                "addr:postcode": "55122",
+                "addr:state": "MN",
+                "addr:street": "Knob Drive",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Pilot Knob Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 544867870,
+            "center": {
+                "lat": 44.3538883,
+                "lon": -93.9717268
+            },
+            "nodes": [
+                5266590460,
+                5266590461,
+                5266590462,
+                5266590463,
+                5266590460
+            ],
+            "tags": {
+                "addr:city": "Saint Peter",
+                "addr:housenumber": "2008",
+                "addr:postcode": "56082",
+                "addr:state": "MN",
+                "addr:street": "North Sunrise Drive",
+                "amenity": "veterinary",
+                "name": "Vet Rx Pharmacy",
+                "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-12:00; Su closed",
+                "phone": "+1-877-931-8707"
+            }
+        },
+        {
+            "type": "way",
+            "id": 545602775,
+            "center": {
+                "lat": 47.911527,
+                "lon": -96.0364447
+            },
+            "nodes": [
+                5273069683,
+                5273069684,
+                5273069685,
+                5273069686,
+                5273069687,
+                5273069688,
+                5273069689,
+                5273069690,
+                5273069683
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hagen Veterinary Service"
+            }
+        },
+        {
+            "type": "way",
+            "id": 553154274,
+            "center": {
+                "lat": 45.2105479,
+                "lon": -93.657647
+            },
+            "nodes": [
+                5339946021,
+                5339946022,
+                5339946023,
+                5339946024,
+                5339946021
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 585508021,
+            "center": {
+                "lat": 45.199072,
+                "lon": -93.3935415
+            },
+            "nodes": [
+                5595195065,
+                5595195066,
+                5595195067,
+                5595195068,
+                5595195069,
+                5595195070,
+                5595195071,
+                5595195065
+            ],
+            "tags": {
+                "addr:city": "Anoka",
+                "addr:housenumber": "100",
+                "addr:postcode": "55303",
+                "addr:street": "West Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rum River Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "website": "https://rumrivervet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 590896386,
+            "center": {
+                "lat": 45.1386941,
+                "lon": -94.7812786
+            },
+            "nodes": [
+                5267177596,
+                11225481588,
+                5267177594,
+                5267177595,
+                5267177596
+            ],
+            "tags": {
+                "addr:city": "Atwater",
+                "addr:housenumber": "301",
+                "addr:postcode": "56209",
+                "addr:state": "MN",
+                "addr:street": "Pleasant Avenue E",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "fixme": "Resurvey hours",
+                "name": "Animal Health Services",
+                "opening_hours": "\"Hours Vary\"",
+                "operator": "Kim",
+                "phone": "+1-320-974-8901"
+            }
+        },
+        {
+            "type": "way",
+            "id": 598637039,
+            "center": {
+                "lat": 44.9476792,
+                "lon": -92.9411795
+            },
+            "nodes": [
+                5697456174,
+                5697456175,
+                5697456176,
+                5697456177,
+                5697456178,
+                5697456179,
+                5697456180,
+                5697456181,
+                5697456182,
+                5697456183,
+                5697456184,
+                5697456174
+            ],
+            "tags": {
+                "addr:city": "Woodbury",
+                "addr:housenumber": "8154",
+                "addr:postcode": "55125",
+                "addr:state": "MN",
+                "addr:street": "Hudson Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Hudson Road Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 601130212,
+            "center": {
+                "lat": 44.9482381,
+                "lon": -93.340796
+            },
+            "nodes": [
+                5714071502,
+                5714071499,
+                5714071498,
+                5714071497,
+                5714071496,
+                5714071501,
+                5714071502
+            ],
+            "tags": {
+                "addr:city": "Saint Louis Park",
+                "addr:housenumber": "4813",
+                "addr:postcode": "55416",
+                "addr:state": "MN",
+                "addr:street": "Minnetonka Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "City Cat Clinic & Condos",
+                "phone": "+19529250035",
+                "website": "https://www.citycatclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 603207157,
+            "center": {
+                "lat": 44.8199996,
+                "lon": -92.9403962
+            },
+            "nodes": [
+                5727184081,
+                5727184082,
+                5727184083,
+                5727184084,
+                5819121029,
+                5727184081
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cottage Grove Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 603434088,
+            "center": {
+                "lat": 44.8348082,
+                "lon": -92.9514113
+            },
+            "nodes": [
+                5728461273,
+                5728461274,
+                12027543458,
+                12027543457,
+                5728461275,
+                5728461276,
+                5728461273
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Park Grove Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 603507169,
+            "center": {
+                "lat": 47.7352599,
+                "lon": -95.5138319
+            },
+            "nodes": [
+                5729055426,
+                5729055427,
+                7229150993,
+                7229150992,
+                5729055428,
+                7229150995,
+                7229150994,
+                5729055429,
+                5729055426
+            ],
+            "tags": {
+                "addr:city": "Gonvick",
+                "addr:housenumber": "236",
+                "addr:postcode": "56644",
+                "addr:state": "MN",
+                "addr:street": "State Highway 92",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-218-487-5362",
+                "name": "Cornerstone Veterinary Service",
+                "phone": "+1-218-487-5360"
+            }
+        },
+        {
+            "type": "way",
+            "id": 605096330,
+            "center": {
+                "lat": 44.9758889,
+                "lon": -93.0657767
+            },
+            "nodes": [
+                5739990812,
+                5739990813,
+                5739990814,
+                5739990815,
+                5739990812
+            ],
+            "tags": {
+                "addr:housenumber": "1144",
+                "addr:postcode": "55106",
+                "addr:street": "Arcade Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Arcade Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 610036220,
+            "center": {
+                "lat": 45.1047169,
+                "lon": -93.4530443
+            },
+            "nodes": [
+                5777742688,
+                5777742689,
+                5777742690,
+                2918969363,
+                5777742688
+            ],
+            "tags": {
+                "addr:city": "Maple Grove",
+                "addr:country": "US",
+                "addr:housenumber": "13640",
+                "addr:postcode": "55311",
+                "addr:state": "MN",
+                "addr:street": "Grove Drive North",
+                "amenity": "veterinary",
+                "building:part": "yes",
+                "name": "Paws & Claws Pet Hospital",
+                "opening_hours": "Mo 08:30-20:00;Tu-Fr 08:30-18:00;Sa 08:30-13:30",
+                "phone": "+17634209711",
+                "website": "https://pawsandclawspethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 611335216,
+            "center": {
+                "lat": 47.5032281,
+                "lon": -94.9310289
+            },
+            "nodes": [
+                5788278449,
+                5788278450,
+                5788278451,
+                5788278452,
+                5788278853,
+                5788278854,
+                5788278855,
+                5788278856,
+                5788278857,
+                5788278858,
+                5788278859,
+                5788278860,
+                5788278449
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bemidji Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 625593739,
+            "center": {
+                "lat": 44.9666178,
+                "lon": -92.9548463
+            },
+            "nodes": [
+                5906667031,
+                11560852407,
+                11560852406,
+                11560852408,
+                5906667032,
+                11560852413,
+                11560852414,
+                11560852415,
+                11560852417,
+                11560852418,
+                11560852416,
+                11560852412,
+                11560852411,
+                11560852410,
+                11560852409,
+                5906667033,
+                5906667034,
+                5906667035,
+                11560852404,
+                11560852405,
+                11560852393,
+                11560852394,
+                11560852395,
+                11560852396,
+                11560852397,
+                11560852398,
+                11560852399,
+                11560852400,
+                11560852401,
+                11560852403,
+                11560852402,
+                5906667031
+            ],
+            "tags": {
+                "addr:city": "Oakdale",
+                "addr:housenumber": "11163",
+                "addr:postcode": "55128",
+                "addr:state": "MN",
+                "addr:street": "Helmo Avenue North",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "check_date": "2024-01-28",
+                "description": "AERC Urgent Care. Please call before coming in so staff will be ready for your pet. For AERC Emergency and Specialty care, visit 1160 Helmo Ave N.\n\n\nAERC is100% owned by local veterinarians.",
+                "fax": "+1-651-350-3535",
+                "name": "Animal Emergency & Referral Center of Minnesota - Urgent Care",
+                "not:name": "Oakdale Animal Hospital",
+                "opening_hours": "14:00-22:00",
+                "operator": "Animal Emergency & Referral Center of Minnesota",
+                "phone": "+1-651-350-3500",
+                "source": "local knowledge;aerial imagery;https://aercmn.com/oakdale-urgent-care/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 641678627,
+            "center": {
+                "lat": 47.4562902,
+                "lon": -94.8654159
+            },
+            "nodes": [
+                6042588655,
+                6042588656,
+                6042588657,
+                6042588658,
+                6042588655
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 644438689,
+            "center": {
+                "lat": 44.9485806,
+                "lon": -93.2136418
+            },
+            "nodes": [
+                2605643527,
+                6060875477,
+                8616431230,
+                8616431229,
+                6060875479,
+                6060875476,
+                2605643527
+            ],
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "4108",
+                "addr:postcode": "55406",
+                "addr:street": "East Lake Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "East Lake Animal Clinic",
+                "start_date": "1925"
+            }
+        },
+        {
+            "type": "way",
+            "id": 650496385,
+            "center": {
+                "lat": 44.709569,
+                "lon": -93.4244258
+            },
+            "nodes": [
+                6102429403,
+                6102429404,
+                6102429405,
+                6102429406,
+                6102429407,
+                6102429408,
+                6102429409,
+                6102429410,
+                6102429403
+            ],
+            "tags": {
+                "addr:city": "Prior Lake",
+                "addr:housenumber": "16680",
+                "addr:postcode": "55372",
+                "addr:state": "MN",
+                "addr:street": "Franklin Trail SE",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Prior Lake Pet Hospital",
+                "phone": "+1-952-447-2855",
+                "website": "https://priorlakepethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 703487576,
+            "center": {
+                "lat": 43.6394544,
+                "lon": -94.9920959
+            },
+            "nodes": [
+                6606498705,
+                6606498706,
+                6606498707,
+                6606498708,
+                6606498709,
+                6606498710,
+                6606498711,
+                6606498712,
+                6606498705
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 706018353,
+            "center": {
+                "lat": 44.0492574,
+                "lon": -92.4296418
+            },
+            "nodes": [
+                6633795238,
+                6633795239,
+                6633795240,
+                6633795241,
+                6633795242,
+                6633795243,
+                6633795244,
+                6633795245,
+                6633795246,
+                6633795238
+            ],
+            "tags": {
+                "addr:city": "Rochester",
+                "addr:housenumber": "2554",
+                "addr:postcode": "55906",
+                "addr:state": "MN",
+                "addr:street": "Clare Lane Northeast",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "email": "office@quarryhillvet.com",
+                "name": "Quarry Hill Park Animal Hospital",
+                "opening_hours": "Mo,We,Fr 07:30-17:00; Tu,Th 07:30-17:30; Su off",
+                "phone": "+1 507-285-1059",
+                "website": "https://www.quarryhillvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 712663074,
+            "center": {
+                "lat": 45.4054536,
+                "lon": -93.8952783
+            },
+            "nodes": [
+                5246555016,
+                6700542920,
+                6700542921,
+                6700542922,
+                6700542923,
+                6700542924,
+                6700542925,
+                6700542926,
+                6700542927,
+                6700542928,
+                5246555016
+            ],
+            "tags": {
+                "addr:city": "Becker",
+                "addr:housenumber": "12904",
+                "addr:street": "1st Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Becker Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-14:00",
+                "phone": "+1-763-261-5595",
+                "website": "https://millelacsvet.com/becker/?utm_source"
+            }
+        },
+        {
+            "type": "way",
+            "id": 762106322,
+            "center": {
+                "lat": 43.9268877,
+                "lon": -93.947435
+            },
+            "nodes": [
+                7120417284,
+                7120425485,
+                7120425486,
+                7120425487,
+                7120425488,
+                7120425489,
+                7120425490,
+                7120425491,
+                7120417284
+            ],
+            "tags": {
+                "addr:city": "Mapleton",
+                "addr:housenumber": "106",
+                "addr:postcode": "56065",
+                "addr:state": "MN",
+                "addr:street": "MN 22",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Pets"
+            }
+        },
+        {
+            "type": "way",
+            "id": 766064545,
+            "center": {
+                "lat": 45.1176733,
+                "lon": -93.401917
+            },
+            "nodes": [
+                7154703309,
+                7154703314,
+                7154703315,
+                7154703316,
+                7154703317,
+                7154703318,
+                7154703309
+            ],
+            "tags": {
+                "addr:city": "Osseo",
+                "addr:housenumber": "116",
+                "addr:postcode": "55369",
+                "addr:state": "MN",
+                "addr:street": "Central Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Douglas Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 773589529,
+            "center": {
+                "lat": 45.04458,
+                "lon": -93.3973281
+            },
+            "nodes": [
+                7220875275,
+                7220875276,
+                7220875277,
+                7220875278,
+                7220875279,
+                7220875280,
+                7220875281,
+                7220875282,
+                7220875283,
+                7220875284,
+                7220875275
+            ],
+            "tags": {
+                "addr:city": "New Hope",
+                "addr:housenumber": "9200",
+                "addr:postcode": "55428",
+                "addr:state": "MN",
+                "addr:street": "49th Avenue North",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Plymouth Heights Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 780235504,
+            "center": {
+                "lat": 48.5962621,
+                "lon": -93.404218
+            },
+            "nodes": [
+                7285310307,
+                7285310308,
+                7285310309,
+                7285310310,
+                7285310307
+            ],
+            "tags": {
+                "addr:city": "International Falls",
+                "addr:housenumber": "900",
+                "addr:street": "3rd Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "description": "Small and large animals.",
+                "name": "Rainy River Veterinary Hospital, Inc."
+            }
+        },
+        {
+            "type": "way",
+            "id": 800162904,
+            "center": {
+                "lat": 44.4428932,
+                "lon": -95.7645223
+            },
+            "nodes": [
+                7483258981,
+                7483258982,
+                7483258983,
+                7483258984,
+                7483258981
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Evans Family Pet Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 845504172,
+            "center": {
+                "lat": 44.9482308,
+                "lon": -93.1608291
+            },
+            "nodes": [
+                7888246441,
+                7888246438,
+                7888246437,
+                7888246436,
+                7888246435,
+                7888246434,
+                7888246439,
+                7888246440,
+                7888246441
+            ],
+            "tags": {
+                "addr:city": "Saint Paul",
+                "addr:housenumber": "1430",
+                "addr:postcode": "55104",
+                "addr:state": "MN",
+                "addr:street": "Marshall Avenue",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Feist Animal Hospital",
+                "phone": "+1-651-646-7257",
+                "website": "https://vcahospitals.com/feist"
+            }
+        },
+        {
+            "type": "way",
+            "id": 850252556,
+            "center": {
+                "lat": 45.1622079,
+                "lon": -93.0127035
+            },
+            "nodes": [
+                7932315174,
+                7932315175,
+                7932315176,
+                7932315177,
+                7932315174
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 852432347,
+            "center": {
+                "lat": 44.94893,
+                "lon": -93.018185
+            },
+            "nodes": [
+                7951534016,
+                7951534017,
+                7951534018,
+                7951534019,
+                7951534016
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Scenic Hills Animal Hospital",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 867298749,
+            "center": {
+                "lat": 45.4423201,
+                "lon": -93.5858989
+            },
+            "nodes": [
+                8084599818,
+                8846260628,
+                8846260629,
+                8084599819,
+                8084599820,
+                8846260630,
+                8084599821,
+                8084599818
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 875306571,
+            "center": {
+                "lat": 46.7065556,
+                "lon": -92.4256233
+            },
+            "nodes": [
+                8147343717,
+                8147343718,
+                8147343719,
+                8147343720,
+                8147343721,
+                8147343722,
+                8147343723,
+                8147343724,
+                8147343725,
+                8147343726,
+                8147343727,
+                8147343728,
+                8147343717
+            ],
+            "tags": {
+                "addr:city": "Cloquet",
+                "addr:housenumber": "1108",
+                "addr:postcode": "55720",
+                "addr:state": "MN",
+                "addr:street": "Scanlon Way",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Crow Goebel Veterinary Clinic",
+                "phone": "+1-218-879-5356",
+                "website": "https://www.crowgoebelvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 880372968,
+            "center": {
+                "lat": 45.1093245,
+                "lon": -93.342111
+            },
+            "nodes": [
+                8188586929,
+                8188586930,
+                8188586931,
+                8188586932,
+                8188586933,
+                8188586934,
+                10009965165,
+                8188586935,
+                8188586936,
+                8188586937,
+                8188586938,
+                8188586939,
+                8188586940,
+                8188586929
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Edinburgh Pet Health Center",
+                "phone": "+1-763-493-9080"
+            }
+        },
+        {
+            "type": "way",
+            "id": 961917460,
+            "center": {
+                "lat": 45.5649216,
+                "lon": -94.2940336
+            },
+            "nodes": [
+                3441863901,
+                8897985574,
+                8897985575,
+                8897985576,
+                3441863901
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "St. Joseph Vet Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 962402796,
+            "center": {
+                "lat": 47.0978336,
+                "lon": -94.5871549
+            },
+            "nodes": [
+                8902299804,
+                13038555652,
+                13038555651,
+                8902299805,
+                8902299806,
+                13038555650,
+                13038555649,
+                13038555648,
+                13038555647,
+                8902299807,
+                8902299804
+            ],
+            "tags": {
+                "addr:city": "Walker",
+                "addr:housenumber": "306",
+                "addr:postcode": "56484",
+                "addr:state": "MN",
+                "addr:street": "8th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Walker Animal Hospital",
+                "opening_hours": "Mo 08:30-17:30; Tu-Th 08:00-17:30; Fr off; Sa off; Su off",
+                "phone": "+1-218-547-3222"
+            }
+        },
+        {
+            "type": "way",
+            "id": 976089050,
+            "center": {
+                "lat": 44.1694354,
+                "lon": -93.9651725
+            },
+            "nodes": [
+                9032950559,
+                10222100181,
+                10222100180,
+                10222100182,
+                10222100183,
+                10222100184,
+                10222100185,
+                9032950560,
+                9032950561,
+                9032950562,
+                9032950563,
+                9032950564,
+                9032950565,
+                9032950566,
+                9032950567,
+                9032950568,
+                9032950559
+            ],
+            "tags": {
+                "addr:city": "Mankato",
+                "addr:housenumber": "1541",
+                "addr:postcode": "56001",
+                "addr:state": "MN",
+                "addr:street": "Adams Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Minnesota Valley Pet Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-12:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 977366485,
+            "center": {
+                "lat": 44.8766034,
+                "lon": -93.0006102
+            },
+            "nodes": [
+                9043706735,
+                9043706736,
+                9043706737,
+                9043706738,
+                9043706739,
+                9043706740,
+                9043706741,
+                9043706743,
+                9043706744,
+                9043706742,
+                9043706735
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 996467917,
+            "center": {
+                "lat": 46.2839266,
+                "lon": -96.0721707
+            },
+            "nodes": [
+                9201006358,
+                9201006359,
+                9201006369,
+                9201006360,
+                9201006365,
+                9201006361,
+                9201006358
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Fergus Falls Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1006527955,
+            "center": {
+                "lat": 45.4925617,
+                "lon": -93.2428878
+            },
+            "nodes": [
+                9286459059,
+                9286459057,
+                9286459056,
+                9286459058,
+                9286459059
+            ],
+            "tags": {
+                "addr:city": "Isanti",
+                "addr:housenumber": "120",
+                "addr:postcode": "55040",
+                "addr:state": "MN",
+                "addr:street": "Heritage Boulevard Northeast",
+                "addr:unit": "4",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Isanti Pet Clinic",
+                "phone": "+1-763-444-0346",
+                "website": "https://hamlakevet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1021540743,
+            "center": {
+                "lat": 44.7723413,
+                "lon": -94.1684621
+            },
+            "nodes": [
+                9421667513,
+                9421667514,
+                9421667515,
+                9421667516,
+                9421667513
+            ],
+            "tags": {
+                "addr:city": "Glencoe",
+                "addr:housenumber": "605",
+                "addr:postcode": "55336",
+                "addr:state": "MN",
+                "addr:street": "13th Street West",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-320-864-3616",
+                "name": "Glencoe Veterinary Clinuc",
+                "phone": "+1-320-864-3414",
+                "website": "https://glencoevet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1052556780,
+            "center": {
+                "lat": 45.2787615,
+                "lon": -92.9885115
+            },
+            "nodes": [
+                9673199057,
+                9673199058,
+                9673199059,
+                9673199060,
+                9673199061,
+                9673199062,
+                9673199057
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1076454074,
+            "center": {
+                "lat": 47.4780139,
+                "lon": -94.9279671
+            },
+            "nodes": [
+                9871345348,
+                9871345353,
+                9871345349,
+                9871345350,
+                9871345351,
+                9871345352,
+                9871345348
+            ],
+            "tags": {
+                "addr:city": "Bemidji",
+                "addr:housenumber": "967",
+                "addr:postcode": "56601",
+                "addr:state": "MN",
+                "addr:street": "Adams Avenue Northwest",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Headwaters Veterinary",
+                "website": "https://headwatersvetcenter.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1087628988,
+            "center": {
+                "lat": 45.0861882,
+                "lon": -93.0480032
+            },
+            "nodes": [
+                9965163688,
+                9965163689,
+                9965163690,
+                9965163691,
+                9965163692,
+                9965163693,
+                9965163694,
+                9965163695,
+                9965163696,
+                9965163697,
+                9965163688
+            ],
+            "tags": {
+                "addr:city": "White Bear Lake",
+                "addr:housenumber": "4830",
+                "addr:postcode": "55110",
+                "addr:state": "MN",
+                "addr:street": "White Bear Parkway",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1121948445,
+            "center": {
+                "lat": 45.1199055,
+                "lon": -93.002382
+            },
+            "nodes": [
+                10261564665,
+                10261564666,
+                10261564667,
+                10261564668,
+                10261564669,
+                10261564670,
+                10261564671,
+                10261564672,
+                10261564673,
+                10261564674,
+                10261564675,
+                10261564676,
+                10261564677,
+                10261564678,
+                10261564679,
+                10261564680,
+                10261564681,
+                10261564682,
+                10261564665
+            ],
+            "tags": {
+                "addr:city": "White Bear",
+                "addr:housenumber": "5900",
+                "addr:postcode": "55110",
+                "addr:state": "MN",
+                "addr:street": "Highway 61",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lake Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1170439380,
+            "center": {
+                "lat": 44.9232142,
+                "lon": -93.3288486
+            },
+            "nodes": [
+                10879936894,
+                10879936897,
+                12125211447,
+                10879936892,
+                10879936901,
+                12246881399,
+                10879936902,
+                10879936903,
+                10879936890,
+                10879936896,
+                10879936898,
+                10879936893,
+                10879936900,
+                12125211453,
+                10879936899,
+                10879936894
+            ],
+            "tags": {
+                "addr:city": "Minneapolis",
+                "addr:housenumber": "4345",
+                "addr:postcode": "55410",
+                "addr:state": "MN",
+                "addr:street": "France Avenue South",
+                "amenity": "veterinary",
+                "building": "office",
+                "contact:facebook": "https://www.facebook.com/WestgatePetClinicMN",
+                "contact:instagram": "https://www.instagram.com/westgatepetclinic/",
+                "contact:pinterest": "https://www.pinterest.com/westgatepet/",
+                "contact:twitter": "https://twitter.com/WestgateMN",
+                "contact:youtube": "https://www.youtube.com/user/WestgatePetClinicMN",
+                "email": "westgate@mvetpartners.com",
+                "name": "Westgate Pet Clinic",
+                "opening_hours": "Mo-Th 08:00-18:00; Fr 07:30-17:00; Sa 08:00-13:00",
+                "phone": "+1-612-925-1121",
+                "website": "https://wagsandwhiskers.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1181521689,
+            "center": {
+                "lat": 44.4475293,
+                "lon": -93.1745256
+            },
+            "nodes": [
+                10972408713,
+                10972408714,
+                10972408715,
+                10972408716,
+                10972408717,
+                10972408718,
+                10972408719,
+                10972408720,
+                10972408721,
+                10972408722,
+                10972408723,
+                10972408724,
+                10972408725,
+                10972408726,
+                10972408727,
+                10972408728,
+                10972408729,
+                10972408730,
+                10972408731,
+                10972408732,
+                10972408713
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cannon Valley Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1191882551,
+            "center": {
+                "lat": 44.680667,
+                "lon": -93.3374904
+            },
+            "nodes": [
+                11065412444,
+                11065412445,
+                11065412446,
+                11065412447,
+                11065412448,
+                11065412449,
+                11065412450,
+                11065412451,
+                11065412452,
+                11065412453,
+                11065412454,
+                11065412455,
+                11065412456,
+                11065412457,
+                11065412458,
+                11065412459,
+                11065412460,
+                11065412461,
+                11065412462,
+                11065412463,
+                11065412464,
+                11065412465,
+                11065412444
+            ],
+            "tags": {
+                "addr:housenumber": "18577",
+                "addr:street": "Natchez Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:website": "https://clearylakevets.com/",
+                "email": "vets@clvets.com",
+                "name": "Cleary Lake Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1192752264,
+            "center": {
+                "lat": 45.2056196,
+                "lon": -93.8883067
+            },
+            "nodes": [
+                11072017811,
+                11072017812,
+                11072017813,
+                11072017814,
+                11072017815,
+                11072017816,
+                11072017817,
+                11072017818,
+                11072017837,
+                11072017811
+            ],
+            "tags": {
+                "addr:city": "Buffalo",
+                "addr:housenumber": "3810",
+                "addr:postcode": "55313",
+                "addr:state": "MN",
+                "addr:street": "County Road 12 North",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Buffalo Equine"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1204339113,
+            "center": {
+                "lat": 47.9060993,
+                "lon": -91.8626742
+            },
+            "nodes": [
+                5869913530,
+                11162214466,
+                11162214464,
+                11162214465,
+                11162214467,
+                11162214468,
+                5869913530
+            ],
+            "tags": {
+                "addr:city": "Ely",
+                "addr:housenumber": "318",
+                "addr:postcode": "55731",
+                "addr:street": "Miners Drive East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ely Veterinarian"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1234677107,
+            "center": {
+                "lat": 45.0878536,
+                "lon": -93.7383517
+            },
+            "nodes": [
+                11460305396,
+                11460305397,
+                11460305398,
+                11460305399,
+                12849809195,
+                11460305396
+            ],
+            "tags": {
+                "addr:state": "MN",
+                "addr:street": "Ash Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rockford Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1243791209,
+            "center": {
+                "lat": 44.9654022,
+                "lon": -92.9548092
+            },
+            "nodes": [
+                11560852385,
+                11560852386,
+                11560852387,
+                11560852419,
+                11560970027,
+                11560852422,
+                11560852421,
+                11560970028,
+                11560852420,
+                11560852388,
+                11560852389,
+                11560852390,
+                11560852391,
+                11560852392,
+                11560852385
+            ],
+            "tags": {
+                "addr:city": "Oakdale",
+                "addr:housenumber": "1160",
+                "addr:postcode": "55128",
+                "addr:state": "MN",
+                "addr:street": "Helmo Avenue North",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "check_date": "2024-01-28",
+                "description": "AERC Emergency and Specialty. Please call before coming in so staff will be ready for your pet. For AERC Urgent Care, visit 1163 Helmo Ave N.\n\nAERC is100% owned by local veterinarians.",
+                "fax": "+1-651-501-3763",
+                "name": "Animal Emergency & Referral Center of Minnesota - Emergency and Specialty",
+                "opening_hours": "24/7",
+                "operator": "Animal Emergency & Referral Center of Minnesota",
+                "phone": "+1-651-501-3766",
+                "source": "local knowledge;aerial imagery;https://aercmn.com/locations-hours/oakdale/",
+                "website": "https://aercmn.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1328157059,
+            "center": {
+                "lat": 47.5572533,
+                "lon": -94.8835893
+            },
+            "nodes": [
+                12255411577,
+                12288169818,
+                12288169819,
+                12288169820,
+                12288169821,
+                12255411577
+            ],
+            "tags": {
+                "addr:city": "Bemidji",
+                "addr:housenumber": "9190",
+                "addr:postcode": "56601",
+                "addr:state": "MN",
+                "addr:street": "Irvine Avenue Northwest;Irvine Ave NW",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Northern Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1333405531,
+            "center": {
+                "lat": 45.032399,
+                "lon": -93.3596591
+            },
+            "nodes": [
+                12336263940,
+                12336263941,
+                12336263942,
+                12336263943,
+                12336263944,
+                12336263945,
+                12336263946,
+                12336263947,
+                12336263948,
+                12336263949,
+                12336263940
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Access Veterinary Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1333410638,
+            "center": {
+                "lat": 45.0505778,
+                "lon": -93.1537501
+            },
+            "nodes": [
+                12336496907,
+                12336496908,
+                12336496909,
+                12336496910,
+                12336496907
+            ],
+            "tags": {
+                "addr:city": "Saint Paul",
+                "addr:housenumber": "1261",
+                "addr:postcode": "55112",
+                "addr:state": "MN",
+                "addr:street": "County Road E West",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Arden Shoreview Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1352241125,
+            "center": {
+                "lat": 45.978261,
+                "lon": -94.3431943
+            },
+            "nodes": [
+                12511425939,
+                12511425940,
+                12511425941,
+                12511425942,
+                12511425943,
+                12511425944,
+                12511425945,
+                12511425946,
+                12511425939
+            ],
+            "tags": {
+                "addr:city": "Little Falls",
+                "addr:housenumber": "406",
+                "addr:postcode": "56345",
+                "addr:state": "MN",
+                "addr:street": "12th Street Northeast",
+                "amenity": "veterinary",
+                "building": "yes",
+                "mobile": "+13206322994",
+                "name": "Community Animal Hospital",
+                "website": "https://www.cahlf.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1359400811,
+            "center": {
+                "lat": 44.1159513,
+                "lon": -93.7052096
+            },
+            "nodes": [
+                12583036554,
+                12583036555,
+                12583036569,
+                12583036556,
+                12583036557,
+                12583036558,
+                12583036559,
+                12583036560,
+                12583036561,
+                12583036562,
+                12583036554
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Summers Ridge Veterinary Clinic",
+                "website": "https://summersridge.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1374555601,
+            "center": {
+                "lat": 44.8271422,
+                "lon": -93.1603408
+            },
+            "nodes": [
+                12727090774,
+                12727090775,
+                12727090776,
+                12727090777,
+                12727090778,
+                12727090779,
+                12727090780,
+                12727090781,
+                12727090774
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Companion Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1383074481,
+            "center": {
+                "lat": 45.0244296,
+                "lon": -93.3808017
+            },
+            "nodes": [
+                12805073606,
+                12805073607,
+                12805073608,
+                12805073609,
+                12805073610,
+                12805073611,
+                12805073612,
+                12805073613,
+                12805073614,
+                12805073615,
+                12805073606
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "New Hope Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423676047,
+            "center": {
+                "lat": 43.9941359,
+                "lon": -95.7530749
+            },
+            "nodes": [
+                13085263133,
+                13085263134,
+                13085263135,
+                13085263136,
+                13085263133
+            ],
+            "tags": {
+                "addr:city": "Slayton",
+                "addr:housenumber": "1909",
+                "addr:postcode": "56172",
+                "addr:state": "MN",
+                "addr:street": "Maple Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rural Legacy Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1448484976,
+            "center": {
+                "lat": 45.2534237,
+                "lon": -92.8057228
+            },
+            "nodes": [
+                13289641964,
+                13289641966,
+                13289641967,
+                13289641965,
+                13289641964
+            ],
+            "tags": {
+                "addr:city": "Scandia",
+                "addr:housenumber": "14762",
+                "addr:postcode": "55073",
+                "addr:state": "MN",
+                "addr:street": "Oakhill Road North",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Veterinarian"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1450970997,
+            "center": {
+                "lat": 44.8537197,
+                "lon": -93.4309976
+            },
+            "nodes": [
+                13307257227,
+                13307257228,
+                13307257229,
+                13307257230,
+                13307257231,
+                13307257232,
+                13307257227
+            ],
+            "tags": {
+                "addr:city": "Eden Prairie",
+                "addr:housenumber": "8300",
+                "addr:postcode": "55344",
+                "addr:state": "MN",
+                "addr:street": "Flying Cloud Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "edenprairie@alliedERvet.com",
+                "name": "Allied Veterinary Emergency & Referral",
+                "opening_hours": "24/7",
+                "phone": "+1-952-452-0025"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1489919477,
+            "center": {
+                "lat": 43.950616,
+                "lon": -91.6965338
+            },
+            "nodes": [
+                13656653982,
+                13656653983,
+                13656653984,
+                13656653985,
+                13656653986,
+                13656653987,
+                13656653982
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bluff Country Equine Veterinary Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1490651679,
+            "center": {
+                "lat": 46.2863619,
+                "lon": -96.117199
+            },
+            "nodes": [
+                13662233707,
+                13662233708,
+                13662233709,
+                13662233710,
+                13662233711,
+                13662233712,
+                13662233713,
+                13662233714,
+                13662233715,
+                13662233716,
+                13662233717,
+                13662233718,
+                13662233719,
+                13662233720,
+                13662233707
+            ],
+            "tags": {
+                "addr:city": "Fergus Falls",
+                "addr:housenumber": "405",
+                "addr:postcode": "56537",
+                "addr:state": "MN",
+                "addr:street": "Western Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Companion Animal Hospital",
+                "phone": "+12187393383"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1501531558,
+            "center": {
+                "lat": 43.6689217,
+                "lon": -92.0816043
+            },
+            "nodes": [
+                13746369251,
+                13746369252,
+                13746369253,
+                13746369254,
+                13746369251
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Root River Veterinary Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1503408934,
+            "center": {
+                "lat": 45.056921,
+                "lon": -92.8614261
+            },
+            "nodes": [
+                13759093326,
+                13759093327,
+                13759093328,
+                13759093329,
+                13759093330,
+                13759093331,
+                13759093332,
+                13759093333,
+                13759093334,
+                13759093335,
+                13759093336,
+                13759093337,
+                13759093338,
+                13759093339,
+                13759093340,
+                13759093341,
+                13759093342,
+                13759093343,
+                13759093326
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        }
+    ]
+}

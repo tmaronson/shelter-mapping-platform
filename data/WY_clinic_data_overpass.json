@@ -1,0 +1,552 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T18:12:12Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 3985002767,
+            "lat": 42.8671557,
+            "lon": -109.8893997,
+            "tags": {
+                "addr:city": "Pinedale",
+                "addr:housenumber": "1805",
+                "addr:postcode": "82941",
+                "addr:state": "WY",
+                "addr:street": "West Pine Street",
+                "amenity": "veterinary",
+                "contact:fax": "+1 307 367 4828",
+                "name": "Animal Clinic of Pinedale",
+                "opening_hours": "Su off, Mo-Fr 07:30-17:00, Sa off",
+                "phone": "+1-307-367-4752",
+                "website": "https://pinedaleanimalhospital.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4431454363,
+            "lat": 41.4697812,
+            "lon": -106.8008141,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Happy Tails Boarding & Grooming"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4934943181,
+            "lat": 44.2555064,
+            "lon": -105.5101126,
+            "tags": {
+                "addr:city": "Gillette",
+                "addr:housenumber": "550",
+                "addr:postcode": "82718",
+                "addr:state": "WY",
+                "addr:street": "Running W Drive",
+                "amenity": "veterinary",
+                "email": "info@gillettepetvet.com",
+                "name": "Gillette Pet Vet Clinic",
+                "phone": "+1 307 696 8387",
+                "source": "survey"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5099675432,
+            "lat": 44.2710153,
+            "lon": -105.4927155,
+            "tags": {
+                "addr:city": "Gillette",
+                "addr:housenumber": "2701",
+                "addr:postcode": "82718",
+                "addr:state": "WY",
+                "addr:street": "South Douglas Highway",
+                "addr:unit": "C",
+                "amenity": "veterinary",
+                "name": "Community Veterinary Clinic",
+                "source": "survey;local knowledge",
+                "website": "https://gilletteveterinarian.com/community-clinic/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5631336730,
+            "lat": 41.1605382,
+            "lon": -104.7849578,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Dell Range Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8308168977,
+            "lat": 42.751173,
+            "lon": -110.9329325,
+            "tags": {
+                "addr:city": "Afton",
+                "addr:housenumber": "927",
+                "addr:postcode": "83110",
+                "addr:state": "WY",
+                "addr:street": "North Washington Street",
+                "amenity": "veterinary",
+                "name": "All Creatures Great & Small",
+                "phone": "+1-307-885-4362",
+                "website": "https://www.facebook.com/pages/All-Creatures-Great-Small-Vet-Clinic/161099247243551"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9162889455,
+            "lat": 42.9480372,
+            "lon": -111.0111949,
+            "tags": {
+                "addr:city": "Thayne",
+                "addr:housenumber": "127",
+                "addr:postcode": "83127",
+                "addr:state": "WY",
+                "addr:street": "Jepperson Road",
+                "amenity": "veterinary",
+                "email": "office@bridgeranimalhospital.com",
+                "name": "Bridger Animal Hospital",
+                "phone": "+1-307-883-4758",
+                "website": "https://bridgeranimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11395262164,
+            "lat": 44.5123275,
+            "lon": -109.1081458,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Yellowstone Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11463245243,
+            "lat": 41.5066303,
+            "lon": -109.480027,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Castle Rock Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 235532835,
+            "center": {
+                "lat": 43.5123844,
+                "lon": -110.8672592
+            },
+            "nodes": [
+                2435746442,
+                12782042014,
+                2435746445,
+                2435746444,
+                2435746438,
+                2435746442
+            ],
+            "tags": {
+                "addr:city": "Wilson",
+                "addr:housenumber": "5325",
+                "addr:postcode": "83014",
+                "addr:state": "WY",
+                "addr:street": "3 B Ranch Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Fish Creek Veterinary Clinic",
+                "website": "http://fishcreekvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 235715040,
+            "center": {
+                "lat": 43.4787422,
+                "lon": -110.754606
+            },
+            "nodes": [
+                2437730661,
+                2437730663,
+                2437730273,
+                2437730275,
+                2437730074,
+                2437730069,
+                2437730661
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 331757779,
+            "center": {
+                "lat": 44.5338129,
+                "lon": -109.0396238
+            },
+            "nodes": [
+                3388583781,
+                3388583782,
+                3388583783,
+                3388583784,
+                3388583781
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lifetime Small Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 456861866,
+            "center": {
+                "lat": 41.2916284,
+                "lon": -105.5872881
+            },
+            "nodes": [
+                4530919281,
+                4530919283,
+                4530919284,
+                4530919285,
+                10279046923,
+                5671009821,
+                5671009822,
+                4530919287,
+                10279046922,
+                4530919288,
+                4530919281
+            ],
+            "tags": {
+                "addr:city": "Laramie",
+                "addr:country": "US",
+                "addr:housenumber": "830",
+                "addr:postcode": "82070",
+                "addr:state": "WY",
+                "addr:street": "Skyline Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Alpine Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 491802710,
+            "center": {
+                "lat": 44.2686916,
+                "lon": -105.501498
+            },
+            "nodes": [
+                4838904511,
+                4838904512,
+                4838904513,
+                4838904514,
+                4838904515,
+                4838904516,
+                4838904511
+            ],
+            "tags": {
+                "addr:city": "Gillette",
+                "addr:housenumber": "200",
+                "addr:postcode": "82718",
+                "addr:state": "WY",
+                "addr:street": "East Lakeway Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "check_date": "2026-07-09",
+                "name": "Animal Medical Center",
+                "phone": "+1-307-682-1507",
+                "roof:shape": "flat",
+                "source": "survey;local knowledge",
+                "website": "https://gilletteveterinarian.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 511866921,
+            "center": {
+                "lat": 44.2547232,
+                "lon": -105.4777416
+            },
+            "nodes": [
+                5006155260,
+                5006155261,
+                5006155262,
+                5006155269,
+                5006155270,
+                5006155265,
+                5006155266,
+                5006155267,
+                5006155260
+            ],
+            "tags": {
+                "addr:city": "Gillette",
+                "addr:housenumber": "4340",
+                "addr:postcode": "82718",
+                "addr:state": "WY",
+                "addr:street": "Butler Spaeth Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Red Hills Veterinary Hospital",
+                "roof:shape": "gabled",
+                "source": "survey"
+            }
+        },
+        {
+            "type": "way",
+            "id": 537172419,
+            "center": {
+                "lat": 41.1701091,
+                "lon": -104.8292331
+            },
+            "nodes": [
+                5202339332,
+                5202339331,
+                5202339330,
+                5202339329,
+                5202339332
+            ],
+            "tags": {
+                "addr:city": "Cheyenne",
+                "addr:housenumber": "5520",
+                "addr:postcode": "82009",
+                "addr:state": "WY",
+                "addr:street": "Yellowstone Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Avenues Pet Clinic",
+                "opening_hours": "Mo-Fr 07:00-19:00; Sa-Su 09:00-17:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 537676809,
+            "center": {
+                "lat": 41.177682,
+                "lon": -104.0781748
+            },
+            "nodes": [
+                5206059369,
+                11803427280,
+                11803427279,
+                11803427278,
+                11803427277,
+                5206059368,
+                5206059367,
+                5206059365,
+                5206059364,
+                5206059366,
+                5206059369
+            ],
+            "tags": {
+                "addr:city": "Pine Bluffs",
+                "addr:housenumber": "722",
+                "addr:postcode": "82082",
+                "addr:state": "WY",
+                "addr:street": "West 7th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bluffs Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 551470669,
+            "center": {
+                "lat": 44.2865817,
+                "lon": -105.4647274
+            },
+            "nodes": [
+                12533324746,
+                5325794410,
+                5325794413,
+                5325794414,
+                12533324746
+            ],
+            "tags": {
+                "addr:city": "Gillette",
+                "addr:housenumber": "900",
+                "addr:postcode": "82718",
+                "addr:state": "WY",
+                "addr:street": "Axel's Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Thunder Basin Veterinary Clinic",
+                "roof:shape": "hipped",
+                "source": "survey;esri/USA_NAD_Addresses"
+            }
+        },
+        {
+            "type": "way",
+            "id": 560399328,
+            "center": {
+                "lat": 41.3152724,
+                "lon": -110.3694928
+            },
+            "nodes": [
+                5404356715,
+                5404356716,
+                5404356717,
+                5404356718,
+                5404356715
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Uinta Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 589710239,
+            "center": {
+                "lat": 41.1409516,
+                "lon": -104.7644378
+            },
+            "nodes": [
+                5631343732,
+                5631343728,
+                5631343729,
+                5631343730,
+                5631343731,
+                5631343732
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cheyenne Pet Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 611985561,
+            "center": {
+                "lat": 42.5381762,
+                "lon": -110.1088053
+            },
+            "nodes": [
+                5793651025,
+                5793651024,
+                5793651023,
+                5793651022,
+                5793651025
+            ],
+            "tags": {
+                "addr:city": "Big Piney",
+                "addr:housenumber": "161",
+                "addr:postcode": "83113",
+                "addr:state": "WY",
+                "addr:street": "Norris Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "phone": "+1 307 276 5444",
+                "website": "https://westernvetservice.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 813941393,
+            "center": {
+                "lat": 41.1527591,
+                "lon": -104.8628739
+            },
+            "nodes": [
+                7603252046,
+                7603252047,
+                7603265721,
+                7603252048,
+                7603252049,
+                7603252046
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "ref": "288"
+            }
+        },
+        {
+            "type": "way",
+            "id": 827574106,
+            "center": {
+                "lat": 42.623401,
+                "lon": -110.9152073
+            },
+            "nodes": [
+                7726093588,
+                7726093589,
+                7726093590,
+                7726093591,
+                7726093592,
+                7726093593,
+                7726093594,
+                7726093595,
+                7726093596,
+                7726093597,
+                7726093588
+            ],
+            "tags": {
+                "addr:city": "Smoot",
+                "addr:housenumber": "77837",
+                "addr:postcode": "83126",
+                "addr:state": "WY",
+                "addr:street": "US 89",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cottonwood Creek Veterinary",
+                "phone": "+1 307-886-5517"
+            }
+        },
+        {
+            "type": "way",
+            "id": 903955811,
+            "center": {
+                "lat": 42.0777642,
+                "lon": -104.2177928
+            },
+            "nodes": [
+                8395348075,
+                8395348076,
+                8395348077,
+                8395348078,
+                8395348075
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Goshen Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1546617475,
+            "center": {
+                "lat": 41.788742,
+                "lon": -110.5394482
+            },
+            "nodes": [
+                5966609232,
+                10602613750,
+                10602613751,
+                10602613752,
+                5966609232
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Riverside Vet"
+            }
+        }
+    ]
+}

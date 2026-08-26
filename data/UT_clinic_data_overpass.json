@@ -1,0 +1,2217 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T18:08:06Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 307350689,
+            "lat": 41.150192,
+            "lon": -112.0267612,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal ER"
+            }
+        },
+        {
+            "type": "node",
+            "id": 567267338,
+            "lat": 41.1970664,
+            "lon": -112.0938867,
+            "tags": {
+                "addr:housenumber": "4715",
+                "addr:street": "West Haven Road",
+                "amenity": "veterinary",
+                "name": "Northside Animal Hospital",
+                "source": "survey"
+            }
+        },
+        {
+            "type": "node",
+            "id": 682845717,
+            "lat": 37.096927,
+            "lon": -113.5603917,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Red Hills Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 947853897,
+            "lat": 40.3537578,
+            "lon": -111.7401498,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "VCA Timpanogos Animal Hospital",
+                "source": "survey"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1058301496,
+            "lat": 37.1247099,
+            "lon": -113.5231604,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Washington Family Veterinary Clinic",
+                "phone": "+1 435 627 1300"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1226384041,
+            "lat": 41.2089181,
+            "lon": -112.0252639,
+            "tags": {
+                "addr:housenumber": "3084",
+                "addr:street": "South 1900 West",
+                "amenity": "veterinary",
+                "name": "Bluegrass Veterinary Hospital",
+                "note": "Suites C & D",
+                "source": "survey"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2421447315,
+            "lat": 37.1083059,
+            "lon": -113.5652501,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Clinic of St. George"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2593004000,
+            "lat": 41.2666733,
+            "lon": -112.0128746,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2696097073,
+            "lat": 37.1084803,
+            "lon": -113.5608374,
+            "tags": {
+                "addr:housenumber": "1067",
+                "amenity": "veterinary",
+                "name": "Southwest Animal Emergency Clinic",
+                "opening_hours": "24/7",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2750949640,
+            "lat": 41.000307,
+            "lon": -111.90232,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Bayview Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3305332930,
+            "lat": 37.1203569,
+            "lon": -113.6232603,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Dixie Pet Clinic",
+                "name:fa": "\u06a9\u0644\u06cc\u0646\u06cc\u06a9 \u062f\u06cc\u06a9\u0633\u06cc \u067e\u062a"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3450575617,
+            "lat": 41.2377024,
+            "lon": -111.9393423,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Wildlife Rehabilitation Center of Northern Utah"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3999878468,
+            "lat": 40.6670205,
+            "lon": -111.8401343,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Holladay Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3999878490,
+            "lat": 40.7000843,
+            "lon": -111.8230028,
+            "tags": {
+                "addr:housenumber": "2361",
+                "addr:postcode": "84109",
+                "addr:street": "East 3300 South",
+                "amenity": "veterinary",
+                "name": "Millcreek Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4063817200,
+            "lat": 41.0607252,
+            "lon": -111.9852524,
+            "tags": {
+                "addr:city": "Layton",
+                "addr:housenumber": "1014",
+                "addr:postcode": "84041",
+                "addr:state": "UT",
+                "addr:street": "West Gentile Street",
+                "addr:unit": "F",
+                "amenity": "veterinary",
+                "check_date": "2025-04-24",
+                "contact:facebook": "https://www.facebook.com/CanyonViewCares",
+                "name": "Canyon View Cares",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa,Su off",
+                "phone": "+1 801-547-1111",
+                "website": "https://www.canyonviewcares.com/layton-utah"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4093913465,
+            "lat": 37.1073355,
+            "lon": -113.59261,
+            "tags": {
+                "addr:city": "St. George",
+                "addr:housenumber": "55",
+                "addr:postcode": "84780",
+                "addr:state": "UT",
+                "addr:street": "South Bluff Street",
+                "amenity": "veterinary",
+                "check_date:opening_hours": "2024-08-28",
+                "name": "Animal Medical Hospital",
+                "note": "Medicine & Surgery for Small Animals",
+                "opening_hours": "Mo-Fr 08:00-17:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4305179037,
+            "lat": 40.6359356,
+            "lon": -111.8349019,
+            "tags": {
+                "addr:housenumber": "6360",
+                "addr:state": "UT",
+                "addr:street": "South Highland Drive",
+                "amenity": "veterinary",
+                "name": "Cottonwood Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4316525666,
+            "lat": 41.1849142,
+            "lon": -111.950502,
+            "tags": {
+                "addr:city": "Ogden",
+                "addr:housenumber": "4277",
+                "addr:postcode": "84403",
+                "addr:state": "UT",
+                "addr:street": "Harrison Boulevard",
+                "amenity": "veterinary",
+                "check_date": "2024-02-17",
+                "description": "Pet Grooming",
+                "name": "Tailored Tails",
+                "opening_hours": "Mo-Fr 09:00+"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4323824820,
+            "lat": 41.1753934,
+            "lon": -111.9498909,
+            "tags": {
+                "addr:housenumber": "4847",
+                "amenity": "veterinary",
+                "description": "Medicine, surgery, dentistry, boarding, grooming.",
+                "name": "Birch Creek Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4398345376,
+            "lat": 41.1031724,
+            "lon": -111.9511718,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Mountain View Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4658045446,
+            "lat": 40.2968107,
+            "lon": -111.7068677,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Medical Services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4660473449,
+            "lat": 40.6285011,
+            "lon": -111.8543727,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Union Park Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4711888445,
+            "lat": 40.5874043,
+            "lon": -111.934378,
+            "tags": {
+                "addr:city": "West Jordan",
+                "addr:country": "US",
+                "addr:housenumber": "1519",
+                "addr:postcode": "84088",
+                "addr:state": "UT",
+                "addr:street": "West 9000 South",
+                "amenity": "veterinary",
+                "description": "A VCA facility.",
+                "name": "Jordan River Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5780659302,
+            "lat": 40.7004204,
+            "lon": -111.862168,
+            "tags": {
+                "addr:city": "Salt Lake City",
+                "addr:country": "US",
+                "addr:housenumber": "1021",
+                "addr:postcode": "84106",
+                "addr:state": "UT",
+                "addr:street": "East 3300 South",
+                "amenity": "veterinary",
+                "name": "Dermatology for Animals",
+                "opening_hours": "Mo-Fr 09:00-17:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6069540960,
+            "lat": 40.7495369,
+            "lon": -111.86367,
+            "tags": {
+                "addr:city": "Salt Lake City",
+                "addr:housenumber": "952",
+                "addr:postcode": "84105",
+                "addr:state": "UT",
+                "addr:street": "East 900 South",
+                "amenity": "veterinary",
+                "check_date": "2026-07-21",
+                "lgbtq": "welcome",
+                "name": "University Veterinary Hospital",
+                "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-14:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6680345706,
+            "lat": 41.3074788,
+            "lon": -111.9690417,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Coldwater Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7443679197,
+            "lat": 37.0525573,
+            "lon": -113.5653837,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Desert Hills Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8447308759,
+            "lat": 40.2753259,
+            "lon": -111.6520376,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9121244667,
+            "lat": 40.7357463,
+            "lon": -111.9076745,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Sentrx Animal Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9403151996,
+            "lat": 40.7012912,
+            "lon": -111.802057,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Olympus Cove Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9604343650,
+            "lat": 40.7409048,
+            "lon": -111.8310494,
+            "tags": {
+                "amenity": "veterinary",
+                "email": "redbuttevet@gmail.com",
+                "name": "Red Butte Veterinary Care",
+                "phone": "+1 801-583-1340"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9612585437,
+            "lat": 41.6899507,
+            "lon": -111.8666697,
+            "tags": {
+                "addr:city": "Logan",
+                "addr:housenumber": "2365",
+                "addr:postcode": "84321",
+                "addr:state": "UT",
+                "addr:street": "South Heritage Drive",
+                "amenity": "veterinary",
+                "email": "hahstaffmail@gmail.com",
+                "name": "Heritage Animal Hospital",
+                "phone": "+1 435-535-3634",
+                "website": "https://www.heritageanimalhospital.vet/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9733821652,
+            "lat": 40.7669627,
+            "lon": -111.880724,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Avenues Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9750177322,
+            "lat": 40.719176,
+            "lon": -111.9001715,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "MedVet",
+                "strapline": "Leading specialty healthcare for pets"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9750437048,
+            "lat": 40.5954941,
+            "lon": -111.9393147,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Amor Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9903220193,
+            "lat": 41.713525,
+            "lon": -111.8307905,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Mountain View Veterinary Health Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9986967113,
+            "lat": 40.6683204,
+            "lon": -111.9548043,
+            "tags": {
+                "addr:city": "Taylorsville",
+                "addr:housenumber": "2530",
+                "addr:postcode": "84129",
+                "addr:state": "UT",
+                "addr:street": "West 4700 South",
+                "addr:unit": "B1",
+                "amenity": "veterinary",
+                "name": "VCA All Pet Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-14:00",
+                "operator": "VCA",
+                "phone": "+1 801-966-4700",
+                "website": "https://vcahospitals.com/all-pet-taylorsville"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10028419089,
+            "lat": 40.5004422,
+            "lon": -111.8868731,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "South Mountain Pet Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10200455372,
+            "lat": 40.6211198,
+            "lon": -111.9003151,
+            "tags": {
+                "addr:housenumber": "308",
+                "addr:street": "West 7200 South",
+                "amenity": "veterinary",
+                "brand": "BluePearl",
+                "brand:wikidata": "Q4928764",
+                "check_date:opening_hours": "2022-11-15",
+                "full_name": "BluePearl Specialty + Emergency Pet Hospital",
+                "name": "BluePearl",
+                "opening_hours": "Tu 08:00-24:00; We-Fr 00:00-24:00; Sa 00:00-18:00; Su, Mo off"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10762231526,
+            "lat": 40.3616552,
+            "lon": -111.9749348,
+            "tags": {
+                "addr:city": "Eagle Mountain",
+                "addr:housenumber": "3587",
+                "addr:postcode": "84005",
+                "addr:state": "UT",
+                "addr:street": "East Pony Express Parkway",
+                "addr:unit": "103",
+                "amenity": "veterinary",
+                "name": "Vital Veterinary",
+                "opening_hours": "Mo,We,Fr,Sa 15:00-21:00",
+                "phone": "+1-385-567-7934",
+                "website": "https://vitalveterinary.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11011318618,
+            "lat": 37.1763454,
+            "lon": -113.2857134,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Zion Veterinary Hospital",
+                "phone": "+1 435 635 4033"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11161521798,
+            "lat": 40.7480415,
+            "lon": -111.5644876,
+            "tags": {
+                "addr:housenumber": "2780",
+                "addr:street": "Rasmussen Road",
+                "addr:unit": "B6",
+                "amenity": "veterinary",
+                "full_name": "Powder Paws Veterinary Clinic",
+                "name": "Powder Paws",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 08:00-12:00; Su off",
+                "phone": "+1 435-649-1221",
+                "website": "www.powderpawsvet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11284398918,
+            "lat": 40.6380369,
+            "lon": -111.83347,
+            "tags": {
+                "addr:city": "Holladay",
+                "addr:housenumber": "6221",
+                "addr:postcode": "84121",
+                "addr:state": "UT",
+                "addr:street": "South Highland Drive",
+                "amenity": "veterinary",
+                "name": "VetMed Consultants",
+                "opening_hours": "\"appointment only\"",
+                "phone": "+1 801-889-0919",
+                "website": "https://www.vetmedutah.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12030016224,
+            "lat": 40.6516061,
+            "lon": -111.9420756,
+            "tags": {
+                "addr:city": "Taylorsville",
+                "addr:country": "US",
+                "addr:housenumber": "5478",
+                "addr:postcode": "84123",
+                "addr:state": "UT",
+                "addr:street": "South Redwood Road",
+                "amenity": "veterinary",
+                "check_date": "2024-07-02",
+                "name": "UrgentVet",
+                "opening_hours": "Mo-Fr 15:00-23:00; Sa-Su 10:00-20:00; PH 12:00-20:00",
+                "phone": "+1 801-796-5050",
+                "website": "https://urgentvet.com/location/taylorsville-ut/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12174340563,
+            "lat": 40.377654,
+            "lon": -111.794144,
+            "tags": {
+                "addr:city": "American Fork",
+                "addr:housenumber": "161",
+                "addr:postcode": "84003",
+                "addr:state": "UT",
+                "addr:street": "East 30 North",
+                "amenity": "veterinary",
+                "name": "Utah Veterinary Hospital",
+                "opening_hours": "Mo-Th 08:00-17:30, Fr 08:00-14:00",
+                "phone": "+1 801 692 1563",
+                "website": "https://www.utahvethospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12485156594,
+            "lat": 40.9855058,
+            "lon": -111.9123119,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "UrgentVet",
+                "opening_hours": "Mo-Fr 15:00-23:00; Sa-Su 12:00-20:00; PH 12:00-20:00",
+                "phone": "+13853842200"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12770848593,
+            "lat": 40.5456207,
+            "lon": -112.0031495,
+            "tags": {
+                "addr:city": "South Jordan",
+                "addr:housenumber": "4696",
+                "addr:postcode": "84095",
+                "addr:state": "UT",
+                "addr:street": "West Daybreak Rim Way",
+                "amenity": "veterinary",
+                "name": "Animal Care Daybreak",
+                "website": "https://www.animalcaredaybreak.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12778662726,
+            "lat": 40.528721,
+            "lon": -112.0131983,
+            "tags": {
+                "addr:city": "Herriman",
+                "addr:housenumber": "5127",
+                "addr:postcode": "84096",
+                "addr:state": "UT",
+                "addr:street": "West Miller Crossing Drive",
+                "addr:unit": "C",
+                "amenity": "veterinary",
+                "email": "hello@livewellherriman.com",
+                "name": "Livewell Animal Hospital",
+                "note": "Occupies unit B and C",
+                "opening_hours": "Mo-Sa 08:00-18:00",
+                "phone": "+1 385-355-6756",
+                "website": "https://www.livewellanimal.com/our-locations/salt-lake-city-ut/herriman/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12804270566,
+            "lat": 40.5390357,
+            "lon": -112.0224461,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Monarch Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12926602231,
+            "lat": 40.5498342,
+            "lon": -111.8913358,
+            "tags": {
+                "addr:city": "Sandy",
+                "addr:housenumber": "11084",
+                "addr:postcode": "84070",
+                "addr:state": "UT",
+                "addr:street": "S State Street",
+                "amenity": "veterinary",
+                "name": "VEG Veterinary Emergency Group",
+                "opening_hours": "24/7",
+                "phone": "+1 801-783-5010",
+                "website": "https://www.veterinaryemergencygroup.com/locations/utah/sandy"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12926702573,
+            "lat": 41.1602767,
+            "lon": -112.0265289,
+            "tags": {
+                "addr:city": "Roy",
+                "addr:housenumber": "5665",
+                "addr:postcode": "84067",
+                "addr:state": "UT",
+                "addr:street": "South 1900 West",
+                "addr:unit": "C",
+                "amenity": "veterinary",
+                "check_date": "2025-06-19",
+                "name": "Pro Pet Care",
+                "opening_hours": "Mo,Su off; Tu-Fr 09:00-17:00; Sa 09:00-14:00",
+                "phone": "+1 801-784-7676",
+                "website": "https://propetcareclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13507772001,
+            "lat": 40.2875347,
+            "lon": -111.6902997,
+            "tags": {
+                "addr:city": "Orem",
+                "addr:housenumber": "525",
+                "addr:postcode": "84058",
+                "addr:state": "UT",
+                "addr:street": "South State Street",
+                "amenity": "veterinary",
+                "name": "Pet Medical Services",
+                "opening_hours": "Tu-Fr 08:00-18:00; Mo 08:00-17:00",
+                "phone": "+1-385-375-2000",
+                "website": "https://www.acaringvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13672645227,
+            "lat": 40.3589132,
+            "lon": -111.7689388,
+            "tags": {
+                "addr:city": "Pleasant Grove",
+                "addr:housenumber": "425",
+                "addr:postcode": "84062",
+                "addr:state": "UT",
+                "addr:street": "South North County Boulevard",
+                "addr:unit": "B",
+                "amenity": "veterinary",
+                "name": "Livewell Animal Urgent Care",
+                "opening_hours": "Mo,Th-Sa 12:00-22:00",
+                "phone": "+1-385-290-4287",
+                "website": "https://www.livewellanimal.com/our-locations/salt-lake-city-ut/pleasant-grove/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13960722247,
+            "lat": 40.3438515,
+            "lon": -111.7214044,
+            "tags": {
+                "addr:city": "Lindon",
+                "addr:housenumber": "360",
+                "addr:postcode": "84042",
+                "addr:state": "UT",
+                "addr:street": "North State Street",
+                "addr:unit": "D",
+                "amenity": "veterinary",
+                "email": "info@acaringvet.com",
+                "name": "A Caring Vet Animal Hospital",
+                "opening_hours": "Mo-Sa 09:00-18:00",
+                "phone": "+1-801-785-6737",
+                "website": "https://acaringvet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14039863855,
+            "lat": 40.6649238,
+            "lon": -111.8369376,
+            "tags": {
+                "addr:unit": "B-170",
+                "amenity": "veterinary",
+                "description": "Primary care and emergency care for pets.",
+                "name": "Sploot",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14106643417,
+            "lat": 41.2993009,
+            "lon": -111.8162889,
+            "tags": {
+                "amenity": "veterinary",
+                "fixme": "Need survey"
+            }
+        },
+        {
+            "type": "way",
+            "id": 41565366,
+            "center": {
+                "lat": 41.1627632,
+                "lon": -111.9416093
+            },
+            "nodes": [
+                509899262,
+                509899263,
+                509899264,
+                509899265,
+                509899266,
+                509899267,
+                509899268,
+                509899269,
+                509899262
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Erz Animal Hospital",
+                "source": "Yahoo"
+            }
+        },
+        {
+            "type": "way",
+            "id": 239142010,
+            "center": {
+                "lat": 40.6032285,
+                "lon": -111.8321648
+            },
+            "nodes": [
+                2469510003,
+                2469510002,
+                2469510001,
+                2469510000,
+                2469510009,
+                2469510010,
+                2469510011,
+                2469510012,
+                6341991298,
+                6341991297,
+                2469510013,
+                2469510014,
+                2469510015,
+                2469510016,
+                6341991296,
+                6341991295,
+                6341991294,
+                6341991293,
+                2469510017,
+                2469510018,
+                6341991292,
+                2469510019,
+                2469510008,
+                2469510006,
+                2469510007,
+                2469510005,
+                6341991291,
+                2469510004,
+                2469510003
+            ],
+            "tags": {
+                "addr:city": "Cottonwood Heights",
+                "addr:housenumber": "2055",
+                "addr:postcode": "84093",
+                "addr:state": "UT",
+                "addr:street": "East Creek Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Willow Creek Pet Center",
+                "operator": "VCA",
+                "utahagrc:parcelid": "22341530580000"
+            }
+        },
+        {
+            "type": "way",
+            "id": 287884209,
+            "center": {
+                "lat": 40.3838194,
+                "lon": -111.8139706
+            },
+            "nodes": [
+                2914486855,
+                2914486856,
+                2914486857,
+                2914486858,
+                2914486855
+            ],
+            "tags": {
+                "addr:city": "American Fork",
+                "addr:housenumber": "582",
+                "addr:postcode": "84003",
+                "addr:state": "UT",
+                "addr:street": "Pacific Drive",
+                "amenity": "veterinary",
+                "building": "business",
+                "fax": "+1 801 492 3519",
+                "name": "Country View Veterinary Hospital",
+                "opening_hours": "Mo-Th 07:00-18:00, Fr 07:30-18:00",
+                "phone": "+1 801 763 1900",
+                "website": "https://countryviewvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 380634346,
+            "center": {
+                "lat": 41.4756223,
+                "lon": -112.0240155
+            },
+            "nodes": [
+                3839563829,
+                3839563830,
+                12490277923,
+                3839563831,
+                3839563832,
+                12490277921,
+                3839563833,
+                3839563834,
+                12490277919,
+                12490277925,
+                3839563835,
+                3839563836,
+                12490277928,
+                3839563837,
+                3839563838,
+                3839563829
+            ],
+            "tags": {
+                "addr:housenumber": "1885",
+                "addr:state": "UT",
+                "addr:street": "South Highway 89",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Canyon View Animal Health Center",
+                "opening_hours": "08:00-18:00",
+                "website": "canyonviewvet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 402209009,
+            "center": {
+                "lat": 41.0631785,
+                "lon": -111.9458918
+            },
+            "nodes": [
+                4046290574,
+                4046290572,
+                4046290575,
+                4046290578,
+                4046290574
+            ],
+            "tags": {
+                "addr:city": "Layton",
+                "addr:housenumber": "230",
+                "addr:postcode": "84041",
+                "addr:state": "UT",
+                "addr:street": "North Fairfield Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2025-05-27",
+                "name": "Fairfield Veterinary Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa-Su off",
+                "phone": "+1 801-544-8800",
+                "website": "https://fairfieldvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 420880324,
+            "center": {
+                "lat": 40.5801141,
+                "lon": -111.8528585
+            },
+            "nodes": [
+                4207741680,
+                4207741677,
+                4207741678,
+                4207741679,
+                4207741680
+            ],
+            "tags": {
+                "addr:city": "Sandy",
+                "addr:housenumber": "9414",
+                "addr:postcode": "84092",
+                "addr:state": "UT",
+                "addr:street": "South 1335 East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mountain View Animal Hospital",
+                "source": "esri/USA_NAD_Addresses"
+            }
+        },
+        {
+            "type": "way",
+            "id": 423929788,
+            "center": {
+                "lat": 40.9179012,
+                "lon": -111.8797625
+            },
+            "nodes": [
+                4234383890,
+                4234383891,
+                4234383892,
+                4234383893,
+                4234383890
+            ],
+            "tags": {
+                "addr:city": "Centerville",
+                "addr:country": "US",
+                "addr:housenumber": "86 N",
+                "addr:postcode": "84014",
+                "addr:state": "UT",
+                "addr:street": "70 West",
+                "amenity": "veterinary",
+                "building": "retail",
+                "building:levels": "1",
+                "contact:phone": "+1 801-298-2014",
+                "contact:website": "https://www.parrishcreekvet.com/",
+                "name": "Parrish Creek Veterinary Clinic",
+                "opening_hours": "08:00-20:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 432006805,
+            "center": {
+                "lat": 40.8808261,
+                "lon": -111.8928292
+            },
+            "nodes": [
+                4311996743,
+                4311996744,
+                4311996745,
+                4311996746,
+                4311996747,
+                4311996748,
+                4311996749,
+                4311996750,
+                4311996743
+            ],
+            "tags": {
+                "addr:city": "Bountiful",
+                "addr:housenumber": "880",
+                "addr:postcode": "84010",
+                "addr:state": "UT",
+                "addr:street": "South 500 West",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2025-10-17",
+                "name": "Bountiful Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:00-13:00",
+                "phone": "+1 801-295-0733",
+                "website": "https://bountifulanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 466290482,
+            "center": {
+                "lat": 40.0439735,
+                "lon": -111.7162366
+            },
+            "nodes": [
+                12338116401,
+                12996847628,
+                12996847627,
+                12996847626,
+                4611248754,
+                4611248762,
+                4611248755,
+                4611248756,
+                12996847622,
+                12996847621,
+                12996847620,
+                4611248757,
+                4611248758,
+                4611248759,
+                4611248760,
+                4611248761,
+                12338116401
+            ],
+            "tags": {
+                "addr:city": "Payson",
+                "addr:housenumber": "43",
+                "addr:postcode": "84651",
+                "addr:state": "UT",
+                "addr:street": "North 1000 East",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "check_date": "2025-07-27",
+                "description": "Emergency Care Hours: Mo-Fr 17:00-20:30, Sa 17:00-19:30, Su 10:00-18:00",
+                "email": "pfph@pfph.vet",
+                "name": "Payson Family Pet Hospital",
+                "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-17:00, Su closed",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+1-801-465-1800",
+                "website": "https://paysonfamilypethospital.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 481850933,
+            "center": {
+                "lat": 41.0822596,
+                "lon": -111.9918677
+            },
+            "nodes": [
+                4747482686,
+                4747482685,
+                4747482684,
+                4747482683,
+                4747482682,
+                4747482681,
+                4747482680,
+                4747482679,
+                4747482678,
+                4747482677,
+                4747482686
+            ],
+            "tags": {
+                "addr:city": "Layton",
+                "addr:full": "1538 N MAIN ST",
+                "addr:housenumber": "1538",
+                "addr:state": "UT",
+                "addr:street": "North Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2025-04-15",
+                "contact:facebook": "https://www.facebook.com/laytonvet/",
+                "height": "6",
+                "name": "Layton Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:00-12:00; Su off",
+                "phone": "+1 801-773-2570"
+            }
+        },
+        {
+            "type": "way",
+            "id": 483087146,
+            "center": {
+                "lat": 41.073358,
+                "lon": -111.978832
+            },
+            "nodes": [
+                4758419209,
+                4758418989,
+                4758419264,
+                4758419208,
+                4758418988,
+                4758419207,
+                4758418987,
+                4758419255,
+                4758419206,
+                4758418986,
+                4758419254,
+                4758419205,
+                4758419204,
+                4758418985,
+                4758419253,
+                4758418984,
+                4758419163,
+                4758419162,
+                4758419161,
+                4758419252,
+                4758418983,
+                4758419251,
+                4758418982,
+                4758418835,
+                4758419321,
+                4758419250,
+                4758418981,
+                4758419249,
+                4758419209
+            ],
+            "tags": {
+                "addr:city": "Layton",
+                "addr:housenumber": "908",
+                "addr:postcode": "84041",
+                "addr:state": "UT",
+                "addr:street": "North Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2025-04-15",
+                "contact:facebook": "https://www.facebook.com/mtnwestvet/",
+                "height": "6",
+                "name": "Mountain West Veterinary Specialists",
+                "phone": "+1 801-683-6201",
+                "website": "https://www.mtnwestvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 487138084,
+            "center": {
+                "lat": 40.5574761,
+                "lon": -111.8537704
+            },
+            "nodes": [
+                5119990448,
+                4796504361,
+                4796504362,
+                4796504363,
+                5119990448
+            ],
+            "tags": {
+                "addr:city": "Sandy",
+                "addr:housenumber": "10670",
+                "addr:postcode": "84094",
+                "addr:state": "UT",
+                "addr:street": "1300 East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sandy Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 554455635,
+            "center": {
+                "lat": 40.71975,
+                "lon": -111.8151599
+            },
+            "nodes": [
+                5350719445,
+                5350717071,
+                5350714277,
+                5350726664,
+                5350724738,
+                5350722320,
+                5350720410,
+                5350718533,
+                5350719445
+            ],
+            "tags": {
+                "addr:city": "Salt Lake City",
+                "addr:housenumber": "2675",
+                "addr:postcode": "84109",
+                "addr:state": "UT",
+                "addr:street": "East Parleys Way",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "East Valley Veterenary Clinic",
+                "utahagrc:parcelid": "16222780050000"
+            }
+        },
+        {
+            "type": "way",
+            "id": 556599301,
+            "center": {
+                "lat": 40.5256023,
+                "lon": -112.2992254
+            },
+            "nodes": [
+                5369154064,
+                5369154065,
+                5369154066,
+                5369154067,
+                5369154064
+            ],
+            "tags": {
+                "addr:city": "Tooele",
+                "addr:housenumber": "254",
+                "addr:postcode": "84074",
+                "addr:state": "UT",
+                "addr:street": "South Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Countryside Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 572978937,
+            "center": {
+                "lat": 40.7230229,
+                "lon": -111.8616807
+            },
+            "nodes": [
+                5504388454,
+                5504388453,
+                5504388452,
+                5504388451,
+                5504388450,
+                5504388449,
+                5504388454
+            ],
+            "tags": {
+                "addr:city": "Salt Lake City",
+                "addr:housenumber": "2206",
+                "addr:postcode": "84106",
+                "addr:state": "UT",
+                "addr:street": "South McClelland Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Sugar House Veterinary Hospital",
+                "utahagrc:parcelid": "16202050170000"
+            }
+        },
+        {
+            "type": "way",
+            "id": 597505833,
+            "center": {
+                "lat": 37.035008,
+                "lon": -112.3787541
+            },
+            "nodes": [
+                5688898129,
+                5688898135,
+                5688898136,
+                5688898130,
+                5688898134,
+                5688898131,
+                5688898132,
+                5688898133,
+                5688898129
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:website": "http://www.kanabvet.com",
+                "name": "Kanab Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 607171639,
+            "center": {
+                "lat": 41.2521365,
+                "lon": -111.9774019
+            },
+            "nodes": [
+                5754897461,
+                5754897472,
+                5754897473,
+                5754897462,
+                5754897463,
+                5754897464,
+                5754897465,
+                5754897475,
+                5754897474,
+                5754897461
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Brookside Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 607180184,
+            "center": {
+                "lat": 41.2589003,
+                "lon": -111.96897
+            },
+            "nodes": [
+                5754966677,
+                5754966678,
+                11303264302,
+                5754966679,
+                5754966680,
+                5754966677
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 610359881,
+            "center": {
+                "lat": 40.7004291,
+                "lon": -111.8620524
+            },
+            "nodes": [
+                5780659295,
+                5780659296,
+                5780659297,
+                5780659298,
+                5780659299,
+                5780659300,
+                5780659301,
+                5780659295
+            ],
+            "tags": {
+                "addr:city": "Salt Lake City",
+                "addr:housenumber": "1021",
+                "addr:postcode": "84106",
+                "addr:state": "UT",
+                "addr:street": "East 3300 South",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Advanced Veterinary Care",
+                "opening_hours": "24/7"
+            }
+        },
+        {
+            "type": "way",
+            "id": 610381254,
+            "center": {
+                "lat": 40.7001719,
+                "lon": -111.857099
+            },
+            "nodes": [
+                5780794298,
+                5780794299,
+                5780794300,
+                5780794301,
+                5780794302,
+                5780794303,
+                5780794304,
+                5780794305,
+                5780794306,
+                5780794307,
+                5780794308,
+                5780794309,
+                5780794310,
+                5780794311,
+                5780794312,
+                5780794313,
+                5780794298
+            ],
+            "tags": {
+                "addr:city": "Salt Lake City",
+                "addr:country": "US",
+                "addr:housenumber": "1213",
+                "addr:postcode": "84106",
+                "addr:state": "UT",
+                "addr:street": "East 3300 South",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Brickyard Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00, Sa 08:00-12:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 677772703,
+            "center": {
+                "lat": 40.5737833,
+                "lon": -111.9783594
+            },
+            "nodes": [
+                6346190584,
+                6346190685,
+                6704384731,
+                6346190561,
+                6346190560,
+                6346190584
+            ],
+            "tags": {
+                "addr:city": "South Jordan",
+                "addr:housenumber": "3694",
+                "addr:postcode": "84009",
+                "addr:state": "UT",
+                "addr:street": "West Skye Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "A Gentle Vet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 746490771,
+            "center": {
+                "lat": 41.0894208,
+                "lon": -112.0530818
+            },
+            "nodes": [
+                6985797422,
+                6985797423,
+                6985797424,
+                6985797425,
+                6985797426,
+                6985797427,
+                6985797428,
+                6985797429,
+                6985797422
+            ],
+            "tags": {
+                "addr:city": "Syracuse",
+                "addr:housenumber": "1412",
+                "addr:postcode": "84075",
+                "addr:state": "UT",
+                "addr:street": "West 1700 South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2025-06-03",
+                "name": "Antelope Animal Hospital",
+                "opening_hours": "Mo-Tu,Th-Fr 08:00-17:00; We 08:00-17:30; Sa-Su off",
+                "phone": "+1 801-779-7970",
+                "website": "https://antelopevet.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 768211181,
+            "center": {
+                "lat": 40.6614441,
+                "lon": -111.9394024
+            },
+            "nodes": [
+                7172419841,
+                7172419842,
+                7172419843,
+                7172419844,
+                7172419841
+            ],
+            "tags": {
+                "addr:city": "Taylorsville",
+                "addr:housenumber": "4958",
+                "addr:postcode": "84123",
+                "addr:state": "UT",
+                "addr:street": "South Redwood Road",
+                "amenity": "veterinary",
+                "building": "retail",
+                "email": "Pets@UtahRedwoodVet.com",
+                "fax": "+1-801-966-0650",
+                "name": "Redwood Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00; Su off",
+                "phone": "+1-801-966-3974"
+            }
+        },
+        {
+            "type": "way",
+            "id": 778333661,
+            "center": {
+                "lat": 40.5081956,
+                "lon": -112.0272044
+            },
+            "nodes": [
+                7264275406,
+                7264275407,
+                7264275408,
+                7264275409,
+                7264275406
+            ],
+            "tags": {
+                "addr:city": "Herriman",
+                "addr:housenumber": "5714",
+                "addr:state": "UT",
+                "addr:street": "West 13400 South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "VCA Oquirrh Hills Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 972970676,
+            "center": {
+                "lat": 40.6538798,
+                "lon": -111.9823403
+            },
+            "nodes": [
+                9005351545,
+                9005351546,
+                9005351547,
+                9005351548,
+                9005351545
+            ],
+            "tags": {
+                "addr:city": "Taylorsville",
+                "addr:housenumber": "3800",
+                "addr:postcode": "84129",
+                "addr:state": "UT",
+                "addr:street": "West 5400 South",
+                "amenity": "veterinary",
+                "building": "retail",
+                "check_date": "2026-08-13",
+                "name": "West Lake Animal Hospital",
+                "opening_hours": "Mo-Th 07:00-17:30; Fr-Su off",
+                "phone": "+1 801-966-6348",
+                "website": "https://westlakeanimalutah.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1008700002,
+            "center": {
+                "lat": 41.7485741,
+                "lon": -111.8366378
+            },
+            "nodes": [
+                9307010334,
+                9307010335,
+                9307010336,
+                9307010337,
+                9307010345,
+                9307010338,
+                9307010339,
+                9307010340,
+                9307010334
+            ],
+            "tags": {
+                "addr:city": "Logan",
+                "addr:country": "US",
+                "addr:housenumber": "95",
+                "addr:postcode": "84321",
+                "addr:state": "UT",
+                "addr:street": "West 900 North",
+                "alt_name": "Bridgerland Animal Hospital",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bridgerland-Cache Animal Hospital",
+                "phone": "+1 435-752-2151"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1018444329,
+            "center": {
+                "lat": 40.8685557,
+                "lon": -111.8773783
+            },
+            "nodes": [
+                9393620847,
+                9393620848,
+                9393620849,
+                9393620850,
+                9393620851,
+                9393620852,
+                9393620853,
+                9393620854,
+                9393620855,
+                9393620856,
+                9393620857,
+                9393620847
+            ],
+            "tags": {
+                "addr:city": "Bountiful",
+                "addr:housenumber": "1975",
+                "addr:postcode": "84010",
+                "addr:state": "UT",
+                "addr:street": "Orchard Drive",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Lakeview Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30",
+                "phone": "+1 801-298-2314",
+                "website": "https://vcahospitals.com/lakeview-ut?utm_source=maps&utm_medium=organic&utm_campaign=VCA_Lakeview_Animal_Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1028801183,
+            "center": {
+                "lat": 40.6241863,
+                "lon": -111.837612
+            },
+            "nodes": [
+                12708099911,
+                9484874402,
+                9484874403,
+                9484874404,
+                9484874405,
+                9484874406,
+                12708099911
+            ],
+            "tags": {
+                "addr:city": "Cottonwood Heights",
+                "addr:housenumber": "1892",
+                "addr:postcode": "84121",
+                "addr:state": "UT",
+                "addr:street": "East Fort Union Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Wasatch Pet Care",
+                "source": "esri/USA_NAD_Addresses"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1113121496,
+            "center": {
+                "lat": 41.2430893,
+                "lon": -112.0060882
+            },
+            "nodes": [
+                10183992716,
+                10184015220,
+                10184015219,
+                10184015222,
+                10184015221,
+                10183992715,
+                10184015218,
+                10184015217,
+                10183992716
+            ],
+            "tags": {
+                "addr:city": "Ogden",
+                "addr:housenumber": "1095",
+                "addr:postcode": "84404",
+                "addr:state": "UT",
+                "addr:street": "West 12th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Borrett Animal Hospital",
+                "opening_hours": "Mo 09:00-17:00; Tu-Th 08:00-18:00",
+                "phone": "+18014363868",
+                "website": "https://borretanimalhospital.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1115298014,
+            "center": {
+                "lat": 40.3910214,
+                "lon": -111.9209056
+            },
+            "nodes": [
+                10200266636,
+                10200266637,
+                10200266638,
+                10200266639,
+                10200266640,
+                10200266641,
+                10200266642,
+                10200266643,
+                10200266644,
+                10200266645,
+                10200266646,
+                10200266647,
+                10200266648,
+                10200266649,
+                10200266650,
+                10200266651,
+                10200266636
+            ],
+            "tags": {
+                "addr:city": "Saratoga Springs",
+                "addr:housenumber": "1527",
+                "addr:postcode": "84045",
+                "addr:state": "UT",
+                "addr:street": "North Exchange Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Saratoga Springs Animal Hospital",
+                "opening_hours": "Mo-Fr 08:30-17:30"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1117704619,
+            "center": {
+                "lat": 40.4289158,
+                "lon": -111.8317925
+            },
+            "nodes": [
+                10222612752,
+                10222612753,
+                10222612754,
+                10222612755,
+                10222612756,
+                10222612757,
+                10222612758,
+                10222612759,
+                10222612760,
+                10222612761,
+                10222612762,
+                10222612763,
+                10222612764,
+                10222612765,
+                10222612766,
+                10222612767,
+                10222612768,
+                10222612769,
+                10222612770,
+                10222612771,
+                10222612752
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1136758242,
+            "center": {
+                "lat": 41.9244439,
+                "lon": -111.8138986
+            },
+            "nodes": [
+                10261418933,
+                10596661264,
+                10596661265,
+                10596661266,
+                10261418933
+            ],
+            "tags": {
+                "addr:city": "Richmond",
+                "addr:country": "US",
+                "addr:housenumber": "191",
+                "addr:postcode": "84333",
+                "addr:state": "UT",
+                "addr:street": "West 100 North",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "North Cache Veterinary Service"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1171891107,
+            "center": {
+                "lat": 40.2656209,
+                "lon": -111.6691902
+            },
+            "nodes": [
+                10888688502,
+                10888688501,
+                10888688500,
+                10888688499,
+                10888688498,
+                10888688497,
+                10888688502
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "building": "yes",
+                "construction": "residential",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1184516420,
+            "center": {
+                "lat": 39.5293566,
+                "lon": -111.4691938
+            },
+            "nodes": [
+                7921693368,
+                7921693369,
+                11002118664,
+                11002118663,
+                11002118662,
+                11002118661,
+                7921693368
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sanpete Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1189503156,
+            "center": {
+                "lat": 41.7624064,
+                "lon": -111.8124424
+            },
+            "nodes": [
+                11045401461,
+                9473223979,
+                11045401463,
+                11045401462,
+                3588282575,
+                11045401449,
+                11045401450,
+                11045401460,
+                11045401461
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Mountain View Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1212903651,
+            "center": {
+                "lat": 38.3974141,
+                "lon": -111.5938567
+            },
+            "nodes": [
+                11237195711,
+                11237195710,
+                11237195709,
+                11237195708,
+                11237195707,
+                11237195706,
+                11237195711
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Fremont River Veterinary Clinic",
+                "opening_hours": "Mo,We,Fr 08:00-17:00",
+                "phone": "+1 435-836-2211",
+                "website": "https://fremontrivervet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1255858732,
+            "center": {
+                "lat": 40.611027,
+                "lon": -112.0247215
+            },
+            "nodes": [
+                11675024980,
+                11675024981,
+                13513642462,
+                13513642460,
+                13513642459,
+                13513642461,
+                11675024982,
+                11675024983,
+                11675024980
+            ],
+            "tags": {
+                "addr:city": "West Jordan",
+                "addr:housenumber": "7712",
+                "addr:postcode": "84081",
+                "addr:state": "UT",
+                "addr:street": "South 5600 West",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "building": "yes",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00",
+                "phone": "+1 801-280-6260",
+                "website": "https://www.banfield.com/locations/veterinarians/ut/west-jordan/jlg"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1366486220,
+            "center": {
+                "lat": 37.0665083,
+                "lon": -113.5479253
+            },
+            "nodes": [
+                12655404370,
+                12655404371,
+                12655404372,
+                12655404373,
+                12655404374,
+                12655404375,
+                12655404376,
+                12655404377,
+                12655404370
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1386973591,
+            "center": {
+                "lat": 39.1406673,
+                "lon": -111.8193519
+            },
+            "nodes": [
+                12839768921,
+                12839768922,
+                12839768923,
+                12839768924,
+                12839768921
+            ],
+            "tags": {
+                "addr:city": "Gunnison",
+                "addr:country": "US",
+                "addr:housenumber": "630 S",
+                "addr:postcode": "84634",
+                "addr:state": "UT",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Gunnison Valley Animal Clinic",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1417442374,
+            "center": {
+                "lat": 41.284008,
+                "lon": -111.9869307
+            },
+            "nodes": [
+                13025822641,
+                13025822642,
+                13025822643,
+                13025822644,
+                13025822645,
+                13025822646,
+                13025822641
+            ],
+            "tags": {
+                "addr:city": "Harrisville",
+                "addr:housenumber": "1380",
+                "addr:state": "UT",
+                "addr:street": "N Highway 89",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ben Lomond Animal Clinic",
+                "phone": "+1-801-782-9679"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1418271855,
+            "center": {
+                "lat": 41.2866628,
+                "lon": -111.9685909
+            },
+            "nodes": [
+                13033493972,
+                13033493973,
+                13033493974,
+                13033493975,
+                13033493976,
+                13033493977,
+                13033493978,
+                13033493979,
+                13033493972
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "North Ogden Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1468606758,
+            "center": {
+                "lat": 38.2946711,
+                "lon": -112.6398108
+            },
+            "nodes": [
+                13469462361,
+                13469462360,
+                13469462359,
+                13469462358,
+                13469462361
+            ],
+            "tags": {
+                "addr:city": "Beaver",
+                "addr:postcode": "84713",
+                "addr:state": "UT",
+                "amenity": "veterinary",
+                "building": "commercial"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1473782388,
+            "center": {
+                "lat": 40.499455,
+                "lon": -111.9596384
+            },
+            "nodes": [
+                13521018657,
+                13660300064,
+                13660300065,
+                13521018630,
+                13521018631,
+                13521018632,
+                13521018633,
+                13521018634,
+                13521018635,
+                13521018636,
+                13521018637,
+                13521018638,
+                13521018639,
+                13521018640,
+                13521018641,
+                13521018642,
+                13521018643,
+                13521018644,
+                13521018645,
+                13660300062,
+                13660300063,
+                13521018646,
+                13521018647,
+                13521018648,
+                13521018649,
+                13660300072,
+                13660300073,
+                13521018650,
+                13660300075,
+                13660300074,
+                13521018651,
+                13521018652,
+                13521018653,
+                13521018654,
+                13660300071,
+                13660300070,
+                13660300068,
+                13660300069,
+                13521018655,
+                13521018656,
+                13660300067,
+                13660300066,
+                13521018657
+            ],
+            "tags": {
+                "addr:city": "Bluffdale",
+                "addr:housenumber": "13860",
+                "addr:postcode": "84065",
+                "addr:state": "UT",
+                "addr:street": "South 2700 West",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "mwvsbluffdale@mtnwestvet.com",
+                "layer": "1",
+                "name": "Mountain West Veterinary Specialists",
+                "source": "microsoft/BuildingFootprints;esri/USA_NAD_Addresses",
+                "website": "https://www.mtnwestvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1475399328,
+            "center": {
+                "lat": 40.645621,
+                "lon": -112.2902742
+            },
+            "nodes": [
+                13535320952,
+                13535320949,
+                13535320948,
+                13535320947,
+                13535320950,
+                13535320943,
+                13535320944,
+                13535320945,
+                13535320946,
+                13535320951,
+                13535320941,
+                13535320940,
+                13535320939,
+                13535320942,
+                13535320952
+            ],
+            "tags": {
+                "addr:city": "Stansbury Park",
+                "addr:housenumber": "6422",
+                "addr:postcode": "84074",
+                "addr:state": "UT",
+                "addr:street": "North Gateway Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1 435-882-6555",
+                "name": "Stansbury Animal Hospital",
+                "opening_hours": "Mo-Fr 08:30-17:30",
+                "phone": "+1 435-843-0341",
+                "website": "https://www.stansburyanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1486773067,
+            "center": {
+                "lat": 37.1446171,
+                "lon": -112.5588455
+            },
+            "nodes": [
+                13629144452,
+                13629144453,
+                13629144454,
+                13629144455,
+                13629144456,
+                13629144457,
+                13629144458,
+                13629144459,
+                13629144460,
+                13629144461,
+                13629144462,
+                13629144463,
+                13629144464,
+                13629144465,
+                13629144466,
+                13629144467,
+                13629144468,
+                13629144469,
+                13629144470,
+                13629144471,
+                13629144452
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Best Friends Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1532133528,
+            "center": {
+                "lat": 40.3815713,
+                "lon": -111.9151581
+            },
+            "nodes": [
+                9880221547,
+                13963809022,
+                13963809021,
+                13963809020,
+                9880221548,
+                9880221547
+            ],
+            "tags": {
+                "addr:city": "Saratoga Spring",
+                "addr:housenumber": "1068",
+                "addr:postcode": "84045",
+                "addr:state": "UT",
+                "addr:street": "North Redwood Road",
+                "addr:unit": "B",
+                "amenity": "veterinary",
+                "check_date": "2026-06-18",
+                "name": "Riverside Pet Care",
+                "opening_hours": "Mo-Fr 08:30-17:00",
+                "phone": "+1 385-425-6444",
+                "website": "https://riverside-petcare.com/"
+            }
+        }
+    ]
+}

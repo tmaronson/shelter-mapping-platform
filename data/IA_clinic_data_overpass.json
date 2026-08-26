@@ -1,0 +1,2312 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:52:06Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 456401168,
+            "lat": 41.7321543,
+            "lon": -93.6298654,
+            "tags": {
+                "addr:city": "Ankeny",
+                "addr:country": "US",
+                "addr:housenumber": "2202",
+                "addr:postcode": "50023",
+                "addr:street": "East 1st Street",
+                "amenity": "veterinary",
+                "name": "Ankeny Animal Health Clinic",
+                "phone": "+1-515-965-0452"
+            }
+        },
+        {
+            "type": "node",
+            "id": 663119279,
+            "lat": 42.5096713,
+            "lon": -93.2627094,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 770906833,
+            "lat": 41.3577587,
+            "lon": -93.5490765,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Kindness Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1468550065,
+            "lat": 41.6228264,
+            "lon": -93.7359218,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "West Side Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1613816214,
+            "lat": 41.6006151,
+            "lon": -93.6734899,
+            "tags": {
+                "addr:unit": "Suite 200",
+                "amenity": "veterinary",
+                "name": "Heartland Animal Hospital",
+                "phone": "+1-515-255-4464",
+                "website": "https://heartlandanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1804951348,
+            "lat": 42.5765266,
+            "lon": -92.8236725,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Highview Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2024997918,
+            "lat": 42.9979766,
+            "lon": -96.0365918,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Pipestone Veterinary Services",
+                "source": "local knowledge",
+                "website": "http://www.ocvet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2030900383,
+            "lat": 40.6239934,
+            "lon": -93.9240502,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Lamoni Veternary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2062621081,
+            "lat": 42.0367301,
+            "lon": -92.9214719,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Clinic",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2540844146,
+            "lat": 41.5840072,
+            "lon": -93.7883721,
+            "tags": {
+                "addr:housenumber": "5902",
+                "addr:postcode": "50266",
+                "addr:street": "Ashworth Road",
+                "amenity": "veterinary",
+                "name": "Ashworth Road Animal Hospital",
+                "phone": "+1-515-337-2643",
+                "website": "https://www.ashworthpet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2667706052,
+            "lat": 42.0103738,
+            "lon": -93.6821588,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Ames Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3037635116,
+            "lat": 41.5999557,
+            "lon": -93.7445214,
+            "tags": {
+                "addr:city": "West Des Moines",
+                "addr:housename": "Clocktower Square",
+                "addr:housenumber": "2900",
+                "addr:postcode": "50266",
+                "addr:street": "University Avenue",
+                "amenity": "veterinary",
+                "name": "Animal Care Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3269852741,
+            "lat": 41.5578979,
+            "lon": -93.7691546,
+            "tags": {
+                "addr:city": "West Des Moines",
+                "addr:housenumber": "4800",
+                "addr:postcode": "50265",
+                "addr:street": "Mills Civic Parkway",
+                "amenity": "veterinary",
+                "name": "Animal Doctors Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3355384828,
+            "lat": 43.2839204,
+            "lon": -92.7950691,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Osage Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4199715206,
+            "lat": 40.6257705,
+            "lon": -91.3592919,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Fort Madison Veterinary Clinic",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4201327354,
+            "lat": 41.2965197,
+            "lon": -92.6478854,
+            "tags": {
+                "amenity": "veterinary",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4304929615,
+            "lat": 42.4869515,
+            "lon": -96.0728028,
+            "tags": {
+                "addr:city": "Moville",
+                "addr:housenumber": "123",
+                "addr:postcode": "51039",
+                "addr:state": "IA",
+                "addr:street": "South 2nd Street",
+                "amenity": "veterinary",
+                "building": "house",
+                "name": "Moville Veterinary Clinic",
+                "phone": "+1-712-873-3303"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5064988525,
+            "lat": 41.9756135,
+            "lon": -91.6275306,
+            "tags": {
+                "addr:city": "Cedar Rapids",
+                "addr:housenumber": "1000",
+                "addr:postcode": "52403",
+                "addr:state": "IA",
+                "addr:street": "Memorial Drive Southeast",
+                "amenity": "veterinary",
+                "name": "Cedar Rapids Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5065014895,
+            "lat": 41.9765697,
+            "lon": -91.5998895,
+            "tags": {
+                "addr:city": "Cedar Rapids",
+                "addr:housenumber": "4419",
+                "addr:postcode": "52403",
+                "addr:state": "IA",
+                "addr:street": "Mount Vernon Road Southeast",
+                "amenity": "veterinary",
+                "name": "Animal Medical Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5646943787,
+            "lat": 41.5218154,
+            "lon": -93.1032266,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Monroe Animal Clinic",
+                "opening_hours": "Th,Sa 08:00-12:00; Mo-We,Fr 08:00-12:00,01:00-17:30"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6583084284,
+            "lat": 41.5286711,
+            "lon": -90.5127455,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Abel-keppy Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8917019047,
+            "lat": 42.0099639,
+            "lon": -93.5412209,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Story County Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9289098412,
+            "lat": 42.44525,
+            "lon": -90.8510615,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Dubuque County Veterinary Services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9294923337,
+            "lat": 42.0355376,
+            "lon": -91.6545002,
+            "tags": {
+                "addr:city": "Cedar Rapids",
+                "addr:housenumber": "1146",
+                "addr:postcode": "52402",
+                "addr:state": "IA",
+                "addr:street": "Blairs Ferry Road Northeast",
+                "addr:unit": "1",
+                "amenity": "veterinary",
+                "name": "Animal Care Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00",
+                "website": "https://www.animalcarehospital.org/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9363802320,
+            "lat": 42.0115202,
+            "lon": -91.6356708,
+            "tags": {
+                "addr:city": "Cedar Rapids",
+                "addr:housenumber": "3318",
+                "addr:postcode": "52402",
+                "addr:state": "IA",
+                "addr:street": "1st Avenue East",
+                "addr:unit": "A",
+                "amenity": "veterinary",
+                "name": "Heartland Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9454103192,
+            "lat": 40.4204115,
+            "lon": -91.4082416,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Two Rivers Veterinary Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9581619847,
+            "lat": 41.6512161,
+            "lon": -91.502471,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Eastside Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9785899871,
+            "lat": 42.4574192,
+            "lon": -90.6732628,
+            "tags": {
+                "addr:city": "Dubuque",
+                "addr:housenumber": "2400",
+                "addr:postcode": "52003",
+                "addr:state": "IA",
+                "addr:street": "Gateway Drive",
+                "amenity": "veterinary",
+                "name": "PetMed Animal Health Center",
+                "phone": "+1-563-583-8387"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9950390174,
+            "lat": 41.6894439,
+            "lon": -91.4883853,
+            "tags": {
+                "addr:city": "Iowa City",
+                "addr:housenumber": "3030",
+                "addr:postcode": "52245",
+                "addr:state": "IA",
+                "addr:street": "Northgate Drive",
+                "addr:unit": "B",
+                "amenity": "veterinary",
+                "name": "Bright Eyes Bushy Tails Vetrinary",
+                "opening_hours": "Mo-Fr 08:00-20:00; Su 08:00-18:00",
+                "phone": "+1-319-351-4256",
+                "website": "https://www.bebt.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10199759017,
+            "lat": 41.649033,
+            "lon": -91.5316783,
+            "tags": {
+                "addr:housenumber": "301",
+                "addr:postcode": "52240",
+                "addr:street": "Kirkwood Avenue",
+                "amenity": "veterinary",
+                "name": "All Pets",
+                "name:en": "All Pets Veterinary Clinic",
+                "opening_hours": "Mo-Tu,Th-Fr 07:00-17:30; We 07:00-12:00; Sa 08:00-12:00",
+                "phone": "+1-319-351-7387",
+                "website": "https://allpetsiowa.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10251723886,
+            "lat": 41.6429544,
+            "lon": -91.5049559,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cat Clinic of Iowa City"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10267835709,
+            "lat": 41.6466217,
+            "lon": -91.5310657,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Veterinary Associates"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10580250201,
+            "lat": 42.4063554,
+            "lon": -92.4542821,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10582146030,
+            "lat": 42.3613029,
+            "lon": -92.7716317,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11234356194,
+            "lat": 41.7724677,
+            "lon": -93.7127613,
+            "tags": {
+                "addr:unit": "C;D",
+                "amenity": "veterinary",
+                "name": "Polk City Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12070868866,
+            "lat": 41.6994515,
+            "lon": -93.0265078,
+            "tags": {
+                "addr:housenumber": "2012",
+                "addr:postcode": "50208",
+                "addr:street": "1st Avenue East",
+                "amenity": "veterinary",
+                "name": "Parkview Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+1-641-792-0340",
+                "website": "https://parkviewah.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12812505153,
+            "lat": 42.8971543,
+            "lon": -92.8147522,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Greene Veterinary Clinic",
+                "phone": "+1 641 823-5852",
+                "website": "https://greeneveterinary.top"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13332518534,
+            "lat": 42.4637049,
+            "lon": -96.3303566,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Elk Creek Animal Hospital",
+                "website": "https://elkcreekvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13389055659,
+            "lat": 41.5611863,
+            "lon": -93.7718948,
+            "tags": {
+                "addr:city": "West Des Moines",
+                "addr:housenumber": "5045",
+                "addr:postcode": "50265",
+                "addr:state": "IA",
+                "addr:street": "Bentley Drive",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/UrgentVetWestDesMoines/",
+                "name": "UrgentVet",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 12:00-20:00",
+                "operator": "UrgentVet",
+                "phone": "+1-515-215-9696",
+                "website": "https://urgentvet.com/location/west-des-moines-ia/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13577857653,
+            "lat": 41.0189435,
+            "lon": -92.7446046,
+            "tags": {
+                "addr:city": "Albia",
+                "addr:housenumber": "1976",
+                "addr:postcode": "52531-8704",
+                "addr:state": "IA",
+                "addr:street": "684 Avenue",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/185348454822328",
+                "name": "Animal Health Center of Albia",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+1-641-932-3455",
+                "website": "https://animalhealthcenteria.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13954553629,
+            "lat": 43.3015621,
+            "lon": -96.4269477,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14057001401,
+            "lat": 42.7742482,
+            "lon": -96.1637547,
+            "tags": {
+                "addr:housenumber": "1575",
+                "addr:postcode": "51031",
+                "addr:street": "2nd Avenue Southeast",
+                "amenity": "veterinary",
+                "name": "Gentle Paws Veterinary",
+                "opening_hours": "Mo-Fr 08:30-17:00",
+                "phone": "+1-712-501-5037"
+            }
+        },
+        {
+            "type": "way",
+            "id": 37552777,
+            "center": {
+                "lat": 41.7227293,
+                "lon": -93.6009749
+            },
+            "nodes": [
+                439981078,
+                439981079,
+                439981080,
+                439981081,
+                439981082,
+                439981083,
+                439981084,
+                439981085,
+                439981078
+            ],
+            "tags": {
+                "addr:city": "Ankeny",
+                "addr:country": "US",
+                "addr:housenumber": "742",
+                "addr:postcode": "50023",
+                "addr:state": "IA",
+                "addr:street": "South Ankeny Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ankeny Animal and Avian Clinic",
+                "website": "https://www.ankenyanimalandavian.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 38224267,
+            "center": {
+                "lat": 41.7460448,
+                "lon": -93.6032487
+            },
+            "nodes": [
+                450415702,
+                450415703,
+                829668001,
+                829668337,
+                829668235,
+                829668136,
+                450415704,
+                450415705,
+                829668046,
+                829668220,
+                450415702
+            ],
+            "tags": {
+                "addr:city": "Ankeny",
+                "addr:country": "US",
+                "addr:housenumber": "301",
+                "addr:postcode": "50023",
+                "addr:state": "IA",
+                "addr:street": "Northwest 18th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ankeny Veterinary Clinic",
+                "source": "esri_USDOT_Iowa"
+            }
+        },
+        {
+            "type": "way",
+            "id": 45977709,
+            "center": {
+                "lat": 41.9005024,
+                "lon": -93.6054183
+            },
+            "nodes": [
+                585652183,
+                585652181,
+                585652154,
+                585652152,
+                585652183
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ballard Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 53787206,
+            "center": {
+                "lat": 41.7649179,
+                "lon": -93.7195843
+            },
+            "nodes": [
+                678988611,
+                678988612,
+                678988607,
+                678988605,
+                678988602,
+                678988601,
+                678988610,
+                678988609,
+                678988604,
+                678988603,
+                678988600,
+                678988599,
+                678988608,
+                678988606,
+                678988611
+            ],
+            "tags": {
+                "addr:city": "Polk City",
+                "addr:housenumber": "755",
+                "addr:postcode": "50226",
+                "addr:state": "IA",
+                "addr:street": "West Bridge Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Seasons Veterinary Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 73812538,
+            "center": {
+                "lat": 43.0807079,
+                "lon": -96.1760392
+            },
+            "nodes": [
+                873549400,
+                873549309,
+                882866449,
+                873549285,
+                873549500,
+                873549400
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Avenue Veterinary Clinic",
+                "not:brand:wikidata": "Q4828182"
+            }
+        },
+        {
+            "type": "way",
+            "id": 75194538,
+            "center": {
+                "lat": 41.6452628,
+                "lon": -93.6969041
+            },
+            "nodes": [
+                887311238,
+                1240471699,
+                1240471697,
+                887311243,
+                1240471703,
+                1240471696,
+                1240471702,
+                887311249,
+                1240471698,
+                887311252,
+                887311256,
+                1240471701,
+                1240471700,
+                887311238
+            ],
+            "tags": {
+                "addr:housenumber": "4631",
+                "addr:postcode": "50310",
+                "addr:street": "Merle Hay Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Iowa Veterinary Referral Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 85314409,
+            "center": {
+                "lat": 41.6435855,
+                "lon": -93.5004146
+            },
+            "nodes": [
+                989078197,
+                989078198,
+                989078200,
+                989078203,
+                989078197
+            ],
+            "tags": {
+                "addr:city": "Altoona",
+                "addr:housenumber": "3070",
+                "addr:postcode": "50009",
+                "addr:state": "IA",
+                "addr:street": "8th Street Southwest",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Altoona Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 97518952,
+            "center": {
+                "lat": 41.6429818,
+                "lon": -93.6984342
+            },
+            "nodes": [
+                1129111883,
+                1129111890,
+                1129111879,
+                1129111888,
+                1129111906,
+                1129111918,
+                1129111921,
+                1129111884,
+                1129111915,
+                1129111920,
+                1129111891,
+                1129111883
+            ],
+            "tags": {
+                "addr:city": "Urbandale",
+                "addr:housenumber": "4520",
+                "addr:postcode": "50322",
+                "addr:state": "IA",
+                "addr:street": "Merle Hay Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Medical Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 108533948,
+            "center": {
+                "lat": 41.6151454,
+                "lon": -93.7038996
+            },
+            "nodes": [
+                1245023826,
+                1245023830,
+                1245023820,
+                1245023827,
+                2361060606,
+                1245023824,
+                1245023816,
+                1245023810,
+                1245023805,
+                1245023801,
+                1245023812,
+                1245023826
+            ],
+            "tags": {
+                "addr:housenumber": "6301",
+                "addr:postcode": "50322",
+                "addr:street": "Hickman Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hickman Road Veterinary Clinic",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 110035079,
+            "center": {
+                "lat": 41.5575705,
+                "lon": -93.5962885
+            },
+            "nodes": [
+                1258121576,
+                1258121573,
+                1258121590,
+                1258121579,
+                1258121585,
+                1258121589,
+                1258121576
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Afford-a-Care Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 114363660,
+            "center": {
+                "lat": 41.6039343,
+                "lon": -93.7304403
+            },
+            "nodes": [
+                7567982394,
+                2078262902,
+                2078262897,
+                7567982390,
+                7567982392,
+                7567982393,
+                7567982391,
+                2078262896,
+                2078262898,
+                2078262903,
+                1295619046,
+                1295619053,
+                1295619014,
+                1295619015,
+                2078262901,
+                2078262900,
+                1295619048,
+                1295619020,
+                1295619054,
+                1295619017,
+                1295619087,
+                1295619033,
+                2593423388,
+                1295619040,
+                1295619052,
+                1295619058,
+                7567982394
+            ],
+            "tags": {
+                "addr:housenumber": "8145",
+                "addr:postcode": "50325",
+                "addr:street": "University Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "University West Pet Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 122602883,
+            "center": {
+                "lat": 41.6292348,
+                "lon": -93.6789877
+            },
+            "nodes": [
+                1369537021,
+                1369537013,
+                1369537011,
+                1369537016,
+                1369537005,
+                1369536995,
+                1369537017,
+                1369537015,
+                1369537003,
+                1369537001,
+                1369537021
+            ],
+            "tags": {
+                "addr:housenumber": "4418",
+                "addr:postcode": "50310",
+                "addr:street": "Douglas Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Riordan Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 132760397,
+            "center": {
+                "lat": 41.6153392,
+                "lon": -93.827611
+            },
+            "nodes": [
+                1460505415,
+                1460505428,
+                1460505416,
+                1460505417,
+                1460505427,
+                1460505430,
+                1460505418,
+                1460505431,
+                1460505415
+            ],
+            "tags": {
+                "addr:housenumber": "15151",
+                "addr:postcode": "50325",
+                "addr:street": "Hickman Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Waukee-Clive Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 138536833,
+            "center": {
+                "lat": 41.6708316,
+                "lon": -91.5701603
+            },
+            "nodes": [
+                1519144127,
+                1519144126,
+                1519144121,
+                1519144123,
+                1519144127
+            ],
+            "tags": {
+                "addr:housenumber": "311",
+                "addr:postcode": "52241",
+                "addr:street": "2nd Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Goosetown Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
+                "phone": "+1-319-341-0386",
+                "source": "bing",
+                "website": "https://goosetownanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 144054897,
+            "center": {
+                "lat": 41.6307756,
+                "lon": -93.6785122
+            },
+            "nodes": [
+                1576401347,
+                1576401349,
+                1576401340,
+                1576401342,
+                1576401351,
+                1576401346,
+                1576401339,
+                1576401347
+            ],
+            "tags": {
+                "addr:housenumber": "3836",
+                "addr:postcode": "50310",
+                "addr:street": "Beaver Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Iowa Veterinary Acupuncture Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 152424294,
+            "center": {
+                "lat": 41.5863358,
+                "lon": -93.6582453
+            },
+            "nodes": [
+                1652401608,
+                1652401589,
+                1652401601,
+                1652401597,
+                1652401607,
+                1652401603,
+                1652401599,
+                1652401600,
+                1652401608
+            ],
+            "tags": {
+                "addr:city": "Des Moines",
+                "addr:housenumber": "3009",
+                "addr:postcode": "50312",
+                "addr:street": "Ingersoll Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ingersoll Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-12:00",
+                "phone": "+15152743555",
+                "website": "https://ingersollanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 167553570,
+            "center": {
+                "lat": 41.6285964,
+                "lon": -93.7220334
+            },
+            "nodes": [
+                1789432786,
+                1789432778,
+                1789432787,
+                1789432791,
+                1789432777,
+                1789432788,
+                1789432786
+            ],
+            "tags": {
+                "addr:housenumber": "7507",
+                "addr:postcode": "50322",
+                "addr:street": "Dennis Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Northwest Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 214409403,
+            "center": {
+                "lat": 43.186575,
+                "lon": -95.8350408
+            },
+            "nodes": [
+                2239568508,
+                2239568506,
+                2239568504,
+                2239568501,
+                2239568508
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sheldon Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 235147344,
+            "center": {
+                "lat": 41.6567498,
+                "lon": -93.6970225
+            },
+            "nodes": [
+                2432321559,
+                2432321560,
+                2432321561,
+                2432321562,
+                2432321559
+            ],
+            "tags": {
+                "addr:city": "Johnston",
+                "addr:housenumber": "5305",
+                "addr:postcode": "50131",
+                "addr:street": "Merle Hay Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Village Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 237817471,
+            "center": {
+                "lat": 42.0092109,
+                "lon": -93.6097029
+            },
+            "nodes": [
+                2456833157,
+                2456833158,
+                2456833159,
+                2456833160,
+                2456833161,
+                2456833162,
+                2456833163,
+                2456833164,
+                2456833157
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pet Medical Center of Ames"
+            }
+        },
+        {
+            "type": "way",
+            "id": 243364554,
+            "center": {
+                "lat": 42.0353592,
+                "lon": -91.6638416
+            },
+            "nodes": [
+                2507875686,
+                2507875741,
+                2507875577,
+                8413327863,
+                8413327864,
+                2507875739,
+                2507875645,
+                2507875639,
+                2507875686
+            ],
+            "tags": {
+                "addr:city": "Cedar Rapids",
+                "addr:housenumber": "1818",
+                "addr:postcode": "52402",
+                "addr:state": "IA",
+                "addr:street": "Blairs Ferry Road Northeast",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Blairs Ferry Pet Hospital",
+                "phone": "+1 319-393-3027",
+                "website": "https://blairsferrypethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 256110337,
+            "center": {
+                "lat": 41.6281118,
+                "lon": -93.7601967
+            },
+            "nodes": [
+                2618061859,
+                2618061855,
+                2618061850,
+                2618061849,
+                2618061871,
+                2618061887,
+                2618061853,
+                2618061880,
+                2618061846,
+                2618061876,
+                2618061857,
+                2618061883,
+                2618061856,
+                2618061864,
+                2618061859
+            ],
+            "tags": {
+                "addr:housenumber": "3601",
+                "addr:postcode": "50322",
+                "addr:street": "104th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Urban Pet Hospital & Resort"
+            }
+        },
+        {
+            "type": "way",
+            "id": 266067185,
+            "center": {
+                "lat": 41.6588223,
+                "lon": -93.7396928
+            },
+            "nodes": [
+                2716417823,
+                2716417824,
+                2716417825,
+                2716417826,
+                2716417827,
+                2716417828,
+                2716417829,
+                2716417830,
+                2716417823
+            ],
+            "tags": {
+                "addr:city": "Johnston",
+                "addr:housenumber": "8789",
+                "addr:postcode": "50131",
+                "addr:state": "IA",
+                "addr:street": "Northwest 54th Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Westfield Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 279483252,
+            "center": {
+                "lat": 41.5840759,
+                "lon": -93.783968
+            },
+            "nodes": [
+                2837078122,
+                2837078114,
+                2837078115,
+                2837078119,
+                2837078118,
+                2837078120,
+                2837078113,
+                2837078117,
+                2837078121,
+                2837078116,
+                2837078122
+            ],
+            "tags": {
+                "addr:housenumber": "5508",
+                "addr:postcode": "50266",
+                "addr:street": "Ashworth Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ashworth Road Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312090991,
+            "center": {
+                "lat": 42.0237881,
+                "lon": -93.6099832
+            },
+            "nodes": [
+                3179125242,
+                3179125243,
+                3179125244,
+                3179125245,
+                3179125242
+            ],
+            "tags": {
+                "addr:city": "Ames",
+                "addr:housenumber": "107",
+                "addr:postcode": "50010",
+                "addr:state": "IA",
+                "addr:street": "East 2nd Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "2",
+                "name": "All Pets Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 320299383,
+            "center": {
+                "lat": 41.5705792,
+                "lon": -93.7507193
+            },
+            "nodes": [
+                3268029764,
+                3268028746,
+                3268028751,
+                3268029761,
+                3268028748,
+                3268029763,
+                3268028749,
+                3268028758,
+                3268028754,
+                3268028755,
+                3268029764
+            ],
+            "tags": {
+                "addr:city": "West Des Moines",
+                "addr:housenumber": "3401",
+                "addr:postcode": "50265",
+                "addr:street": "E P True Parkway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Jordan Creek Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 325932592,
+            "center": {
+                "lat": 41.5812138,
+                "lon": -93.7204652
+            },
+            "nodes": [
+                3325556960,
+                3325556947,
+                3325556945,
+                3325556949,
+                3325556950,
+                3325556957,
+                3325556958,
+                3325556959,
+                3325556960
+            ],
+            "tags": {
+                "addr:city": "West Des Moines",
+                "addr:housenumber": "1215",
+                "addr:postcode": "50265",
+                "addr:street": "Prospect Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Family Pet Veterinary Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 342664740,
+            "center": {
+                "lat": 41.5509461,
+                "lon": -90.4830095
+            },
+            "nodes": [
+                3496274282,
+                3496274283,
+                3496274284,
+                3496274285,
+                3496274282
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 498125370,
+            "center": {
+                "lat": 41.0464747,
+                "lon": -93.7658869
+            },
+            "nodes": [
+                4896149060,
+                4896149061,
+                4896149062,
+                4896149063,
+                4896149060
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Osceola Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 534708046,
+            "center": {
+                "lat": 41.0619796,
+                "lon": -92.4092117
+            },
+            "nodes": [
+                5185075461,
+                5185075460,
+                5185075459,
+                5185075464,
+                5185075463,
+                5185075462,
+                5185075461
+            ],
+            "tags": {
+                "addr:city": "Ottumwa",
+                "addr:housenumber": "2830",
+                "addr:postcode": "52501",
+                "addr:state": "IA",
+                "addr:street": "North Court Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Pipestone Veterinary Services of Ottumwa"
+            }
+        },
+        {
+            "type": "way",
+            "id": 544229179,
+            "center": {
+                "lat": 42.5354276,
+                "lon": -92.4446501
+            },
+            "nodes": [
+                5260897282,
+                5260897284,
+                5260897285,
+                8580503166,
+                5260897286,
+                5260897287,
+                5260897282
+            ],
+            "tags": {
+                "addr:city": "Cedar Falls",
+                "addr:housenumber": "315",
+                "addr:postcode": "50613",
+                "addr:state": "IA",
+                "addr:street": "State Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Taylor Veterinary Hospital",
+                "website": "https://taylorvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 615672075,
+            "center": {
+                "lat": 42.4582188,
+                "lon": -90.6747678
+            },
+            "nodes": [
+                5821779576,
+                5821779577,
+                5821779578,
+                5821779579,
+                5821779580,
+                5821779581,
+                5821779582,
+                5821779583,
+                5821779584,
+                5821779585,
+                5821779576
+            ],
+            "tags": {
+                "addr:city": "Dubuque",
+                "addr:housenumber": "2262",
+                "addr:postcode": "52003",
+                "addr:state": "IA",
+                "addr:street": "Flint Hill Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Key West Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 639362067,
+            "center": {
+                "lat": 42.4540106,
+                "lon": -91.8906622
+            },
+            "nodes": [
+                6024676677,
+                6024676674,
+                6024676673,
+                6024687894,
+                6024676677
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Independence Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 655228458,
+            "center": {
+                "lat": 40.4068534,
+                "lon": -91.395472
+            },
+            "nodes": [
+                6139263821,
+                6139263822,
+                6139263823,
+                6139263824,
+                6139263825,
+                6139263826,
+                6139263821
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Krichel Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 669058879,
+            "center": {
+                "lat": 41.3843351,
+                "lon": -93.5596376
+            },
+            "nodes": [
+                6265266681,
+                6265266682,
+                6265266683,
+                6265266684,
+                6265267185,
+                6265267186,
+                6265267187,
+                6265267188,
+                6265267189,
+                6265267190,
+                6265267191,
+                6265267192,
+                6265267193,
+                6265267194,
+                6265267195,
+                6265267196,
+                6265266681
+            ],
+            "tags": {
+                "addr:city": "Indianola",
+                "addr:housenumber": "2201",
+                "addr:postcode": "50125",
+                "addr:state": "IA",
+                "addr:street": "North Jefferson Way",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Indianola Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 680777197,
+            "center": {
+                "lat": 41.5924855,
+                "lon": -90.7741218
+            },
+            "nodes": [
+                6374644143,
+                6374644144,
+                6374644145,
+                6374644146,
+                6374644143
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 691509784,
+            "center": {
+                "lat": 42.5130851,
+                "lon": -90.7218105
+            },
+            "nodes": [
+                6489151505,
+                6489151506,
+                6489151507,
+                13897779674,
+                13897779675,
+                6489151508,
+                6489151509,
+                13897779673,
+                13897779672,
+                6489151510,
+                13897779677,
+                13897779679,
+                13897779678,
+                13897779676,
+                6489151505
+            ],
+            "tags": {
+                "addr:city": "Dubuque",
+                "addr:housenumber": "3350",
+                "addr:postcode": "52002",
+                "addr:state": "IA",
+                "addr:street": "Asbury Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vanderloo & White Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 704230396,
+            "center": {
+                "lat": 41.950506,
+                "lon": -91.6764552
+            },
+            "nodes": [
+                6612457269,
+                6612457270,
+                6612457271,
+                6612457272,
+                6612457273,
+                6612457274,
+                6612457275,
+                6612457276,
+                6612457277,
+                6612457278,
+                6612457279,
+                6612457280,
+                6612457281,
+                6612457282,
+                6612457269
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All-Pets Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 718883524,
+            "center": {
+                "lat": 41.6001843,
+                "lon": -93.647592
+            },
+            "nodes": [
+                6749835221,
+                6749835220,
+                6749835219,
+                6749835218,
+                6749835221
+            ],
+            "tags": {
+                "addr:housenumber": "2222",
+                "addr:street": "University Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Starch Pet Hospital",
+                "phone": "+1 515 283 1576",
+                "website": "https://www.starchpethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 725963526,
+            "center": {
+                "lat": 42.8445889,
+                "lon": -93.6138605
+            },
+            "nodes": [
+                6806451763,
+                6806451764,
+                6806451765,
+                6806451766,
+                6806451767,
+                6806451768,
+                6806451769,
+                6806451770,
+                6806451763
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 728916771,
+            "center": {
+                "lat": 41.9994538,
+                "lon": -91.6659729
+            },
+            "nodes": [
+                9636918368,
+                6829143650,
+                6829143651,
+                6829143652,
+                9636918368
+            ],
+            "tags": {
+                "addr:housenumber": "1101",
+                "addr:street": "J Avenue Northeast",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fixme": "uncertain if this is still active",
+                "name": "Family Hospital",
+                "phone": "+1-319-536-1007",
+                "website": "https://www.veterinarians-usa.com/usa/ia/veterinarians-cedar-rapids-ia/family-pet-hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 768701035,
+            "center": {
+                "lat": 41.838224,
+                "lon": -94.0815445
+            },
+            "nodes": [
+                7176629914,
+                7176629915,
+                7176629916,
+                7176629917,
+                7176629914
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 777202580,
+            "center": {
+                "lat": 41.662033,
+                "lon": -91.345455
+            },
+            "nodes": [
+                7252067766,
+                7252067767,
+                7252067768,
+                7252067769,
+                7252067766
+            ],
+            "tags": {
+                "addr:city": "West Branch",
+                "addr:country": "US",
+                "addr:housenumber": "620",
+                "addr:postcode": "52358",
+                "addr:state": "VA",
+                "addr:street": "Division Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "The Family Pet",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 816054725,
+            "center": {
+                "lat": 41.6552654,
+                "lon": -93.7398565
+            },
+            "nodes": [
+                7621328325,
+                7621328326,
+                7621328327,
+                7621328328,
+                7621328329,
+                7621328325
+            ],
+            "tags": {
+                "addr:city": "Johnston",
+                "addr:housenumber": "8851",
+                "addr:postcode": "50131",
+                "addr:state": "IA",
+                "addr:street": "Northpark Drive",
+                "addr:unit": "100",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Value Vet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 836223916,
+            "center": {
+                "lat": 41.6461622,
+                "lon": -91.5295684
+            },
+            "nodes": [
+                7804981879,
+                7804981880,
+                7804981881,
+                7804981882,
+                7804981883,
+                7804981884,
+                7804981885,
+                7804981886,
+                7804981887,
+                7804981888,
+                7804981879
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 836957313,
+            "center": {
+                "lat": 41.7080842,
+                "lon": -91.6809471
+            },
+            "nodes": [
+                7811284563,
+                7811284564,
+                7811284565,
+                7811284566,
+                7811284567,
+                7811284568,
+                7811284569,
+                7811284570,
+                7811284571,
+                7811284572,
+                7811284563
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pet Health Center of Tiffin"
+            }
+        },
+        {
+            "type": "way",
+            "id": 840684352,
+            "center": {
+                "lat": 42.2685589,
+                "lon": -90.4283447
+            },
+            "nodes": [
+                7844520670,
+                7844520671,
+                7844520672,
+                7844520673,
+                7844520674,
+                7844520675,
+                7844520670
+            ],
+            "tags": {
+                "addr:city": "Bellevue",
+                "addr:housenumber": "100",
+                "addr:postcode": "52031",
+                "addr:state": "IA",
+                "addr:street": "Motte North Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bellevue Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 862780013,
+            "center": {
+                "lat": 42.5099795,
+                "lon": -96.420251
+            },
+            "nodes": [
+                8037707762,
+                8037707763,
+                8037707764,
+                8037707765,
+                8037707762
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Perry Creek Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 907082399,
+            "center": {
+                "lat": 42.4899138,
+                "lon": -90.7306521
+            },
+            "nodes": [
+                8423071031,
+                8423071032,
+                8423071033,
+                8423071034,
+                8423071031
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Neumeister Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 916796930,
+            "center": {
+                "lat": 42.4825091,
+                "lon": -96.0629484
+            },
+            "nodes": [
+                8515165216,
+                8515165215,
+                8515165214,
+                8515165213,
+                8515165212,
+                8515165211,
+                8515165216
+            ],
+            "tags": {
+                "addr:city": "Moville",
+                "addr:country": "US",
+                "addr:housenumber": "741",
+                "addr:postcode": "51039",
+                "addr:street": "East Frontage Road",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 987535988,
+            "center": {
+                "lat": 41.6710607,
+                "lon": -92.0065229
+            },
+            "nodes": [
+                9128017362,
+                9128017363,
+                9128017364,
+                12634158045,
+                12634158046,
+                9128017365,
+                9128017362
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Veterinary Medical Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1074069490,
+            "center": {
+                "lat": 40.7298788,
+                "lon": -95.0318317
+            },
+            "nodes": [
+                9852063796,
+                9852063797,
+                9852063798,
+                9852063799,
+                9852063800,
+                9852063801,
+                9852063802,
+                9852063803,
+                9852063796
+            ],
+            "tags": {
+                "addr:city": "Clarinda",
+                "addr:housenumber": "920",
+                "addr:postcode": "51632",
+                "addr:state": "IA",
+                "addr:street": "South 12th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Twin Oaks Vetrinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1078022003,
+            "center": {
+                "lat": 42.0164682,
+                "lon": -93.4624923
+            },
+            "nodes": [
+                9883679646,
+                9883679647,
+                9883679648,
+                9883679644,
+                9883679652,
+                9883679653,
+                9883679643,
+                9883679659,
+                9883679658,
+                9883679642,
+                9883679661,
+                9883679660,
+                9883679662,
+                9883679663,
+                9883679656,
+                9883679655,
+                9883679654,
+                9883679657,
+                9883679664,
+                9883679645,
+                9883679649,
+                9883679650,
+                9883679651,
+                9883679646
+            ],
+            "tags": {
+                "addr:city": "Nevada",
+                "addr:country": "US",
+                "addr:housenumber": "533",
+                "addr:postcode": "50201",
+                "addr:state": "IA",
+                "addr:street": "West 3rd Street",
+                "amenity": "veterinary",
+                "building": "house",
+                "name": "Nevada Veterinary Clinic",
+                "source": "field survey 7/2022"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1088899225,
+            "center": {
+                "lat": 43.1851518,
+                "lon": -95.4920873
+            },
+            "nodes": [
+                9975627079,
+                9975627080,
+                9975627081,
+                9975627082,
+                9975627079
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Medical Centers PC"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1116298149,
+            "center": {
+                "lat": 41.8065988,
+                "lon": -91.4944128
+            },
+            "nodes": [
+                10209882154,
+                10209882155,
+                10209882156,
+                10209882157,
+                10209882154
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Solon Vet Clinic",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1116298173,
+            "center": {
+                "lat": 41.7977791,
+                "lon": -91.4881225
+            },
+            "nodes": [
+                10209883468,
+                10209883469,
+                10209883470,
+                10209883471,
+                10209883472,
+                10209883473,
+                10209883474,
+                10209883475,
+                10209883468
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pet Health Center",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1133927398,
+            "center": {
+                "lat": 42.1770752,
+                "lon": -91.7765324
+            },
+            "nodes": [
+                10571629198,
+                10571629197,
+                10571629199,
+                10571629200,
+                10571629198
+            ],
+            "tags": {
+                "addr:city": "Center Point",
+                "addr:postcode": "52213",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Graham Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 08:00-12:00",
+                "website": "https://www.sgrahamanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1183792278,
+            "center": {
+                "lat": 41.0245228,
+                "lon": -94.1851164
+            },
+            "nodes": [
+                10993168909,
+                10993168910,
+                10993168911,
+                10993168912,
+                10993168913,
+                10993168914,
+                10993168915,
+                10993168916,
+                10993168909
+            ],
+            "tags": {
+                "addr:city": "Afton",
+                "addr:housenumber": "2504",
+                "addr:postcode": "50830",
+                "addr:state": "IA",
+                "addr:street": "East Grand Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Afton Veterinary Clinic",
+                "phone": "+1-641-347-5524",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1187494464,
+            "center": {
+                "lat": 41.0491984,
+                "lon": -94.3482807
+            },
+            "nodes": [
+                11026893107,
+                11026893108,
+                11026893109,
+                11026893110,
+                11026893111,
+                11026893112,
+                11026893107
+            ],
+            "tags": {
+                "addr:city": "Creston",
+                "addr:housenumber": "1000",
+                "addr:postcode": "50801",
+                "addr:state": "IA",
+                "addr:street": "East Taylor Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Southern Hills Veterinary Services",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+                "phone": "+1-641-782-7056",
+                "source": "microsoft/BuildingFootprints",
+                "website": "https://www.shvsinc.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1219810123,
+            "center": {
+                "lat": 41.07144,
+                "lon": -94.3678592
+            },
+            "nodes": [
+                11302747983,
+                11302747984,
+                11302747985,
+                11302747986,
+                11302747987,
+                11302747988,
+                11302747989,
+                11302747990,
+                11302747983
+            ],
+            "tags": {
+                "addr:city": "Creston",
+                "addr:housenumber": "509",
+                "addr:postcode": "50801",
+                "addr:state": "IA",
+                "addr:street": "West Townline Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Creston Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+                "phone": "+1-641-782-2224",
+                "website": "https://creston-clinic.edan.io/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1237037010,
+            "center": {
+                "lat": 41.0295493,
+                "lon": -92.3832165
+            },
+            "nodes": [
+                11488304024,
+                11488304023,
+                11488304022,
+                11488304021,
+                11488304024
+            ],
+            "tags": {
+                "addr:city": "Ottumwa",
+                "addr:housenumber": "11596",
+                "addr:postcode": "52501",
+                "addr:state": "IA",
+                "addr:street": "Bladensburg Road",
+                "amenity": "veterinary",
+                "building": "commercial"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1376915812,
+            "center": {
+                "lat": 42.4657332,
+                "lon": -91.9205621
+            },
+            "nodes": [
+                12749253365,
+                12749253364,
+                12749253363,
+                12749253362,
+                12749253361,
+                12749253360,
+                12749253359,
+                12749253358,
+                12749253365
+            ],
+            "tags": {
+                "addr:city": "Independence",
+                "addr:housenumber": "405",
+                "addr:postcode": "50644",
+                "addr:state": "IA",
+                "addr:street": "20th Avenue Southwest",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pipestone Veterinary Services",
+                "phone": "+1-319-332-0260"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1383642799,
+            "center": {
+                "lat": 41.5605317,
+                "lon": -90.611802
+            },
+            "nodes": [
+                12810555376,
+                12810555377,
+                12810555378,
+                12810555379,
+                12810555380,
+                12810555376
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Kimberly Pines Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1383642811,
+            "center": {
+                "lat": 41.5603609,
+                "lon": -90.5957042
+            },
+            "nodes": [
+                12810570552,
+                12810570553,
+                12810570554,
+                12810570555,
+                12810570552
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Care Animal Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1466355984,
+            "center": {
+                "lat": 42.5094975,
+                "lon": -92.4214199
+            },
+            "nodes": [
+                13449274260,
+                13449274261,
+                13449274262,
+                13449274263,
+                13449274264,
+                13449274265,
+                13449274260
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cedar Heights Pet Clinic"
+            }
+        },
+        {
+            "type": "relation",
+            "id": 19655294,
+            "center": {
+                "lat": 41.6467373,
+                "lon": -91.545768
+            },
+            "members": [
+                {
+                    "type": "way",
+                    "ref": 1433669934,
+                    "role": "outer"
+                },
+                {
+                    "type": "way",
+                    "ref": 724334176,
+                    "role": "outer"
+                }
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "animal_boarding": "dog",
+                "name": "Gentle Heart Pet Clinic and Hotel",
+                "type": "multipolygon",
+                "website": "https://www.gentleheartpethotel.com/"
+            }
+        }
+    ]
+}

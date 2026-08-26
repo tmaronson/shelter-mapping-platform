@@ -1,0 +1,1957 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T18:00:05Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 1813079038,
+            "lat": 35.172778,
+            "lon": -106.673784,
+            "tags": {
+                "addr:housenumber": "6633",
+                "addr:street": "Caminito Coors Northwest",
+                "amenity": "veterinary",
+                "block": "0000",
+                "lot": "9A",
+                "pin": "ABQ22565",
+                "subdivision": "BOSQUE DEL PUEBLO"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1823643201,
+            "lat": 35.0749615,
+            "lon": -106.595994,
+            "tags": {
+                "addr:city": "Albuquerque",
+                "addr:housenumber": "4340",
+                "addr:postcode": "87108",
+                "addr:state": "NM",
+                "addr:street": "Coal Avenue Southeast",
+                "amenity": "veterinary",
+                "name": "Aztec Animal Clinic",
+                "source": "survey",
+                "website": "https://aztecanimalclinic.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2191670048,
+            "lat": 32.3003919,
+            "lon": -106.790515,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Argus Pet Center / Veterinary Clinic / 701 Valley"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2564917026,
+            "lat": 35.1085806,
+            "lon": -106.553301,
+            "tags": {
+                "addr:city": "Albuquerque",
+                "addr:housenumber": "8200",
+                "addr:postcode": "87110",
+                "addr:state": "NM",
+                "addr:street": "Menaul Boulevard Northeast",
+                "amenity": "veterinary",
+                "check_date": "2013-12-04",
+                "email": "vetconm@gmail.com",
+                "name": "Vet-Co",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:00-12:00,13:00-16:00",
+                "website": "https://www.vetconm.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2670907974,
+            "lat": 35.1844907,
+            "lon": -106.6056482,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Eye Care for Animals",
+                "office": "vet"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2926450076,
+            "lat": 35.1752039,
+            "lon": -106.545606,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "name": "VCA Animal Hospitals",
+                "opening_hours": "Mo-Su 07:00-21:00",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3056743247,
+            "lat": 33.146375,
+            "lon": -107.2463976,
+            "tags": {
+                "addr:city": "Truth or Consequences",
+                "addr:state": "NM",
+                "amenity": "veterinary",
+                "name": "Sierra Veterinary Services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5415198046,
+            "lat": 34.6526676,
+            "lon": -106.7427399,
+            "tags": {
+                "addr:city": "Belen",
+                "addr:housenumber": "1533",
+                "addr:postcode": "87002",
+                "addr:state": "NM",
+                "addr:street": "East River Road",
+                "amenity": "veterinary",
+                "name": "Valencia Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6146276885,
+            "lat": 34.4378472,
+            "lon": -103.1968098,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "All Pets"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6516401103,
+            "lat": 35.1009225,
+            "lon": -106.6046416,
+            "tags": {
+                "addr:city": "Albuquerque",
+                "addr:housenumber": "1921",
+                "addr:postcode": "87110",
+                "addr:state": "NM",
+                "addr:street": "Carlisle Boulevard Northeast",
+                "amenity": "veterinary",
+                "name": "Blue Cross Animal Clinic",
+                "source": "survey",
+                "website": "https://www.facebook.com/pages/Blue-Cross-Animal-Clinic/660861717388747"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6517024757,
+            "lat": 35.0263143,
+            "lon": -106.653446,
+            "tags": {
+                "addr:city": "Albuquerque",
+                "addr:housenumber": "240",
+                "addr:postcode": "87105",
+                "addr:state": "NM",
+                "addr:street": "Rio Bravo Boulevard Southeast",
+                "amenity": "veterinary",
+                "name": "Rio Bravo Veterinary Hospital",
+                "source": "survey",
+                "website": "https://www.riobravovet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6543623267,
+            "lat": 35.6825483,
+            "lon": -105.9544419,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6615295400,
+            "lat": 35.669935,
+            "lon": -105.9512912,
+            "tags": {
+                "addr:city": "Santa Fe",
+                "addr:housenumber": "600",
+                "addr:postcode": "87505",
+                "addr:state": "NM",
+                "addr:street": "Alta Vista Street",
+                "amenity": "veterinary",
+                "name": "Smith Veterinary Hospital",
+                "phone": "+1-505-982-4418",
+                "website": "https://www.svh-nm.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6832089609,
+            "lat": 35.5755681,
+            "lon": -105.675419,
+            "tags": {
+                "addr:city": "Pecos",
+                "addr:housenumber": "10",
+                "addr:street": "NM 63",
+                "amenity": "veterinary",
+                "name": "Pecos Valley Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7060122139,
+            "lat": 35.8756624,
+            "lon": -106.2489428,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7603493366,
+            "lat": 32.7811026,
+            "lon": -108.2772054,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7783082844,
+            "lat": 35.2368341,
+            "lon": -106.60747,
+            "tags": {
+                "addr:city": "Corrales",
+                "addr:housenumber": "15",
+                "addr:postcode": "87048",
+                "addr:state": "NM",
+                "addr:street": "Marcos Lane",
+                "addr:unit": "A",
+                "amenity": "veterinary",
+                "name": "Corrales Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00, Sa 08:00-12:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7839064163,
+            "lat": 35.5391545,
+            "lon": -105.8918157,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cameron Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7938901272,
+            "lat": 36.3930645,
+            "lon": -105.2853147,
+            "tags": {
+                "addr:city": "Angel Fire",
+                "addr:housenumber": "3382",
+                "addr:postcode": "87710",
+                "addr:state": "NM",
+                "addr:street": "Mountain View BLVD",
+                "amenity": "veterinary",
+                "name": "Angel Fire Small Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8026804492,
+            "lat": 35.6687428,
+            "lon": -105.9668257,
+            "tags": {
+                "addr:city": "Santa Fe",
+                "addr:housenumber": "1500",
+                "addr:state": "NM",
+                "addr:street": "Cerrillos Road",
+                "amenity": "veterinary",
+                "name": "Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8489814178,
+            "lat": 35.202908,
+            "lon": -106.6586744,
+            "tags": {
+                "addr:city": "Albuquerque",
+                "addr:housenumber": "10248",
+                "addr:postcode": "87114",
+                "addr:state": "NM",
+                "addr:street": "Coors Boulevard Bypass Northwest",
+                "addr:unit": "C",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8974177793,
+            "lat": 35.6647502,
+            "lon": -105.9557447,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9177314710,
+            "lat": 35.6579915,
+            "lon": -106.060134,
+            "tags": {
+                "addr:city": "Santa Fe",
+                "addr:housenumber": "100",
+                "addr:street": "Caja del Rio Road",
+                "amenity": "veterinary",
+                "name": "Thaw Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9239386844,
+            "lat": 35.2451615,
+            "lon": -106.6016909,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Meddleton Equine Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9239386951,
+            "lat": 35.2393241,
+            "lon": -106.6570523,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cottonwood Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9703397708,
+            "lat": 35.0778761,
+            "lon": -106.3872508,
+            "tags": {
+                "addr:city": "Tijeras",
+                "addr:state": "NM",
+                "amenity": "veterinary",
+                "name": "Canyon Crossroads Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10270451061,
+            "lat": 35.112659,
+            "lon": -106.7034484,
+            "tags": {
+                "addr:housenumber": "2611",
+                "addr:street": "Coors Frontage Road Northwest",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "name": "VCA Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10276992835,
+            "lat": 35.1475179,
+            "lon": -106.6881046,
+            "tags": {
+                "addr:city": "Albuquerque",
+                "addr:housenumber": "5600",
+                "addr:postcode": "87120",
+                "addr:state": "NM",
+                "addr:street": "Coors Boulevard Northwest",
+                "addr:unit": "F5",
+                "amenity": "veterinary",
+                "name": "Malaherd Veterinary Hospital",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10277109434,
+            "lat": 35.1883236,
+            "lon": -106.6852412,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10689889862,
+            "lat": 32.7805738,
+            "lon": -108.1853871,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10694884082,
+            "lat": 34.6533375,
+            "lon": -106.7920061,
+            "tags": {
+                "addr:city": "Belen",
+                "addr:housenumber": "1837",
+                "addr:postcode": "87002",
+                "addr:state": "NM",
+                "addr:street": "Camino del Llano",
+                "amenity": "veterinary",
+                "name": "Yucca Vet"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10724689544,
+            "lat": 35.0168812,
+            "lon": -106.684965,
+            "tags": {
+                "addr:city": "South Valley",
+                "addr:housenumber": "4021",
+                "addr:postcode": "87105",
+                "addr:state": "NM",
+                "addr:street": "Isleta Boulevard Southwest",
+                "amenity": "veterinary",
+                "name": "South Valley Animal Clinic",
+                "opening_hours": "Mo-Fr 08:30-17:30; Sa 08:30-12:00; Su off",
+                "phone": "+1-505-807-9985",
+                "website": "https://www.southvalleyanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10889410857,
+            "lat": 32.8398462,
+            "lon": -106.0740144,
+            "tags": {
+                "addr:housenumber": "22",
+                "addr:street": "Yucca Street",
+                "amenity": "veterinary",
+                "name": "Veterinary Treatment Facility",
+                "ref": "22"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11070898706,
+            "lat": 32.919204,
+            "lon": -103.33508,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11764036012,
+            "lat": 36.4963441,
+            "lon": -106.4917541,
+            "tags": {
+                "addr:city": "Canjilon",
+                "addr:housenumber": "24003",
+                "addr:postcode": "87510",
+                "addr:state": "NM",
+                "addr:street": "US 84",
+                "amenity": "veterinary",
+                "name": "Rincon Blanco Vet",
+                "operator": "LeRoy Martinez, DVM",
+                "phone": "+1-575-684-2242"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12769012584,
+            "lat": 35.9836757,
+            "lon": -106.0389839,
+            "tags": {
+                "addr:city": "Espanola",
+                "addr:housenumber": "1",
+                "addr:state": "NM",
+                "addr:street": "Shady Lane",
+                "amenity": "veterinary",
+                "name": "Cottonwood Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12882726738,
+            "lat": 35.1731364,
+            "lon": -106.5593564,
+            "tags": {
+                "addr:city": "Albuquerque",
+                "addr:housenumber": "8000",
+                "addr:postcode": "87122",
+                "addr:state": "NM",
+                "addr:street": "Paseo del Norte Boulevard Northeast",
+                "addr:unit": "C-11",
+                "amenity": "veterinary",
+                "name": "La Cuevo Animal Hospital",
+                "opening_hours": "Mo,Tu,Th,Fr 08:00-18:00; We 08:00-13:00",
+                "phone": "+1-505-856-2051",
+                "website": "https://lacuevavet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12885324757,
+            "lat": 35.0788154,
+            "lon": -106.5279305,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Albuquerque Animal Welfare"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13540936937,
+            "lat": 35.4948596,
+            "lon": -106.0772617,
+            "tags": {
+                "addr:city": "Santa Fe",
+                "addr:housenumber": "69",
+                "addr:postcode": "87508-8041",
+                "addr:state": "NM",
+                "addr:street": "Bonanza Creek Road",
+                "amenity": "veterinary",
+                "check_date": "2026-02-10",
+                "contact:facebook": "https://www.facebook.com/ThalEquine/",
+                "currency:XBT": "yes",
+                "name": "Thal Equine",
+                "opening_hours": "Mo-Fr 09:00-12:00,13:00-16:00; Sa 09:00-12:00",
+                "payment:lightning": "yes",
+                "payment:lightning:operator": "square",
+                "payment:lightning_contactless": "no",
+                "payment:onchain": "no",
+                "phone": "+1-505-438-6590",
+                "website": "https://thalequine.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 52151667,
+            "center": {
+                "lat": 32.3099815,
+                "lon": -106.753239
+            },
+            "nodes": [
+                664439101,
+                664439102,
+                664439104,
+                664439106,
+                664439101
+            ],
+            "tags": {
+                "addr:housenumber": "825",
+                "addr:postcode": "88001",
+                "addr:state": "NM",
+                "addr:street": "South Walnut Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Arroyo Vetinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:30; Sa 08:00-12:00",
+                "phone": "+1-575-524-0900"
+            }
+        },
+        {
+            "type": "way",
+            "id": 138287694,
+            "center": {
+                "lat": 33.3236552,
+                "lon": -105.6299777
+            },
+            "nodes": [
+                1516154538,
+                1516154539,
+                1516154540,
+                1516154541,
+                1516154543,
+                1516154545,
+                1516154547,
+                1516154549,
+                1516154550,
+                1516154552,
+                1516154553,
+                1516154554,
+                1516154561,
+                1516154563,
+                1516154565,
+                1516154567,
+                1516154538
+            ],
+            "tags": {
+                "addr:housenumber": "160",
+                "addr:postcode": "88345",
+                "addr:state": "NM",
+                "addr:street": "Sudderth Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ruidoso Animal Clinic",
+                "phone": "+1-575-257-4027",
+                "source": "Bing",
+                "website": "https://www.ruidosoanimalclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 172112204,
+            "center": {
+                "lat": 32.357321,
+                "lon": -106.7594586
+            },
+            "nodes": [
+                1830474998,
+                1830475004,
+                1830474753,
+                1830474964,
+                1830474811,
+                1830474743,
+                1830474998
+            ],
+            "tags": {
+                "addr:city": "Las Cruces",
+                "addr:housenumber": "2399",
+                "addr:postcode": "88012",
+                "addr:state": "NM",
+                "addr:street": "Saturn Circle",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Jornada Veterinary Clinic",
+                "phone": "+1-575-382-1710",
+                "source": "Bing",
+                "website": "https://jornadaveterinaryclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 176794068,
+            "center": {
+                "lat": 35.0800085,
+                "lon": -106.6042987
+            },
+            "nodes": [
+                1872813902,
+                1872813962,
+                1872813904,
+                1872813947,
+                1872813897,
+                1872813927,
+                1872813895,
+                1872813942,
+                3264579033,
+                1872813929,
+                1872813935,
+                1872813902
+            ],
+            "tags": {
+                "addr:city": "Albuquerque",
+                "addr:housenumber": "3601",
+                "addr:postcode": "87108",
+                "addr:state": "NM",
+                "addr:street": "Central Avenue Northeast",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Route 66 Veterinary Emergency & Critical Care Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 328303913,
+            "center": {
+                "lat": 32.431897,
+                "lon": -104.2260225
+            },
+            "nodes": [
+                3351216812,
+                3351216811,
+                3351216808,
+                3351216809,
+                3351216812
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Carlsbad Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 336323318,
+            "center": {
+                "lat": 35.8820953,
+                "lon": -106.2860532
+            },
+            "nodes": [
+                3433728739,
+                3433728745,
+                3433728744,
+                3433728749,
+                3433728748,
+                3433728738,
+                3433728739
+            ],
+            "tags": {
+                "addr:city": "Los Alamos",
+                "addr:housenumber": "194",
+                "addr:postcode": "87544",
+                "addr:state": "NM",
+                "addr:street": "East Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ridgeview Veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 364036676,
+            "center": {
+                "lat": 32.4073771,
+                "lon": -104.2271507
+            },
+            "nodes": [
+                3681426905,
+                3681426907,
+                3681426906,
+                3681426908,
+                3681426902,
+                3681426899,
+                3681426905
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 368228549,
+            "center": {
+                "lat": 33.4084125,
+                "lon": -104.5147013
+            },
+            "nodes": [
+                3720819328,
+                3720818915,
+                3720818899,
+                3720818884,
+                3720819326,
+                3720818887,
+                3720819325,
+                3720819328
+            ],
+            "tags": {
+                "addr:city": "Roswell",
+                "addr:housenumber": "502",
+                "addr:postcode": "88201",
+                "addr:state": "NM",
+                "addr:street": "East College Boulevard",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "College Garden Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30",
+                "phone": "+1-575-578-3869",
+                "source": "Bing",
+                "website": "https://www.collegegardenanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 389136732,
+            "center": {
+                "lat": 32.4354083,
+                "lon": -104.2340973
+            },
+            "nodes": [
+                3923004910,
+                3923004909,
+                3923004907,
+                3923004908,
+                3923004910
+            ],
+            "tags": {
+                "addr:housename": "613",
+                "addr:street": "West Pierce Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "La Cueva Pet Care Center",
+                "phone": "+1-575-885-0021",
+                "website": "https://lacuevapetcare.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 475411338,
+            "center": {
+                "lat": 35.6658071,
+                "lon": -105.9558074
+            },
+            "nodes": [
+                4691572083,
+                4691572084,
+                4691572085,
+                4691572086,
+                4691572087,
+                4691572088,
+                4691572083
+            ],
+            "tags": {
+                "addr:city": "Santa Fe",
+                "addr:country": "US",
+                "addr:housenumber": "1443",
+                "addr:postcode": "87505",
+                "addr:state": "NM",
+                "addr:street": "South Saint Francis Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "awcofsf01@hotmail.com",
+                "name": "Animal Wellness Center",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+1-505-988-2440",
+                "website": "https://animalwellnesscentersantafe.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 475415466,
+            "center": {
+                "lat": 35.6598188,
+                "lon": -105.9669629
+            },
+            "nodes": [
+                4691618831,
+                4691618832,
+                4691618833,
+                4691618834,
+                4691618831
+            ],
+            "tags": {
+                "addr:housenumber": "2001",
+                "addr:state": "NM",
+                "addr:street": "Saint Michaels Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cedarwood Veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 475892012,
+            "center": {
+                "lat": 35.6578097,
+                "lon": -105.9618807
+            },
+            "nodes": [
+                6760931214,
+                4695744614,
+                4695744615,
+                4695744616,
+                6760931214
+            ],
+            "tags": {
+                "addr:city": "Santa Fe",
+                "addr:housenumber": "1882",
+                "addr:postcode": "87505",
+                "addr:state": "NM",
+                "addr:street": "Plaza del Sur Drive",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Animal Hospital Santa Fe",
+                "operator": "VCA"
+            }
+        },
+        {
+            "type": "way",
+            "id": 513190917,
+            "center": {
+                "lat": 34.0843016,
+                "lon": -106.8967314
+            },
+            "nodes": [
+                5017259532,
+                5348470642,
+                5017259531,
+                5017259530,
+                5348470641,
+                5017259529,
+                5017259532
+            ],
+            "tags": {
+                "addr:city": "Socorro",
+                "addr:housenumber": "1433",
+                "addr:postcode": "87801",
+                "addr:state": "NM",
+                "addr:street": "Northwest Frontage Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Haven Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 551190896,
+            "center": {
+                "lat": 34.8075741,
+                "lon": -106.7033781
+            },
+            "nodes": [
+                5323229581,
+                5323229582,
+                5323229580,
+                5323229583,
+                5323229581
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "VET CO"
+            }
+        },
+        {
+            "type": "way",
+            "id": 554728951,
+            "center": {
+                "lat": 34.811611,
+                "lon": -106.7648626
+            },
+            "nodes": [
+                5353317899,
+                5353317900,
+                5353317901,
+                5353317902,
+                5353317903,
+                5353317904,
+                5353317905,
+                5353317906,
+                5353317907,
+                5353317908,
+                5353317909,
+                5353317910,
+                5353317911,
+                5353317912,
+                5353317913,
+                5353317914,
+                5353317899
+            ],
+            "tags": {
+                "addr:city": "Los Lunas",
+                "addr:housenumber": "2220",
+                "addr:postcode": "87031",
+                "addr:state": "NM",
+                "addr:street": "Sun Ranch Loop",
+                "amenity": "veterinary",
+                "building": "hospital",
+                "name": "Sun Ranch Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 558429580,
+            "center": {
+                "lat": 34.8696507,
+                "lon": -106.6906861
+            },
+            "nodes": [
+                5385164151,
+                5385164152,
+                5385164153,
+                5385164154,
+                5385164155,
+                5385164156,
+                5385164157,
+                5385164158,
+                5385164159,
+                5385164151
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Village Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 560635317,
+            "center": {
+                "lat": 34.6526833,
+                "lon": -106.7427435
+            },
+            "nodes": [
+                5406618040,
+                5406618041,
+                5406618042,
+                5406618043,
+                5406618040
+            ],
+            "tags": {
+                "addr:city": "Belen",
+                "addr:housenumber": "1533",
+                "addr:postcode": "87002",
+                "addr:state": "NM",
+                "addr:street": "East River Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Valencia Animal Clinic",
+                "phone": "+1-505-864-4075"
+            }
+        },
+        {
+            "type": "way",
+            "id": 590269588,
+            "center": {
+                "lat": 35.6380534,
+                "lon": -105.9604367
+            },
+            "nodes": [
+                5635988244,
+                5635988245,
+                5635988246,
+                5635988247,
+                5635988248,
+                5635988249,
+                5635988250,
+                5635988251,
+                13788231813,
+                5635988252,
+                5635988253,
+                5635988244
+            ],
+            "tags": {
+                "addr:city": "Santa Fe",
+                "addr:housenumber": "2001",
+                "addr:postcode": "87505",
+                "addr:state": "NM",
+                "addr:street": "Vivigen Way",
+                "amenity": "veterinary",
+                "building": "yes",
+                "emergency": "yes",
+                "healthcare:speciality": "emergency",
+                "name": "Mosaic Animal Emergency & Specialty Hospital",
+                "name_1": "Santa Fe Animal Emergency Clinic",
+                "opening_hours": "24/7",
+                "operator": "VESC",
+                "phone": "+1-505-984-0625"
+            }
+        },
+        {
+            "type": "way",
+            "id": 619600181,
+            "center": {
+                "lat": 36.7349071,
+                "lon": -108.1915037
+            },
+            "nodes": [
+                5855230439,
+                6240764807,
+                6240764806,
+                5855230438,
+                5855230437,
+                5855230436,
+                5855230435,
+                5855230434,
+                5855230433,
+                5855230432,
+                5855230439
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Haven Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 619863896,
+            "center": {
+                "lat": 36.730254,
+                "lon": -108.165442
+            },
+            "nodes": [
+                5857116246,
+                5857116245,
+                5857116244,
+                5857116243,
+                5857116242,
+                5857116241,
+                5857116240,
+                5857116239,
+                5857116238,
+                5857116237,
+                5857116236,
+                5857116235,
+                5857116234,
+                5857116233,
+                5857116232,
+                5857116231,
+                5857116230,
+                5857116229,
+                5857116246
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "San Juan Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 621883304,
+            "center": {
+                "lat": 36.777785,
+                "lon": -108.125525
+            },
+            "nodes": [
+                5874816248,
+                5874816247,
+                5874816246,
+                5874816245,
+                5874816248
+            ],
+            "tags": {
+                "addr:city": "Farmington",
+                "addr:housenumber": "6603",
+                "addr:postcode": "87402",
+                "addr:state": "NM",
+                "addr:street": "East Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Farmington Veterinary Clinic",
+                "source": "esri_USDOT_UniversityofNewMexico",
+                "website": "https://www.facebook.com/p/Farmington-Veterinary-Clinic-100049282676510/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 643192663,
+            "center": {
+                "lat": 32.4427234,
+                "lon": -103.1648515
+            },
+            "nodes": [
+                6053425991,
+                6053425992,
+                6053425993,
+                6053425994,
+                6053425991
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "fixme": "Please confirm and update opening hours",
+                "opening_hours": "Su-Tu,Th-Sa closed; We unknown"
+            }
+        },
+        {
+            "type": "way",
+            "id": 659465531,
+            "center": {
+                "lat": 35.5241068,
+                "lon": -105.890789
+            },
+            "nodes": [
+                6174349180,
+                6174349181,
+                6174349182,
+                6174349183,
+                6174349184,
+                6174349285,
+                6174349293,
+                6174349286,
+                6174349287,
+                6174349295,
+                6174349298,
+                6174349180
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 695861136,
+            "center": {
+                "lat": 35.5961366,
+                "lon": -106.0492689
+            },
+            "nodes": [
+                6534246840,
+                10023047243,
+                10023047244,
+                10023047247,
+                10023047248,
+                6534246841,
+                10023047249,
+                10023047252,
+                10023047251,
+                10023047250,
+                6534246842,
+                6534246843,
+                6534246846,
+                10023047246,
+                10023047245,
+                6534246848,
+                6534246849,
+                6534246850,
+                6534246851,
+                10023047242,
+                6534246840
+            ],
+            "tags": {
+                "addr:city": "Santa Fe",
+                "addr:housenumber": "9",
+                "addr:postcode": "87508",
+                "addr:state": "NM",
+                "addr:street": "Rumble Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Gruda Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 702175001,
+            "center": {
+                "lat": 33.1463361,
+                "lon": -107.2464074
+            },
+            "nodes": [
+                6594028666,
+                6594028667,
+                6594028668,
+                6594028669,
+                6594028670,
+                6594028671,
+                6594028672,
+                6594028673,
+                6594028674,
+                6594028675,
+                6594028676,
+                6594028677,
+                6594028678,
+                6594028679,
+                6594028680,
+                6594028681,
+                6594028666
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sierra Veterinary Services"
+            }
+        },
+        {
+            "type": "way",
+            "id": 704426440,
+            "center": {
+                "lat": 35.6579331,
+                "lon": -106.0598461
+            },
+            "nodes": [
+                6615523990,
+                6615523991,
+                6615524003,
+                6615524002,
+                6615523992,
+                6615523993,
+                6615523994,
+                6615523995,
+                6615523996,
+                6615523997,
+                6615523998,
+                6615523999,
+                6615523960,
+                6615524000,
+                6615524001,
+                6615523990
+            ],
+            "tags": {
+                "addr:housenumber": "100",
+                "addr:state": "NM",
+                "addr:street": "Caja del Rio Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Clare Eddy Thaw Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 725403213,
+            "center": {
+                "lat": 35.6377097,
+                "lon": -105.9517895
+            },
+            "nodes": [
+                6802447132,
+                6802447133,
+                2242878837,
+                6629919429,
+                6802447134,
+                6802447135,
+                6802447132
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "landuse": "commercial"
+            }
+        },
+        {
+            "type": "way",
+            "id": 743173599,
+            "center": {
+                "lat": 35.2149686,
+                "lon": -106.6986299
+            },
+            "nodes": [
+                6956397664,
+                6956397663,
+                6956397662,
+                6956397661,
+                6956397660,
+                6956397659,
+                6956397664
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospital",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 754762416,
+            "center": {
+                "lat": 35.38377,
+                "lon": -106.469975
+            },
+            "nodes": [
+                7050695026,
+                7050695025,
+                7050695024,
+                7050695023,
+                7050695022,
+                7050695021,
+                7050695026
+            ],
+            "tags": {
+                "addr:city": "Algodones",
+                "addr:housenumber": "5",
+                "addr:postcode": "87001",
+                "addr:state": "NM",
+                "addr:street": "Camino Karsten",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Roadrunner Emergency Vet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 764489692,
+            "center": {
+                "lat": 34.6502025,
+                "lon": -106.7792058
+            },
+            "nodes": [
+                7141995136,
+                7141995137,
+                7141995138,
+                7141995139,
+                7141995140,
+                7141995141,
+                7141995142,
+                7141995143,
+                7141995144,
+                7141995145,
+                7141995146,
+                7141995147,
+                7141995136
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Yucca Veterinary Medical Center, LLC"
+            }
+        },
+        {
+            "type": "way",
+            "id": 774902881,
+            "center": {
+                "lat": 36.8864009,
+                "lon": -104.4290604
+            },
+            "nodes": [
+                7229526717,
+                7229526725,
+                7229526723,
+                7229526724,
+                7229526728,
+                7229526727,
+                7229526722,
+                7229526721,
+                7229526726,
+                7229526718,
+                7229526720,
+                7229526719,
+                7229526717
+            ],
+            "tags": {
+                "addr:city": "Raton",
+                "addr:housenumber": "1101",
+                "addr:postcode": "87740",
+                "addr:state": "NM",
+                "addr:street": "Frontage Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Raton Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 807901890,
+            "center": {
+                "lat": 36.3839351,
+                "lon": -105.5947441
+            },
+            "nodes": [
+                7555017642,
+                7555017643,
+                7555017644,
+                7555017645,
+                7555017646,
+                7555017647,
+                7555017642
+            ],
+            "tags": {
+                "addr:city": "Taos",
+                "addr:street": "Salazar Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Salazar Veterinary",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 849368521,
+            "center": {
+                "lat": 35.0607979,
+                "lon": -106.5591985
+            },
+            "nodes": [
+                7924502153,
+                7924502154,
+                7924502155,
+                7924502156,
+                7924502157,
+                7924502158,
+                7924502159,
+                7924502180,
+                7924502175,
+                7924502179,
+                7924502174,
+                7924502177,
+                7924502176,
+                7924502178,
+                7924502160,
+                7924502161,
+                7924502162,
+                7924502163,
+                7924502164,
+                7924502165,
+                7924502166,
+                7924502167,
+                7924502184,
+                7924502183,
+                7924509885,
+                7924502181,
+                7924509886,
+                7924502182,
+                7924509887,
+                7924509888,
+                7924502168,
+                7924502169,
+                7924502170,
+                7924502171,
+                7924502172,
+                7924502173,
+                7924502153
+            ],
+            "tags": {
+                "addr:housenumber": "950",
+                "addr:state": "NM",
+                "addr:street": "Pennsylvania Street Southeast",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Veterinary Clinic",
+                "old_ref": "20167",
+                "phone": "+1-505-846-4276",
+                "ref": "20168"
+            }
+        },
+        {
+            "type": "way",
+            "id": 853095949,
+            "center": {
+                "lat": 35.3278525,
+                "lon": -106.5711103
+            },
+            "nodes": [
+                7958003101,
+                7958003102,
+                7958003103,
+                7958003104,
+                7958003105,
+                7958003106,
+                7958003107,
+                7958003108,
+                7958003109,
+                7958003101
+            ],
+            "tags": {
+                "addr:city": "Rio Rancho",
+                "addr:housenumber": "4192",
+                "addr:postcode": "87144",
+                "addr:state": "NM",
+                "addr:street": "Pat D'Arco Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "info@coronadopethospital.com",
+                "name": "Coronado Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "phone": "+1-505-771-3311",
+                "website": "https://coronadopethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 897623091,
+            "center": {
+                "lat": 35.5567262,
+                "lon": -106.7785468
+            },
+            "nodes": [
+                8342564935,
+                8342564936,
+                8342564937,
+                8342564938,
+                8342564939,
+                8342564940,
+                8342564941,
+                8342564942,
+                8342564943,
+                8342564944,
+                8342564935
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1"
+            }
+        },
+        {
+            "type": "way",
+            "id": 900179316,
+            "center": {
+                "lat": 35.6377256,
+                "lon": -105.9517801
+            },
+            "nodes": [
+                8362899458,
+                10983115549,
+                10983115548,
+                10983115547,
+                10983115546,
+                10983115545,
+                10983115544,
+                10983115543,
+                10983115550,
+                10983115551,
+                10983115552,
+                8362899459,
+                8362899460,
+                10983115553,
+                10983115554,
+                8362899461,
+                10983115557,
+                10983115560,
+                10983115559,
+                10983115558,
+                8362899462,
+                10983115555,
+                10983115584,
+                10983115587,
+                10983115586,
+                10983115585,
+                10983115556,
+                8362899463,
+                10983115561,
+                10983115564,
+                10983115563,
+                10983115562,
+                8362899464,
+                10983115565,
+                10983115566,
+                8362899465,
+                8362899466,
+                10983115567,
+                10983115568,
+                10983115569,
+                10983115570,
+                10983115571,
+                10983115572,
+                8362899467,
+                10983115573,
+                10983115574,
+                10983115575,
+                8362899468,
+                8362899469,
+                10983115576,
+                10983115577,
+                8362899470,
+                8362899471,
+                10983115578,
+                10983115579,
+                8362899472,
+                8362899473,
+                10983115583,
+                10983115580,
+                8362899474,
+                8362899475,
+                10983115581,
+                10983115582,
+                8362899476,
+                8362899477,
+                10983115540,
+                10983115539,
+                8362899478,
+                8362899479,
+                10983115541,
+                10983115542,
+                8362899480,
+                8362899458
+            ],
+            "tags": {
+                "addr:city": "Santa Fe",
+                "addr:housenumber": "450",
+                "addr:postcode": "87505",
+                "addr:state": "NM",
+                "addr:street": "Rodeo Road",
+                "amenity": "veterinary",
+                "beds": "40",
+                "building": "yes",
+                "capacity": "40",
+                "name": "Montecito Memory Care",
+                "old_name": "Ark Veterinary Hospital",
+                "operator": "LifeHouse Health Services"
+            }
+        },
+        {
+            "type": "way",
+            "id": 995652198,
+            "center": {
+                "lat": 32.9380179,
+                "lon": -105.9646755
+            },
+            "nodes": [
+                9193915906,
+                9193915753,
+                9193903740,
+                9193916090,
+                9193915906
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Martin Hayes DVM"
+            }
+        },
+        {
+            "type": "way",
+            "id": 996675702,
+            "center": {
+                "lat": 35.0663684,
+                "lon": -106.2014578
+            },
+            "nodes": [
+                9202948226,
+                9202948227,
+                9202948228,
+                9202948229,
+                9202948230,
+                9202948231,
+                9202948232,
+                9202948233,
+                9202948226
+            ],
+            "tags": {
+                "addr:city": "Edgewood",
+                "addr:housenumber": "4",
+                "addr:postcode": "87015",
+                "addr:state": "NM",
+                "addr:street": "Linnie Court",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vista Larga Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1042464426,
+            "center": {
+                "lat": 32.9147777,
+                "lon": -105.9379874
+            },
+            "nodes": [
+                9596065751,
+                9596065752,
+                9596065753,
+                9596065754,
+                9596065755,
+                9596065756,
+                9596065757,
+                9596065758,
+                9596065751
+            ],
+            "tags": {
+                "addr:housenumber": "1930",
+                "addr:state": "NM",
+                "addr:street": "Indian Wells Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Leslie Animal Clinic",
+                "phone": "+15754374190",
+                "website": "https://www.leslieanimal.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1123053835,
+            "center": {
+                "lat": 35.2086507,
+                "lon": -106.6511931
+            },
+            "nodes": [
+                10270760134,
+                10270760135,
+                10270760136,
+                10270760137,
+                10270760138,
+                10270760139,
+                10270760134
+            ],
+            "tags": {
+                "addr:housenumber": "3600",
+                "addr:street": "Calle Cuervo Northwest",
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1150011885,
+            "center": {
+                "lat": 34.9525097,
+                "lon": -106.6951941
+            },
+            "nodes": [
+                10698171417,
+                10698171418,
+                10698171419,
+                10698171420,
+                10698171421,
+                10698171417
+            ],
+            "tags": {
+                "addr:city": "Albuqueruqe",
+                "addr:housenumber": "7601",
+                "addr:postcode": "87105",
+                "addr:state": "NM",
+                "addr:street": "Isleta Boulevard Southwest",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "De Anza Small Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1304171683,
+            "center": {
+                "lat": 32.67096,
+                "lon": -103.1268428
+            },
+            "nodes": [
+                12077737569,
+                12077737570,
+                12077737571,
+                12077737572,
+                12077737573,
+                12077737574,
+                12077737575,
+                12077737576,
+                12077737577,
+                12077737578,
+                12077737579,
+                12077737580,
+                12077737569
+            ],
+            "tags": {
+                "addr:city": "Hobbs",
+                "addr:housenumber": "2804",
+                "addr:postcode": "88240",
+                "addr:state": "NM",
+                "addr:street": "South Eunice Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Double J Animal Hospital",
+                "phone": "+1-575-738-0143",
+                "website": "https://doublejanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1306101902,
+            "center": {
+                "lat": 35.640305,
+                "lon": -105.226397
+            },
+            "nodes": [
+                12096607070,
+                12096607071,
+                12096607072,
+                12096607073,
+                12096607070
+            ],
+            "tags": {
+                "addr:city": "Las Vegas",
+                "addr:housenumber": "84",
+                "addr:postcode": "87701",
+                "addr:state": "NM",
+                "addr:street": "NM 518",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "LV SM Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1332716929,
+            "center": {
+                "lat": 32.7308158,
+                "lon": -103.1507725
+            },
+            "nodes": [
+                12329617143,
+                12329617144,
+                12329617145,
+                12329617146,
+                12329617143
+            ],
+            "tags": {
+                "addr:city": "Hobbs",
+                "addr:housenumber": "2720",
+                "addr:postcode": "88240",
+                "addr:state": "NM",
+                "addr:street": "North Lovington Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Great Plains Veterinary Clinic & Hospital",
+                "phone": "+1-575-392-5513"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1336978447,
+            "center": {
+                "lat": 35.0481838,
+                "lon": -106.1609257
+            },
+            "nodes": [
+                12366227813,
+                12366227814,
+                12366227815,
+                12366227816,
+                12366227817,
+                12366227818,
+                12366227819,
+                12366227820,
+                12366227821,
+                12366227822,
+                12366227813
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Western Trails Veterinary Hospital PC"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1528636064,
+            "center": {
+                "lat": 32.2443047,
+                "lon": -107.7284894
+            },
+            "nodes": [
+                13930010511,
+                13930010512,
+                13930010513,
+                13930010514,
+                13930010511
+            ],
+            "tags": {
+                "addr:city": "Deming",
+                "addr:housenumber": "2900",
+                "addr:postcode": "88030",
+                "addr:state": "NM",
+                "addr:street": "J Street Southeast",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "High Desert Vet"
+            }
+        },
+        {
+            "type": "relation",
+            "id": 11766596,
+            "center": {
+                "lat": 34.0333147,
+                "lon": -106.9169415
+            },
+            "members": [
+                {
+                    "type": "way",
+                    "ref": 860271583,
+                    "role": "outer"
+                },
+                {
+                    "type": "way",
+                    "ref": 554186100,
+                    "role": "outer"
+                }
+            ],
+            "tags": {
+                "addr:city": "Socorro",
+                "addr:housenumber": "1302",
+                "addr:postcode": "87801",
+                "addr:state": "NM",
+                "addr:street": "Enterprise",
+                "amenity": "veterinary",
+                "name": "Ark of Socorro Veterinary Clinic",
+                "type": "multipolygon"
+            }
+        }
+    ]
+}

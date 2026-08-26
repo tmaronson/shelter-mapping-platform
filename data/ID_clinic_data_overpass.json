@@ -1,0 +1,1695 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:50:01Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 2401376962,
+            "lat": 43.5508054,
+            "lon": -116.573288,
+            "tags": {
+                "addr:city": "Nampa",
+                "addr:housenumber": "1803",
+                "addr:postcode": "83686",
+                "addr:state": "ID",
+                "addr:street": "12th Avenue Road",
+                "amenity": "veterinary",
+                "name": "Kindness Small Animal Medical Center",
+                "phone": "+1-208-467-1148",
+                "website": "http://kindnesssmallanimalvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2567166189,
+            "lat": 43.8866948,
+            "lon": -116.4592336,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Medical Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2567247936,
+            "lat": 42.5515741,
+            "lon": -114.4645403,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2026-03-18",
+                "name": "Magic Valley Veterinarian Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2923902084,
+            "lat": 43.6362973,
+            "lon": -116.2745071,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Mountain View Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2945151703,
+            "lat": 43.5894041,
+            "lon": -116.2929204,
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "8904",
+                "addr:postcode": "83709",
+                "addr:state": "ID",
+                "addr:street": "West Ardene Street",
+                "amenity": "veterinary",
+                "name": "The Pet Doctor"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3355153109,
+            "lat": 43.6037348,
+            "lon": -116.6079878,
+            "tags": {
+                "addr:city": "Nampa",
+                "addr:housenumber": "2121",
+                "addr:postcode": "83651",
+                "addr:state": "ID",
+                "addr:street": "North Cassia Street",
+                "amenity": "veterinary",
+                "name": "Intermountain Pet Hospital",
+                "opening_hours": "Mo-Fr 07:00-21:00, Sa 08:00-18:00",
+                "phone": "+1-208-795-3471",
+                "website": "https://www.iphnampa.com/?utm_source=gmb&utm_medium=organic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3775125188,
+            "lat": 44.74943,
+            "lon": -116.079947,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Donnelly Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4846324221,
+            "lat": 43.5974357,
+            "lon": -116.592818,
+            "tags": {
+                "addr:city": "Nampa",
+                "addr:housenumber": "1420",
+                "addr:postcode": "83651",
+                "addr:state": "ID",
+                "addr:street": "North Midland Boulevard",
+                "amenity": "veterinary",
+                "name": "Idaho Veterinary Hospital",
+                "phone": "+1-208-466-4614",
+                "website": "https://idahovethospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7774315789,
+            "lat": 48.7562462,
+            "lon": -116.2870592,
+            "tags": {
+                "amenity": "veterinary",
+                "fixme": "Confirm building",
+                "name": "Dr. Burt Vetinary Care",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa,Su off",
+                "website": "https://drburtvetcare.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8331538872,
+            "lat": 43.5763733,
+            "lon": -116.1478259,
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "3103",
+                "addr:postcode": "83716",
+                "addr:state": "ID",
+                "addr:street": "East Barber Valley Drive",
+                "amenity": "veterinary",
+                "name": "Habitat Veterinary Hospital",
+                "website": "https://habitatboise.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8672317186,
+            "lat": 43.5007852,
+            "lon": -116.393245,
+            "tags": {
+                "addr:city": "Kuna",
+                "addr:housenumber": "1378",
+                "addr:postcode": "83634",
+                "addr:state": "ID",
+                "addr:street": "North Meridian Road",
+                "addr:unit": "130",
+                "amenity": "veterinary",
+                "name": "Treasure Valley Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8672346257,
+            "lat": 43.5773342,
+            "lon": -116.3932584,
+            "tags": {
+                "addr:city": "Meridian",
+                "addr:housenumber": "3030",
+                "addr:postcode": "83642",
+                "addr:state": "ID",
+                "addr:street": "South Meridian Road",
+                "addr:unit": "110",
+                "amenity": "veterinary",
+                "name": "WestVet Urgent Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8672358952,
+            "lat": 43.5684834,
+            "lon": -116.1204757,
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "4940",
+                "addr:postcode": "83716",
+                "addr:state": "ID",
+                "addr:street": "East Mill Station Drive",
+                "addr:unit": "101",
+                "amenity": "veterinary",
+                "name": "Springs Pet Medical Care",
+                "website": "https://springspetmed.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8672381535,
+            "lat": 43.5858811,
+            "lon": -116.183732,
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "201",
+                "addr:postcode": "83706",
+                "addr:state": "ID",
+                "addr:street": "West Boise Avenue",
+                "addr:unit": "105",
+                "amenity": "veterinary",
+                "name": "Veterinary Orthopedic & Surgical Care Center",
+                "website": "https://idahoveterinarysurgery.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8851947328,
+            "lat": 43.4950724,
+            "lon": -111.9986197,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Eastside Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8878873836,
+            "lat": 43.4818472,
+            "lon": -111.9817852,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Idaho Falls Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9090199920,
+            "lat": 43.4854773,
+            "lon": -111.9647562,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Ammon Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9104495033,
+            "lat": 43.4695807,
+            "lon": -112.0453818,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Idaho Falls Veterinary Emergency Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9104495211,
+            "lat": 43.4677565,
+            "lon": -112.0459986,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Sunnyside Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9106140645,
+            "lat": 43.4858302,
+            "lon": -112.0730173,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Skyline Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9380612738,
+            "lat": 43.6621432,
+            "lon": -116.3819608,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Intermountain Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9573537824,
+            "lat": 43.7029904,
+            "lon": -116.617413,
+            "tags": {
+                "addr:city": "Middleton",
+                "addr:housenumber": "315",
+                "addr:postcode": "83644",
+                "addr:state": "ID",
+                "addr:street": "South Middleton Road",
+                "addr:unit": "102",
+                "amenity": "veterinary",
+                "check_date:opening_hours": "2024-10-28",
+                "name": "Onpoint Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-18:00; Sa 08:00-17:00",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11060003238,
+            "lat": 47.760543,
+            "lon": -116.7918746,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Doc Holly Pet Vet"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11433938294,
+            "lat": 43.4886585,
+            "lon": -116.4103568,
+            "tags": {
+                "addr:city": "Kuna",
+                "addr:housenumber": "366",
+                "addr:postcode": "83634",
+                "addr:state": "ID",
+                "addr:street": "East Avalon Street",
+                "amenity": "veterinary",
+                "name": "Pet Care Clinic-Kuna"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11468702016,
+            "lat": 43.5929417,
+            "lon": -116.3648715,
+            "tags": {
+                "addr:city": "Meridian",
+                "addr:housenumber": "2326",
+                "addr:postcode": "83642",
+                "addr:state": "ID",
+                "addr:street": "East Cinema Drive",
+                "amenity": "veterinary",
+                "name": "All Valley Animal Care Center",
+                "website": "https://www.thrivepetcare.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11945237245,
+            "lat": 47.7106251,
+            "lon": -116.9070131,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Emergency Pet Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13676702885,
+            "lat": 43.5914577,
+            "lon": -116.2886496,
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "1300",
+                "addr:postcode": "83709",
+                "addr:state": "ID",
+                "addr:street": "South Bird Street",
+                "amenity": "veterinary",
+                "name": "Idaho Humane Society Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13900215760,
+            "lat": 43.8605941,
+            "lon": -116.4979317,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Medical Center",
+                "phone": "+1-208-365-5396",
+                "website": "https://www.animalmedicalcenteremmett.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 161492614,
+            "center": {
+                "lat": 43.4696382,
+                "lon": -112.0046025
+            },
+            "nodes": [
+                1734635623,
+                1734635624,
+                6852990814,
+                6852990815,
+                6852990816,
+                6852990817,
+                1734635626,
+                1734635628,
+                1734635629,
+                1734635631,
+                1734635623
+            ],
+            "tags": {
+                "addr:city": "Idaho Falls",
+                "addr:housenumber": "3120",
+                "addr:postcode": "83404",
+                "addr:state": "ID",
+                "addr:street": "South Woodruff Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Countryside Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 252018345,
+            "center": {
+                "lat": 44.2474113,
+                "lon": -116.9819394
+            },
+            "nodes": [
+                2581416809,
+                2581416806,
+                2581416807,
+                2581416803,
+                2581416802,
+                6412449623,
+                6412449624,
+                2581416804,
+                6412449625,
+                6412449626,
+                2581416808,
+                6412449594,
+                6412449595,
+                2581416809
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Weiser Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 338722801,
+            "center": {
+                "lat": 46.7387713,
+                "lon": -117.0010736
+            },
+            "nodes": [
+                3458620605,
+                3458620606,
+                3458620624,
+                3458620623,
+                3458620605
+            ],
+            "tags": {
+                "addr:city": "Moscow",
+                "addr:country": "US",
+                "addr:county": "Latah",
+                "addr:housenumber": "504",
+                "addr:postcode": "83843",
+                "addr:state": "ID",
+                "addr:street": "North Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-208-882-0267",
+                "name": "Palouse Animal Welness & Surgery",
+                "phone": "+1-208-883-9663",
+                "source": "Bing",
+                "website": "https://www.pawsvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 373530150,
+            "center": {
+                "lat": 42.9403593,
+                "lon": -114.4046359
+            },
+            "nodes": [
+                3769728916,
+                3769728902,
+                3769728933,
+                3769728921,
+                3769728919,
+                3769728920,
+                3769728900,
+                3769728931,
+                3769728925,
+                3769728930,
+                3769728916
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Shoshone Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 493360021,
+            "center": {
+                "lat": 43.634482,
+                "lon": -116.6927039
+            },
+            "nodes": [
+                5731286995,
+                4852804668,
+                4852804669,
+                4852804670,
+                4852804671,
+                4852804672,
+                4852804673,
+                4852804674,
+                5731286995
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Canyon Small Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 494563836,
+            "center": {
+                "lat": 43.651049,
+                "lon": -116.6696157
+            },
+            "nodes": [
+                4863150765,
+                4863150766,
+                4863150767,
+                4863150768,
+                4863150769,
+                4863150770,
+                4863150771,
+                4863150772,
+                4863150773,
+                4863150774,
+                4863150775,
+                4863150776,
+                4863150765
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cleveland Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 506177202,
+            "center": {
+                "lat": 47.8168288,
+                "lon": -116.873676
+            },
+            "nodes": [
+                4959516890,
+                4959516889,
+                4959516888,
+                4959516887,
+                4959516890
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rathdrum Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 506954967,
+            "center": {
+                "lat": 48.2285989,
+                "lon": -116.5419151
+            },
+            "nodes": [
+                4965714823,
+                4965709220,
+                4965714821,
+                4965714822,
+                4965714823
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Fry Creek Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 518947337,
+            "center": {
+                "lat": 46.7234871,
+                "lon": -116.9929202
+            },
+            "nodes": [
+                5061210910,
+                5061210911,
+                5061210912,
+                5061210913,
+                5061210914,
+                5061210915,
+                5061210916,
+                5061210917,
+                5061210918,
+                5061210919,
+                5061210920,
+                5061211321,
+                5061211322,
+                5061211323,
+                5061211324,
+                5061211325,
+                5061211326,
+                5061211327,
+                5061210910
+            ],
+            "tags": {
+                "addr:city": "Moscow",
+                "addr:housenumber": "1222",
+                "addr:postcode": "83843",
+                "addr:state": "ID",
+                "addr:street": "South Logan Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date:opening_hours": "2022-09-29",
+                "name": "Animal Clinic & Hospital",
+                "opening_hours": "Mo,We,Th 08:00-21:00,Tu,Fr 08:00-17:30,Sa 08:00-12:00",
+                "phone": "+1 208 8824712",
+                "website": "https://animalclinic.org/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 533087808,
+            "center": {
+                "lat": 43.4971486,
+                "lon": -112.0785104
+            },
+            "nodes": [
+                5172341656,
+                5172341657,
+                5172341658,
+                5172341659,
+                5172341656
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Broadway Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 550457593,
+            "center": {
+                "lat": 43.6695002,
+                "lon": -111.9334955
+            },
+            "nodes": [
+                5316670971,
+                5316670972,
+                5316670973,
+                5316670974,
+                5316670975,
+                5316670976,
+                5316670977,
+                5316670978,
+                5316670979,
+                5316670980,
+                5316670981,
+                5316670982,
+                5316670983,
+                5316670984,
+                5316670971
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "South Fork Aminal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 584984899,
+            "center": {
+                "lat": 42.9175233,
+                "lon": -112.4616907
+            },
+            "nodes": [
+                5591113505,
+                5591113506,
+                5591113507,
+                5591113508,
+                5591113505
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Alpine Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 661306015,
+            "center": {
+                "lat": 48.3089925,
+                "lon": -116.5362303
+            },
+            "nodes": [
+                6191128802,
+                6191128803,
+                6191128804,
+                6191128805,
+                6191128806,
+                6191128807,
+                6191128808,
+                6191128809,
+                6191128810,
+                6191128811,
+                6191128802
+            ],
+            "tags": {
+                "addr:city": "Ponderay",
+                "addr:housenumber": "895",
+                "addr:postcode": "83852",
+                "addr:state": "ID",
+                "addr:street": "Kootenai Cutoff Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pend Oreille Veterinary",
+                "opening_hours": "Mo-Fr 07:30-18:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 677788247,
+            "center": {
+                "lat": 43.5808966,
+                "lon": -116.3933527
+            },
+            "nodes": [
+                8331480328,
+                6346365902,
+                6346365903,
+                6346365904,
+                6346365905,
+                6346365906,
+                8331480328
+            ],
+            "tags": {
+                "addr:city": "Meridian",
+                "addr:housenumber": "2600",
+                "addr:postcode": "83642",
+                "addr:state": "ID",
+                "addr:street": "South Meridian Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Treasure Valley Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 733930387,
+            "center": {
+                "lat": 43.5855188,
+                "lon": -116.2141205
+            },
+            "nodes": [
+                8672381588,
+                6873597042,
+                6873597043,
+                6873597044,
+                6873597045,
+                6873597046,
+                6873597047,
+                6873597048,
+                6873597049,
+                6873597050,
+                6873597051,
+                6873597052,
+                6873597053,
+                6873597054,
+                8672381588
+            ],
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "1985",
+                "addr:postcode": "83705",
+                "addr:state": "ID",
+                "addr:street": "South Vista Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vista Animal Hospital",
+                "phone": "+1-208-343-3711"
+            }
+        },
+        {
+            "type": "way",
+            "id": 738568382,
+            "center": {
+                "lat": 43.5986198,
+                "lon": -116.1944427
+            },
+            "nodes": [
+                6938727714,
+                6916022476,
+                6916022477,
+                6916022478,
+                6938727714
+            ],
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "1050",
+                "addr:postcode": "83706",
+                "addr:state": "ID",
+                "addr:street": "West Beacon Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Veterinary Wellness Center",
+                "phone": "+1-208-901-8360",
+                "website": "https://www.vetwellcenter.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 753651293,
+            "center": {
+                "lat": 43.641994,
+                "lon": -116.6561245
+            },
+            "nodes": [
+                7041489237,
+                7041489236,
+                7041489239,
+                7041489238,
+                7041489237
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Blaney Veterinary Clinic",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 761870820,
+            "center": {
+                "lat": 43.7030096,
+                "lon": -116.6117748
+            },
+            "nodes": [
+                7118321955,
+                7118321011,
+                11647053587,
+                11647053588,
+                7118316233,
+                7118315262,
+                7118325206,
+                11647053590,
+                11647053589,
+                7118320662,
+                7118321955
+            ],
+            "tags": {
+                "addr:city": "Middleton",
+                "addr:housenumber": "800",
+                "addr:postcode": "83644",
+                "addr:state": "ID",
+                "addr:street": "East Main Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Intermountain Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 761877364,
+            "center": {
+                "lat": 43.540482,
+                "lon": -116.156378
+            },
+            "nodes": [
+                8331642149,
+                7118375913,
+                7118383488,
+                7118381634,
+                8331642149
+            ],
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "6801",
+                "addr:postcode": "83716",
+                "addr:state": "ID",
+                "addr:street": "South Federal Way",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Valley Pet Clinic",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 761883635,
+            "center": {
+                "lat": 43.6922105,
+                "lon": -116.482674
+            },
+            "nodes": [
+                8343078828,
+                7118419137,
+                7118418047,
+                7118428190,
+                8343078828
+            ],
+            "tags": {
+                "addr:city": "Star",
+                "addr:housenumber": "10334",
+                "addr:postcode": "83669",
+                "addr:state": "ID",
+                "addr:street": "West State Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Star Veterinary Clinic",
+                "phone": "+1 208 286 0440",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 764073963,
+            "center": {
+                "lat": 43.5791065,
+                "lon": -116.179371
+            },
+            "nodes": [
+                3609946254,
+                7138329077,
+                8325214878,
+                7138308513,
+                7138301175,
+                7138337219,
+                7138321355,
+                7138314599,
+                7138314794,
+                7138314426,
+                7138320962,
+                8325214879,
+                3609946254
+            ],
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "350",
+                "addr:postcode": "83706",
+                "addr:state": "ID",
+                "addr:street": "East Linden Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Broadway Vet",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 771162353,
+            "center": {
+                "lat": 43.5921645,
+                "lon": -116.314749
+            },
+            "nodes": [
+                8331544659,
+                7198909122,
+                7198909700,
+                7198908804,
+                8331544659
+            ],
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "1365",
+                "addr:postcode": "83709",
+                "addr:state": "ID",
+                "addr:street": "South Five Mile Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Medical Center",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 772608300,
+            "center": {
+                "lat": 43.6415735,
+                "lon": -116.2324925
+            },
+            "nodes": [
+                8331552907,
+                7213325595,
+                7213336735,
+                7213333424,
+                7213329137,
+                7213337863,
+                7213333445,
+                7213330303,
+                7213316644,
+                7213323359,
+                7213320297,
+                7213330260,
+                8331552907
+            ],
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "2318",
+                "addr:postcode": "83703",
+                "addr:state": "ID",
+                "addr:street": "North 36th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ewing Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 840267545,
+            "center": {
+                "lat": 43.6343777,
+                "lon": -116.3131999
+            },
+            "nodes": [
+                7840770615,
+                7840770616,
+                7840770617,
+                7840770618,
+                7840770615
+            ],
+            "tags": {
+                "addr:city": "Boise",
+                "addr:housenumber": "10534",
+                "addr:postcode": "83704",
+                "addr:state": "ID",
+                "addr:street": "West Ustick Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "layer": "1",
+                "name": "Critter Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 878506373,
+            "center": {
+                "lat": 43.952378,
+                "lon": -116.7706755
+            },
+            "nodes": [
+                8172835054,
+                8172835487,
+                8172834469,
+                8172818586,
+                8172833885,
+                8172834300,
+                8172835054
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Creatures Animal Hospital",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 954708576,
+            "center": {
+                "lat": 43.6062295,
+                "lon": -116.5051431
+            },
+            "nodes": [
+                8836659917,
+                8836659918,
+                8836659919,
+                8836659920,
+                8836659917
+            ],
+            "tags": {
+                "addr:city": "Nampa",
+                "addr:housenumber": "16080",
+                "addr:postcode": "83687",
+                "addr:state": "ID",
+                "addr:street": "Equine Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Idaho Equine Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+1-208-466-4613",
+                "website": "https://idahoequinehospital.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 962668237,
+            "center": {
+                "lat": 43.5604518,
+                "lon": -116.3460888
+            },
+            "nodes": [
+                8331470942,
+                8904927248,
+                8904927249,
+                8904927250,
+                8331470942
+            ],
+            "tags": {
+                "addr:city": "Meridian",
+                "addr:housenumber": "3889",
+                "addr:postcode": "83642",
+                "addr:state": "ID",
+                "addr:street": "East Amity Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ada Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 962686829,
+            "center": {
+                "lat": 42.3252165,
+                "lon": -111.2972794
+            },
+            "nodes": [
+                8905061951,
+                8905061952,
+                8905061953,
+                8905061954,
+                8905061955,
+                8905061956,
+                8905061951
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bear Lake Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 981374402,
+            "center": {
+                "lat": 48.1826966,
+                "lon": -117.0391195
+            },
+            "nodes": [
+                9077811622,
+                9077811623,
+                9077811624,
+                9077811625,
+                9077811622
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Doctor PC"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1018154499,
+            "center": {
+                "lat": 43.6432275,
+                "lon": -116.2667755
+            },
+            "nodes": [
+                8343073564,
+                9390957827,
+                9390957828,
+                9390957829,
+                9390957830,
+                9390957831,
+                9390957832,
+                9390957833,
+                9390957834,
+                9390957835,
+                8343073564
+            ],
+            "tags": {
+                "addr:city": "Garden City",
+                "addr:housenumber": "5024",
+                "addr:postcode": "83714",
+                "addr:state": "ID",
+                "addr:street": "West Chinden Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "WestVet",
+                "opening_hours": "24/7",
+                "source": "microsoft/BuildingFootprints",
+                "website": "https://www.medvet.com/location/westvet-boise/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1038837335,
+            "center": {
+                "lat": 43.8429579,
+                "lon": -111.7777746
+            },
+            "nodes": [
+                9566649899,
+                9566649900,
+                9566649901,
+                9566649902,
+                9566649903,
+                9566649904,
+                9566649905,
+                9566649906,
+                9566649907,
+                9566649908,
+                9566649909,
+                9566649910,
+                9566649899
+            ],
+            "tags": {
+                "addr:city": "Rexburg",
+                "addr:housenumber": "840",
+                "addr:postcode": "83440",
+                "addr:state": "ID",
+                "addr:street": "North 2nd East",
+                "addr:unit": "1",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Upper Valley Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1086855210,
+            "center": {
+                "lat": 48.1863838,
+                "lon": -117.0207372
+            },
+            "nodes": [
+                9958455628,
+                9958455629,
+                9958455630,
+                9958455631,
+                9958455632,
+                9958455633,
+                9958455634,
+                9958455635,
+                9958455628
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pend Oreille Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1096403824,
+            "center": {
+                "lat": 47.715188,
+                "lon": -116.8101018
+            },
+            "nodes": [
+                10040452230,
+                10040452231,
+                10040452232,
+                10040452233,
+                10040452234,
+                10040452235,
+                10040452236,
+                10040452237,
+                10040452238,
+                10040452239,
+                10040452240,
+                10040452241,
+                10040452242,
+                10040452243,
+                10040452244,
+                10040452245,
+                10040452230
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Alpine Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1096437769,
+            "center": {
+                "lat": 47.7152403,
+                "lon": -116.8039836
+            },
+            "nodes": [
+                10040814434,
+                10040814435,
+                10040814436,
+                10040814437,
+                10040814438,
+                10040814439,
+                10040814440,
+                10040814441,
+                10040814442,
+                10040814443,
+                10040814444,
+                10040814445,
+                10040814434
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Emergency Vet Hospital of Coeur d'Alene"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1098326221,
+            "center": {
+                "lat": 47.7103479,
+                "lon": -116.7859864
+            },
+            "nodes": [
+                10056581147,
+                10056581148,
+                10056581149,
+                10056581150,
+                10056581151,
+                10056581152,
+                10056581153,
+                10056581154,
+                10056581155,
+                10056581156,
+                10056581147
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sunset Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1099480138,
+            "center": {
+                "lat": 47.6852648,
+                "lon": -116.7803107
+            },
+            "nodes": [
+                10065745049,
+                10065745050,
+                10065745051,
+                10065745052,
+                10065745053,
+                10065745054,
+                10065745055,
+                10065745056,
+                10065745057,
+                10065745058,
+                10065745059,
+                10065745060,
+                10065745061,
+                10065745062,
+                10065745049
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Midtown Animal Medical Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1101776174,
+            "center": {
+                "lat": 47.6809949,
+                "lon": -116.7914306
+            },
+            "nodes": [
+                10082335919,
+                10082335920,
+                10082335921,
+                10082335922,
+                10082335919
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lake City Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1106874489,
+            "center": {
+                "lat": 47.752899,
+                "lon": -117.0087153
+            },
+            "nodes": [
+                10128440336,
+                10128440337,
+                10128440338,
+                10128440339,
+                10128440340,
+                10128440341,
+                10128440342,
+                10128440343,
+                10128440336
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Springwater Veterinary Services"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1184845411,
+            "center": {
+                "lat": 46.3874369,
+                "lon": -116.9852844
+            },
+            "nodes": [
+                11005907751,
+                11005907752,
+                11005907753,
+                11005907754,
+                11005907755,
+                11005907756,
+                11005907757,
+                11005907758,
+                11005907759,
+                11005907751
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Orchards Pet Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1190017593,
+            "center": {
+                "lat": 47.7294025,
+                "lon": -116.7898278
+            },
+            "nodes": [
+                11049703823,
+                11049703824,
+                11049703825,
+                11049703826,
+                11049703827,
+                11049703828,
+                11049703829,
+                11049703830,
+                11049703831,
+                11049703832,
+                11049703823
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lakewood Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1190744804,
+            "center": {
+                "lat": 47.7439398,
+                "lon": -116.7982771
+            },
+            "nodes": [
+                11056064472,
+                11056064473,
+                11056064474,
+                11056064475,
+                11056064476,
+                11056064477,
+                11056064478,
+                11056064479,
+                11056064472
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Prairie Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1191268426,
+            "center": {
+                "lat": 47.7643586,
+                "lon": -116.7901346
+            },
+            "nodes": [
+                11059835055,
+                11059835056,
+                11059835057,
+                11059835058,
+                11059835055
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mountain View Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1192137250,
+            "center": {
+                "lat": 47.7594856,
+                "lon": -116.802815
+            },
+            "nodes": [
+                11067333776,
+                11067333777,
+                11067333778,
+                11067333779,
+                11067333780,
+                11067333781,
+                11067333782,
+                11067333783,
+                11067333784,
+                11067333785,
+                11067333786,
+                11067333787,
+                11067333776
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hayden Pet Medical Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1210899644,
+            "center": {
+                "lat": 47.9481993,
+                "lon": -116.7149447
+            },
+            "nodes": [
+                11219133087,
+                11219133088,
+                11219133089,
+                11219133090,
+                11219133091,
+                11219133092,
+                11219133093,
+                11219133094,
+                11219133087
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Northwoods Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1242380952,
+            "center": {
+                "lat": 43.6030711,
+                "lon": -116.4318419
+            },
+            "nodes": [
+                8331503281,
+                11544824888,
+                11544824889,
+                11544824890,
+                11544824891,
+                11544824892,
+                8331503281
+            ],
+            "tags": {
+                "addr:city": "Meridian",
+                "addr:housenumber": "212",
+                "addr:postcode": "83642",
+                "addr:state": "ID",
+                "addr:street": "South Innovation Lane",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "WestVet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1266527268,
+            "center": {
+                "lat": 42.5908214,
+                "lon": -113.7056385
+            },
+            "nodes": [
+                11764011939,
+                11764011940,
+                11764011941,
+                11764011942,
+                11764011939
+            ],
+            "tags": {
+                "addr:city": "Rupert",
+                "addr:housenumber": "200",
+                "addr:postcode": "83350",
+                "addr:state": "ID",
+                "addr:street": "State Highway 24",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1287915391,
+            "center": {
+                "lat": 47.7101014,
+                "lon": -116.9195216
+            },
+            "nodes": [
+                11943871120,
+                11943871121,
+                11943871122,
+                11943871123,
+                11943871124,
+                11943871125,
+                11943871126,
+                11943871127,
+                11943871128,
+                11943871129,
+                11943871130,
+                11943871131,
+                11943871120
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "VCA Kootenai Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1294753107,
+            "center": {
+                "lat": 44.46672,
+                "lon": -114.1963155
+            },
+            "nodes": [
+                11999058824,
+                11999058825,
+                11999058826,
+                11999058827,
+                11999058828,
+                11999058829,
+                11999058830,
+                11999058831,
+                11999058832,
+                11999058833,
+                11999058824
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lone Pine Animal Hospital",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1459666855,
+            "center": {
+                "lat": 47.7056607,
+                "lon": -117.0285212
+            },
+            "nodes": [
+                13387475666,
+                13387475667,
+                13387475668,
+                13387475669,
+                13387475666
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "One Love Animal Hospital"
+            }
+        }
+    ]
+}

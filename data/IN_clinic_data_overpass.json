@@ -1,0 +1,3709 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:51:03Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 837147820,
+            "lat": 39.2072917,
+            "lon": -86.5732989,
+            "tags": {
+                "addr:city": "Bloomington",
+                "addr:housenumber": "4515",
+                "addr:postcode": "47404",
+                "addr:state": "IN",
+                "addr:street": "Arlington Rd",
+                "amenity": "veterinary",
+                "name": "Arlington Heights Veterinary Hospital",
+                "phone": "+1-812-332-6955",
+                "website": "http://www.arlingtonheightsveterinaryhospital.vetsuite.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 876562479,
+            "lat": 41.3445012,
+            "lon": -86.2914598,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Plymouth Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1740600673,
+            "lat": 41.1793103,
+            "lon": -85.1310627,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1827923714,
+            "lat": 41.4415708,
+            "lon": -86.0021707,
+            "tags": {
+                "addr:housenumber": "151",
+                "addr:postcode": "46550",
+                "addr:street": "West Lincoln Street",
+                "amenity": "veterinary",
+                "name": "Nappanee Veterinary Clinic",
+                "source": "local_knowleddge",
+                "website": "http://www.nappaneeveterinaryhospital.vetsuite.com/Templates/boxedwhite.aspx"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2288356844,
+            "lat": 39.6064922,
+            "lon": -85.123785,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Connersville Veterinarian Clinic",
+                "opening_hours": "Mo-Sa 08:00-12:00, Mo-Fr 13:00-18:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2435269011,
+            "lat": 38.0030898,
+            "lon": -87.5738297,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "North Park Veterinarian"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2623039986,
+            "lat": 38.267415,
+            "lon": -87.5682437,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Fort Branch Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3577669593,
+            "lat": 39.776163,
+            "lon": -86.148484,
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "625",
+                "addr:postcode": "46202",
+                "addr:state": "IN",
+                "addr:street": "North East Street",
+                "amenity": "veterinary",
+                "name": "City Way Animal Clinic Mass Ave",
+                "phone": "+1-317-396-0056",
+                "website": "https://www.massaveanimalclinic.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3915100721,
+            "lat": 41.0895623,
+            "lon": -85.1248723,
+            "tags": {
+                "addr:city": "Fort Wayne",
+                "addr:housenumber": "1029",
+                "addr:postcode": "46805",
+                "addr:state": "IN",
+                "addr:street": "Tennessee Avenue",
+                "amenity": "veterinary",
+                "name": "Corner Vetrinary Clinic",
+                "operator": "Dr. Dale McKee"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4412557306,
+            "lat": 40.3599268,
+            "lon": -86.9997067,
+            "tags": {
+                "addr:city": "Westpoint",
+                "addr:housenumber": "5000",
+                "addr:postcode": "47992",
+                "addr:state": "IN",
+                "addr:street": "State Road 25 South",
+                "amenity": "veterinary",
+                "name": "Town and County Veterinary",
+                "operator": "Jack Oliver"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4452604914,
+            "lat": 40.0057774,
+            "lon": -86.1287356,
+            "tags": {
+                "addr:housenumber": "15018",
+                "addr:street": "Greywood Court",
+                "amenity": "veterinary",
+                "name": "VCA Village park animal hospital",
+                "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-14:00",
+                "phone": "+1-317-848-1898"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4460535522,
+            "lat": 39.9876151,
+            "lon": -86.1389017,
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:country": "US",
+                "addr:housenumber": "13694",
+                "addr:postcode": "46032",
+                "addr:state": "IN",
+                "addr:street": "North Meridian Street",
+                "amenity": "veterinary",
+                "name": "Carter Veterinary Medical Center",
+                "phone": "+1-317-844-6868"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4804317595,
+            "lat": 40.5932826,
+            "lon": -86.7320557,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Horizon Veterinary Service"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4931058836,
+            "lat": 39.9396982,
+            "lon": -86.2346621,
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:housenumber": "4335",
+                "addr:postcode": "46032",
+                "addr:state": "IN",
+                "addr:street": "West 106th Street",
+                "amenity": "veterinary",
+                "name": "Carmel Clay Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4938620850,
+            "lat": 39.9797749,
+            "lon": -86.072106,
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:housenumber": "13190",
+                "addr:postcode": "46033",
+                "addr:state": "IN",
+                "addr:street": "Hazel Dell Parkway",
+                "amenity": "veterinary",
+                "name": "Hazel Dell Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4938686173,
+            "lat": 39.9702996,
+            "lon": -86.0912038,
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:housenumber": "12530",
+                "addr:postcode": "46033",
+                "addr:state": "IN",
+                "addr:street": "North Gray Road",
+                "amenity": "veterinary",
+                "name": "Carmel Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4955561223,
+            "lat": 39.9786226,
+            "lon": -86.1421874,
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:housenumber": "828",
+                "addr:postcode": "46032",
+                "addr:state": "IN",
+                "addr:street": "West Main Street",
+                "amenity": "veterinary",
+                "name": "Leo's Pet Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4956977705,
+            "lat": 39.9616686,
+            "lon": -86.1316979,
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:housenumber": "269",
+                "addr:postcode": "46032",
+                "addr:state": "IN",
+                "addr:street": "West Carmel Drive",
+                "amenity": "veterinary",
+                "name": "Woodland Animal Hospital and Pet Lodge"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4961975244,
+            "lat": 39.9259623,
+            "lon": -86.1139132,
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "9512",
+                "addr:postcode": "46240",
+                "addr:state": "IN",
+                "addr:street": "Haver Way",
+                "amenity": "veterinary",
+                "name": "Cat Care Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5022384029,
+            "lat": 39.8115018,
+            "lon": -86.0176235,
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "8550",
+                "addr:postcode": "46219",
+                "addr:state": "IN",
+                "addr:street": "East 30th Street",
+                "amenity": "veterinary",
+                "name": "30th Street Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5216696279,
+            "lat": 39.6247096,
+            "lon": -86.1579288,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Meridian Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5332342602,
+            "lat": 39.929817,
+            "lon": -85.9840513,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Windermere Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5587182006,
+            "lat": 41.1478924,
+            "lon": -85.1653065,
+            "tags": {
+                "addr:city": "Fort Wayne",
+                "addr:housenumber": "7505",
+                "addr:postcode": "46818",
+                "addr:street": "Lima Road",
+                "amenity": "veterinary",
+                "name": "Fort Wayne Animal Hospital",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:00",
+                "website": "https://www.fortwaynepethospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6355933940,
+            "lat": 38.8608696,
+            "lon": -86.4709396,
+            "tags": {
+                "addr:city": "Bedford",
+                "addr:housenumber": "138",
+                "addr:postcode": "47421",
+                "addr:state": "IN",
+                "addr:street": "E 16th Street",
+                "amenity": "veterinary",
+                "name": "Animal Hospital of Bedford",
+                "opening_hours": "Mo, We 08:00-18:00; Tu, Th-Fr 08:00-17:00; Sa 08:00-12:00",
+                "phone": "+1-812-275-4979",
+                "website": "https://www.vethospitalofbedford.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6576841805,
+            "lat": 39.7721134,
+            "lon": -86.0507355,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Irvington Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7472496572,
+            "lat": 39.1661028,
+            "lon": -86.5821488,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Bloomfield Veterinary Clini"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7981655385,
+            "lat": 40.368748,
+            "lon": -86.8752728,
+            "tags": {
+                "addr:city": "Lafayette",
+                "addr:housenumber": "3613",
+                "addr:postcode": "47909",
+                "addr:state": "IN",
+                "addr:street": "South 18th Street",
+                "amenity": "veterinary",
+                "name": "WEA Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:30",
+                "phone": "+1-765-838-0954",
+                "website": "https://weaanimalhospital.com",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8075244534,
+            "lat": 40.0017478,
+            "lon": -86.0693013,
+            "tags": {
+                "addr:city": "Noblesville",
+                "addr:housenumber": "14765",
+                "addr:postcode": "46062",
+                "addr:state": "IN",
+                "addr:street": "Hazel Dell Crossing",
+                "addr:unit": "500",
+                "amenity": "veterinary",
+                "name": "Noble West Animal Hospital",
+                "phone": "+13172183731",
+                "website": "https://www.noblewestanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8616393924,
+            "lat": 39.4537835,
+            "lon": -87.4134276,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Emergency Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8710788209,
+            "lat": 39.8023389,
+            "lon": -86.1499006,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "City Way Animal Clinics - Fall Creek Place"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9033057270,
+            "lat": 40.0384451,
+            "lon": -86.0014713,
+            "tags": {
+                "addr:city": "Noblesville",
+                "addr:housenumber": "1721",
+                "addr:postcode": "46060",
+                "addr:state": "IN",
+                "addr:street": "Pleasant Street",
+                "amenity": "veterinary",
+                "name": "Low Cost Spay Neuter Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9387661644,
+            "lat": 41.4251632,
+            "lon": -87.2395061,
+            "tags": {
+                "addr:city": "Crown Point",
+                "addr:housenumber": "10624",
+                "addr:postcode": "46307",
+                "addr:state": "IN",
+                "addr:street": "Randolph Street",
+                "amenity": "veterinary",
+                "name": "Four Seasons Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-13:00",
+                "phone": "+1 219 663 8387",
+                "website": "https://fsah.net/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9411043204,
+            "lat": 39.4570342,
+            "lon": -87.3791608,
+            "tags": {
+                "addr:street": "South 25th Street",
+                "amenity": "veterinary",
+                "name": "Brown Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9791154907,
+            "lat": 38.4009172,
+            "lon": -85.7540949,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10116534202,
+            "lat": 39.9585902,
+            "lon": -86.127633,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2022-10-20",
+                "name": "VetCheck"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10219067849,
+            "lat": 41.5752274,
+            "lon": -85.8139442,
+            "tags": {
+                "addr:housenumber": "1014",
+                "addr:postcode": "46526",
+                "addr:street": "Lincolnway East",
+                "amenity": "veterinary",
+                "name": "White Veterinary Hospital",
+                "website": "https://www.whitevethospital.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10241458703,
+            "lat": 39.7705205,
+            "lon": -86.0721506,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "City Way Animal Clinic - Irvington"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10263892460,
+            "lat": 39.7556351,
+            "lon": -86.1491288,
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "827",
+                "addr:postcode": "46225",
+                "addr:state": "IN",
+                "addr:street": "South East Street",
+                "amenity": "veterinary",
+                "emergency": "yes",
+                "name": "Indianapolis Animal Urgent Care",
+                "source": "esri_USDOT_Indiana",
+                "website": "https://www.iauc.vet"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10299300947,
+            "lat": 41.4581256,
+            "lon": -87.0611628,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2023-01-01"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11165624650,
+            "lat": 38.3506964,
+            "lon": -85.703806,
+            "tags": {
+                "addr:city": "Jeffersonville",
+                "addr:housenumber": "5012 1/2",
+                "addr:postcode": "47130",
+                "addr:state": "IN",
+                "addr:street": "State Road 62",
+                "amenity": "veterinary",
+                "email": "info@accessveterinarycare.com",
+                "name": "Access Veterinary Care",
+                "opening_hours": "Mo 09:00-17:30; Th 09:00-17:30; Fr 09:00-17:30",
+                "phone": "+1-812-590-3081",
+                "website": "https://www.accessveterinarycare.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11221353128,
+            "lat": 39.1207606,
+            "lon": -86.5296609,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Arlington Heights Veterinary Hospital South"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11396234004,
+            "lat": 39.7164627,
+            "lon": -86.3547413,
+            "tags": {
+                "addr:city": "Plainfield",
+                "addr:housenumber": "2677",
+                "addr:postcode": "46168",
+                "addr:state": "IN",
+                "addr:street": "East Main Street",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11673410725,
+            "lat": 41.5112269,
+            "lon": -87.4689081,
+            "tags": {
+                "addr:city": "Schererville",
+                "addr:housenumber": "711",
+                "addr:postcode": "46375",
+                "addr:state": "IN",
+                "addr:street": "Indianapolis Boulevard",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "operator": "Petsmart"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11694792010,
+            "lat": 39.8690383,
+            "lon": -86.1347464,
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "1430",
+                "addr:postcode": "46220",
+                "addr:state": "IN",
+                "addr:street": "Broad Ripple Avenue",
+                "addr:unit": "1",
+                "amenity": "veterinary",
+                "name": "Pet Wellness Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11833692437,
+            "lat": 38.2691378,
+            "lon": -86.9636114,
+            "tags": {
+                "addr:city": "Huntingburg",
+                "addr:housenumber": "3140",
+                "addr:postcode": "47542",
+                "addr:state": "IN",
+                "addr:street": "West 750 South",
+                "amenity": "veterinary",
+                "name": "Dubois County Animal Hospital",
+                "phone": "+18126832388",
+                "website": "https://duboiscountyanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11882642523,
+            "lat": 41.0962055,
+            "lon": -85.893074,
+            "tags": {
+                "addr:housenumber": "9347",
+                "addr:street": "State Road 15",
+                "amenity": "veterinary",
+                "name": "Sommers Veterinary Clinic",
+                "website": "https://sommersvh.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11952697019,
+            "lat": 41.639126,
+            "lon": -85.9311999,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11974221669,
+            "lat": 38.3342849,
+            "lon": -85.8966552,
+            "tags": {
+                "addr:housenumber": "4745",
+                "addr:street": "Paoli Pike",
+                "amenity": "veterinary",
+                "check_date": "2024-06-11",
+                "contact:facebook": "https://www.facebook.com/162522860503388/",
+                "contact:instagram": "https://www.instagram.com/hillsideanimalclinic",
+                "name": "Hillside Animal Clinic",
+                "opening_hours": "Mo-Th 08:00-22:00; Fr 08:00-18:00; Sa 09:00-12:00; Su off",
+                "phone": "+1 812-923-8825",
+                "website": "https://www.hillsideanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11981640913,
+            "lat": 38.9647776,
+            "lon": -85.8351631,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2024-06-14",
+                "name": "Jackson County Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12047257007,
+            "lat": 38.0949294,
+            "lon": -87.562969,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Stone Ridge Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12081881066,
+            "lat": 38.4155764,
+            "lon": -86.9365284,
+            "tags": {
+                "addr:city": "Jasper",
+                "addr:housenumber": "125",
+                "addr:postcode": "47546",
+                "addr:state": "IN",
+                "addr:street": "East 31st Street",
+                "amenity": "veterinary",
+                "name": "Dogwood Animal Clinic Inc",
+                "website": "https://www.dogwoodanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12092622837,
+            "lat": 41.6755639,
+            "lon": -85.6978214,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12119311182,
+            "lat": 39.1559803,
+            "lon": -86.4955182,
+            "tags": {
+                "addr:city": "Bloomington",
+                "addr:housenumber": "857",
+                "addr:postcode": "47401",
+                "addr:state": "IN",
+                "addr:street": "South College Mall Road",
+                "amenity": "veterinary",
+                "name": "Furry Friends Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12391906932,
+            "lat": 38.3362517,
+            "lon": -85.707082,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "PetVet 365"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12513296602,
+            "lat": 41.5365749,
+            "lon": -86.0207171,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Dr. Weldys Associates"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12697811765,
+            "lat": 37.9798112,
+            "lon": -87.4054466,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "UVet Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12753084077,
+            "lat": 39.897632,
+            "lon": -85.9945449,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Pet Wellness Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12758527301,
+            "lat": 38.2601721,
+            "lon": -85.9357628,
+            "tags": {
+                "addr:housenumber": "1849",
+                "addr:postcode": "47136",
+                "addr:street": "State Road 11",
+                "amenity": "veterinary",
+                "contact:facebook": "UnleashedVeterinaryCare",
+                "name": "Unleashed Veterinary Care",
+                "opening_hours": "Mo-Th 09:00-17:00; Fr 09:00-13:00",
+                "phone": "+18129523643",
+                "website": "https://unleashedvetcare.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13009484301,
+            "lat": 39.7492068,
+            "lon": -86.0248958,
+            "tags": {
+                "addr:housenumber": "8049",
+                "addr:street": "Brookville Road",
+                "amenity": "veterinary",
+                "email": "info@brookvilleroadvet.com",
+                "name": "Brookville Road Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-13:00",
+                "phone": "+1-317-353-6143",
+                "website": "https://www.brookvilleroadvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13109447319,
+            "lat": 39.061085,
+            "lon": -85.1895069,
+            "tags": {
+                "addr:city": "Dillsboro",
+                "addr:housenumber": "3908",
+                "addr:postcode": "47018",
+                "addr:state": "IN",
+                "addr:street": "East United States Highway 50",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/lvvets/",
+                "name": "Laughery Valley Veterinary Hospital",
+                "phone": "+1-812-689-6984",
+                "source": "esri/USA_NAD_Addresses",
+                "website": "https://laugheryvalleyvet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13191523797,
+            "lat": 40.3854136,
+            "lon": -86.9041107,
+            "tags": {
+                "addr:city": "Lafayette",
+                "addr:housenumber": "2917",
+                "addr:postcode": "47909",
+                "addr:state": "IN",
+                "addr:street": "Old US Highway 231",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "name": "VCA Paw Prints Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13327420959,
+            "lat": 41.5472372,
+            "lon": -85.8278133,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13409294654,
+            "lat": 39.6060731,
+            "lon": -86.1060329,
+            "tags": {
+                "addr:city": "Greenwood",
+                "addr:housenumber": "707",
+                "addr:postcode": "46143",
+                "addr:state": "IN",
+                "addr:street": "South Madison Avenue",
+                "amenity": "veterinary",
+                "name": "Animal Clinic Whiteland Greenwood"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13525306401,
+            "lat": 40.0431395,
+            "lon": -86.1508131,
+            "tags": {
+                "addr:housenumber": "504",
+                "addr:postcode": "46074",
+                "addr:street": "IN-32",
+                "amenity": "veterinary",
+                "contact:facebook": "theintegrativevetclinic",
+                "contact:instagram": "theintegrativevetclinic",
+                "email": "info@theintegrativevetclinic.com",
+                "internet_access": "wlan",
+                "level": "0",
+                "name": "The Integrative Veterinary Clinic",
+                "phone": "+1-317-689-8582",
+                "website": "https://theintegrativeveterinaryclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13623480992,
+            "lat": 39.9548404,
+            "lon": -86.2446583,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13634126701,
+            "lat": 37.9347263,
+            "lon": -87.8860844,
+            "tags": {
+                "addr:housenumber": "903",
+                "addr:postcode": "47620",
+                "addr:street": "East 4th Street",
+                "amenity": "veterinary",
+                "name": "Hawthorne Animal Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+                "website": "https://hawthorneanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13634820464,
+            "lat": 37.9476577,
+            "lon": -87.413461,
+            "tags": {
+                "addr:city": "Newburgh",
+                "addr:housenumber": "603",
+                "addr:postcode": "47630",
+                "addr:state": "IN",
+                "addr:street": "West Main Street",
+                "amenity": "veterinary",
+                "brand": "VIP Petcare",
+                "name": "VIP Petcare",
+                "website": "https://locations.vippetcare.com/in/newburgh/603-w.-main-st/4966/?utm_source=gbp&utm_medium=website_button&utm_campaign=gbp_website_clicks"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13702367401,
+            "lat": 41.1725625,
+            "lon": -85.4826875,
+            "tags": {
+                "addr:housenumber": "636",
+                "addr:postcode": "46725",
+                "addr:street": "IN-9",
+                "amenity": "veterinary",
+                "name": "C.C. Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+1-260-244-5822",
+                "website": "https://columbiacityvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13735771800,
+            "lat": 39.1626852,
+            "lon": -86.5759944,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "VetCheck Pet Urgent Care Center"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13885474401,
+            "lat": 39.6895418,
+            "lon": -86.1358744,
+            "tags": {
+                "addr:housenumber": "5220",
+                "addr:postcode": "46227",
+                "addr:street": "Madison Avenue",
+                "amenity": "veterinary",
+                "name": "South Side Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:00",
+                "phone": "+1-317-783-3309",
+                "website": "https://southsideanimalhosp.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13972388902,
+            "lat": 39.6655762,
+            "lon": -86.0767664,
+            "tags": {
+                "addr:housenumber": "5335",
+                "addr:postcode": "46237",
+                "addr:street": "East Southport Road",
+                "amenity": "veterinary",
+                "contact:facebook": "61569408454650",
+                "contact:instagram": "vetcheck_forpets",
+                "name": "VetCheck Pet Urgent Care Center",
+                "opening_hours": "Mo-Fr 14:00-23:00; Sa 09:00-20:00; Su 09:00-18:00",
+                "phone": "+1-317-934-9953",
+                "website": "https://www.vetcheckforpetsindy.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 121513444,
+            "center": {
+                "lat": 41.1214649,
+                "lon": -85.0397721
+            },
+            "nodes": [
+                1360115030,
+                1360115029,
+                1360115020,
+                1360115021,
+                1360115030
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Stellhorn Vetrinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 149668360,
+            "center": {
+                "lat": 41.1404948,
+                "lon": -85.4460126
+            },
+            "nodes": [
+                1626104074,
+                1626104259,
+                1626104063,
+                1626104062,
+                1626104074
+            ],
+            "tags": {
+                "addr:city": "Columbia City",
+                "addr:housenumber": "2391",
+                "addr:postcode": "46725",
+                "addr:state": "IN",
+                "addr:street": "East Business 30",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Eel River Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 178296686,
+            "center": {
+                "lat": 39.9348383,
+                "lon": -85.9521254
+            },
+            "nodes": [
+                1886617731,
+                1886617742,
+                1886617763,
+                1886617680,
+                1886617753,
+                1886617755,
+                1886617728,
+                1886617730,
+                1886617674,
+                1886617720,
+                1886617731
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "11060",
+                "addr:postcode": "46256",
+                "addr:state": "IN",
+                "addr:street": "Fall Creek Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Log Cabin Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 195536867,
+            "center": {
+                "lat": 39.9576527,
+                "lon": -86.1262663
+            },
+            "nodes": [
+                4931472641,
+                2059627295,
+                2059627349,
+                2059627340,
+                2059627310,
+                5545181137,
+                2059627309,
+                2059627302,
+                2059627287,
+                2059627290,
+                4931472641
+            ],
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:housenumber": "1455",
+                "addr:postcode": "46032",
+                "addr:state": "IN",
+                "addr:street": "South Range Line Road",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "building": "retail",
+                "name": "VCA Companion Animal Medical Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 351460572,
+            "center": {
+                "lat": 38.0170995,
+                "lon": -87.4912851
+            },
+            "nodes": [
+                3572412248,
+                3572412249,
+                3572412250,
+                3572412251,
+                3572412252,
+                3572412253,
+                3572412254,
+                3572412255,
+                3572412256,
+                3572412257,
+                3572412248
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Greenbriar Vetrinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 352621825,
+            "center": {
+                "lat": 38.00415,
+                "lon": -87.6095707
+            },
+            "nodes": [
+                3583816847,
+                3583816848,
+                3583816849,
+                3583816850,
+                3583816851,
+                3583816852,
+                3583816853,
+                3583816854,
+                3583816855,
+                3583816856,
+                3583816857,
+                3583816858,
+                3583816859,
+                3583816860,
+                3583816847
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 378333639,
+            "center": {
+                "lat": 39.1234009,
+                "lon": -86.5298772
+            },
+            "nodes": [
+                3817485568,
+                3817485569,
+                3817485570,
+                3817485571,
+                3817485568
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 379943430,
+            "center": {
+                "lat": 41.0300637,
+                "lon": -85.2848938
+            },
+            "nodes": [
+                3832845459,
+                8640304117,
+                8640280816,
+                8640280815,
+                8640280814,
+                3832845460,
+                8640280813,
+                8640280812,
+                8640280811,
+                3832845679,
+                8640280810,
+                3832845680,
+                3832845461,
+                3832845462,
+                8640304180,
+                8640304182,
+                3832845459
+            ],
+            "tags": {
+                "addr:city": "Fort Wayne",
+                "addr:housenumber": "5902",
+                "addr:postcode": "46814",
+                "addr:state": "IN",
+                "addr:street": "Homestead Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Indian Creek Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 391519747,
+            "center": {
+                "lat": 39.7850883,
+                "lon": -86.1326193
+            },
+            "nodes": [
+                3947274216,
+                3947274217,
+                3947274218,
+                3947274219,
+                3947274220,
+                3947274221,
+                3947274222,
+                8719738506,
+                8719738505,
+                8719738504,
+                3947274223,
+                8719738503,
+                3947274216
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "1505",
+                "addr:postcode": "46201",
+                "addr:state": "IN",
+                "addr:street": "Massachusetts Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "FACE Low-Cost Animal Clinic",
+                "source": "esri_USDOT_Indiana"
+            }
+        },
+        {
+            "type": "way",
+            "id": 397326739,
+            "center": {
+                "lat": 40.482934,
+                "lon": -86.8650908
+            },
+            "nodes": [
+                4001241275,
+                4001241274,
+                4001241272,
+                4001241273,
+                4001241275
+            ],
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 451618515,
+            "center": {
+                "lat": 40.4590583,
+                "lon": -86.9269063
+            },
+            "nodes": [
+                4484436707,
+                4484436708,
+                4484436709,
+                4484436710,
+                4484436711,
+                4484436712,
+                4484436713,
+                4484436714,
+                4484436715,
+                4484436716,
+                4484436717,
+                4484436718,
+                4484436719,
+                4484436720,
+                4484436721,
+                4484436722,
+                4484436707
+            ],
+            "tags": {
+                "addr:city": "West Lafayette",
+                "addr:housenumber": "1220",
+                "addr:postcode": "47906",
+                "addr:state": "IN",
+                "addr:street": "Montgomery Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pets & Vets as Partners"
+            }
+        },
+        {
+            "type": "way",
+            "id": 451711014,
+            "center": {
+                "lat": 40.4536672,
+                "lon": -86.9075812
+            },
+            "nodes": [
+                4485329203,
+                4485329204,
+                4485329205,
+                4485329206,
+                4485329203
+            ],
+            "tags": {
+                "addr:city": "West Lafayette",
+                "addr:housenumber": "180",
+                "addr:postcode": "47906",
+                "addr:state": "IN",
+                "addr:street": "Sagamore Parkway West",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Creekside Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-13:00",
+                "phone": "+1-765-742-0140"
+            }
+        },
+        {
+            "type": "way",
+            "id": 464058104,
+            "center": {
+                "lat": 40.760889,
+                "lon": -86.0456942
+            },
+            "nodes": [
+                4592209713,
+                4592209714,
+                4592209715,
+                4592209716,
+                4592209713
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Peru Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+1 765-472-3979",
+                "roof:colour": "red",
+                "roof:shape": "gabled"
+            }
+        },
+        {
+            "type": "way",
+            "id": 479043638,
+            "center": {
+                "lat": 41.6945434,
+                "lon": -86.1831883
+            },
+            "nodes": [
+                4722083147,
+                4722083148,
+                4722083149,
+                4722083150,
+                4722083151,
+                11886801701,
+                11886801700,
+                4722083152,
+                4722083147
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mishawaka Animal Care Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 492677897,
+            "center": {
+                "lat": 41.6654892,
+                "lon": -86.2063843
+            },
+            "nodes": [
+                4846647670,
+                4846647671,
+                4846647672,
+                4846647673,
+                4846647674,
+                4846647675,
+                4846647676,
+                4846647677,
+                4846647670
+            ],
+            "tags": {
+                "addr:city": "South Bend",
+                "addr:housenumber": "2910",
+                "addr:postcode": "46615",
+                "addr:state": "IN",
+                "addr:street": "E Mishawaka Aven",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Family Pet Health Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 500192688,
+            "center": {
+                "lat": 39.9820916,
+                "lon": -86.1272931
+            },
+            "nodes": [
+                4913034585,
+                4913034584,
+                4913034583,
+                4913034582,
+                4913034585
+            ],
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:housenumber": "420",
+                "addr:postcode": "46032",
+                "addr:state": "IN",
+                "addr:street": "North Range Line Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cottage Animal Clinic of Carmel",
+                "website": "https://www.carmelanimalclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 506869266,
+            "center": {
+                "lat": 41.1341852,
+                "lon": -85.0613048
+            },
+            "nodes": [
+                4965124092,
+                4965124093,
+                4965124094,
+                4965124095,
+                4965124096,
+                4965124097,
+                4965124098,
+                4965124099,
+                4965124092
+            ],
+            "tags": {
+                "addr:city": "Fort Wayne",
+                "addr:housenumber": "5818",
+                "addr:postcode": "46835",
+                "addr:street": "Maplecrest Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "North Indiana Veterinary Emergency Services",
+                "opening_hours": "24/7",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "way",
+            "id": 506869267,
+            "center": {
+                "lat": 41.1345414,
+                "lon": -85.061091
+            },
+            "nodes": [
+                4965124100,
+                4965124101,
+                4965124102,
+                4965124103,
+                4965124104,
+                4965124105,
+                4965124106,
+                4965124107,
+                4965124108,
+                4965124109,
+                4965124110,
+                4965124111,
+                4965124100
+            ],
+            "tags": {
+                "addr:city": "Fort Wayne",
+                "addr:housenumber": "6358",
+                "addr:postcode": "46835",
+                "addr:street": "Saint Joe Center Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Saint Joe Center Veterinary Hospitat"
+            }
+        },
+        {
+            "type": "way",
+            "id": 507021283,
+            "center": {
+                "lat": 40.000035,
+                "lon": -86.1074843
+            },
+            "nodes": [
+                4966158583,
+                4966158578,
+                13590980073,
+                4966158579,
+                13590980074,
+                4966158580,
+                4966158581,
+                4966158582,
+                4966158583
+            ],
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:housenumber": "3309",
+                "addr:postcode": "46033",
+                "addr:state": "IN",
+                "addr:street": "East 146th Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Noah's Animal Clinic at Carmel"
+            }
+        },
+        {
+            "type": "way",
+            "id": 507323037,
+            "center": {
+                "lat": 39.9268535,
+                "lon": -86.2381566
+            },
+            "nodes": [
+                4968494406,
+                4968494407,
+                4968494408,
+                4968494409,
+                4968494410,
+                4968494411,
+                4968494412,
+                4968494413,
+                4968494414,
+                4968494415,
+                4968494416,
+                4968494417,
+                4968494406
+            ],
+            "tags": {
+                "addr:city": "Carmel",
+                "addr:housenumber": "9650",
+                "addr:postcode": "46032",
+                "addr:state": "IN",
+                "addr:street": "Mayflower Park Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "MedVet Medical & Cancer Centers for Pets",
+                "opening_hours": "24/7"
+            }
+        },
+        {
+            "type": "way",
+            "id": 511344631,
+            "center": {
+                "lat": 39.9213004,
+                "lon": -86.2300264
+            },
+            "nodes": [
+                5002107491,
+                5002107490,
+                5002107485,
+                5002107486,
+                5002107497,
+                5002107487,
+                5002107488,
+                5002107496,
+                5002107489,
+                5002107491
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "9330",
+                "addr:postcode": "46268",
+                "addr:state": "IN",
+                "addr:street": "Waldemar Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Avian & Exotic Animal Clinic",
+                "toilets:wheelchair": "no",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "way",
+            "id": 527369451,
+            "center": {
+                "lat": 39.5642503,
+                "lon": -85.7924846
+            },
+            "nodes": [
+                5127158861,
+                5127158860,
+                5127158859,
+                5127158858,
+                5127158857,
+                5127158856,
+                7689095801,
+                5127158861
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Caesar's Entertainment Equine Specialty Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 538057071,
+            "center": {
+                "lat": 40.0331979,
+                "lon": -86.0123642
+            },
+            "nodes": [
+                5208855668,
+                5208855669,
+                5208855670,
+                5208855671,
+                5208855668
+            ],
+            "tags": {
+                "addr:city": "Noblesville",
+                "addr:housenumber": "1375",
+                "addr:postcode": "46060",
+                "addr:state": "IN",
+                "addr:street": "South 10th Street",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 539304074,
+            "center": {
+                "lat": 41.2896307,
+                "lon": -87.4024287
+            },
+            "nodes": [
+                5218771139,
+                5218771164,
+                5219043614,
+                5218771166,
+                5218771141,
+                5218771142,
+                5218771143,
+                5218771144,
+                5218771145,
+                5218771146,
+                5218771139
+            ],
+            "tags": {
+                "addr:city": "Lowell",
+                "addr:housenumber": "1642",
+                "addr:postcode": "46356",
+                "addr:state": "IN",
+                "addr:street": "East Commercial Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bardens Animal Clinic",
+                "phone": "+1-219-696-0971",
+                "website": "https://bardensanimalclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 542202592,
+            "center": {
+                "lat": 41.2888531,
+                "lon": -87.2873683
+            },
+            "nodes": [
+                5242253723,
+                5242253724,
+                5242253725,
+                5242253726,
+                5242253727,
+                5242253728,
+                5242253723
+            ],
+            "tags": {
+                "addr:city": "Hebron",
+                "addr:housenumber": "18111",
+                "addr:postcode": "46341",
+                "addr:state": "IN",
+                "addr:street": "Oklahoma Pl",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hebron Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 545365124,
+            "center": {
+                "lat": 39.8273791,
+                "lon": -85.7282341
+            },
+            "nodes": [
+                5271004821,
+                5271004551,
+                5271004822,
+                5271004619,
+                5271004821
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Dr. O. R. Ferris, DVM"
+            }
+        },
+        {
+            "type": "way",
+            "id": 553307481,
+            "center": {
+                "lat": 39.197794,
+                "lon": -85.9774195
+            },
+            "nodes": [
+                5341161287,
+                5341161288,
+                5341161289,
+                5341161290,
+                5341161287
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 560170106,
+            "center": {
+                "lat": 39.1672399,
+                "lon": -86.4818428
+            },
+            "nodes": [
+                5402096533,
+                5402096534,
+                11030753724,
+                11030753723,
+                11030753722,
+                1842151693,
+                11030753721,
+                11030753720,
+                11030753719,
+                11030753718,
+                5402096535,
+                5402096536,
+                5402096537,
+                5402096538,
+                5402096533
+            ],
+            "tags": {
+                "addr:city": "Bloomington",
+                "addr:housenumber": "115",
+                "addr:postcode": "47408",
+                "addr:state": "IN",
+                "addr:street": "North Smith Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "contact:email": "bloomingtonvethospital115@gmail.com",
+                "contact:facebook": "https://www.facebook.com/BloomVetHospital",
+                "contact:fax": "+1 812 323 0226",
+                "name": "Bloomington Veterinary Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-14:00",
+                "phone": "+1-812-339-6115",
+                "website": "https://bloomingtonvh.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 580582882,
+            "center": {
+                "lat": 40.7295084,
+                "lon": -86.3796689
+            },
+            "nodes": [
+                5557468699,
+                5557468691,
+                5557468689,
+                5557468688,
+                5557468690,
+                5557468687,
+                5557468686,
+                5557468698,
+                5557468697,
+                5557468694,
+                5557468693,
+                5557468692,
+                5557468695,
+                5557468696,
+                5557468699
+            ],
+            "tags": {
+                "addr:city": "Washignton Township",
+                "addr:country": "US",
+                "addr:housenumber": "2452",
+                "addr:postcode": "46947",
+                "addr:state": "IN",
+                "addr:street": "Burlington Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cass County Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 584002271,
+            "center": {
+                "lat": 40.7580943,
+                "lon": -86.3165417
+            },
+            "nodes": [
+                5582946837,
+                12085906732,
+                12085906731,
+                5582946838,
+                5582946839,
+                5582946840,
+                5582946837
+            ],
+            "tags": {
+                "addr:city": "Logansport",
+                "addr:housenumber": "500",
+                "addr:postcode": "46947",
+                "addr:state": "IN",
+                "addr:street": "Mall Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Shell Animal Clinic",
+                "phone": "+1-574-753-6774"
+            }
+        },
+        {
+            "type": "way",
+            "id": 591431844,
+            "center": {
+                "lat": 40.8782373,
+                "lon": -85.5306681
+            },
+            "nodes": [
+                5646478915,
+                5646478911,
+                5646478909,
+                5646478908,
+                5646478910,
+                5646478914,
+                5646478907,
+                5646478906,
+                5646478913,
+                5646478905,
+                5646478903,
+                5646478900,
+                5646478899,
+                5646478898,
+                5646478901,
+                5646478902,
+                5646478904,
+                5646478912,
+                5646478915
+            ],
+            "tags": {
+                "addr:city": "Huntington",
+                "addr:country": "US",
+                "addr:housenumber": "2996",
+                "addr:postcode": "46750",
+                "addr:state": "IN",
+                "addr:street": "West Park Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Healthier Pet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 593166376,
+            "center": {
+                "lat": 40.444531,
+                "lon": -86.8681371
+            },
+            "nodes": [
+                5659469404,
+                5659469403,
+                5659469402,
+                5659469399,
+                5659469398,
+                5659469394,
+                5659469393,
+                5659469395,
+                5659469396,
+                5659469397,
+                5659469400,
+                5659469401,
+                5659469404
+            ],
+            "tags": {
+                "addr:city": "Lafayette",
+                "addr:country": "US",
+                "addr:housenumber": "2506",
+                "addr:postcode": "47905",
+                "addr:state": "IN",
+                "addr:street": "Schuyler Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Petsburgh Pet Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 610274521,
+            "center": {
+                "lat": 41.6881211,
+                "lon": -86.1960939
+            },
+            "nodes": [
+                5779748152,
+                5779748553,
+                5779748554,
+                5779748555,
+                5779748556,
+                5779748557,
+                5779748152
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cat Care Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 622436316,
+            "center": {
+                "lat": 41.6957479,
+                "lon": -86.1774109
+            },
+            "nodes": [
+                5879274442,
+                5879274443,
+                5879274444,
+                5879274445,
+                5879274446,
+                5879274447,
+                5879274442
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Magrane Pet Medical Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 629891465,
+            "center": {
+                "lat": 40.5932557,
+                "lon": -86.7320793
+            },
+            "nodes": [
+                5948658560,
+                5948658561,
+                5948658562,
+                5948658563,
+                5948658560
+            ],
+            "tags": {
+                "addr:city": "Delphi",
+                "addr:housenumber": "11152",
+                "addr:postcode": "46923",
+                "addr:state": "IN",
+                "addr:street": "IN-18",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Horizon Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 680116066,
+            "center": {
+                "lat": 39.701468,
+                "lon": -86.0742995
+            },
+            "nodes": [
+                6368100953,
+                6368100954,
+                6368100955,
+                6368100956,
+                6368100957,
+                6368100958,
+                6368100959,
+                6368100960,
+                6368100961,
+                6368100953
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "5425",
+                "addr:postcode": "46203",
+                "addr:state": "IN",
+                "addr:street": "Victory Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "IndyVet Emergency & Specialty Hospital",
+                "phone": "+13177824484",
+                "source": "esri_USDOT_Indiana",
+                "website": "https://indyvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 685719857,
+            "center": {
+                "lat": 39.6139519,
+                "lon": -86.2127711
+            },
+            "nodes": [
+                6426575811,
+                6426575812,
+                6426575813,
+                6426575814,
+                6426575815,
+                6426575816,
+                6426575817,
+                6426575818,
+                6426575819,
+                6426575820,
+                6426575821,
+                6426575822,
+                6426575811
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 701977853,
+            "center": {
+                "lat": 39.868768,
+                "lon": -86.1472257
+            },
+            "nodes": [
+                6592217059,
+                6592217060,
+                6592217061,
+                6592217062,
+                6592217063,
+                6592217064,
+                6592217065,
+                6592217066,
+                6592217067,
+                6592217068,
+                6592217069,
+                6592217070,
+                6592217071,
+                6592217072,
+                6592217059
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "6225",
+                "addr:postcode": "46220",
+                "addr:state": "IN",
+                "addr:street": "Broadway Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Broad Ripple Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 724180755,
+            "center": {
+                "lat": 40.4180608,
+                "lon": -86.8502877
+            },
+            "nodes": [
+                6791575013,
+                6791575008,
+                6791575009,
+                6791575012,
+                6791575011,
+                6791575010,
+                6791575007,
+                6791575006,
+                6791575013
+            ],
+            "tags": {
+                "addr:city": "Lafayette",
+                "addr:country": "US",
+                "addr:housenumber": "3532",
+                "addr:postcode": "47905",
+                "addr:state": "IN",
+                "addr:street": "South Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "VCA Lafayette Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 733543695,
+            "center": {
+                "lat": 39.4683325,
+                "lon": -87.3926329
+            },
+            "nodes": [
+                6869707041,
+                6869707042,
+                12482901569,
+                6869707043,
+                6869707044,
+                6869707045,
+                6869707046,
+                6869707041
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "SPOT Spay/Neuter Clinic",
+                "opening_hours": "Mo-We 15:00-18:00",
+                "phone": "+1-812-242-7768",
+                "website": "https://spayneuterspot.org/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 733919925,
+            "center": {
+                "lat": 39.458743,
+                "lon": -87.3322621
+            },
+            "nodes": [
+                6873515201,
+                6873515202,
+                6873515203,
+                6873515204,
+                6873515201
+            ],
+            "tags": {
+                "addr:city": "Terre Haute",
+                "addr:housenumber": "1274",
+                "addr:postcode": "47803",
+                "addr:state": "IN",
+                "addr:street": "SR 46",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Airport Veterinary Clinic",
+                "website": "https://airportvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 736297073,
+            "center": {
+                "lat": 39.2892844,
+                "lon": -86.7846107
+            },
+            "nodes": [
+                6893334945,
+                6893334946,
+                6893334947,
+                6893334948,
+                6893334945
+            ],
+            "tags": {
+                "addr:city": "Spencer",
+                "addr:housenumber": "29",
+                "addr:postcode": "47460",
+                "addr:state": "IN",
+                "addr:street": "Bob Babbs Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Town & Country Veterinary Clinic",
+                "phone": "+1-812-829-4690",
+                "website": "https://veterinarianspencerin.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 745029431,
+            "center": {
+                "lat": 40.4469717,
+                "lon": -86.1645898
+            },
+            "nodes": [
+                6974431521,
+                6974431522,
+                6974431523,
+                6974431524,
+                6974431525,
+                6974431526,
+                6974431527,
+                6974431528,
+                6974431521
+            ],
+            "tags": {
+                "addr:city": "Kokomo",
+                "addr:housenumber": "3400",
+                "addr:postcode": "46902",
+                "addr:state": "IN",
+                "addr:street": "South Dixon Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pet Care Clinic of Kokomo",
+                "opening_hours": "Mo-Fr 08:00-17:00"
+            }
+        },
+        {
+            "type": "way",
+            "id": 753024988,
+            "center": {
+                "lat": 40.4980853,
+                "lon": -86.1101672
+            },
+            "nodes": [
+                7036202710,
+                7036202711,
+                7036202712,
+                7036202713,
+                7036202710
+            ],
+            "tags": {
+                "addr:housenumber": "1605",
+                "addr:street": "East North Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Northeast Animal Clinic",
+                "website": "https://www.northeastanimalclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 758470200,
+            "center": {
+                "lat": 41.6033191,
+                "lon": -85.8316645
+            },
+            "nodes": [
+                7083477783,
+                7083477782,
+                7083477781,
+                7083477780,
+                7083477779,
+                7083477778,
+                7083477777,
+                7083477783
+            ],
+            "tags": {
+                "addr:city": "Goshen",
+                "addr:housenumber": "1214",
+                "addr:postcode": "46528",
+                "addr:state": "IN",
+                "addr:street": "North Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Maplecrest Animal Hospital",
+                "phone": "+1-574-534-2441",
+                "website": "https://maplecrestanimalhospital.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 768989535,
+            "center": {
+                "lat": 41.7208639,
+                "lon": -86.1754319
+            },
+            "nodes": [
+                7178478995,
+                7178478997,
+                7178478996,
+                7178479001,
+                7178479000,
+                7178478991,
+                7178478988,
+                7178478989,
+                7178478990,
+                7178478999,
+                7178478998,
+                7178478994,
+                7178478993,
+                7178478992,
+                7178478995
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "University Park Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 769561272,
+            "center": {
+                "lat": 41.7078952,
+                "lon": -86.8679825
+            },
+            "nodes": [
+                7183498034,
+                7183498033,
+                7183498032,
+                7183498031,
+                7183498030,
+                7183498029,
+                7183498028,
+                7183498027,
+                7183498026,
+                7183498034
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2023-08-08",
+                "name": "Michigan City Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 771756466,
+            "center": {
+                "lat": 41.3800659,
+                "lon": -85.5396765
+            },
+            "nodes": [
+                7204690124,
+                7204690123,
+                7204690122,
+                7204690121,
+                7204690124
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 792373906,
+            "center": {
+                "lat": 41.7271546,
+                "lon": -86.2497767
+            },
+            "nodes": [
+                7409284662,
+                7409284663,
+                7409284666,
+                7409284665,
+                7409284664,
+                7409284660,
+                7409284661,
+                7409284662
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Roseland Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 810651169,
+            "center": {
+                "lat": 41.5966979,
+                "lon": -86.7442006
+            },
+            "nodes": [
+                7579441276,
+                7671765858,
+                7671765859,
+                7579441278,
+                7579441273,
+                7579441269,
+                7671765856,
+                7671765857,
+                7579441276
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2023-08-19",
+                "name": "La Porte Animal Hospital",
+                "phone": "+1 219-362-2612"
+            }
+        },
+        {
+            "type": "way",
+            "id": 816243091,
+            "center": {
+                "lat": 41.6701711,
+                "lon": -86.2205316
+            },
+            "nodes": [
+                7623298253,
+                7623298254,
+                7623298255,
+                7623298256,
+                7623298257,
+                7623298258,
+                7623298253
+            ],
+            "tags": {
+                "access": "private",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Zoo Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 819514569,
+            "center": {
+                "lat": 39.7639857,
+                "lon": -86.3303543
+            },
+            "nodes": [
+                7653105202,
+                7653105203,
+                7653105204,
+                7653105205,
+                7653105206,
+                7653105207,
+                7653105202
+            ],
+            "tags": {
+                "addr:city": "Avon",
+                "addr:housenumber": "10828",
+                "addr:postcode": "46123",
+                "addr:state": "IN",
+                "addr:street": "Rockville Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Above and Beyond Animal Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 821636931,
+            "center": {
+                "lat": 41.6199184,
+                "lon": -86.7375783
+            },
+            "nodes": [
+                7671778685,
+                7671746884,
+                7671746883,
+                7671746882,
+                7671778685
+            ],
+            "tags": {
+                "addr:housenumber": "330",
+                "addr:street": "Pine Lake Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "check_date": "2024-01-03",
+                "name": "Pine Lake Animal Hospital",
+                "roof:levels": "1",
+                "roof:shape": "gabled"
+            }
+        },
+        {
+            "type": "way",
+            "id": 848721651,
+            "center": {
+                "lat": 39.0375341,
+                "lon": -87.1447144
+            },
+            "nodes": [
+                7919093975,
+                7919093974,
+                765976915,
+                7919093973,
+                7919093972,
+                7919093971,
+                7919093970,
+                7919093969,
+                7919093975
+            ],
+            "tags": {
+                "addr:housenumber": "1701",
+                "addr:street": "State Road 54 E",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Linton Veterinary Clinic",
+                "phone": "+1-812-847-2006"
+            }
+        },
+        {
+            "type": "way",
+            "id": 852169237,
+            "center": {
+                "lat": 40.1265284,
+                "lon": -86.562937
+            },
+            "nodes": [
+                7948785961,
+                7948785953,
+                7948785952,
+                7948785951,
+                7948785957,
+                7948785956,
+                7948785961
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Thorntown Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 859951105,
+            "center": {
+                "lat": 40.4702949,
+                "lon": -86.9531563
+            },
+            "nodes": [
+                8015283510,
+                8015283511,
+                8015283512,
+                8015283513,
+                8015283514,
+                8015283515,
+                8015283510
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Blair Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 901425814,
+            "center": {
+                "lat": 38.8331384,
+                "lon": -86.5000766
+            },
+            "nodes": [
+                8373839652,
+                8373839653,
+                8373839654,
+                8373839655,
+                8373839652
+            ],
+            "tags": {
+                "addr:city": "Bedford",
+                "addr:housenumber": "4213",
+                "addr:postcode": "47421",
+                "addr:state": "IN",
+                "addr:street": "Mitchell Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Animal Care Clinic",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa-Su off",
+                "phone": "+1-812-279-1516",
+                "website": "https://animalcareclinic.vet/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 909701009,
+            "center": {
+                "lat": 41.1661091,
+                "lon": -85.4908883
+            },
+            "nodes": [
+                8446497199,
+                8446497200,
+                8446497201,
+                8446497202,
+                8446497203,
+                8446497204,
+                8446497205,
+                8446497206,
+                8446497207,
+                8446497208,
+                8446497209,
+                8446497210,
+                8446497211,
+                8446497212,
+                8446497199
+            ],
+            "tags": {
+                "addr:city": "Columbia City",
+                "addr:housenumber": "520",
+                "addr:postcode": "46725",
+                "addr:state": "IN",
+                "addr:street": "North Line Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Line Street Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 930740055,
+            "center": {
+                "lat": 39.165033,
+                "lon": -86.4733518
+            },
+            "nodes": [
+                8629800233,
+                8629800230,
+                8629800231,
+                8629800232,
+                8629800233
+            ],
+            "tags": {
+                "addr:city": "Bloomington",
+                "addr:housenumber": "4517",
+                "addr:postcode": "47408",
+                "addr:state": "IN",
+                "addr:street": "East Morningside Drive",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "fax": "+1-812-334-1092",
+                "name": "College Mall Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00",
+                "phone": "+1-812-334-1400",
+                "website": "https://www.collegemallvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 931894419,
+            "center": {
+                "lat": 40.905984,
+                "lon": -86.1516291
+            },
+            "nodes": [
+                8639230962,
+                8639230963,
+                8639230964,
+                8639230965,
+                8639230962
+            ],
+            "tags": {
+                "addr:city": "Macy",
+                "addr:housenumber": "9753",
+                "addr:postcode": "46951",
+                "addr:state": "IN",
+                "addr:street": "North Old Route 31",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Fouts Veterinary Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 934471056,
+            "center": {
+                "lat": 38.6796355,
+                "lon": -85.7790951
+            },
+            "nodes": [
+                8660435013,
+                8660526627,
+                8660435014,
+                8660435015,
+                8660435016,
+                8660529617,
+                8660529618,
+                8660529619,
+                8660529620,
+                8660529621,
+                8660529622,
+                8660435013
+            ],
+            "tags": {
+                "addr:city": "Scottsburg",
+                "addr:housenumber": "706",
+                "addr:postcode": "47170",
+                "addr:state": "IN",
+                "addr:street": "South Gardner Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "St. Clair Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 944063565,
+            "center": {
+                "lat": 39.8938376,
+                "lon": -85.384518
+            },
+            "nodes": [
+                8740764291,
+                8740764292,
+                8740764293,
+                8740764294,
+                8740764295,
+                8740764296,
+                8740764297,
+                8740764298,
+                8740764291
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "New Castle Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 965031275,
+            "center": {
+                "lat": 40.3913977,
+                "lon": -86.8415045
+            },
+            "nodes": [
+                8927295042,
+                8927295043,
+                8927295044,
+                8927295045,
+                8927295046,
+                8927295047,
+                8927295048,
+                8927295049,
+                8927295042
+            ],
+            "tags": {
+                "addr:city": "Lafayette",
+                "addr:housenumber": "3818",
+                "addr:postcode": "47905",
+                "addr:state": "IN",
+                "addr:street": "State Road 38 East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Tippecanoe Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 967060838,
+            "center": {
+                "lat": 39.9758912,
+                "lon": -86.0030749
+            },
+            "nodes": [
+                8946973566,
+                8946973567,
+                8946973568,
+                8946973569,
+                8946973570,
+                8946973571,
+                8946973572,
+                8946973573,
+                8946973566
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Parkside Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 971717541,
+            "center": {
+                "lat": 39.7739056,
+                "lon": -86.2056281
+            },
+            "nodes": [
+                8993835965,
+                8993835966,
+                8993835972,
+                8993835967,
+                8993835968,
+                8993835969,
+                8993835970,
+                8993835971,
+                8993835965
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "IndyHumane Downtown Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 973617192,
+            "center": {
+                "lat": 39.766146,
+                "lon": -86.2012005
+            },
+            "nodes": [
+                9010967371,
+                9010967372,
+                9010967373,
+                9010967374,
+                9010967371
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "2330",
+                "addr:postcode": "46222",
+                "addr:state": "IN",
+                "addr:street": "West Washington Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Pets Go To Heaven",
+                "source": "esri_USDOT_Indiana;microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 993178704,
+            "center": {
+                "lat": 39.7720318,
+                "lon": -85.4443591
+            },
+            "nodes": [
+                9175659212,
+                9175659211,
+                9175659210,
+                9175659209,
+                9175659208,
+                9175659212
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Buck Creek Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1009757761,
+            "center": {
+                "lat": 39.8965088,
+                "lon": -85.9754376
+            },
+            "nodes": [
+                9316732377,
+                9316732378,
+                9316732379,
+                11369024165,
+                11369024168,
+                11369024167,
+                11369024166,
+                9316732380,
+                9316732377
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "7815",
+                "addr:postcode": "46236",
+                "addr:state": "IN",
+                "addr:street": "Sunnyside Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Noah's Caring Hands Animal Hospital at Geist",
+                "phone": "+1-317-823-6922",
+                "website": "https://www.noahshospitals.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1011555502,
+            "center": {
+                "lat": 39.7224189,
+                "lon": -85.899782
+            },
+            "nodes": [
+                9333038046,
+                9333038047,
+                9333038048,
+                9333038049,
+                9333038050,
+                9333038051,
+                9333038046
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "New Palestine Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1014555232,
+            "center": {
+                "lat": 39.7598989,
+                "lon": -86.2262166
+            },
+            "nodes": [
+                9360207351,
+                9360207352,
+                9360207353,
+                9360207354,
+                9360207355,
+                9360207356,
+                9360207357,
+                9360207358,
+                9360207351
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "3825",
+                "addr:postcode": "46241",
+                "addr:state": "IN",
+                "addr:street": "West Washington Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Pet Health Care by Noah's",
+                "source": "esri/Indianapolis_IN_Buildings"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1023076803,
+            "center": {
+                "lat": 39.8013708,
+                "lon": -86.2678583
+            },
+            "nodes": [
+                9435184372,
+                9435184373,
+                9435184374,
+                9435184375,
+                9435184376,
+                9435184377,
+                9435184378,
+                9435184379,
+                9435184380,
+                9435184381,
+                9435184382,
+                9435184383,
+                7010520253,
+                9435184384,
+                9435184385,
+                9435184372
+            ],
+            "tags": {
+                "addr:city": "Speedway",
+                "addr:housenumber": "6136",
+                "addr:postcode": "46224",
+                "addr:state": "IN",
+                "addr:street": "Crawfordsville Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Veterinary Specialty & Emergency Care West",
+                "source": "esri/Indianapolis_IN_Buildings"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1028807113,
+            "center": {
+                "lat": 39.7880833,
+                "lon": -86.0836175
+            },
+            "nodes": [
+                9484927563,
+                9484927564,
+                9484927565,
+                9484927566,
+                9484927563
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "1502",
+                "addr:postcode": "46219",
+                "addr:state": "IN",
+                "addr:street": "North Emerson Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Indy Paws Veterinary Hospital",
+                "source": "esri/Indianapolis_IN_Buildings"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1035431607,
+            "center": {
+                "lat": 39.7552266,
+                "lon": -86.1424395
+            },
+            "nodes": [
+                9538253934,
+                9538253935,
+                9538253936,
+                9538253937,
+                9538253938,
+                9538253939,
+                9538253940,
+                9538253934
+            ],
+            "tags": {
+                "addr:city": "Indianapolis",
+                "addr:housenumber": "880",
+                "addr:postcode": "46203",
+                "addr:state": "IN",
+                "addr:street": "Virginia Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "City Way Animal Clinics - Fountain Square",
+                "source": "esri/Indianapolis_IN_Buildings"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1043129901,
+            "center": {
+                "lat": 40.1933241,
+                "lon": -85.4298095
+            },
+            "nodes": [
+                9601097304,
+                9601097305,
+                9601097306,
+                9601097307,
+                9601097308,
+                9601097309,
+                9601097304
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Westview Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1043538891,
+            "center": {
+                "lat": 40.1919375,
+                "lon": -85.3302482
+            },
+            "nodes": [
+                9604058100,
+                9604058101,
+                9604058102,
+                9604058103,
+                9604058100
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Riverview Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1044043437,
+            "center": {
+                "lat": 40.2102813,
+                "lon": -85.3819032
+            },
+            "nodes": [
+                9607412210,
+                9607412211,
+                9607412212,
+                9607412213,
+                9607412214,
+                9607412215,
+                9607412228,
+                9607412216,
+                9607412241,
+                9607412217,
+                9607412218,
+                9607412219,
+                9607412220,
+                9607412221,
+                9607412210
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Maplewood Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1051114867,
+            "center": {
+                "lat": 40.1802965,
+                "lon": -85.4785184
+            },
+            "nodes": [
+                9659245696,
+                9659255531,
+                9659245697,
+                9659245698,
+                9659245699,
+                9659255533,
+                9659245700,
+                9659255527,
+                9659245701,
+                9659245702,
+                9659245703,
+                9659255529,
+                9659245704,
+                9659245705,
+                9659245706,
+                9659245707,
+                9659245696
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Medical Centerr"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1072812022,
+            "center": {
+                "lat": 39.6074512,
+                "lon": -86.1970716
+            },
+            "nodes": [
+                9842573424,
+                9842573425,
+                9842573426,
+                9842573427,
+                9842573428,
+                9842573429,
+                9842573430,
+                9842573431,
+                9842573432,
+                9842573433,
+                9842573434,
+                9842573435,
+                9842573436,
+                9842573437,
+                9842573438,
+                9842573439,
+                9842573424
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1087088862,
+            "center": {
+                "lat": 39.207211,
+                "lon": -86.573305
+            },
+            "nodes": [
+                9960404310,
+                9960404311,
+                9960404312,
+                9960404313,
+                9960404314,
+                9960404315,
+                9960404316,
+                9960411217,
+                9960411218,
+                9960411219,
+                9960404310
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1098300519,
+            "center": {
+                "lat": 41.5469375,
+                "lon": -86.8976817
+            },
+            "nodes": [
+                9966784379,
+                10056339049,
+                10056339050,
+                10056339051,
+                9966784379
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2023-04-08",
+                "name": "Hero Pet Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1105939531,
+            "center": {
+                "lat": 38.0407989,
+                "lon": -87.2549711
+            },
+            "nodes": [
+                10120035520,
+                10120035521,
+                10120035522,
+                10120035523,
+                10120035524,
+                10120035525,
+                10120035526,
+                10120035527,
+                10120035528,
+                10120035529,
+                10120035530,
+                10120035531,
+                10120035532,
+                10120035533,
+                10120035534,
+                10120035535,
+                10120035536,
+                10120035537,
+                10120035520
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "East Pines Animal Clinic",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1123240993,
+            "center": {
+                "lat": 38.6614034,
+                "lon": -86.4533445
+            },
+            "nodes": [
+                10272391678,
+                10272391679,
+                10272391680,
+                10272391681,
+                10272391682,
+                10272391683,
+                10272391684,
+                10272391685,
+                10272391678
+            ],
+            "tags": {
+                "addr:city": "Orleans",
+                "addr:housenumber": "145",
+                "addr:postcode": "47452",
+                "addr:state": "IN",
+                "addr:street": "West Washington Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "fax": "+1-812-865-2129",
+                "name": "Kirk Veterinary Service",
+                "phone": "+1-812-865-2329",
+                "website": "http://kirkvetservice.net/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1184917583,
+            "center": {
+                "lat": 41.7493733,
+                "lon": -86.1293916
+            },
+            "nodes": [
+                11006715426,
+                11006715427,
+                11006715428,
+                11006715429,
+                11006715430,
+                11006715431,
+                11006715432,
+                11006715433,
+                11006715434,
+                11006715435,
+                11006715436,
+                11006715437,
+                11006715438,
+                11006715439,
+                11006715426
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Kryder & Harr Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1197820135,
+            "center": {
+                "lat": 38.598177,
+                "lon": -86.4573743
+            },
+            "nodes": [
+                11112881142,
+                11112881143,
+                11112881144,
+                11112881145,
+                11112881146,
+                11112881147,
+                11112881142
+            ],
+            "tags": {
+                "addr:city": "Paoli",
+                "addr:housenumber": "2840",
+                "addr:postcode": "47454",
+                "addr:state": "IN",
+                "addr:street": "IN-37",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Orange County Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1200944849,
+            "center": {
+                "lat": 40.4270166,
+                "lon": -86.8771034
+            },
+            "nodes": [
+                11135024266,
+                11135024267,
+                11135024268,
+                11135024269,
+                11135024270,
+                11135024271,
+                11135024272,
+                11135024273,
+                11135024266
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Pets Animal Hospital",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1202069080,
+            "center": {
+                "lat": 40.4031691,
+                "lon": -86.8519093
+            },
+            "nodes": [
+                11144586259,
+                11144586260,
+                11144586261,
+                11144586262,
+                11144586259
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "4 Precious Paws",
+                "source": "microsoft/BuildingFootprints",
+                "website": "https://4preciouspaws.org/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1220531939,
+            "center": {
+                "lat": 41.6914132,
+                "lon": -86.2951101
+            },
+            "nodes": [
+                11309857911,
+                11309857912,
+                11309857913,
+                11309857914,
+                11309857915,
+                11309857911
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "South Bend Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1222520791,
+            "center": {
+                "lat": 41.5452749,
+                "lon": -86.7016049
+            },
+            "nodes": [
+                11338756186,
+                11338756187,
+                11338756196,
+                11338756188,
+                11338756189,
+                11338756190,
+                11338756191,
+                11338756186
+            ],
+            "tags": {
+                "addr:city": "La Porte",
+                "addr:housenumber": "4034",
+                "addr:state": "IN",
+                "addr:street": "South US 35",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "All Creature Features Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 07:00-16:00; Su off",
+                "phone": "+1-219-393-3558",
+                "website": "https://allcreaturefeatures.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1228855527,
+            "center": {
+                "lat": 39.9490177,
+                "lon": -86.3339804
+            },
+            "nodes": [
+                11396141730,
+                14091155274,
+                11396141733,
+                11396141731,
+                11396141730
+            ],
+            "tags": {
+                "addr:city": "Zionsville",
+                "addr:housenumber": "7113",
+                "addr:postcode": "46077",
+                "addr:state": "IN",
+                "addr:street": "Whitestown Parkway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pet Wellness Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1228855541,
+            "center": {
+                "lat": 39.9474007,
+                "lon": -86.3441496
+            },
+            "nodes": [
+                4924757785,
+                11396152387,
+                11396152388,
+                11396152386,
+                4924757784,
+                4924757785
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Community Pet Healthcare"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1340097557,
+            "center": {
+                "lat": 41.5488845,
+                "lon": -86.1322487
+            },
+            "nodes": [
+                12396163085,
+                12396163086,
+                12396163087,
+                12396163088,
+                12396163085
+            ],
+            "tags": {
+                "addr:city": "Wakarusa",
+                "addr:housenumber": "13752",
+                "addr:postcode": "46573",
+                "addr:state": "IN",
+                "addr:street": "Osborne Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Equine Veterinary Hospital",
+                "website": "https://evhhorse.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1361269648,
+            "center": {
+                "lat": 37.9531795,
+                "lon": -87.4355604
+            },
+            "nodes": [
+                12601974018,
+                12601974017,
+                12601974016,
+                12601974015,
+                12601974018
+            ],
+            "tags": {
+                "addr:city": "Newburgh",
+                "addr:housenumber": "10188",
+                "addr:postcode": "47630",
+                "addr:state": "IN",
+                "addr:street": "West State Route 662",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "VCA Parkdale Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1361847052,
+            "center": {
+                "lat": 41.2890475,
+                "lon": -85.8560308
+            },
+            "nodes": [
+                10915215126,
+                12608616095,
+                12608616096,
+                12608616097,
+                12608616098,
+                12608616099,
+                12608616100,
+                12608632901,
+                10915215126
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Community Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1382195737,
+            "center": {
+                "lat": 40.0119281,
+                "lon": -86.9032137
+            },
+            "nodes": [
+                12796916989,
+                12796916990,
+                12796916991,
+                12796916992,
+                12796916989
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Crawfordsville Family Vet",
+                "start_date": "2021"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1466578176,
+            "center": {
+                "lat": 38.3151285,
+                "lon": -85.853052
+            },
+            "nodes": [
+                13451220119,
+                13451220120,
+                13451220121,
+                13451220122,
+                13451220123,
+                13451220124,
+                13451220125,
+                13451220132,
+                13451220131,
+                13451220133,
+                13451220126,
+                13451220127,
+                13451220134,
+                13451220128,
+                13451220129,
+                13451220130,
+                13451220119
+            ],
+            "tags": {
+                "addr:city": "New Albany",
+                "addr:housenumber": "2723",
+                "addr:postcode": "47150",
+                "addr:state": "IN",
+                "addr:street": "Paoli Pike",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ridgeview Animal Clinic",
+                "opening_hours": "Mo-Tu 08:00-21:00; We-Fr 08:00-18:00; Sa 08:00-12:00; Su off"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1466618055,
+            "center": {
+                "lat": 38.2909997,
+                "lon": -85.9098359
+            },
+            "nodes": [
+                13451476635,
+                13451476636,
+                13451476637,
+                13451476638,
+                13451476639,
+                13451476640,
+                13451476641,
+                13451476642,
+                13451476635
+            ],
+            "tags": {
+                "addr:city": "Georgetown",
+                "addr:housenumber": "1254",
+                "addr:postcode": "47122",
+                "addr:state": "IN",
+                "addr:street": "West Knable Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Edwardsville Animal Clinic",
+                "opening_hours": "Mo 08:30-17:30; Tu,Th 08:30-18:30; We 08:30-16:00; Fr 09:00-17:00; Sa 09:00-13:00; Su off",
+                "phone": "+1-812-923-8479",
+                "website": "https://www.edwardsvilleanimalclinic.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1466963210,
+            "center": {
+                "lat": 41.4918149,
+                "lon": -87.0178436
+            },
+            "nodes": [
+                13455405032,
+                13455405095,
+                13455397137,
+                13455405023,
+                13455405064,
+                13455397179,
+                13455397131,
+                13455405050,
+                13455397136,
+                13455405028,
+                13455405025,
+                13455397183,
+                13455405019,
+                13455405011,
+                13455405032
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vale Park Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1479405944,
+            "center": {
+                "lat": 41.3300609,
+                "lon": -87.2010875
+            },
+            "nodes": [
+                13571040263,
+                13571040270,
+                13571040264,
+                13571040265,
+                13571040266,
+                13571040267,
+                13571040286,
+                13571040284,
+                13571040268,
+                13571040274,
+                13571040263
+            ],
+            "tags": {
+                "addr:city": "Hebron",
+                "addr:housenumber": "638",
+                "addr:postcode": "46341",
+                "addr:state": "IN",
+                "addr:street": "Front Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Medical Center of Hebron",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+                "phone": "+1-219-996-8387"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1515055065,
+            "center": {
+                "lat": 41.129745,
+                "lon": -85.3952669
+            },
+            "nodes": [
+                13838107326,
+                13838107327,
+                13838107328,
+                13838107329,
+                13838107330,
+                13838107331,
+                13838107332,
+                13838107333,
+                13838107326
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        }
+    ]
+}

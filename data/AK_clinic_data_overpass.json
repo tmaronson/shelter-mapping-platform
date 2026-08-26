@@ -1,0 +1,603 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:45:50Z",
+        "timestamp_areas_base": "2026-08-22T22:50:01Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 2131963374,
+            "lat": 59.6434156,
+            "lon": -151.5526233,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Homer Veterinary Clinic",
+                "source": "Bing, personal"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3146742728,
+            "lat": 57.0519427,
+            "lon": -135.3097114,
+            "tags": {
+                "addr:city": "Sitka",
+                "addr:housenumber": "209",
+                "addr:postcode": "99835",
+                "addr:street": "Jarvis Street",
+                "amenity": "veterinary",
+                "name": "Sitka Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4400586291,
+            "lat": 55.356056,
+            "lon": -131.6926164,
+            "tags": {
+                "addr:city": "Ketchikan",
+                "addr:housenumber": "3528",
+                "addr:postcode": "99901",
+                "addr:state": "AK",
+                "addr:street": "Tongass Avenue",
+                "amenity": "veterinary",
+                "name": "Island to Island Veterinary Clinic",
+                "opening_hours": "24/7",
+                "operator": "DR. MARNA HALL, DVM"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8284221796,
+            "lat": 61.1978504,
+            "lon": -149.87827,
+            "tags": {
+                "addr:city": "Anchorage",
+                "addr:housenumber": "300",
+                "addr:postcode": "99503",
+                "addr:state": "AK",
+                "addr:street": "East Fireweed Lane",
+                "amenity": "veterinary",
+                "fax": "+1-888-215-0651",
+                "name": "Alaska Veterinary Clinic",
+                "opening_hours": "Mo-Fr 08:00-12:00,13:30-18:00",
+                "phone": "+1 907-277-3224",
+                "website": "https://www.alaskaveterinaryclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8837114898,
+            "lat": 61.1383916,
+            "lon": -149.8442067,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Hillside Pet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9895922178,
+            "lat": 59.6479122,
+            "lon": -151.5293571,
+            "tags": {
+                "addr:housenumber": "601",
+                "addr:street": "East Pioneer Avenue",
+                "addr:unit": "102",
+                "amenity": "veterinary",
+                "name": "Kachemak Bay Animal Hospital",
+                "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-15:00",
+                "phone": "+19072350143",
+                "website": "https://kbayvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9897756015,
+            "lat": 61.0805129,
+            "lon": -149.821135,
+            "tags": {
+                "addr:city": "Anchorage",
+                "addr:housenumber": "15510",
+                "addr:postcode": "99516",
+                "addr:state": "AK",
+                "addr:street": "Old Seward Highway",
+                "amenity": "veterinary",
+                "description": "Bird TLC provide quality medical care for sick & injured wild birds.",
+                "email": "office@birdtlc.org",
+                "name": "Bird Treatment and Learning Center",
+                "note": "To protect our ambassador birds from the risk of HPAI, our lobby is closed to the public.",
+                "opening_hours": "Mo-Fr 09:00-17:00",
+                "phone": "+1 907-562-4852",
+                "website": "https://www.birdtlc.org/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10794030644,
+            "lat": 61.1810999,
+            "lon": -149.833093,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Midnight Sun Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10841388774,
+            "lat": 61.4086637,
+            "lon": -149.4871483,
+            "tags": {
+                "addr:city": "Chugiak",
+                "addr:housenumber": "21236",
+                "addr:postcode": "99567",
+                "addr:state": "AK",
+                "addr:street": "Birchwood Loop Road",
+                "amenity": "veterinary",
+                "name": "Alaska Equine and Small Animal"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11115523500,
+            "lat": 61.1414587,
+            "lon": -149.901209,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Polar Pets Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11153696247,
+            "lat": 61.185272,
+            "lon": -149.8389132,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospital",
+                "brand:wikidata": "Q7906620",
+                "name": "VCA Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13728427918,
+            "lat": 61.1982772,
+            "lon": -149.8737384,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Alaska Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14003761356,
+            "lat": 61.185802,
+            "lon": -149.9231593,
+            "tags": {
+                "addr:city": "Anchorage",
+                "addr:housenumber": "3710",
+                "addr:postcode": "99517",
+                "addr:state": "AK",
+                "addr:street": "Woodland Drive",
+                "addr:unit": "Suite 1200",
+                "amenity": "veterinary",
+                "email": "customerhelp@alaskaspca.org",
+                "name": "Alaska Paws Veterinary Clinic, Pet Resource Center, & Administration",
+                "operator": "Alaska Paws",
+                "phone": "+1-907-562-2999",
+                "website": "https://www.alaskaspca.org/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 336469522,
+            "center": {
+                "lat": 58.3600351,
+                "lon": -134.5663836
+            },
+            "nodes": [
+                3435123525,
+                3435123526,
+                3435123527,
+                3435123528,
+                3435123525
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 336469526,
+            "center": {
+                "lat": 58.359289,
+                "lon": -134.5515132
+            },
+            "nodes": [
+                3435123573,
+                3435123574,
+                3435123575,
+                3435123576,
+                3435123577,
+                3435123578,
+                3435123573
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Gastineau Humane Society"
+            }
+        },
+        {
+            "type": "way",
+            "id": 390533155,
+            "center": {
+                "lat": 64.7628433,
+                "lon": -147.3465172
+            },
+            "nodes": [
+                3936906240,
+                3936906241,
+                13327623862,
+                13327623861,
+                3936906242,
+                13327623860,
+                13327623863,
+                13327623864,
+                3936906243,
+                3936906240
+            ],
+            "tags": {
+                "addr:city": "North Pole",
+                "addr:housenumber": "2942",
+                "addr:postcode": "99705",
+                "addr:state": "AK",
+                "addr:street": "Hurst Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "North Pole Veterinary Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-17:00; Su Closed",
+                "phone": "+1-907-488-2335",
+                "website": "https://northpolevet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 392022954,
+            "center": {
+                "lat": 64.859515,
+                "lon": -147.7037178
+            },
+            "nodes": [
+                3953070768,
+                3953070769,
+                3953070770,
+                3953070771,
+                3953070772,
+                3953070773,
+                3953070774,
+                3953070775,
+                3953070776,
+                3953070777,
+                3953070778,
+                3953070779,
+                3953070780,
+                3953070781,
+                3953070782,
+                3953070783,
+                3953070784,
+                3953070785,
+                3953070786,
+                3953070787,
+                3953070768
+            ],
+            "tags": {
+                "addr:city": "Fairbanks",
+                "addr:housenumber": "425",
+                "addr:postcode": "99701",
+                "addr:street": "Harold Bentley Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mt. McKinley Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:30-17:00; Su 10:00-16:00",
+                "phone": "+19074526104",
+                "website": "https://mmahak.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 427802572,
+            "center": {
+                "lat": 64.8348778,
+                "lon": -147.9385796
+            },
+            "nodes": [
+                4269814749,
+                9386089550,
+                9386089546,
+                9386089545,
+                9386089549,
+                9386089548,
+                9386089547,
+                4269814750,
+                4269814751,
+                4269814752,
+                4269814749
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Chena Ridge Vetrinary",
+                "operator": "Dr. Rainer"
+            }
+        },
+        {
+            "type": "way",
+            "id": 464413467,
+            "center": {
+                "lat": 57.0635573,
+                "lon": -135.3551137
+            },
+            "nodes": [
+                4595217614,
+                4595217613,
+                4595217612,
+                4595217611,
+                4595217610,
+                4595217609,
+                4595217614
+            ],
+            "tags": {
+                "addr:city": "Sitka",
+                "addr:housenumber": "1300",
+                "addr:postcode": "99835",
+                "addr:street": "Halibut Point Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "ele": "11.60",
+                "height": "8.10"
+            }
+        },
+        {
+            "type": "way",
+            "id": 522715773,
+            "center": {
+                "lat": 61.1066687,
+                "lon": -149.8601805
+            },
+            "nodes": [
+                5090537030,
+                5090537031,
+                5090537032,
+                5090537033,
+                5090537030
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 625868162,
+            "center": {
+                "lat": 61.5637304,
+                "lon": -149.2897325
+            },
+            "nodes": [
+                5909079445,
+                5909079536,
+                5909079453,
+                5909079293,
+                5909079445
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Tier 1 Veterinary Medical Center",
+                "source": "EsriWorldImagery",
+                "website": "https://tier1vet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 630433689,
+            "center": {
+                "lat": 61.6107571,
+                "lon": -149.2110185
+            },
+            "nodes": [
+                5953008602,
+                5953008606,
+                5953008645,
+                5953008378,
+                5955859204,
+                5953008602
+            ],
+            "tags": {
+                "addr:city": "Palmer",
+                "addr:housenumber": "2701",
+                "addr:postcode": "99654",
+                "addr:state": "AK",
+                "addr:street": "North Liahona Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "2",
+                "name": "VCA Far Country Veterinary Hospital",
+                "opening_hours": "Mo-Sa 07:00-19:00, Su closed",
+                "phone": "+1 907-746-7297",
+                "source": "EsriWorldImagery",
+                "website": "https://vcahospitals.com/far-country"
+            }
+        },
+        {
+            "type": "way",
+            "id": 763994835,
+            "center": {
+                "lat": 61.189884,
+                "lon": -149.8714865
+            },
+            "nodes": [
+                7137521891,
+                7137521892,
+                7137521893,
+                7137521894,
+                11064516851,
+                7137521895,
+                11064516850,
+                7137521896,
+                7137521891
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Veterinary Specialists of AK"
+            }
+        },
+        {
+            "type": "way",
+            "id": 778079488,
+            "center": {
+                "lat": 61.1658123,
+                "lon": -149.8390208
+            },
+            "nodes": [
+                7261762783,
+                13894886819,
+                13894886816,
+                7261762788,
+                7261762790,
+                8267630006,
+                13894886815,
+                13894886820,
+                13894886823,
+                7261762793,
+                7261762795,
+                7261762796,
+                7261762783
+            ],
+            "tags": {
+                "addr:city": "Anchorage",
+                "addr:housenumber": "2320",
+                "addr:postcode": "99507",
+                "addr:state": "AK",
+                "addr:street": "East Dowling Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "PET Emergency Treatment",
+                "opening_hours": "24/7",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+19072745636",
+                "source": "microsoft/BuildingFootprints",
+                "website": "https://www.petemergencyak.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 778718545,
+            "center": {
+                "lat": 61.1536385,
+                "lon": -149.8574245
+            },
+            "nodes": [
+                7270772454,
+                7270772455,
+                7270772456,
+                7270772457,
+                7270772454
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "VCA Bering Sea Animal Hospital",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 782133985,
+            "center": {
+                "lat": 61.206239,
+                "lon": -149.732795
+            },
+            "nodes": [
+                7302491925,
+                7302491926,
+                7302491927,
+                7302491928,
+                7302491929,
+                7302491930,
+                7302491925
+            ],
+            "tags": {
+                "addr:street": "Muldoon Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Chester Valley Veterinary Hospital",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 801466525,
+            "center": {
+                "lat": 61.1964615,
+                "lon": -149.7775843
+            },
+            "nodes": [
+                7496048814,
+                8669435348,
+                8669435352,
+                7496048815,
+                7496048816,
+                7496048817,
+                8669435347,
+                7496048814
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "East Anchorage Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1004862800,
+            "center": {
+                "lat": 61.5677405,
+                "lon": -149.1552569
+            },
+            "nodes": [
+                9271336305,
+                9271336306,
+                9271336307,
+                9271336308,
+                9271336309,
+                9271336310,
+                9271336311,
+                9271336312,
+                9271336313,
+                9271336314,
+                9271336305
+            ],
+            "tags": {
+                "addr:city": "Palmer",
+                "addr:housenumber": "1451",
+                "addr:postcode": "99645",
+                "addr:state": "AK",
+                "addr:street": "East Crimson View Court",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Palmer Veterinary Clinic"
+            }
+        }
+    ]
+}

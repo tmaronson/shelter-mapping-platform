@@ -1,0 +1,786 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-24T20:40:21Z",
+        "timestamp_areas_base": "2026-08-24T05:10:03Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 2360476780,
+            "lat": 44.3352938,
+            "lon": -73.1084786,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Hinesburg Animal Hospital",
+                "opening_hours": "Mo,We,Th 08:00-19:00; Tu,Fr 08:00-17:00; Sa 08:00-15:00",
+                "phone": "+1 802 482 2955",
+                "website": "https://hinesburgvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3247498309,
+            "lat": 44.4723881,
+            "lon": -73.1137571,
+            "tags": {
+                "addr:city": "Williston",
+                "addr:country": "US",
+                "addr:housenumber": "7",
+                "addr:postcode": "05452",
+                "addr:state": "VT",
+                "addr:street": "River Cove Road",
+                "amenity": "veterinary",
+                "name": "River Cove Animal Hospital",
+                "ref:vcgi:esiteid": "288635"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4630193615,
+            "lat": 43.7997486,
+            "lon": -73.0916353,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5337576570,
+            "lat": 44.3836787,
+            "lon": -73.2271512,
+            "tags": {
+                "addr:city": "Shelburne",
+                "addr:country": "US",
+                "addr:housenumber": "5070",
+                "addr:postcode": "05482",
+                "addr:state": "VT",
+                "addr:street": "Shelburne Road",
+                "amenity": "veterinary",
+                "name": "Ark Veterinary Hospital",
+                "phone": "+1 802-985-5233",
+                "website": "https://arkvet.vet/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6126942631,
+            "lat": 43.3962021,
+            "lon": -72.7012707,
+            "tags": {
+                "addr:city": "Ludlow",
+                "addr:housenumber": "185",
+                "addr:postcode": "05149",
+                "addr:state": "VT",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "name": "Riverside Veterinary Care",
+                "phone": "+1-802-228-5700",
+                "website": "https://riversidevetcare.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6470666624,
+            "lat": 44.0185006,
+            "lon": -73.1594621,
+            "tags": {
+                "addr:city": "Middlebury",
+                "addr:housenumber": "139",
+                "addr:postcode": "05753",
+                "addr:state": "VT",
+                "addr:street": "Washington Street Extension",
+                "amenity": "veterinary",
+                "name": "Middlebury Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:00; Sa 08:00-13:00",
+                "phone": "+1-802-388-2691",
+                "website": "https://middleburyah.net/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7185374093,
+            "lat": 43.8230915,
+            "lon": -72.5960576,
+            "tags": {
+                "addr:city": "Bethel",
+                "addr:housenumber": "1533",
+                "addr:postcode": "05032",
+                "addr:state": "VT",
+                "addr:street": "Vermont Route 107",
+                "amenity": "veterinary",
+                "email": "cah@countryah.com",
+                "fax": "+1-802-234-5325",
+                "name": "Country Animal Hospital",
+                "opening_hours": "Mo-Th 07:30-18:00; Fr 07:30-17:00; Sa 07:30-15:00",
+                "phone": "+1-802-234-5999",
+                "ref:vcgi:esiteid": "206977",
+                "website": "http://countryanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8459305764,
+            "lat": 43.9802173,
+            "lon": -72.1142563,
+            "tags": {
+                "addr:city": "Bradford",
+                "addr:housenumber": "176",
+                "addr:postcode": "05033",
+                "addr:state": "VT",
+                "addr:street": "Waits River Road",
+                "amenity": "veterinary",
+                "name": "Bradford Veternary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12251171349,
+            "lat": 43.1728613,
+            "lon": -73.0408149,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12251478471,
+            "lat": 43.1728496,
+            "lon": -73.0467807,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12481072001,
+            "lat": 44.2421972,
+            "lon": -72.0554024,
+            "tags": {
+                "addr:housenumber": "54",
+                "addr:postcode": "05042",
+                "addr:street": "Moore Lane",
+                "amenity": "veterinary",
+                "name": "Ryegate Small Animal Hospital",
+                "website": "http://Ryegatevet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 152163115,
+            "center": {
+                "lat": 44.4367927,
+                "lon": -73.1123204
+            },
+            "nodes": [
+                1649844453,
+                1649844474,
+                1649844394,
+                1649844378,
+                1649844453
+            ],
+            "tags": {
+                "addr:city": "Williston",
+                "addr:country": "US",
+                "addr:housenumber": "158",
+                "addr:state": "VT",
+                "addr:street": "Hurricane Lane",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Peak Veterinary Referral Center",
+                "ref:vcgi:esiteid": "290552"
+            }
+        },
+        {
+            "type": "way",
+            "id": 201652318,
+            "center": {
+                "lat": 44.4808406,
+                "lon": -73.2070188
+            },
+            "nodes": [
+                2116734588,
+                2116734165,
+                2116734164,
+                2116734582,
+                2116734588
+            ],
+            "tags": {
+                "addr:city": "Burlington",
+                "addr:country": "US",
+                "addr:housenumber": "292",
+                "addr:state": "VT",
+                "addr:street": "Pearl Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "height": "13",
+                "name": "Cats Vermont",
+                "phone": "+1 802-863-2470",
+                "ref:vcgi:esiteid": "48669",
+                "website": "https://www.catsvermont.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 228620727,
+            "center": {
+                "lat": 43.6109855,
+                "lon": -73.2082854
+            },
+            "nodes": [
+                2372842483,
+                2372842485,
+                2372842486,
+                2372842489,
+                2372842487,
+                2372842482,
+                2372842481,
+                2372842484,
+                2372842488,
+                2372842483
+            ],
+            "tags": {
+                "addr:housenumber": "179",
+                "addr:state": "VT",
+                "addr:street": "Vermont Route 30 North",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rutland Veterinary Clinic",
+                "ref:vcgi:esiteid": "60428"
+            }
+        },
+        {
+            "type": "way",
+            "id": 307249332,
+            "center": {
+                "lat": 43.6600592,
+                "lon": -72.3138279
+            },
+            "nodes": [
+                3123431434,
+                3123431436,
+                3123431440,
+                3123431441,
+                3123431450,
+                3123431449,
+                3123431451,
+                3123431443,
+                3123431427,
+                3123431431,
+                3123431434
+            ],
+            "tags": {
+                "addr:city": "White River Junction",
+                "addr:housenumber": "829",
+                "addr:postcode": "05001",
+                "addr:state": "VT",
+                "addr:street": "Hartford Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "mail@veremedy.com",
+                "fax": "+1-802-295-6973",
+                "name": "Veremedy Pet Hospital",
+                "phone": "+1-802-295-6900",
+                "ref:vcgi:esiteid": "122160",
+                "website": "http://veremedy.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 626064300,
+            "center": {
+                "lat": 43.7333774,
+                "lon": -72.2732761
+            },
+            "nodes": [
+                5910712148,
+                5910712149,
+                5910712150,
+                5910712151,
+                5910712152,
+                5910712153,
+                5910712154,
+                5910712155,
+                5910712156,
+                5910712157,
+                5910712158,
+                5910712159,
+                5910712160,
+                5910712161,
+                5910712162,
+                5910712163,
+                5910712164,
+                5910712165,
+                5910712166,
+                5910712167,
+                5910712168,
+                5910712169,
+                5910712170,
+                5910712171,
+                5910712148
+            ],
+            "tags": {
+                "addr:city": "Norwich",
+                "addr:housenumber": "443",
+                "addr:postcode": "05055",
+                "addr:state": "VT",
+                "addr:street": "U.S. Route 5 North",
+                "amenity": "veterinary",
+                "building": "yes",
+                "ref:vcgi:esiteid": "182795"
+            }
+        },
+        {
+            "type": "way",
+            "id": 667311731,
+            "center": {
+                "lat": 44.4635251,
+                "lon": -73.1578283
+            },
+            "nodes": [
+                6247988176,
+                6247988177,
+                6247988183,
+                6247988178,
+                6247988179,
+                6247988180,
+                6247988181,
+                6247988182,
+                6247988176
+            ],
+            "tags": {
+                "addr:city": "South Burlington",
+                "addr:housenumber": "1693",
+                "addr:state": "VT",
+                "addr:street": "Williston Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Green Mountain Animal Hospital",
+                "ref:vcgi:esiteid": "228298"
+            }
+        },
+        {
+            "type": "way",
+            "id": 764298898,
+            "center": {
+                "lat": 43.6866556,
+                "lon": -72.3205714
+            },
+            "nodes": [
+                7140340044,
+                7140340045,
+                7140340046,
+                7140340047,
+                7140340044
+            ],
+            "tags": {
+                "addr:city": "White River Junction",
+                "addr:housenumber": "13",
+                "addr:postcode": "05001",
+                "addr:state": "VT",
+                "addr:street": "Fogg Farm Road",
+                "amenity": "veterinary",
+                "building": "office",
+                "email": "noahcare@gmail.com",
+                "fax": "+1-802-282-4157",
+                "name": "Norwich Regional Animal Hospital",
+                "phone": "+1-802-296-2273",
+                "ref:vcgi:esiteid": "120493",
+                "website": "https://www.norwichanimal.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 775036693,
+            "center": {
+                "lat": 44.4106745,
+                "lon": -73.2146675
+            },
+            "nodes": [
+                7230806580,
+                7230806579,
+                7230806578,
+                7230806577,
+                7230806580
+            ],
+            "tags": {
+                "addr:city": "Shelburne",
+                "addr:housenumber": "3093",
+                "addr:postcode": "05482",
+                "addr:state": "VT",
+                "addr:street": "Shelburne Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Shelburne Veterinary Hostpital",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+                "phone": "+18029852525",
+                "ref:vcgi:esiteid": "220863",
+                "website": "https://shelburneveterinaryhospital.com/",
+                "website:booking": "https://shelburneveterinaryhospital.com/appointment/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 791550907,
+            "center": {
+                "lat": 43.318731,
+                "lon": -72.5052139
+            },
+            "nodes": [
+                7396848988,
+                7399822555,
+                7399822556,
+                7399822557,
+                7396848988
+            ],
+            "tags": {
+                "addr:city": "Springfield",
+                "addr:housenumber": "346",
+                "addr:postcode": "05156",
+                "addr:state": "VT",
+                "addr:street": "River Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Springfield Animal Hospital",
+                "ref:vcgi:esiteid": "235211",
+                "website": "https://springfieldanimalhospitalvt.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 833236857,
+            "center": {
+                "lat": 44.1670576,
+                "lon": -72.5100288
+            },
+            "nodes": [
+                7778368921,
+                7778368922,
+                7778368923,
+                7778368924,
+                7778368921
+            ],
+            "tags": {
+                "addr:city": "Barre",
+                "addr:housenumber": "678",
+                "addr:postcode": "05641",
+                "addr:state": "VT",
+                "addr:street": "South Barre Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Barre Animal Hospital",
+                "opening_hours": "Mo-Tu,Th-Fr 07:30-17:30; We 07:30-13:00; Sa 08:00-12:00",
+                "ref:vcgi:esiteid": "12798"
+            }
+        },
+        {
+            "type": "way",
+            "id": 838637691,
+            "center": {
+                "lat": 44.1753367,
+                "lon": -73.2465734
+            },
+            "nodes": [
+                7826668365,
+                7826668366,
+                7826668367,
+                7826668368,
+                7826668369,
+                7826668370,
+                7826668365
+            ],
+            "tags": {
+                "addr:city": "Vergennes",
+                "addr:housenumber": "20",
+                "addr:postcode": "05491",
+                "addr:state": "VT",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vergennes Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "phone": "+18028773371",
+                "ref:vcgi:esiteid": "264461",
+                "website": "https://vergennesah.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 911032051,
+            "center": {
+                "lat": 43.9983313,
+                "lon": -72.118165
+            },
+            "nodes": [
+                8459321938,
+                8459321939,
+                8459321940,
+                8459321941,
+                8459321938
+            ],
+            "tags": {
+                "addr:city": "Bradford",
+                "addr:housenumber": "272",
+                "addr:postcode": "05033",
+                "addr:state": "VT",
+                "addr:street": "Depot Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Oxbow Veterinary Clinic",
+                "ref:vcgi:esiteid": "26805"
+            }
+        },
+        {
+            "type": "way",
+            "id": 972720861,
+            "center": {
+                "lat": 43.8458483,
+                "lon": -72.3737045
+            },
+            "nodes": [
+                9002692971,
+                9002692972,
+                9002692973,
+                9002692974,
+                9002692975,
+                9002692976,
+                9002692977,
+                9002692978,
+                9002692971
+            ],
+            "tags": {
+                "addr:city": "Strafford",
+                "addr:housenumber": "87",
+                "addr:state": "VT",
+                "addr:street": "Justin Morrill Memorial Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vermont Equine Medical",
+                "ref:vcgi:esiteid": "252470"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1037404461,
+            "center": {
+                "lat": 44.4510103,
+                "lon": -73.1360391
+            },
+            "nodes": [
+                9556584813,
+                9556593018,
+                9556593034,
+                9556593037,
+                9556593017,
+                9556584816,
+                9556584814,
+                9556584815,
+                9556584812,
+                9556593019,
+                9556593036,
+                11248428725,
+                11248428718,
+                11248428720,
+                11248428719,
+                11248428726,
+                11248428722,
+                9556593022,
+                9556593023,
+                9556593024,
+                9556593025,
+                9556593026,
+                9556593028,
+                9556593027,
+                9556593021,
+                9556593020,
+                9556593029,
+                9556593030,
+                9556593033,
+                9556593031,
+                9556593035,
+                9556593032,
+                9556584813
+            ],
+            "tags": {
+                "addr:city": "Williston",
+                "addr:housenumber": "1417",
+                "addr:postcode": "05495",
+                "addr:state": "VT",
+                "addr:street": "Marshall Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "bevs@bevsvt.com",
+                "fax": "+1 802-863-2348",
+                "name": "Burlington Emergency Veterinary Specialists",
+                "opening_hours": "24/7",
+                "phone": "+1 802-863-2387",
+                "ref:vcgi:esiteid": "754926",
+                "website": "https://bevsvt.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1037412080,
+            "center": {
+                "lat": 44.1489707,
+                "lon": -73.0879751
+            },
+            "nodes": [
+                9556644015,
+                9556644016,
+                9556647817,
+                9556647818,
+                9556647819,
+                9556647820,
+                9556647821,
+                9556647822,
+                9556644015
+            ],
+            "tags": {
+                "addr:city": "Bristol",
+                "addr:housenumber": "167",
+                "addr:state": "VT",
+                "addr:street": "Monkton Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bristol Animal Hospital",
+                "ref:vcgi:esiteid": "38988"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1065666242,
+            "center": {
+                "lat": 42.9262462,
+                "lon": -73.2098276
+            },
+            "nodes": [
+                9786473074,
+                9786473075,
+                9786473076,
+                9786473077,
+                9786473078,
+                9786473079,
+                9786473080,
+                9786473081,
+                9786473074
+            ],
+            "tags": {
+                "addr:housenumber": "1726",
+                "addr:state": "VT",
+                "addr:street": "Harwood Hill Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "West Mountain Animal Hospital",
+                "ref:vcgi:esiteid": "336126",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1170420733,
+            "center": {
+                "lat": 44.6264604,
+                "lon": -73.1383103
+            },
+            "nodes": [
+                10879800094,
+                10879800095,
+                10879800096,
+                10879800097,
+                10879800098,
+                10879800099,
+                10879800100,
+                10879800101,
+                10879800102,
+                10879800103,
+                10879800104,
+                10879800105,
+                10879800106,
+                10879800107,
+                10879800094
+            ],
+            "tags": {
+                "addr:city": "Milton",
+                "addr:housenumber": "2",
+                "addr:state": "VT",
+                "addr:street": "Chrisemily Lane",
+                "amenity": "veterinary",
+                "building": "yes",
+                "ref:vcgi:esiteid": "159734"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1180107965,
+            "center": {
+                "lat": 44.9588921,
+                "lon": -72.1275086
+            },
+            "nodes": [
+                10960581003,
+                10960581004,
+                10960601605,
+                10960601606,
+                10960601607,
+                10960601608,
+                10960601609,
+                10960601610,
+                10960601611,
+                10960601612,
+                10960601613,
+                10960601614,
+                10960601616,
+                10960601617,
+                10960601618,
+                10960601615,
+                10960581003
+            ],
+            "tags": {
+                "addr:housenumber": "2757",
+                "addr:state": "VT",
+                "addr:street": "U.S. Route 5",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Derby Pond Animal Hospital",
+                "ref:vcgi:esiteid": "82682"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1290123881,
+            "center": {
+                "lat": 44.6955646,
+                "lon": -73.181226
+            },
+            "nodes": [
+                11961736167,
+                11961736168,
+                11961751573,
+                11961751571,
+                8902434598,
+                8902434600,
+                8902434601,
+                8902434599,
+                11961751572,
+                11961751569,
+                11961751570,
+                11961736167
+            ],
+            "tags": {
+                "addr:city": "Milton",
+                "addr:housenumber": "1054",
+                "addr:state": "VT",
+                "addr:street": "Lake Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vermont Large Animal Clinic - Equine Hospital",
+                "phone": "+1 802-893-6800",
+                "ref:vcgi:esiteid": "162345",
+                "website": "https://vlac.net"
+            }
+        }
+    ]
+}

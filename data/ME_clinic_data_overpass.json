@@ -1,0 +1,1587 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:54:06Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 4037197788,
+            "lat": 43.9088749,
+            "lon": -69.8338374,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Bath Animal hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5999677082,
+            "lat": 44.7806732,
+            "lon": -68.7533982,
+            "tags": {
+                "addr:city": "Brewer",
+                "addr:housenumber": "15",
+                "addr:postcode": "04412",
+                "addr:state": "ME",
+                "addr:street": "Dirigo Drive",
+                "amenity": "veterinary",
+                "building": "office",
+                "name": "Eastern Maine Emergency Veterinary Clinic",
+                "note": "weird opening_hours, but this syntax actually makes it clearer even though it looks more complex at first",
+                "opening_hours": "Mo 00:00-08:00,17:30-32:00; Tu-Th 17:30-32:00; Fr 00:00-08:00,17:30-24:00; Sa,Su 00:00-24:00",
+                "phone": "+1-207-989-6267",
+                "website": "https://emevc.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6539619292,
+            "lat": 43.9224787,
+            "lon": -70.3122188,
+            "tags": {
+                "addr:city": "Gray",
+                "addr:housenumber": "226",
+                "addr:postcode": "04039",
+                "addr:state": "ME",
+                "addr:street": "Lewiston Road",
+                "amenity": "veterinary",
+                "description": "Veterinary hospital.",
+                "name": "Gray-New Gloucester Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30",
+                "phone": "+1-207-657-3393",
+                "website": "http://www.gngvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7149533871,
+            "lat": 43.7142704,
+            "lon": -70.3345481,
+            "tags": {
+                "addr:city": "Westbrook",
+                "addr:housenumber": "398",
+                "addr:postcode": "04092",
+                "addr:state": "ME",
+                "addr:street": "Bridgton Road",
+                "amenity": "veterinary",
+                "name": "Stoneledge Animal Hospital",
+                "phone": "+1 207-797-4292",
+                "website": "https://stoneledgeanimalhospital.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7157481031,
+            "lat": 44.7189038,
+            "lon": -68.8268807,
+            "tags": {
+                "addr:city": "Orrington",
+                "addr:housenumber": "857",
+                "addr:postcode": "04474",
+                "addr:state": "ME",
+                "addr:street": "River Road",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7159539960,
+            "lat": 44.8274136,
+            "lon": -69.6987909,
+            "tags": {
+                "addr:city": "Skowhegan",
+                "addr:housenumber": "6",
+                "addr:postcode": "04976",
+                "addr:state": "ME",
+                "addr:street": "Wing Lane",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7161288840,
+            "lat": 44.2148837,
+            "lon": -69.803738,
+            "tags": {
+                "addr:city": "West Gardiner",
+                "addr:housenumber": "6",
+                "addr:postcode": "04345",
+                "addr:state": "ME",
+                "addr:street": "Lewiston Road",
+                "amenity": "veterinary",
+                "name": "At Home Veterinary Care",
+                "opening_hours": "Mo-Th 09:00-17:00",
+                "phone": "+1-207-582-8800"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7167493594,
+            "lat": 43.4791462,
+            "lon": -70.6004719,
+            "tags": {
+                "addr:city": "Alfred",
+                "addr:housenumber": "1445",
+                "addr:postcode": "04002",
+                "addr:state": "ME",
+                "addr:street": "Alfred Road",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7172275499,
+            "lat": 43.682227,
+            "lon": -70.8047205,
+            "tags": {
+                "addr:city": "Limerick",
+                "addr:housenumber": "135",
+                "addr:postcode": "04048",
+                "addr:state": "ME",
+                "addr:street": "Elm Street",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7176523978,
+            "lat": 43.5364199,
+            "lon": -70.4228711,
+            "tags": {
+                "addr:city": "Saco",
+                "addr:housenumber": "838",
+                "addr:postcode": "04072",
+                "addr:state": "ME",
+                "addr:street": "Portland Road",
+                "amenity": "veterinary",
+                "name": "Animal Hospital of Saco"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7176542750,
+            "lat": 43.877144,
+            "lon": -70.3274455,
+            "tags": {
+                "addr:city": "Gray",
+                "addr:housenumber": "55",
+                "addr:postcode": "04039",
+                "addr:state": "ME",
+                "addr:street": "Portland Road",
+                "amenity": "veterinary",
+                "name": "Gray Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:00-12:30"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7176594655,
+            "lat": 43.2952032,
+            "lon": -70.5887905,
+            "tags": {
+                "addr:city": "Wells",
+                "addr:housenumber": "746",
+                "addr:postcode": "04090",
+                "addr:state": "ME",
+                "addr:street": "Post Road",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7199176933,
+            "lat": 45.1538896,
+            "lon": -69.2365465,
+            "tags": {
+                "addr:city": "Dover-Foxcroft",
+                "addr:housenumber": "1441",
+                "addr:postcode": "04426",
+                "addr:state": "ME",
+                "addr:street": "Dexter Road",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7215330404,
+            "lat": 44.0698615,
+            "lon": -70.7010975,
+            "tags": {
+                "addr:city": "Bridgton",
+                "addr:housenumber": "213",
+                "addr:postcode": "04009",
+                "addr:state": "ME",
+                "addr:street": "Harrison Road",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7231251176,
+            "lat": 43.8142355,
+            "lon": -70.3138035,
+            "tags": {
+                "addr:city": "Cumberland Center",
+                "addr:housenumber": "172",
+                "addr:postcode": "04021",
+                "addr:state": "ME",
+                "addr:street": "Gray Road",
+                "amenity": "veterinary",
+                "name": "Westside Animal Hospital Llc"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7231251429,
+            "lat": 43.7898502,
+            "lon": -70.3011075,
+            "tags": {
+                "addr:city": "Cumberland Center",
+                "addr:housenumber": "21",
+                "addr:postcode": "04021",
+                "addr:state": "ME",
+                "addr:street": "Schuster Road",
+                "amenity": "veterinary",
+                "name": "Blackstrap Hill Vet"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7363773249,
+            "lat": 43.8952031,
+            "lon": -69.9767262,
+            "tags": {
+                "addr:city": "Brunswick",
+                "addr:housenumber": "85",
+                "addr:postcode": "04011",
+                "addr:state": "ME",
+                "addr:street": "Baribeau Drive",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "check_date": "2026-05-30",
+                "check_date:opening_hours": "2026-05-30",
+                "email": "info@thebrunswickvetclinic.com",
+                "name": "Brunswick Veterinary Clinic",
+                "opening_hours": "Mo-Th 08:00-18:00; Fr 08:00-17:00",
+                "phone": "+1 207-729-3412",
+                "website": "https://thebrunswickvetclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7477425399,
+            "lat": 44.7226583,
+            "lon": -67.4423892,
+            "tags": {
+                "addr:city": "Machias",
+                "addr:housenumber": "219",
+                "addr:postcode": "04654",
+                "addr:state": "ME",
+                "addr:street": "Main Street",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7564193390,
+            "lat": 44.6486023,
+            "lon": -70.1201692,
+            "tags": {
+                "addr:city": "Farmington",
+                "addr:housenumber": "475",
+                "addr:postcode": "04938",
+                "addr:state": "ME",
+                "addr:street": "Farmington Falls Road",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7567036100,
+            "lat": 44.9424877,
+            "lon": -67.0387962,
+            "tags": {
+                "addr:city": "Eastport",
+                "addr:housenumber": "212",
+                "addr:postcode": "04631",
+                "addr:state": "ME",
+                "addr:street": "County Road",
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12022925094,
+            "lat": 44.7198877,
+            "lon": -68.612407,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Lucerne Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13048227698,
+            "lat": 43.66427,
+            "lon": -70.260759,
+            "tags": {
+                "addr:housenumber": "191 Suite A",
+                "addr:street": "Marginal Way",
+                "amenity": "veterinary",
+                "name": "PetMedic Urgent Care",
+                "opening_hours": "Mo-Fr 10:00-21:00; Sa, Su 10:00-19:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13128018601,
+            "lat": 43.9282224,
+            "lon": -69.9107196,
+            "tags": {
+                "addr:housenumber": "457",
+                "addr:postcode": "04086",
+                "addr:street": "Foreside Road",
+                "amenity": "veterinary",
+                "name": "Androscoggin Animal Hospital",
+                "opening_hours": "Mo 08:00-18:00; Tu 08:00-17:00; We 08:00-18:00; Th 08:00-17:00; Fr 08:00-18:00, Sa 08:00-13:00",
+                "phone": "+1 207-729-4678",
+                "website": "https://androscogginanimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13129575202,
+            "lat": 43.844521,
+            "lon": -70.1185706,
+            "tags": {
+                "amenity": "veterinary",
+                "check_date": "2025-09-08",
+                "name": "Pet Medic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 340296956,
+            "center": {
+                "lat": 43.6511371,
+                "lon": -70.2680488
+            },
+            "nodes": [
+                3475114263,
+                3475114264,
+                3475114265,
+                3475114266,
+                3475114267,
+                3475114268,
+                3475114263
+            ],
+            "tags": {
+                "addr:city": "Portland",
+                "addr:housenumber": "192",
+                "addr:postcode": "04102",
+                "addr:state": "ME",
+                "addr:street": "Brackett Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "building:levels": "3",
+                "name": "Brackett Street Veterinary Clinic",
+                "phone": "+1-207-772-3385",
+                "website": "http://www.brackettstveterinaryclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 361823058,
+            "center": {
+                "lat": 44.3251891,
+                "lon": -69.7745066
+            },
+            "nodes": [
+                3662493934,
+                3662493935,
+                3662493936,
+                3662493937,
+                3662493938,
+                3662493939,
+                3662493940,
+                3662493941,
+                3662493942,
+                3662493943,
+                3662493944,
+                3662493945,
+                3662493934
+            ],
+            "tags": {
+                "addr:city": "Augusta",
+                "addr:housenumber": "95",
+                "addr:postcode": "04330",
+                "addr:state": "ME",
+                "addr:street": "Northern Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Wellness Center",
+                "phone": "+1-207-623-1177",
+                "website": "http://www.mainehomeopathicvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 370252113,
+            "center": {
+                "lat": 43.9102968,
+                "lon": -69.9059994
+            },
+            "nodes": [
+                3739665306,
+                3739665307,
+                3739665308,
+                3739665309,
+                3739665310,
+                3739665311,
+                3739665312,
+                3739665313,
+                3739665314,
+                3739665315,
+                3739665316,
+                3739665317,
+                3739665318,
+                3739665319,
+                3739665320,
+                3739665321,
+                3739665322,
+                3739665323,
+                3739665324,
+                3739665306
+            ],
+            "tags": {
+                "addr:city": "Brunswick",
+                "addr:housenumber": "257",
+                "addr:postcode": "04011",
+                "addr:state": "ME",
+                "addr:street": "Bath Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bath-Brunswick Veterinary Associates",
+                "phone": "+1-207-729-4164",
+                "website": "https://www.bathbrunswickvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 377556947,
+            "center": {
+                "lat": 43.803707,
+                "lon": -70.1789962
+            },
+            "nodes": [
+                3809356369,
+                3809356370,
+                3809356371,
+                3809356372,
+                3809356373,
+                3809356374,
+                3809356375,
+                3809356376,
+                3809356377,
+                3809356378,
+                3809356379,
+                3809356380,
+                3809356381,
+                3809356369
+            ],
+            "tags": {
+                "addr:city": "Yarmouth",
+                "addr:housenumber": "75",
+                "addr:postcode": "04096",
+                "addr:state": "ME",
+                "addr:street": "Willow Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Yarmouth Veterinary Center",
+                "phone": "+1-207-846-6515",
+                "website": "https://www.yarmouthvetcenter.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 395700096,
+            "center": {
+                "lat": 43.6809862,
+                "lon": -70.289138
+            },
+            "nodes": [
+                3985410070,
+                3985410071,
+                3985410072,
+                3985410073,
+                3985410074,
+                3985410075,
+                3985410076,
+                3985410070
+            ],
+            "tags": {
+                "addr:city": "Portland",
+                "addr:housenumber": "973",
+                "addr:postcode": "04103",
+                "addr:state": "ME",
+                "addr:street": "Forest Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "phone": "+1-207-797-4840",
+                "website": "http://www.forestavevethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 408611493,
+            "center": {
+                "lat": 44.3135642,
+                "lon": -69.8002915
+            },
+            "nodes": [
+                4105040266,
+                4105040267,
+                4105040268,
+                4105040269,
+                4105040270,
+                4105040271,
+                4105040272,
+                4105040273,
+                4105040274,
+                4105040275,
+                4105040276,
+                4105040277,
+                4105040278,
+                4105040279,
+                4105040280,
+                4105040281,
+                4105040266
+            ],
+            "tags": {
+                "addr:city": "Augusta",
+                "addr:housenumber": "220",
+                "addr:postcode": "04330",
+                "addr:state": "ME",
+                "addr:street": "Western Avenue",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 413682230,
+            "center": {
+                "lat": 43.102645,
+                "lon": -70.7435859
+            },
+            "nodes": [
+                9522804389,
+                4149578856,
+                4149578851,
+                4149578840,
+                9522804398,
+                4149578842,
+                9522804397,
+                9522804396,
+                9522804395,
+                9522804394,
+                9522804393,
+                9522804392,
+                4149578859,
+                9522804391,
+                9522804390,
+                4149578860,
+                4149578877,
+                9522804389
+            ],
+            "tags": {
+                "addr:city": "Kittery",
+                "addr:housenumber": "195",
+                "addr:postcode": "03904",
+                "addr:state": "ME",
+                "addr:street": "State Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Kittery Animal Hospital",
+                "phone": "+1 207-439-4158"
+            }
+        },
+        {
+            "type": "way",
+            "id": 499076954,
+            "center": {
+                "lat": 46.6774544,
+                "lon": -68.0493942
+            },
+            "nodes": [
+                4903939238,
+                4903939239,
+                4903939240,
+                4903939241,
+                4903939238
+            ],
+            "tags": {
+                "addr:city": "Presque Isle",
+                "addr:housenumber": "79",
+                "addr:postcode": "04769",
+                "addr:state": "ME",
+                "addr:street": "Mapleton Road",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 519782725,
+            "center": {
+                "lat": 43.6637034,
+                "lon": -70.2848866
+            },
+            "nodes": [
+                5067928005,
+                5067928006,
+                5067928007,
+                5067928008,
+                5067928009,
+                5067928005
+            ],
+            "tags": {
+                "addr:city": "Portland",
+                "addr:housenumber": "183",
+                "addr:postcode": "04102",
+                "addr:state": "ME",
+                "addr:street": "Brighton Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "The Cat Doctor"
+            }
+        },
+        {
+            "type": "way",
+            "id": 598266296,
+            "center": {
+                "lat": 43.9019745,
+                "lon": -69.9195572
+            },
+            "nodes": [
+                5694344200,
+                5694344201,
+                5694344202,
+                5694344203,
+                5694344204,
+                5694344205,
+                5694344206,
+                5694344200
+            ],
+            "tags": {
+                "addr:city": "Brunswick",
+                "addr:housenumber": "73",
+                "addr:postcode": "04011",
+                "addr:state": "ME",
+                "addr:street": "Admiral Fitch Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sunray Animal Clinic",
+                "opening_hours": "Mo-We 08:00-18:00; Th-Fr 08:00-17:00; Sa 08:00-10:00; Su closed"
+            }
+        },
+        {
+            "type": "way",
+            "id": 700194582,
+            "center": {
+                "lat": 44.8038646,
+                "lon": -69.8393451
+            },
+            "nodes": [
+                6575343969,
+                6575343970,
+                6575343971,
+                6575343972,
+                6575343969
+            ],
+            "tags": {
+                "addr:city": "Madison",
+                "addr:housenumber": "36",
+                "addr:postcode": "04950",
+                "addr:state": "ME",
+                "addr:street": "Business Park Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Madison Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 726775799,
+            "center": {
+                "lat": 43.4593654,
+                "lon": -70.7669159
+            },
+            "nodes": [
+                6811598007,
+                6811598006,
+                6811598005,
+                6811598004,
+                6811598003,
+                6811598002,
+                6811598001,
+                6811597948,
+                6811598000,
+                6811597985,
+                6811597999,
+                6811597998,
+                6811597997,
+                6811597996,
+                6811598007
+            ],
+            "tags": {
+                "addr:city": "Sanford",
+                "addr:housenumber": "78",
+                "addr:postcode": "04073",
+                "addr:state": "ME",
+                "addr:street": "Shaws Ridge Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-207-324-9007",
+                "name": "Ridge Animal Hospital",
+                "opening_hours": "Mo 08:00-18:00; Tu-Fr 08:00-17:00; Sa 08:00-12:00",
+                "website": "http://www.ridgeanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 726775810,
+            "center": {
+                "lat": 43.4050575,
+                "lon": -70.741981
+            },
+            "nodes": [
+                6811598114,
+                6811598113,
+                6811598112,
+                6811598111,
+                6811598110,
+                6811598109,
+                6811598108,
+                6811598107,
+                6811598106,
+                6811598105,
+                6811598104,
+                6811598103,
+                6811598102,
+                6811598101,
+                6811598100,
+                6811598099,
+                6811598098,
+                6811598097,
+                6811598096,
+                6811598095,
+                6811598094,
+                6811598114
+            ],
+            "tags": {
+                "addr:city": "Sanford",
+                "addr:housenumber": "89",
+                "addr:postcode": "04073",
+                "addr:state": "ME",
+                "addr:street": "Country Club Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Down Maine Veterinary Clinic",
+                "opening_hours": "Mo-Tu,Th-Fr 07:30-17:00; We 07:30-20:00; Sa 08:00-12:00",
+                "phone": "+1-207-324-4683",
+                "website": "https://downmainevets.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 737852741,
+            "center": {
+                "lat": 43.6262332,
+                "lon": -70.3731703
+            },
+            "nodes": [
+                6908782449,
+                6908782444,
+                9825704825,
+                6908782447,
+                6908782445,
+                9825704824,
+                6908782450,
+                9825704832,
+                6908782448,
+                9825704826,
+                9825704827,
+                9825704834,
+                9825704847,
+                6908782451,
+                6908782446,
+                9825704835,
+                9825704840,
+                6908782449
+            ],
+            "tags": {
+                "addr:city": "Scarborough",
+                "addr:housenumber": "336",
+                "addr:postcode": "04074",
+                "addr:state": "ME",
+                "addr:street": "Gorham Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Tender Touch Veterinary Hospital",
+                "source": "Microsoft"
+            }
+        },
+        {
+            "type": "way",
+            "id": 781070660,
+            "center": {
+                "lat": 43.7140974,
+                "lon": -70.2342833
+            },
+            "nodes": [
+                7188338426,
+                7292796024,
+                7292796025,
+                7292796026,
+                7292796027,
+                7292796028,
+                7292796029,
+                7292796030,
+                7292796031,
+                7292796032,
+                7292796033,
+                7292796034,
+                7292796035,
+                7292796036,
+                7292796037,
+                7188338426
+            ],
+            "tags": {
+                "addr:city": "Falmouth",
+                "addr:housenumber": "174",
+                "addr:postcode": "04105",
+                "addr:state": "ME",
+                "addr:street": "Route 1",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Falmouth Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 826796313,
+            "center": {
+                "lat": 43.7159788,
+                "lon": -70.2927069
+            },
+            "nodes": [
+                7718926788,
+                7718926785,
+                7718871877,
+                7718871876,
+                7718871875,
+                7718871878,
+                7718871881,
+                7718871880,
+                7718871879,
+                7718871882,
+                7718871883,
+                7718871884,
+                7718926786,
+                7718926787,
+                7718926788
+            ],
+            "tags": {
+                "addr:city": "Portland",
+                "addr:housenumber": "456",
+                "addr:postcode": "04103",
+                "addr:state": "ME",
+                "addr:street": "Auburn Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "North Deering Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 847594396,
+            "center": {
+                "lat": 44.1334793,
+                "lon": -70.194001
+            },
+            "nodes": [
+                7527599131,
+                7909205230,
+                7909205231,
+                7909205232,
+                7909205233,
+                7909205234,
+                7909205235,
+                7909205236,
+                7909205237,
+                7909205238,
+                7527599131
+            ],
+            "tags": {
+                "addr:city": "Lewiston",
+                "addr:housenumber": "75",
+                "addr:postcode": "04240",
+                "addr:state": "ME",
+                "addr:street": "Stetson Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Lewiston Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 881439183,
+            "center": {
+                "lat": 44.789962,
+                "lon": -69.3737765
+            },
+            "nodes": [
+                8197597105,
+                8197596625,
+                7231478015,
+                8197596998,
+                8197597358,
+                8197596683,
+                8197596800,
+                8197597254,
+                8197597105
+            ],
+            "tags": {
+                "addr:city": "Pittsfield",
+                "addr:housenumber": "381",
+                "addr:postcode": "04967",
+                "addr:state": "ME",
+                "addr:street": "North Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 973103080,
+            "center": {
+                "lat": 43.8352298,
+                "lon": -70.4356662
+            },
+            "nodes": [
+                9006725542,
+                9006725539,
+                9006725537,
+                9006725538,
+                9006725540,
+                9006725536,
+                9006725534,
+                9006725533,
+                9006725535,
+                9006725541,
+                9006725532,
+                9006725530,
+                9006725527,
+                9006725526,
+                9006725525,
+                9006725528,
+                9006725529,
+                9006725531,
+                9006725542
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "North Windham Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 974495278,
+            "center": {
+                "lat": 43.8813767,
+                "lon": -70.4659754
+            },
+            "nodes": [
+                7480381137,
+                9018600738,
+                9018600739,
+                9018600740,
+                7480381137
+            ],
+            "tags": {
+                "addr:city": "Raymond",
+                "addr:housenumber": "1242",
+                "addr:postcode": "04071",
+                "addr:state": "ME",
+                "addr:street": "Roosevelt Trail",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Jordan Bay Animal Hospital",
+                "roof:levels": "0",
+                "roof:shape": "gabled"
+            }
+        },
+        {
+            "type": "way",
+            "id": 985666721,
+            "center": {
+                "lat": 43.0930631,
+                "lon": -70.7479967
+            },
+            "nodes": [
+                7167475228,
+                9112230169,
+                9112230170,
+                9112230171,
+                7167475228
+            ],
+            "tags": {
+                "addr:city": "Kittery",
+                "addr:housenumber": "103",
+                "addr:postcode": "03904",
+                "addr:state": "ME",
+                "addr:street": "State Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Piscataqua Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1072072473,
+            "center": {
+                "lat": 43.5938809,
+                "lon": -70.3538611
+            },
+            "nodes": [
+                9837010445,
+                9837010444,
+                9837010443,
+                9837010442,
+                9837010441,
+                9837010536,
+                9837010535,
+                9837010534,
+                9837010537,
+                9837010538,
+                7230904263,
+                9837010539,
+                9837010445
+            ],
+            "tags": {
+                "addr:city": "Scarborough",
+                "addr:housenumber": "1500",
+                "addr:postcode": "04074",
+                "addr:state": "ME",
+                "addr:street": "Technology Way",
+                "amenity": "veterinary",
+                "building": "hospital",
+                "contact:facebook": "mainevetmedcenter",
+                "contact:instagram": "mainevetmedcenter",
+                "email": "reception@mvmc.vet",
+                "name": "Maine Veterinary Medical Center",
+                "opening_hours": "24/7",
+                "phone": "+1-207-885-1290",
+                "website": "https://mvmc.vet/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1103946641,
+            "center": {
+                "lat": 44.2257838,
+                "lon": -70.5192438
+            },
+            "nodes": [
+                7176251970,
+                10102096347,
+                10102096348,
+                10102096349,
+                10102096350,
+                10102096351,
+                10102096352,
+                10102096353,
+                10102096354,
+                10102096355,
+                10102096356,
+                10102096357,
+                7176251970
+            ],
+            "tags": {
+                "addr:city": "South Paris",
+                "addr:housenumber": "136",
+                "addr:postcode": "04281",
+                "addr:state": "ME",
+                "addr:street": "Western Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "oxfordhillsvet@gmail.com",
+                "fax": "+1-207-744-0775",
+                "name": "Oxford Hills Veterinary Hospital",
+                "opening_hours": "Mo-Th 07:00-18:00; Fr 07:00-17:00; Sa 08:00-13:00",
+                "phone": "+1-207-743-9271",
+                "website": "http://oxfordhillsvet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1103976780,
+            "center": {
+                "lat": 44.1984493,
+                "lon": -70.5285157
+            },
+            "nodes": [
+                7367935770,
+                10102339375,
+                10102339376,
+                10102339377,
+                10102339378,
+                10102339379,
+                10102339380,
+                10102339381,
+                10102339382,
+                10102339383,
+                10102339384,
+                10102339385,
+                10102339386,
+                10102339387,
+                10102339388,
+                10102339389,
+                10102339390,
+                10102339391,
+                10102339392,
+                10102339393,
+                7367935770
+            ],
+            "tags": {
+                "addr:city": "Norway",
+                "addr:housenumber": "10",
+                "addr:postcode": "04268",
+                "addr:state": "ME",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "fax": "+1-207-744-0255",
+                "name": "Norway Veterinary Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-16:00",
+                "phone": "+1-207-743-6384",
+                "website": "https://norwayvet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1178121134,
+            "center": {
+                "lat": 43.7986454,
+                "lon": -70.2287928
+            },
+            "nodes": [
+                10944246486,
+                10944246487,
+                10944246488,
+                10944246489,
+                10944246486
+            ],
+            "tags": {
+                "addr:city": "Cumberland Center",
+                "addr:housenumber": "216",
+                "addr:postcode": "04021",
+                "addr:state": "ME",
+                "addr:street": "Greely Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cumberland Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1178121136,
+            "center": {
+                "lat": 43.79849,
+                "lon": -70.2277367
+            },
+            "nodes": [
+                10944246501,
+                10944246502,
+                10944246503,
+                10944246504,
+                10944246505,
+                10944246506,
+                10944246507,
+                10944246508,
+                10944246509,
+                10944246510,
+                10944246511,
+                10944246512,
+                10944246513,
+                10944246514,
+                10944246501
+            ],
+            "tags": {
+                "addr:city": "Cumberland Center",
+                "addr:housenumber": "212",
+                "addr:postcode": "04021",
+                "addr:state": "ME",
+                "addr:street": "Greely Road",
+                "amenity": "veterinary",
+                "building": "barn",
+                "name": "Lauren Netland"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1219308521,
+            "center": {
+                "lat": 44.0156113,
+                "lon": -69.6672962
+            },
+            "nodes": [
+                11297907765,
+                11297907766,
+                11297907767,
+                11297907768,
+                11297907769,
+                11297907770,
+                11297907771,
+                11297907772,
+                11297907773,
+                11297907774,
+                11297907775,
+                11297907776,
+                11297907777,
+                11297907778,
+                11297907779,
+                11297907780,
+                11297907781,
+                11297907782,
+                11297907783,
+                11297907784,
+                11297907785,
+                11297907786,
+                11297907765
+            ],
+            "tags": {
+                "addr:city": "Wiscasset",
+                "addr:housenumber": "161",
+                "addr:postcode": "04578",
+                "addr:state": "ME",
+                "addr:street": "Gardiner Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Wiscasset Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1288568924,
+            "center": {
+                "lat": 44.8435394,
+                "lon": -68.70296
+            },
+            "nodes": [
+                11949300204,
+                11949300203,
+                11949300202,
+                11949300201,
+                11949300200,
+                11949300199,
+                11949300198,
+                11949300197,
+                11949300196,
+                11949300195,
+                11949300194,
+                11949300193,
+                11949300192,
+                11949300191,
+                11949300190,
+                11949300189,
+                11949300188,
+                11949300187,
+                11949300204
+            ],
+            "tags": {
+                "addr:city": "Veazie",
+                "addr:housenumber": "1522",
+                "addr:postcode": "04401",
+                "addr:state": "ME",
+                "addr:street": "State Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Veazie Veterinary Clinic",
+                "opening_hours": "Mo-Fr 07:00-18:00",
+                "phone": "+1 207-941-8840",
+                "website": "https://veazievet.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1289570526,
+            "center": {
+                "lat": 43.6000737,
+                "lon": -70.3219321
+            },
+            "nodes": [
+                7230903915,
+                11957804569,
+                11957804570,
+                11957804571,
+                11957804572,
+                11957804573,
+                11957804574,
+                11957804575,
+                11957804576,
+                11957804577,
+                11957804578,
+                11957804579,
+                11957804580,
+                11957804581,
+                7230903915
+            ],
+            "tags": {
+                "addr:city": "Scarborough",
+                "addr:housenumber": "29",
+                "addr:postcode": "04074",
+                "addr:state": "ME",
+                "addr:street": "First Street",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Scarborough Animal Hospital",
+                "phone": "+12078834412",
+                "website": "https://www.scarboroughanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1309991277,
+            "center": {
+                "lat": 43.640051,
+                "lon": -70.254418
+            },
+            "nodes": [
+                12128915733,
+                12128915734,
+                12128915735,
+                12128915736,
+                12128915737,
+                12128915738,
+                12128915739,
+                12128915740,
+                12128915741,
+                12128915742,
+                12128915743,
+                12128915733
+            ],
+            "tags": {
+                "addr:city": "South Portland",
+                "addr:housenumber": "51",
+                "addr:postcode": "04106",
+                "addr:state": "ME",
+                "addr:street": "Ocean Street",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1349286142,
+            "center": {
+                "lat": 43.9627944,
+                "lon": -69.7267297
+            },
+            "nodes": [
+                12481152854,
+                12481152855,
+                12481152856,
+                12481152857,
+                12481152858,
+                12481152859,
+                12481152860,
+                12481152861,
+                12481152862,
+                12481152863,
+                12481152864,
+                12481152865,
+                12481152866,
+                12481152867,
+                12481152903,
+                12481152854
+            ],
+            "tags": {
+                "addr:city": "Woolwich",
+                "addr:housenumber": "13",
+                "addr:postcode": "04579",
+                "addr:state": "ME",
+                "addr:street": "Hunnewell Lane",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Woodbrook Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1378216035,
+            "center": {
+                "lat": 47.2777013,
+                "lon": -68.581579
+            },
+            "nodes": [
+                12761198881,
+                12761198882,
+                12761198883,
+                12761198884,
+                12761198881
+            ],
+            "tags": {
+                "addr:city": "Fort Kent",
+                "addr:housenumber": "402",
+                "addr:postcode": "04743",
+                "addr:state": "ME",
+                "addr:street": "Frenchville Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "animalhosp402@outlook.com",
+                "name": "Fort Kent Animal Hospital",
+                "phone": "+1-207-834-5077"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1382805599,
+            "center": {
+                "lat": 43.5996794,
+                "lon": -70.5951449
+            },
+            "nodes": [
+                7549402192,
+                12802563667,
+                12802563668,
+                12802563669,
+                12802563670,
+                12802563671,
+                12802563672,
+                12802563673,
+                12802563674,
+                12802563675,
+                12802563676,
+                12802563677,
+                7549402192
+            ],
+            "tags": {
+                "addr:city": "Hollis",
+                "addr:housenumber": "20",
+                "addr:postcode": "04042",
+                "addr:state": "ME",
+                "addr:street": "Little Falls Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hollis Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1390534023,
+            "center": {
+                "lat": 43.7337095,
+                "lon": -70.5450558
+            },
+            "nodes": [
+                7386428512,
+                12871738376,
+                12871738377,
+                12871738378,
+                12871738379,
+                12871738380,
+                12871738381,
+                12871738382,
+                12871738383,
+                12871738384,
+                12871738385,
+                12871738386,
+                12871738387,
+                12871738388,
+                12871738389,
+                12871738390,
+                12871738391,
+                12871738392,
+                12871738393,
+                12871738394,
+                7386428512
+            ],
+            "tags": {
+                "addr:city": "Standish",
+                "addr:housenumber": "22",
+                "addr:postcode": "04084",
+                "addr:state": "ME",
+                "addr:street": "Rose Lane",
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Standish Animal Hospital",
+                "website": "https://vcahospitals.com/standish"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1510788306,
+            "center": {
+                "lat": 44.0319882,
+                "lon": -69.5246011
+            },
+            "nodes": [
+                13810110187,
+                13810110189,
+                13810076222,
+                13810110188,
+                13810110187
+            ],
+            "tags": {
+                "addr:city": "Damariscotta",
+                "addr:housenumber": "11",
+                "addr:postcode": "04543",
+                "addr:state": "ME",
+                "addr:street": "Coastal Market Drive",
+                "amenity": "veterinary",
+                "name": "Atlantic Veterinary Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1541113393,
+            "center": {
+                "lat": 44.1135537,
+                "lon": -70.2248338
+            },
+            "nodes": [
+                7215317553,
+                14029695769,
+                14029695770,
+                14029695771,
+                7215317553
+            ],
+            "tags": {
+                "addr:city": "Auburn",
+                "addr:housenumber": "308",
+                "addr:postcode": "04210",
+                "addr:state": "ME",
+                "addr:street": "Center Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "auburnac@yourvetdoc.com",
+                "name": "Auburn Animal Center",
+                "opening_hours": "Mo-Fr 07:30-17:30",
+                "phone": "+1-207-784-2000",
+                "website": "https://auburnanimalcenter.com/"
+            }
+        }
+    ]
+}

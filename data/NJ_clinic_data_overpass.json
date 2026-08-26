@@ -1,0 +1,3390 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T18:00:05Z",
+        "timestamp_areas_base": "2026-08-23T04:21:18Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 1269563891,
+            "lat": 40.9405044,
+            "lon": -73.9582261,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cresskill Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1389563526,
+            "lat": 40.8942708,
+            "lon": -74.4756504,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "All Creatures Great and Small Animal Clinic",
+                "opening_hours": "24/7",
+                "phone": "+1 973-625-3641"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1608149892,
+            "lat": 39.0950565,
+            "lon": -74.8764922,
+            "tags": {
+                "addr:city": "Cape May Court House",
+                "addr:housenumber": "38",
+                "addr:postcode": "08210",
+                "addr:street": "South Delsea Drive",
+                "amenity": "veterinary",
+                "name": "Abri Animal Hospital",
+                "opening_hours": "Mo-We 08:00-20:00; Th,Fr 08:00-17:00; Sa 08:00-16:00",
+                "phone": "+1 609 465 1368",
+                "website": "https://abrivet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2143998825,
+            "lat": 41.0195582,
+            "lon": -74.204886,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Franklin Lakes Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2269620643,
+            "lat": 40.8484768,
+            "lon": -73.9703951,
+            "tags": {
+                "addr:housenumber": "1580",
+                "addr:street": "Lemoine Avenue",
+                "amenity": "veterinary",
+                "name": "Fort Lee Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2780529729,
+            "lat": 40.9452148,
+            "lon": -74.2053245,
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "197",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Paterson-Hamburg Turnpike",
+                "amenity": "veterinary",
+                "name": "North Jersey Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2782200138,
+            "lat": 40.9797029,
+            "lon": -74.2731203,
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "2075",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Paterson-Hamburg Turnpike",
+                "amenity": "veterinary",
+                "name": "Tri-County Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2809893485,
+            "lat": 41.0053979,
+            "lon": -74.3429367,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Butler Veternary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3760728382,
+            "lat": 40.9215945,
+            "lon": -74.7173343,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Byram Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3784804367,
+            "lat": 40.4143255,
+            "lon": -74.1576055,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Bayshore Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3784837918,
+            "lat": 40.4006687,
+            "lon": -74.1215758,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Middletown Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4296880097,
+            "lat": 40.7271168,
+            "lon": -74.0323385,
+            "tags": {
+                "addr:housenumber": "29",
+                "addr:postcode": "07310",
+                "addr:street": "River Drive South",
+                "amenity": "veterinary",
+                "email": "newportvetcenter@gmail.com",
+                "name": "Newport Veterinary Center",
+                "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-17:00",
+                "phone": "+1-201-626-3785",
+                "website": "https://www.newportvetcenter.com/index.pml"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4837099825,
+            "lat": 40.8132639,
+            "lon": -74.2164771,
+            "tags": {
+                "addr:city": "Montclair",
+                "addr:housenumber": "417",
+                "addr:postcode": "07042",
+                "addr:state": "NJ",
+                "addr:street": "Bloomfield Avenue",
+                "amenity": "veterinary",
+                "check_date": "2026-08-10",
+                "contact:facebook": "https://www.facebook.com/CameronAnimalHospital/",
+                "contact:instagram": "https://www.instagram.com/cameronanimalhospital/",
+                "email": "reception@cameronanimalhospitalnj.com",
+                "name": "Cameron Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-14:00; Su off",
+                "phone": "+1 973-744-2052",
+                "website": "https://cameronanimalhospitalnj.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5360014577,
+            "lat": 40.7496932,
+            "lon": -74.0248385,
+            "tags": {
+                "addr:city": "Hoboken",
+                "addr:housenumber": "1160",
+                "addr:postcode": "07030",
+                "addr:state": "NJ",
+                "addr:street": "Maxwell Lane",
+                "amenity": "veterinary",
+                "name": "Hoboken Vets Animal Clinic",
+                "opening_hours": "Mo-Fr 08:00-20:00",
+                "operator": "Hoboken Vets Animal Clinic",
+                "phone": "+1 201-559-5133",
+                "website": "https://hobokenvets.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5623272673,
+            "lat": 40.9622131,
+            "lon": -74.2421079,
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "61",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Berdan Avenue",
+                "addr:unit": "A",
+                "amenity": "veterinary",
+                "name": "Kentner Donald DVM",
+                "operator": "Kentner Donald Dvm - Wayne Hills Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5633872821,
+            "lat": 39.4232327,
+            "lon": -75.267957,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Wilwynn Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5778128446,
+            "lat": 39.3941173,
+            "lon": -74.3863569,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Brigantine Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6528711105,
+            "lat": 40.8001889,
+            "lon": -74.4918352,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Washington Street Veterinary Services",
+                "phone": "+1 973-898-6700"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6779685144,
+            "lat": 40.7445767,
+            "lon": -74.0289316,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Hoboken Animal Hospital P.A."
+            }
+        },
+        {
+            "type": "node",
+            "id": 6983566874,
+            "lat": 40.6386272,
+            "lon": -74.4229257,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7005170586,
+            "lat": 39.3619936,
+            "lon": -74.6174408,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Ocean Heights Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7406737181,
+            "lat": 40.696705,
+            "lon": -75.1831701,
+            "tags": {
+                "addr:city": "Phillipsburg",
+                "addr:housenumber": "581",
+                "addr:postcode": "08865",
+                "addr:state": "NJ",
+                "addr:street": "Memorial Parkway",
+                "amenity": "veterinary",
+                "name": "Phillipsburg Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7411420571,
+            "lat": 40.6685755,
+            "lon": -75.1578901,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Rehabilitation and Fitness"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7419580361,
+            "lat": 40.7159569,
+            "lon": -75.1406697,
+            "tags": {
+                "addr:city": "Phillipsburg",
+                "addr:housenumber": "793",
+                "addr:postcode": "08865",
+                "addr:state": "NJ",
+                "addr:street": "Uniontown Road",
+                "amenity": "veterinary",
+                "name": "Warren Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7430760876,
+            "lat": 40.7323942,
+            "lon": -75.1460243,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Harmony Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7572809938,
+            "lat": 40.2368469,
+            "lon": -74.7736091,
+            "tags": {
+                "addr:city": "Trenton",
+                "addr:housenumber": "695",
+                "addr:postcode": "08618",
+                "addr:state": "NJ",
+                "addr:street": "Pennington Avenue",
+                "amenity": "veterinary",
+                "name": "Trenton Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7747173537,
+            "lat": 41.0069519,
+            "lon": -74.2911615,
+            "tags": {
+                "addr:city": "Pompton Lakes",
+                "addr:housenumber": "9",
+                "addr:postcode": "07442",
+                "addr:state": "NJ",
+                "addr:street": "Cannonball Road",
+                "amenity": "veterinary",
+                "name": "Pompton Lakes Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7820305709,
+            "lat": 41.0336458,
+            "lon": -74.0393456,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Park Ridge Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7956131824,
+            "lat": 40.9964272,
+            "lon": -74.3040381,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Town & Country Veterinary Cat Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8037410774,
+            "lat": 40.852178,
+            "lon": -74.8247389,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "East Plane Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8203560353,
+            "lat": 40.2233536,
+            "lon": -74.6368277,
+            "tags": {
+                "addr:city": "Robbinsville Township",
+                "addr:housenumber": "1073",
+                "addr:postcode": "08691",
+                "addr:state": "NJ",
+                "addr:street": "Washington Boulevard",
+                "amenity": "veterinary",
+                "check_date": "2025-09-26",
+                "name": "Foxmoor Animal Hospital",
+                "opening_hours": "Mo,We-Th 09:00-17:00; Tu 08:00-16:00; Fr 08:00-14:00",
+                "phone": "+16094260155",
+                "website": "https://foxmooranimalhospital.net"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8730129367,
+            "lat": 40.931805,
+            "lon": -74.226223,
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "582",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Valley Road",
+                "amenity": "veterinary",
+                "name": "Wayne Valley Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8770520349,
+            "lat": 40.0744543,
+            "lon": -74.0806001,
+            "tags": {
+                "addr:city": "Point Pleasant",
+                "addr:housenumber": "2700",
+                "addr:postcode": "08742",
+                "addr:state": "NJ",
+                "addr:street": "Bridge Avenue",
+                "amenity": "veterinary",
+                "name": "Bridge Veterinary Hospital",
+                "phone": "+17324756022",
+                "website": "https://www.bvhvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8849573798,
+            "lat": 40.4983662,
+            "lon": -74.6443093,
+            "tags": {
+                "addr:city": "Hillsborough",
+                "addr:housenumber": "269",
+                "addr:postcode": "08844",
+                "addr:state": "NJ",
+                "addr:street": "US 206",
+                "amenity": "veterinary",
+                "name": "Red Bank Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8851496217,
+            "lat": 40.9226828,
+            "lon": -74.3053324,
+            "tags": {
+                "addr:city": "Lincoln Park",
+                "addr:housenumber": "7",
+                "addr:postcode": "07035",
+                "addr:state": "NJ",
+                "addr:street": "Boonton Turnpike",
+                "amenity": "veterinary",
+                "name": "Complete Veterinary Care",
+                "phone": "+1-973-832-7411",
+                "survey:date": "2021-06-20",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8961557116,
+            "lat": 40.9897951,
+            "lon": -74.2800406,
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "2411",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Paterson-Hamburg Turnpike",
+                "addr:unit": "A",
+                "amenity": "veterinary",
+                "name": "Jones Carole G DVM"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8997820804,
+            "lat": 40.9262898,
+            "lon": -74.2712621,
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "44",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Newark Pompton Turnpike",
+                "amenity": "veterinary",
+                "name": "Wishing Well Veterinary Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8997820805,
+            "lat": 40.926326,
+            "lon": -74.271283,
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "44",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Newark Pompton Turnpike",
+                "amenity": "veterinary",
+                "name": "Lisa M. Confessore, D.V.M."
+            }
+        },
+        {
+            "type": "node",
+            "id": 9202040608,
+            "lat": 40.9131271,
+            "lon": -74.2632911,
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "36",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Mountainview Boulevard",
+                "amenity": "veterinary",
+                "name": "Animal Dermatology & Allergy Specialists (Formerly Riverdale Veterinary Dermatology)"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9364519737,
+            "lat": 40.9478015,
+            "lon": -74.7991715,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Tranquility Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9635655236,
+            "lat": 39.4082044,
+            "lon": -75.1102905,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Clinic of Millville",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10790323272,
+            "lat": 40.4081586,
+            "lon": -74.7029597,
+            "tags": {
+                "addr:city": "Skillman",
+                "addr:housenumber": "390",
+                "addr:postcode": "08558",
+                "addr:state": "NJ",
+                "addr:street": "Georgetown-Franklin Turnpike",
+                "amenity": "veterinary",
+                "name": "Progressive Vetrinary Care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10870919440,
+            "lat": 40.8753494,
+            "lon": -74.2022502,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Eye Center of New Jersey",
+                "website": "https://www.aecofnj.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11073955837,
+            "lat": 40.3094924,
+            "lon": -74.6602713,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11378590117,
+            "lat": 39.9673707,
+            "lon": -74.2257895,
+            "tags": {
+                "addr:street": "Route 37 West",
+                "amenity": "veterinary",
+                "check_date": "2023-11-26",
+                "name": "Priority Vet"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11384407669,
+            "lat": 40.5951187,
+            "lon": -75.1102493,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11423271372,
+            "lat": 40.7537294,
+            "lon": -74.0294729,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Veterinary Emergency Group (VEG)"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11481002488,
+            "lat": 40.9766892,
+            "lon": -74.9671055,
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospitals",
+                "brand:wikidata": "Q7906620",
+                "name": "VCA Blairstown Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11816514939,
+            "lat": 39.9756514,
+            "lon": -74.5799187,
+            "tags": {
+                "addr:city": "Browns Mills",
+                "addr:housenumber": "18",
+                "addr:postcode": "08015",
+                "addr:state": "NJ",
+                "addr:street": "Broadway Street",
+                "addr:unit": "R",
+                "amenity": "veterinary",
+                "check_date": "2026-07-03",
+                "contact:facebook": "https://www.facebook.com/millsvetcare/",
+                "name": "Mills Veterinary Care",
+                "opening_hours": "Tu,Th 10:00-20:00; We,Fr 09:00-17:00",
+                "phone": "+1 609-735-6160",
+                "website": "https://www.millsvetcare.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11947254495,
+            "lat": 39.9497853,
+            "lon": -74.1262687,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11979354966,
+            "lat": 39.9162454,
+            "lon": -75.0897737,
+            "tags": {
+                "addr:city": "Collingswood",
+                "addr:postcode": "08107",
+                "addr:state": "NJ",
+                "amenity": "veterinary",
+                "check_date": "2024-06-13",
+                "contact:facebook": "https://www.facebook.com/rothmananimalhopsital/",
+                "name": "Rothman Animal Hospital",
+                "opening_hours": "Mo,We 08:00-21:00; Tu,Th 08:00-19:00; Fr 08:00-19:30; Sa 08:00-15:00; Su off",
+                "phone": "+1 856-854-7575",
+                "website": "https://rothmananimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12118518601,
+            "lat": 40.9906391,
+            "lon": -74.3841335,
+            "tags": {
+                "addr:housenumber": "160",
+                "addr:postcode": "07405",
+                "addr:street": "Kinnelon Road",
+                "amenity": "veterinary",
+                "name": "Kinnelon Veterinary Hospital",
+                "phone": "+1 973-492-5413",
+                "website": "https://www.kinnelonveterinary.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12154584317,
+            "lat": 39.2575827,
+            "lon": -74.6537002,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Beach Buddies Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12160542276,
+            "lat": 40.7288314,
+            "lon": -74.0430692,
+            "tags": {
+                "addr:city": "Jersey City",
+                "addr:housenumber": "229",
+                "addr:postcode": "07302",
+                "addr:state": "NJ",
+                "addr:street": "10th Street",
+                "amenity": "veterinary",
+                "contact:facebook": "sagevetcenter",
+                "contact:instagram": "sagevetcenternj",
+                "name": "Sage Veterinary Center",
+                "opening_hours": "Mo, Th 09:00-19:30; Tu,We,Fr 09:00-18:00; Sa 09:00-13:00; Su closed",
+                "phone": "+1-201-499-1101",
+                "website": "https://sagevetcenter.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12207679930,
+            "lat": 40.0582771,
+            "lon": -74.1476705,
+            "tags": {
+                "addr:city": "Brick",
+                "addr:housenumber": "588",
+                "addr:postcode": "08723",
+                "addr:state": "NJ",
+                "addr:street": "NJ Route 70",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "check_date": "2026-07-13",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-17:00",
+                "phone": "+1 732-279-0444",
+                "website": "https://www.banfield.com/locations/veterinarians/nj/brick/bik"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12257347264,
+            "lat": 41.2786261,
+            "lon": -74.7979482,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12257462210,
+            "lat": 41.1265712,
+            "lon": -74.7219735,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12259584716,
+            "lat": 40.6693454,
+            "lon": -74.6449038,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Tarheel Total Pet Care",
+                "phone": "+1 908-234-0644",
+                "website": "https://tarheeltotalpetcare.net/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12353238131,
+            "lat": 40.2961577,
+            "lon": -74.5174325,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Cranbury Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12401316612,
+            "lat": 40.9452731,
+            "lon": -74.2052954,
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "197",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Paterson-Hamburg Turnpike",
+                "addr:unit": "2",
+                "amenity": "veterinary",
+                "name": "Riedel Gabriele DVM"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12563210163,
+            "lat": 41.0787843,
+            "lon": -74.7349911,
+            "tags": {
+                "addr:city": "Newton",
+                "addr:housenumber": "116",
+                "addr:street": "Hampton House Rd",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Newton Veterinary Hospital",
+                "phone": "+1 973-821-4241"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12578608048,
+            "lat": 40.1793421,
+            "lon": -74.2432355,
+            "tags": {
+                "addr:city": "Howell Township",
+                "addr:country": "US",
+                "addr:housenumber": "2461",
+                "addr:postcode": "07731",
+                "addr:state": "NJ",
+                "addr:street": "US Highway 9",
+                "amenity": "veterinary",
+                "contact:email": "howellanimalhospital1212@gmail.com",
+                "contact:facebook": "HowellAnimalHospital",
+                "contact:phone": "+1 732 577-0066",
+                "contact:website": "https://howellanimalhospital.net",
+                "contact:youtube": "https://youtube.com/user/HowellAnimalHospital",
+                "description": "At Howell Animal Hospital in Howell Township, NJ, we are dedicated to providing compassionate, comprehensive care for pets in Howell, NJ, and surrounding areas. Our experienced and trained veterinary team offers a wide range of services, including wellnes",
+                "name": "Howell Animal Hospital",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-15:00; Su off"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12596993747,
+            "lat": 41.0756977,
+            "lon": -74.279436,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13031142590,
+            "lat": 40.8739427,
+            "lon": -74.063991,
+            "tags": {
+                "addr:city": "Hackensack",
+                "addr:housenumber": "139",
+                "addr:postcode": "07601",
+                "addr:state": "NJ",
+                "addr:street": "NJ-17 South",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/Meadowlandsvet1",
+                "contact:instagram": "https://www.instagram.com/meadowlandsvethospital",
+                "email": "info@meadowlandsvethospital.com",
+                "language:en": "yes",
+                "name": "Meadowlands Veterinary Hospital",
+                "opening_hours": "Mo-Fr 09:00-19:00,Sa 09:00-18:00,Su 10:00-18:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "website": "https://www.meadowlandsvethospital.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13034008510,
+            "lat": 41.0310138,
+            "lon": -74.1301805,
+            "tags": {
+                "addr:city": "Allendale",
+                "addr:housenumber": "120",
+                "addr:postcode": "07401",
+                "addr:state": "NJ",
+                "addr:street": "West Allendale Avenue",
+                "amenity": "veterinary",
+                "contact:facebook": "AllendaleVet",
+                "contact:instagram": "allendalevet",
+                "email": "info@allendalevet.com",
+                "language:en": "yes",
+                "name": "Allendale Veterinary Hospital",
+                "opening_hours": "Mo,Fr 08:00-18:00, Tu, Th 09:00-19:00, We 08:00-17:00, Sa 08:00-14:00",
+                "phone": "+1-201-327-1045",
+                "website": "https://www.allendalevet.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13433137992,
+            "lat": 40.5409851,
+            "lon": -74.3658556,
+            "tags": {
+                "addr:city": "Metuchen",
+                "addr:housenumber": "349",
+                "addr:postcode": "08840",
+                "addr:state": "NJ",
+                "addr:street": "Lake Avenue",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa-Su 08:00-17:00",
+                "phone": "+1 732-248-6123"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13604460801,
+            "lat": 40.0187113,
+            "lon": -74.8073615,
+            "tags": {
+                "addr:housenumber": "102",
+                "addr:postcode": "08060",
+                "addr:street": "Burrs Road",
+                "amenity": "veterinary",
+                "name": "Bryan Animal Hospital",
+                "website": "http://www.bryananimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13743505202,
+            "lat": 40.672611,
+            "lon": -74.2140474,
+            "tags": {
+                "addr:housenumber": "444",
+                "addr:postcode": "07208",
+                "addr:street": "North Broad Street",
+                "amenity": "veterinary",
+                "check_date": "2026-04-19",
+                "check_date:opening_hours": "2026-04-19",
+                "email": "vip.vetcare@gmail.com",
+                "name": "V.I.P. Animal Hospital",
+                "opening_hours": "Tu-Th 09:00-15:00; Mo, Fr 09:00-17:01",
+                "phone": "+19082897387",
+                "website": "http://vipanimalhospital.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13838203217,
+            "lat": 40.7818496,
+            "lon": -74.5072759,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Morristown Animal Hospital",
+                "website": "https://morristownvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13926165664,
+            "lat": 40.6727354,
+            "lon": -74.7496469,
+            "tags": {
+                "addr:city": "Oldwick",
+                "addr:housenumber": "57",
+                "addr:postcode": "08804",
+                "addr:state": "NJ",
+                "addr:street": "Old Turnpike Road",
+                "amenity": "veterinary",
+                "email": "algerveterinaryservices@hotmail.com",
+                "name": "Alger Veterinary Services",
+                "phone": "+1-908-840-4071",
+                "website": "http://www.algerveterinaryservices.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13945736101,
+            "lat": 40.3344248,
+            "lon": -74.2422447,
+            "tags": {
+                "addr:city": "Marlboro",
+                "addr:housenumber": "480",
+                "addr:postcode": "07746",
+                "addr:state": "NJ",
+                "addr:street": "Newman Springs Road",
+                "amenity": "veterinary",
+                "contact:facebook": "companioncareanimal",
+                "contact:instagram": "companioncareanimal",
+                "email": "info@companioncareanimalclinic.com",
+                "internet_access": "wlan",
+                "name": "Companion Care Animal Clinic",
+                "opening_hours": "Mo-Fr 09:00-17:00",
+                "phone": "+1-732-946-8339",
+                "website": "https://companioncareanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14014945591,
+            "lat": 40.9887149,
+            "lon": -74.3244336,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Bark Avenue Veterinary Services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14073686607,
+            "lat": 40.7570384,
+            "lon": -74.1671276,
+            "tags": {
+                "addr:city": "Newark",
+                "addr:housenumber": "1415",
+                "addr:postcode": "07104",
+                "addr:state": "NJ",
+                "addr:street": "McCarter Highway",
+                "amenity": "veterinary",
+                "name": "Veterinarian Pet Alliance"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14089002345,
+            "lat": 40.8385612,
+            "lon": -74.207299,
+            "tags": {
+                "addr:city": "Montclair",
+                "addr:housenumber": "545",
+                "addr:postcode": "07043",
+                "addr:state": "NJ",
+                "addr:street": "Valley Road",
+                "amenity": "veterinary",
+                "check_date": "2026-08-10",
+                "name": "Katz & Dogs Animal Hospital",
+                "opening_hours": "Mo 09:00-19:00; Tu 09:00-17:00; We off; Th 09:00-17:00; Fr 09:00-16:00",
+                "phone": "+1 973-509-7297",
+                "website": "http://katzanddogs.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14089111298,
+            "lat": 40.8306897,
+            "lon": -74.2050053,
+            "tags": {
+                "addr:city": "Montclair",
+                "addr:housenumber": "124",
+                "addr:postcode": "07043",
+                "addr:state": "NJ",
+                "addr:street": "Watchung Avenue",
+                "amenity": "veterinary",
+                "check_date": "2026-08-10",
+                "name": "Montclair Animal Hospital",
+                "opening_hours": "Mo 08:00-19:00; Tu-Fr 08:00-17:00; Sa 08:00-13:00",
+                "operator": "Verona & Montclair Animal Hospitals",
+                "phone": "+1 973-744-1942",
+                "website": "https://www.vahmah.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14089926595,
+            "lat": 40.8137753,
+            "lon": -74.2160097,
+            "tags": {
+                "addr:city": "Montclair",
+                "addr:housenumber": "2",
+                "addr:postcode": "07042",
+                "addr:state": "NJ",
+                "addr:street": "Forest Street",
+                "amenity": "veterinary",
+                "check_date": "2026-08-10",
+                "name": "Dr. Brenda King Veterinary Office"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14097625078,
+            "lat": 40.460868,
+            "lon": -74.4564286,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14112863641,
+            "lat": 40.4344289,
+            "lon": -74.4864339,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 99139144,
+            "center": {
+                "lat": 39.9060928,
+                "lon": -74.9686006
+            },
+            "nodes": [
+                1146693506,
+                1146693493,
+                1146693507,
+                5078239352,
+                1146693506
+            ],
+            "tags": {
+                "addr:city": "Cherry Hill",
+                "addr:country": "US",
+                "addr:housenumber": "1886",
+                "addr:postcode": "08003-2026",
+                "addr:state": "NJ",
+                "addr:street": "Greentree Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "njgin:guid": "5506804B-6226-4AA4-B0A6-156313DDBF0A"
+            }
+        },
+        {
+            "type": "way",
+            "id": 202426641,
+            "center": {
+                "lat": 40.5422002,
+                "lon": -74.36382
+            },
+            "nodes": [
+                2123945823,
+                2123945944,
+                2123945887,
+                2123945910,
+                2123945823
+            ],
+            "tags": {
+                "addr:city": "Metuchen",
+                "addr:housenumber": "69",
+                "addr:postcode": "08840",
+                "addr:state": "NJ",
+                "addr:street": "Pearl Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Metuchen Veterinary Hospital",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 246693047,
+            "center": {
+                "lat": 40.9897588,
+                "lon": -74.279977
+            },
+            "nodes": [
+                2536995397,
+                2536995398,
+                2536995400,
+                2536995401,
+                2536995402,
+                2536995403,
+                2536995397
+            ],
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "2411",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Paterson-Hamburg Turnpike",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Wayne Animal Hosptial"
+            }
+        },
+        {
+            "type": "way",
+            "id": 251410800,
+            "center": {
+                "lat": 40.7003017,
+                "lon": -74.4039212
+            },
+            "nodes": [
+                2576352905,
+                2576352908,
+                2576352911,
+                2576352914,
+                2576352915,
+                2576352916,
+                2576352917,
+                2576352918,
+                2576352919,
+                2576352920,
+                2576352905
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Murry Hill Veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 259854311,
+            "center": {
+                "lat": 40.9053966,
+                "lon": -74.6672954
+            },
+            "nodes": [
+                2653128683,
+                2653128686,
+                2653128688,
+                2653128689,
+                2653128691,
+                2653128692,
+                2653128694,
+                2653128695,
+                2653128683
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Care Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 261175331,
+            "center": {
+                "lat": 40.9985943,
+                "lon": -74.3037741
+            },
+            "nodes": [
+                2668032950,
+                2668032952,
+                2668032954,
+                2668032956,
+                2668032950
+            ],
+            "tags": {
+                "addr:city": "Riverdale",
+                "addr:housenumber": "62",
+                "addr:postcode": "07457",
+                "addr:state": "NJ",
+                "addr:street": "Paterson-Hamburg Turnpike",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Care Center of North Jersey"
+            }
+        },
+        {
+            "type": "way",
+            "id": 266432570,
+            "center": {
+                "lat": 39.9194861,
+                "lon": -75.0902389
+            },
+            "nodes": [
+                2719893520,
+                2719893524,
+                2719893521,
+                2719893518,
+                2719893520
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Collingswood Veterinery Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 287804852,
+            "center": {
+                "lat": 40.7205396,
+                "lon": -74.3335559
+            },
+            "nodes": [
+                2913677957,
+                2913677958,
+                2913677959,
+                2913677960,
+                2913677961,
+                2913677962,
+                2913677963,
+                2913677964,
+                2913677965,
+                2913677966,
+                2913677967,
+                2913677968,
+                2913677969,
+                2913677970,
+                2913677971,
+                2913677972,
+                2913677973,
+                2913677974,
+                2913677975,
+                2913677976,
+                2913677977,
+                2913677978,
+                2913677957
+            ],
+            "tags": {
+                "addr:housenumber": "16",
+                "addr:street": "Morris Turnpike",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Summit Dog & Cat Hospital",
+                "phone": "+1-908-273-2200",
+                "website": "https://www.summitdogandcat.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 331608709,
+            "center": {
+                "lat": 40.6969705,
+                "lon": -74.5014029
+            },
+            "nodes": [
+                3387017471,
+                3387017458,
+                3387017452,
+                3387017473,
+                3387017471
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bird Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 332771267,
+            "center": {
+                "lat": 40.9837191,
+                "lon": -74.1409757
+            },
+            "nodes": [
+                3399051347,
+                3399051348,
+                3399051349,
+                3399051350,
+                3399051347
+            ],
+            "tags": {
+                "addr:city": "Midland Park",
+                "addr:housenumber": "70",
+                "addr:street": "Goffle Road",
+                "addr:unit": "1",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ridgewood Veterinary Hospital",
+                "phone": "+1-201-445-0030"
+            }
+        },
+        {
+            "type": "way",
+            "id": 344869620,
+            "center": {
+                "lat": 40.5641058,
+                "lon": -74.5062087
+            },
+            "nodes": [
+                3516002084,
+                9871016804,
+                3516002087,
+                3516002088,
+                3516002089,
+                3516002084
+            ],
+            "tags": {
+                "addr:city": "Middlesex",
+                "addr:housenumber": "288",
+                "addr:postcode": "08846",
+                "addr:state": "NJ",
+                "addr:street": "Lincoln Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Camp Bow Wow"
+            }
+        },
+        {
+            "type": "way",
+            "id": 383645867,
+            "center": {
+                "lat": 39.9545488,
+                "lon": -74.9171206
+            },
+            "nodes": [
+                3869560229,
+                3869560247,
+                3869560253,
+                3869560250,
+                3869560227,
+                3869560226,
+                3869560255,
+                3869560245,
+                3869560223,
+                3869560220,
+                3869560213,
+                3869560237,
+                3869560229
+            ],
+            "tags": {
+                "addr:city": "Mount Laurel",
+                "addr:housenumber": "220",
+                "addr:postcode": "08054",
+                "addr:street": "Mount Laurel Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mount Laurel Animal Hospital",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 436035013,
+            "center": {
+                "lat": 39.8585663,
+                "lon": -74.9223167
+            },
+            "nodes": [
+                4339189058,
+                4339189054,
+                4339189055,
+                4339189057,
+                4339189056,
+                4339189059,
+                4339189058
+            ],
+            "tags": {
+                "addr:city": "Evesham",
+                "addr:country": "US",
+                "addr:housenumber": "989",
+                "addr:postcode": "08053",
+                "addr:state": "NJ",
+                "addr:street": "State Route 73",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "County Line Veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 436035872,
+            "center": {
+                "lat": 39.8659177,
+                "lon": -74.9212443
+            },
+            "nodes": [
+                4339194875,
+                4408996851,
+                4339194877,
+                4339194874,
+                4339194873,
+                4339194875
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Evesham Veterinary Clinic",
+                "phone": "+1-856-983-9440",
+                "website": "https://www.eveshamvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 440673125,
+            "center": {
+                "lat": 39.9097376,
+                "lon": -74.9896325
+            },
+            "nodes": [
+                4384526840,
+                4384526841,
+                4384526842,
+                4384526843,
+                4384526844,
+                4384526845,
+                4384526846,
+                4384526847,
+                4384526848,
+                4384526849,
+                4384526850,
+                4384526851,
+                4384526852,
+                4384526853,
+                4384526854,
+                4384526860,
+                4384526855,
+                4384526840
+            ],
+            "tags": {
+                "addr:city": "Cherry Hill",
+                "addr:housenumber": "1425",
+                "addr:postcode": "08034",
+                "addr:state": "NJ",
+                "addr:street": "State Route 70",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cherry Hill Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 446617861,
+            "center": {
+                "lat": 39.9305497,
+                "lon": -75.0313435
+            },
+            "nodes": [
+                4438566163,
+                4438566164,
+                4438566165,
+                4438566166,
+                4438566163
+            ],
+            "tags": {
+                "addr:city": "Cherry Hill",
+                "addr:housenumber": "628",
+                "addr:postcode": "08002",
+                "addr:state": "NJ",
+                "addr:street": "Haddonfield Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2026-04-07",
+                "name": "Garden State Animal Hospital",
+                "opening_hours": "Mo-Th 08:00-19:30; Fr 08:00-15:00; Sa 08:00-14:00",
+                "phone": "+1 856-662-4407",
+                "website": "https://vcahospitals.com/garden-state"
+            }
+        },
+        {
+            "type": "way",
+            "id": 457794172,
+            "center": {
+                "lat": 40.5554365,
+                "lon": -74.282969
+            },
+            "nodes": [
+                4538847082,
+                4538847081,
+                4538847080,
+                4538847079,
+                4538847082
+            ],
+            "tags": {
+                "addr:city": "Woodbridge",
+                "addr:housenumber": "424",
+                "addr:postcode": "07095",
+                "addr:street": "Amboy Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Woodbridge Veterinary Group"
+            }
+        },
+        {
+            "type": "way",
+            "id": 492651260,
+            "center": {
+                "lat": 40.6501654,
+                "lon": -74.3366108
+            },
+            "nodes": [
+                4846388076,
+                4846388077,
+                4846388078,
+                4846388079,
+                4846388080,
+                4846388081,
+                4846388076
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 495236800,
+            "center": {
+                "lat": 40.2142724,
+                "lon": -74.6228239
+            },
+            "nodes": [
+                4870139957,
+                4870139958,
+                4870139959,
+                4870139960,
+                4870139957
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 498360333,
+            "center": {
+                "lat": 40.668333,
+                "lon": -75.1576674
+            },
+            "nodes": [
+                4898073379,
+                4898073380,
+                4898073381,
+                4898073382,
+                4898073383,
+                4898073384,
+                4898073385,
+                4898073386,
+                4898073379
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Alpha Veterinary Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 512147307,
+            "center": {
+                "lat": 40.2664223,
+                "lon": -74.8007007
+            },
+            "nodes": [
+                5008301055,
+                5008301056,
+                5008301057,
+                5008301058,
+                5008301059,
+                5008301060,
+                5008301055
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ewing Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 514630737,
+            "center": {
+                "lat": 40.2656482,
+                "lon": -74.8185825
+            },
+            "nodes": [
+                5027439150,
+                5027439151,
+                5027439152,
+                5027439153,
+                5027439154,
+                5027439155,
+                5027439156,
+                5027439157,
+                5027439150
+            ],
+            "tags": {
+                "addr:city": "Trenton",
+                "addr:housenumber": "568",
+                "addr:postcode": "08628",
+                "addr:state": "NJ",
+                "addr:street": "Grand Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2026-05-15",
+                "contact:facebook": "https://www.facebook.com/WestTrentonAnimalVets/",
+                "name": "West Trenton Animal Hospital",
+                "opening_hours": "Mo,Fr 07:00-19:00; Tu-Th 07:00-18:00; Sa 07:00-14:00",
+                "phone": "+1 609-771-0995",
+                "website": "https://westtrentonanimalhosp.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 518603269,
+            "center": {
+                "lat": 40.4335718,
+                "lon": -74.3899291
+            },
+            "nodes": [
+                5058505889,
+                5058505890,
+                5058505891,
+                9181363275,
+                9181363274,
+                5058505892,
+                9181363286,
+                9181363273,
+                5058505893,
+                5058505894,
+                9181363272,
+                5058505895,
+                5058505896,
+                9181363271,
+                5058505889
+            ],
+            "tags": {
+                "addr:city": "East Brunswick",
+                "addr:housenumber": "44",
+                "addr:postcode": "08816",
+                "addr:state": "NJ",
+                "addr:street": "Arthur Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2024-09-07",
+                "contact:facebook": "https://www.facebook.com/EastBrunswickAH/",
+                "name": "East Brunswick Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:00-17:00; Su 09:00-16:00",
+                "phone": "+1 732-254-1212",
+                "website": "https://eastbrunswickanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 545748943,
+            "center": {
+                "lat": 40.5053495,
+                "lon": -74.8440436
+            },
+            "nodes": [
+                5274401867,
+                5274401868,
+                5274401869,
+                5274401870,
+                5274401867
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Flemington Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 545748944,
+            "center": {
+                "lat": 40.5055726,
+                "lon": -74.8452365
+            },
+            "nodes": [
+                5274401871,
+                5274401872,
+                5274401873,
+                5274401874,
+                5274401875,
+                5274401876,
+                5274401871
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Voorhees Corner Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 557678997,
+            "center": {
+                "lat": 40.8639248,
+                "lon": -74.0767431
+            },
+            "nodes": [
+                5378161600,
+                5378161601,
+                5378161602,
+                9703702484,
+                5378161603,
+                5378161600
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 560873708,
+            "center": {
+                "lat": 40.8604911,
+                "lon": -74.0792886
+            },
+            "nodes": [
+                5408932928,
+                5408932929,
+                5408932930,
+                9690778831,
+                5408932928
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 573229586,
+            "center": {
+                "lat": 40.9391238,
+                "lon": -74.2759992
+            },
+            "nodes": [
+                5506032200,
+                5506032201,
+                5506032202,
+                5506032203,
+                5506032204,
+                5506032205,
+                5506032200
+            ],
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "455",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Newark-Pompton Turnpike",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "contact:email": "info@packanackanimalhospital.com",
+                "contact:facebook": "https://www.facebook.com/PackanackAnimalHospital/",
+                "contact:instagram": "https://www.instagram.com/packanackanimal/",
+                "contact:phone": "+1-973-305-3652",
+                "contact:website": "https://www.packanackanimalhospital.com/",
+                "name": "Packanack Animal Hospital",
+                "opening_hours": "Mo, We-Th 08:00-20:00; Tu 08:00-19:00; Fr 08:00-18:00, Sa 08:00-15:00",
+                "operator": "Lisa M. Confessore, D.V.M.",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 587531554,
+            "center": {
+                "lat": 40.5714782,
+                "lon": -74.6266352
+            },
+            "nodes": [
+                5612008596,
+                5612008597,
+                5612008598,
+                5612008599,
+                5612008596
+            ],
+            "tags": {
+                "addr:city": "Raritan",
+                "addr:housenumber": "21",
+                "addr:postcode": "08869",
+                "addr:state": "NJ",
+                "addr:street": "US-206",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "AnimERge Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 589543799,
+            "center": {
+                "lat": 40.9617081,
+                "lon": -74.247877
+            },
+            "nodes": [
+                5629682343,
+                5629682344,
+                5629682345,
+                5629682346,
+                5629682343
+            ],
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "1302",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Paterson-Hamburg Turnpike",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Tri-County Animal Hospital",
+                "old_craft": "gardener",
+                "old_name": "Monello Landscape Industries, LLC"
+            }
+        },
+        {
+            "type": "way",
+            "id": 589903389,
+            "center": {
+                "lat": 40.9658106,
+                "lon": -74.2553735
+            },
+            "nodes": [
+                5632862075,
+                5632862076,
+                5632862077,
+                5632862078,
+                5632862079,
+                5632862080,
+                5632862075
+            ],
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "1510",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Paterson-Hamburg Turnpike",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Companion Veterinary Hospital of Wayne"
+            }
+        },
+        {
+            "type": "way",
+            "id": 610935531,
+            "center": {
+                "lat": 40.6057028,
+                "lon": -74.6858113
+            },
+            "nodes": [
+                5785405815,
+                5785405816,
+                5785405817,
+                5785405818,
+                5785405815
+            ],
+            "tags": {
+                "addr:city": "Branchburg Township",
+                "addr:housenumber": "1167",
+                "addr:postcode": "08876",
+                "addr:state": "NJ",
+                "addr:street": "Easton Turnpike",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Branchburg Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 616335700,
+            "center": {
+                "lat": 40.141952,
+                "lon": -74.061247
+            },
+            "nodes": [
+                5826140091,
+                5827421583,
+                5827421582,
+                5827421581,
+                5827421580,
+                5827421579,
+                5827421578,
+                5827421577,
+                5827421576,
+                5827421575,
+                5827421574,
+                5827421573,
+                5827421572,
+                5827421571,
+                5827421570,
+                5827421569,
+                5826140091
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Sea Girt Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 650384021,
+            "center": {
+                "lat": 40.814268,
+                "lon": -74.1096769
+            },
+            "nodes": [
+                6101423302,
+                12688600511,
+                12688600510,
+                6101423303,
+                12688600509,
+                6101423304,
+                6101423305,
+                6101423302
+            ],
+            "tags": {
+                "addr:city": "Rutherford",
+                "addr:housenumber": "755",
+                "addr:postcode": "07070",
+                "addr:state": "NJ",
+                "addr:street": "Rutherford Avenue",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "building:levels": "1",
+                "name": "Rutherford Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 702252417,
+            "center": {
+                "lat": 39.415865,
+                "lon": -75.0420869
+            },
+            "nodes": [
+                6594675961,
+                6594675956,
+                4739128557,
+                4739128556,
+                489007740,
+                6594675961
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "landuse": "commercial"
+            }
+        },
+        {
+            "type": "way",
+            "id": 713188654,
+            "center": {
+                "lat": 40.6568969,
+                "lon": -74.3019326
+            },
+            "nodes": [
+                6704405037,
+                6725460770,
+                6704405038,
+                6704405039,
+                6704405037
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cranford Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 731109858,
+            "center": {
+                "lat": 40.477398,
+                "lon": -74.6563583
+            },
+            "nodes": [
+                6847876382,
+                6847876381,
+                6847876380,
+                6847876379,
+                6847876382
+            ],
+            "tags": {
+                "addr:city": "Hillsborough",
+                "addr:housenumber": "872",
+                "addr:postcode": "08844",
+                "addr:state": "NJ",
+                "addr:street": "US Highway 206",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 746393007,
+            "center": {
+                "lat": 40.5792256,
+                "lon": -74.5976416
+            },
+            "nodes": [
+                6984977639,
+                6984977636,
+                6984977637,
+                6984977634,
+                6984977633,
+                6984977632,
+                6984977635,
+                6984977638,
+                6984977639
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Somerset Veterinary Group"
+            }
+        },
+        {
+            "type": "way",
+            "id": 758280528,
+            "center": {
+                "lat": 40.8842986,
+                "lon": -74.7299276
+            },
+            "nodes": [
+                7081630173,
+                7081630174,
+                11824063617,
+                7081630175,
+                7081630179,
+                7081630180,
+                11259576084,
+                7081630176,
+                11259576083,
+                7081630177,
+                7081630178,
+                7081630181,
+                7081630182,
+                7081630173
+            ],
+            "tags": {
+                "addr:city": "Budd Lake",
+                "addr:housenumber": "104",
+                "addr:postcode": "07828",
+                "addr:state": "NJ",
+                "addr:street": "US 46",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mt. Olive Veterinary Hospital",
+                "phone": "+1 973-691-9333",
+                "website": "https://mtolivevet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 758545333,
+            "center": {
+                "lat": 40.786676,
+                "lon": -74.7000213
+            },
+            "nodes": [
+                7084100311,
+                7084100312,
+                7084100313,
+                7084100314,
+                7084100315,
+                7084100316,
+                12157953007,
+                12157953006,
+                12157953009,
+                7084100317,
+                12157953008,
+                7084100318,
+                7084100311
+            ],
+            "tags": {
+                "addr:city": "Chester",
+                "addr:housenumber": "114",
+                "addr:postcode": "07930",
+                "addr:state": "NJ",
+                "addr:street": "US Highway 206",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "contact:facebook": "https://www.facebook.com/BlackRiverVet/",
+                "email": "info@brvh-nj.com",
+                "name": "Black River Veterinary Hospital",
+                "phone": "+1-908-879-1000",
+                "website": "https://brvh-nj.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 770046728,
+            "center": {
+                "lat": 40.4394293,
+                "lon": -74.6628622
+            },
+            "nodes": [
+                7188703463,
+                7188703462,
+                7188703456,
+                7188703455,
+                7188703454,
+                7188703457,
+                7188703461,
+                7188703458,
+                7188703459,
+                7188703460,
+                7188703452,
+                7188703448,
+                7188703447,
+                7188703446,
+                7188703449,
+                7188703451,
+                7188703443,
+                7188703442,
+                7188703450,
+                7188703445,
+                7188703444,
+                7188703453,
+                7188703463
+            ],
+            "tags": {
+                "addr:city": "Montgomery",
+                "addr:housenumber": "10",
+                "addr:postcode": "08502",
+                "addr:state": "NJ",
+                "addr:street": "Sunset Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Harlingen Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 787292175,
+            "center": {
+                "lat": 40.6808918,
+                "lon": -74.6440071
+            },
+            "nodes": [
+                7360216383,
+                7360216384,
+                7360223985,
+                7360223986,
+                7360223987,
+                7360223988,
+                7360223989,
+                7360223990,
+                7360216383
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 788931835,
+            "center": {
+                "lat": 40.7247592,
+                "lon": -74.7771536
+            },
+            "nodes": [
+                7375931966,
+                7375931967,
+                7375931968,
+                7375931969,
+                7375931970,
+                7375931971,
+                7375931972,
+                7375931973,
+                7375931974,
+                7375931975,
+                7375931976,
+                7375931977,
+                7375931978,
+                7375931979,
+                7375931980,
+                7375931981,
+                7375931982,
+                7375931983,
+                7375931966
+            ],
+            "tags": {
+                "addr:city": "Califon",
+                "addr:housenumber": "118",
+                "addr:postcode": "07830",
+                "addr:state": "NJ",
+                "addr:street": "Fairmount Road West",
+                "amenity": "veterinary",
+                "building": "farm",
+                "name": "Running 'S' Equine Veterinary Services"
+            }
+        },
+        {
+            "type": "way",
+            "id": 797578497,
+            "center": {
+                "lat": 40.2771449,
+                "lon": -74.1694433
+            },
+            "nodes": [
+                7459459057,
+                7459459058,
+                7459459059,
+                7459459060,
+                7459459061,
+                7459459062,
+                7459459063,
+                7459459064,
+                7459459065,
+                7459459066,
+                7459459067,
+                7459459057
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 797736349,
+            "center": {
+                "lat": 39.755217,
+                "lon": -75.0792725
+            },
+            "nodes": [
+                7461079512,
+                7461079513,
+                7461079514,
+                7461079515,
+                7461079516,
+                7461079517,
+                7461079512
+            ],
+            "tags": {
+                "addr:city": "Sewell",
+                "addr:housenumber": "354",
+                "addr:postcode": "08080",
+                "addr:state": "NJ",
+                "addr:street": "Egg Harbor Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Gloucester County Animal Hospital",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 810874258,
+            "center": {
+                "lat": 40.4061978,
+                "lon": -74.334229
+            },
+            "nodes": [
+                7581322572,
+                7581322573,
+                7581322574,
+                7581322575,
+                7581322572
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Route 516 Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 816060522,
+            "center": {
+                "lat": 40.8323432,
+                "lon": -74.3423425
+            },
+            "nodes": [
+                7621388285,
+                7621388286,
+                7621388287,
+                7621388288,
+                7621388285
+            ],
+            "tags": {
+                "addr:housenumber": "33",
+                "addr:postcode": "07936",
+                "addr:street": "Eagle Rock Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Veterinary Center of Morris County",
+                "opening_hours": "Mo-Fr 07:00-19:00; Sa-Su 07:00-16:00",
+                "phone": "+19739919161",
+                "website": "https://www.vetcentermorriscounty.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 820347456,
+            "center": {
+                "lat": 40.7862059,
+                "lon": -74.1819339
+            },
+            "nodes": [
+                7660076887,
+                7660076894,
+                7660076893,
+                7660076888,
+                7660076889,
+                7660076890,
+                7660076891,
+                7660076892,
+                7660076887
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Belleville Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 843758327,
+            "center": {
+                "lat": 40.9586648,
+                "lon": -74.2344241
+            },
+            "nodes": [
+                7870891236,
+                7870891237,
+                7870891238,
+                7870891239,
+                7870891236
+            ],
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "296",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Church Lane",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Wayne Hills Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 847712144,
+            "center": {
+                "lat": 40.8970254,
+                "lon": -74.2369082
+            },
+            "nodes": [
+                7909957029,
+                7909957030,
+                7909957031,
+                7909957032,
+                7909957033,
+                7909957034,
+                7909957035,
+                7909957036,
+                7909957037,
+                7909957038,
+                7909957039,
+                7909957040,
+                7909957041,
+                7909957042,
+                7909957029
+            ],
+            "tags": {
+                "addr:city": "Totowa",
+                "addr:housenumber": "819",
+                "addr:postcode": "07512",
+                "addr:state": "NJ",
+                "addr:street": "Riverview Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Totowa Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 885693298,
+            "center": {
+                "lat": 40.4783345,
+                "lon": -74.3091452
+            },
+            "nodes": [
+                8235862684,
+                8235862685,
+                8235862686,
+                8421078986,
+                8235862688,
+                8235862689,
+                8235862690,
+                8235862691,
+                8235862692,
+                13878902371,
+                8235862693,
+                13878902370,
+                8235862694,
+                8235862695,
+                8235862696,
+                8235862697,
+                8235862698,
+                8235862699,
+                8235862700,
+                8235862684
+            ],
+            "tags": {
+                "addr:city": "Sayreville",
+                "addr:housenumber": "1400",
+                "addr:postcode": "08872",
+                "addr:state": "NJ",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "info@sayrebrookveterinaryhospital.com",
+                "fax": "+1-732-727-3923",
+                "name": "Sayrebrook Veterinary Hospital",
+                "opening_hours": "Mo-Th 08:00-19:00; Fr-Sa 08:00-17:00; Su 08:00-14:00",
+                "phone": "+1-732-727-1303",
+                "website": "https://sayrebrookvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 913521729,
+            "center": {
+                "lat": 39.9021253,
+                "lon": -74.8281568
+            },
+            "nodes": [
+                8486068855,
+                8486068856,
+                8486068857,
+                8486068858,
+                8486068859,
+                8486068860,
+                8486068861,
+                8486068862,
+                8486068863,
+                8486068864,
+                8486068865,
+                8486068866,
+                8486068867,
+                8486068868,
+                8486068869,
+                8486068870,
+                8486068855
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "height": "6.3"
+            }
+        },
+        {
+            "type": "way",
+            "id": 931036436,
+            "center": {
+                "lat": 39.3569084,
+                "lon": -74.5726718
+            },
+            "nodes": [
+                8632276208,
+                8632276209,
+                8632276210,
+                8632276211,
+                8632276212,
+                8632276213,
+                8632276214,
+                8632276215,
+                8632276216,
+                8632308117,
+                8632276208
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Linwood Pet Hospital",
+                "opening_hours": "Mo-Su 08:00-24:00",
+                "phone": "+1 609-926-5300",
+                "website": "https://linwoodpethospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 954764165,
+            "center": {
+                "lat": 40.9079019,
+                "lon": -74.4162283
+            },
+            "nodes": [
+                8836900717,
+                8837148533,
+                8837148532,
+                8837148534,
+                8836900717
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Park View Veterinary Hospital",
+                "survey:date": "2021-06-15"
+            }
+        },
+        {
+            "type": "way",
+            "id": 955520048,
+            "center": {
+                "lat": 40.9215605,
+                "lon": -74.3448272
+            },
+            "nodes": [
+                8843570627,
+                8843570628,
+                8843570629,
+                8843570630,
+                8843570627
+            ],
+            "tags": {
+                "addr:city": "Towaco",
+                "addr:housenumber": "6",
+                "addr:postcode": "07082",
+                "addr:state": "NJ",
+                "addr:street": "Whitehall Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Montville Animal Hospital",
+                "opening_hours": "Su,PH off; Mo,Th 08:00-20:00; Tu,Fr 08:00-18:00; We 08:00-17:00; Sa 08:00-13:00",
+                "phone": "+1-973-335-8007"
+            }
+        },
+        {
+            "type": "way",
+            "id": 957241076,
+            "center": {
+                "lat": 40.8813672,
+                "lon": -74.3818802
+            },
+            "nodes": [
+                8857854955,
+                8857854954,
+                8857854951,
+                9054297451,
+                8857854952,
+                8857854955
+            ],
+            "tags": {
+                "addr:city": "Parsippany-Troy Hills Township",
+                "addr:housenumber": "84",
+                "addr:postcode": "07034",
+                "addr:state": "NJ",
+                "addr:street": "North Beverwyck Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "esri_USDOT_NewJersey"
+            }
+        },
+        {
+            "type": "way",
+            "id": 976789365,
+            "center": {
+                "lat": 40.4045838,
+                "lon": -74.5863588
+            },
+            "nodes": [
+                9039064172,
+                9039064173,
+                9039064174,
+                9039064175,
+                9039064172
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "County Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 993760289,
+            "center": {
+                "lat": 39.6709958,
+                "lon": -75.5040541
+            },
+            "nodes": [
+                9181260924,
+                9181260925,
+                9181260926,
+                9181260927,
+                9181260928,
+                9181260929,
+                9181260930,
+                9181260931,
+                9181260932,
+                9181260933,
+                9181260934,
+                9181260935,
+                9181260924
+            ],
+            "tags": {
+                "addr:city": "Pennsville",
+                "addr:housenumber": "296",
+                "addr:postcode": "08070",
+                "addr:state": "NJ",
+                "addr:street": "North Broadway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Churchtown Veterinary Associates",
+                "phone": "+1 856-678-3883",
+                "start_date": "1942"
+            }
+        },
+        {
+            "type": "way",
+            "id": 995135106,
+            "center": {
+                "lat": 39.620922,
+                "lon": -74.7794155
+            },
+            "nodes": [
+                9189226785,
+                9189226786,
+                9189226787,
+                9189226788,
+                9189226789,
+                9189226790,
+                9189226791,
+                9189226792,
+                9189226793,
+                9189226794,
+                9189226795,
+                9189226796,
+                9189226797,
+                9189226798,
+                9189226785
+            ],
+            "tags": {
+                "addr:city": "Hammonton",
+                "addr:country": "US",
+                "addr:housenumber": "811",
+                "addr:postcode": "08037",
+                "addr:state": "NJ",
+                "addr:street": "S Egg Harbor Rd",
+                "amenity": "veterinary",
+                "building": "healthcare",
+                "name": "Animal Clinic of Hammonton",
+                "phone": "+1-609-878-3725",
+                "website": "https://www.animalclinicofhammonton.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1002168910,
+            "center": {
+                "lat": 39.95012,
+                "lon": -74.9705742
+            },
+            "nodes": [
+                9249474211,
+                9249474212,
+                9249474213,
+                9249474214,
+                9249474215,
+                9249474216,
+                9249475817,
+                9249475818,
+                9249475819,
+                9249475820,
+                9249475821,
+                9249475822,
+                9249475823,
+                9249475824,
+                9249475825,
+                9249475826,
+                9249474211
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Burl-Moor-Driben Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1015310995,
+            "center": {
+                "lat": 40.8618416,
+                "lon": -74.4694621
+            },
+            "nodes": [
+                9366004973,
+                9366004972,
+                9366004971,
+                9366004970,
+                9366004969,
+                9366004968,
+                9366004967,
+                9366004966,
+                9366004973
+            ],
+            "tags": {
+                "addr:city": "Parsippany-Troy Hills Township",
+                "addr:housenumber": "921",
+                "addr:postcode": "07950",
+                "addr:state": "NJ",
+                "addr:street": "Tabor Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "Morris County GIS;esri_USDOT_NewJersey"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1019869130,
+            "center": {
+                "lat": 40.7242157,
+                "lon": -74.8477451
+            },
+            "nodes": [
+                9406328002,
+                9406328003,
+                9406328004,
+                9406328005,
+                9406328006,
+                9406328007,
+                9406328008,
+                9406328009,
+                9406328002
+            ],
+            "tags": {
+                "addr:city": "Califon",
+                "addr:housenumber": "421",
+                "addr:postcode": "07830",
+                "addr:state": "NJ",
+                "addr:street": "High Bridge - Califon Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Califon Animal Hospital",
+                "phone": "+19088327523",
+                "website": "https://califonanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1082607236,
+            "center": {
+                "lat": 39.70076,
+                "lon": -74.2558337
+            },
+            "nodes": [
+                9921730058,
+                9921730059,
+                9921730060,
+                9921730061,
+                9921730058
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1094391544,
+            "center": {
+                "lat": 40.8458375,
+                "lon": -74.2288794
+            },
+            "nodes": [
+                10023186589,
+                10023186581,
+                10023186580,
+                10023186586,
+                10023186587,
+                10023186583,
+                10023186582,
+                10023186584,
+                10023186585,
+                10023186588,
+                10023186589
+            ],
+            "tags": {
+                "addr:city": "Cedar Grove",
+                "addr:housenumber": "370",
+                "addr:postcode": "07009",
+                "addr:state": "NJ",
+                "addr:street": "Pompton Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2022-12-27",
+                "name": "Cedar Grove Animal Hospital",
+                "source": "esri_USDOT_NewJersey"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1177914164,
+            "center": {
+                "lat": 40.8423557,
+                "lon": -74.2802628
+            },
+            "nodes": [
+                10942363106,
+                10942363107,
+                10942363109,
+                10942363110,
+                10942363111,
+                10942363112,
+                10942363113,
+                10942363114,
+                10942363106
+            ],
+            "tags": {
+                "addr:city": "Caldwell",
+                "addr:housenumber": "445",
+                "addr:postcode": "07006",
+                "addr:state": "NJ",
+                "addr:street": "Bloomfield Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Veterinary Medical Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1181221197,
+            "center": {
+                "lat": 39.4736276,
+                "lon": -74.5244223
+            },
+            "nodes": [
+                10969897341,
+                10969897342,
+                10969897343,
+                10969897344,
+                10969897345,
+                10969897346,
+                10969897347,
+                10969897348,
+                10969897349,
+                10969897350,
+                10969897351,
+                10969897352,
+                10969897341
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Atlantic Animal Health Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1186525619,
+            "center": {
+                "lat": 40.4024117,
+                "lon": -74.9701879
+            },
+            "nodes": [
+                11020190892,
+                11020190893,
+                11020190894,
+                11020190895,
+                11020190896,
+                11020190897,
+                11020190892
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Stockton Veterinary Hospital",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1190224927,
+            "center": {
+                "lat": 41.1567211,
+                "lon": -74.5730084
+            },
+            "nodes": [
+                11051495447,
+                11051495448,
+                11051706469,
+                11051706468,
+                11051495449,
+                11051706467,
+                11051706466,
+                11051495450,
+                11051495447
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "house",
+                "name": "Hamburg Vet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1198480284,
+            "center": {
+                "lat": 41.2033137,
+                "lon": -74.4784781
+            },
+            "nodes": [
+                11117713477,
+                11117713478,
+                11117713479,
+                11117713480,
+                11117713477
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vernon Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1226629472,
+            "center": {
+                "lat": 40.9963154,
+                "lon": -73.9569669
+            },
+            "nodes": [
+                11374570461,
+                11374570462,
+                11374570463,
+                11374570464,
+                11374570461
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "brand": "VCA Animal Hospital",
+                "brand:wikidata": "Q7906620",
+                "building": "yes",
+                "name": "VCA Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1255346372,
+            "center": {
+                "lat": 39.7393363,
+                "lon": -75.0418026
+            },
+            "nodes": [
+                11669768688,
+                11669768689,
+                11669768690,
+                11669768691,
+                11669768692,
+                11669768693,
+                11669768694,
+                11669768695,
+                11669768688
+            ],
+            "tags": {
+                "addr:city": "Turnersville",
+                "addr:housenumber": "4250",
+                "addr:postcode": "08012",
+                "addr:state": "NJ",
+                "addr:street": "Black Horse Pike",
+                "amenity": "veterinary",
+                "branch": "Turnersville",
+                "building": "yes",
+                "check_date": "2026-04-05",
+                "name": "Thrive Pet Healthcare Urgent Care",
+                "opening_hours": "10:00-22:00",
+                "phone": "+1 856-214-0182",
+                "website": "https://www.thrivepetcare.com/locations/new-jersey/turnersville/thrive-pet-healthcare-turnersville-urgent-care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1265762769,
+            "center": {
+                "lat": 40.961794,
+                "lon": -74.2478239
+            },
+            "nodes": [
+                5629682343,
+                11757689998,
+                11757689999,
+                11757690000,
+                11757690001,
+                11757690002,
+                11757690003,
+                11757690004,
+                11757690005,
+                5629682344,
+                5629682343
+            ],
+            "tags": {
+                "addr:city": "Wayne",
+                "addr:housenumber": "1302",
+                "addr:postcode": "07470",
+                "addr:state": "NJ",
+                "addr:street": "Paterson-Hamburg Turnpike",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Tri-County Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1268983805,
+            "center": {
+                "lat": 40.8430107,
+                "lon": -74.8069953
+            },
+            "nodes": [
+                11786462237,
+                11786462236,
+                11786462235,
+                11786462234,
+                11786462233,
+                11786462232,
+                11786462237
+            ],
+            "tags": {
+                "addr:city": "Hackettstown",
+                "addr:housenumber": "94",
+                "addr:postcode": "07840",
+                "addr:state": "NJ",
+                "addr:street": "US 46",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Budd Lake Animal Hospital",
+                "opening_hours": "Tu 10:00-18:00; We 12:00-20:00; Th,Fr 09:00-17:00; Sa 09:00-14:00",
+                "phone": "+1 908-852-3515",
+                "website": "https://buddlakeah.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1289202477,
+            "center": {
+                "lat": 40.7975522,
+                "lon": -74.2002499
+            },
+            "nodes": [
+                11954509766,
+                11954509770,
+                11954509767,
+                11954509771,
+                11954509768,
+                11954509769,
+                11954509766
+            ],
+            "tags": {
+                "addr:city": "Bloomfield",
+                "addr:housenumber": "709",
+                "addr:postcode": "07003",
+                "addr:state": "NJ",
+                "addr:street": "Bloomfield Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Essex Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1290787422,
+            "center": {
+                "lat": 39.9702779,
+                "lon": -74.2352003
+            },
+            "nodes": [
+                11967921930,
+                11967921931,
+                11967921932,
+                11967921933,
+                11967921934,
+                11967921935,
+                11967921930
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Toms River Animal Hospital",
+                "operator": "Veterinary Center of America"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1326153381,
+            "center": {
+                "lat": 40.3816508,
+                "lon": -74.7754538
+            },
+            "nodes": [
+                12269980778,
+                12269980779,
+                12269980780,
+                12269980781,
+                12269980782,
+                12269980783,
+                12269980778
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hopewell Veterinary Group"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350328359,
+            "center": {
+                "lat": 40.8368936,
+                "lon": -74.226566
+            },
+            "nodes": [
+                12492025823,
+                12492025822,
+                10858012963,
+                12492025821,
+                12492025820,
+                12492025819,
+                12492025818,
+                12492025817,
+                12492025823
+            ],
+            "tags": {
+                "addr:city": "Cedar Grove",
+                "addr:country": "US",
+                "addr:housenumber": "109",
+                "addr:postcode": "07009",
+                "addr:state": "NJ",
+                "addr:street": "Pompton Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2025-12-29",
+                "name": "Well Pet Animal Hospital",
+                "phone": "+1-973-239-1062",
+                "source": "microsoft/BuildingFootprints",
+                "website": "https://www.wellpetanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1370936802,
+            "center": {
+                "lat": 39.8204662,
+                "lon": -74.8472731
+            },
+            "nodes": [
+                12697140566,
+                12697140567,
+                12697140568,
+                12697140569,
+                12697140570,
+                12697140571,
+                12697140572,
+                12697140573,
+                12697140574,
+                12697140575,
+                12697140566
+            ],
+            "tags": {
+                "addr:city": "Medford",
+                "addr:housenumber": "6",
+                "addr:postcode": "08055",
+                "addr:state": "NJ",
+                "addr:street": "Sawmill Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cedar Run Wildlife Hospital",
+                "phone": "+1 856-983-3329 x107",
+                "website": "https://www.cedarrun.org/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1387659355,
+            "center": {
+                "lat": 40.3388322,
+                "lon": -74.0986382
+            },
+            "nodes": [
+                12845226141,
+                12845226142,
+                12845226143,
+                12845226144,
+                12845226145,
+                12845226146,
+                12845226147,
+                12845226148,
+                12845226149,
+                12845226150,
+                12845226151,
+                12845226152,
+                12845226153,
+                12845247153,
+                12845226154,
+                12845226155,
+                12845226156,
+                12845226157,
+                12845226158,
+                12845226161,
+                12845226159,
+                12845226160,
+                12845226141
+            ],
+            "tags": {
+                "addr:city": "Red Bank",
+                "addr:housenumber": "100",
+                "addr:postcode": "07701",
+                "addr:state": "NJ",
+                "addr:street": "Schultz Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Red Bank Veterinary Hospital",
+                "opening_hours": "24/7",
+                "phone": "+1-732-747-3636",
+                "website": "https://www.redbankvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1433186920,
+            "center": {
+                "lat": 41.01519,
+                "lon": -74.3361199
+            },
+            "nodes": [
+                13172322486,
+                13172322487,
+                13172322488,
+                13172322489,
+                13172322490,
+                13172322491,
+                13172322492,
+                13172322493,
+                13172322486
+            ],
+            "tags": {
+                "addr:city": "Bloomingdale",
+                "addr:housenumber": "138",
+                "addr:postcode": "07403",
+                "addr:state": "NJ",
+                "addr:street": "Glenwild Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Bloomingdale Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1502552744,
+            "center": {
+                "lat": 39.9517088,
+                "lon": -74.7626064
+            },
+            "nodes": [
+                13753060546,
+                13753060547,
+                13753060548,
+                13753060549,
+                13753060550,
+                13753060551,
+                13753060552,
+                13753060553,
+                13753060546
+            ],
+            "tags": {
+                "addr:city": "Southampton",
+                "addr:housenumber": "221",
+                "addr:postcode": "08088",
+                "addr:state": "NJ",
+                "addr:street": "Newbolds Corner Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Peticote Veterinary Clinic",
+                "operator": "Peticote Veterinary Clinic, LLC"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1549169315,
+            "center": {
+                "lat": 40.8616671,
+                "lon": -74.1942314
+            },
+            "nodes": [
+                14090394644,
+                14090394645,
+                14090394646,
+                14090394647,
+                14090394648,
+                14090394649,
+                14090394650,
+                14090394651,
+                14090394652,
+                14090394653,
+                14090394644
+            ],
+            "tags": {
+                "addr:city": "Clifton",
+                "addr:housenumber": "1171",
+                "addr:postcode": "07043",
+                "addr:state": "NJ",
+                "addr:street": "Valley Road",
+                "addr:unit": "A",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "check_date": "2026-08-10",
+                "fax": "+1 973-524-7609",
+                "name": "Valley Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-13:00; Su off",
+                "phone": "+1 973-509-5225",
+                "website": "https://www.valleyofthevets.com/"
+            }
+        }
+    ]
+}

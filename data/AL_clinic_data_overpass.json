@@ -1,0 +1,3090 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+        "timestamp_osm_base": "2026-08-23T17:44:50Z",
+        "timestamp_areas_base": "2026-08-22T22:50:01Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 945604302,
+            "lat": 34.7728083,
+            "lon": -86.8030334,
+            "tags": {
+                "amenity": "veterinary",
+                "ele": "197.9",
+                "name": "North Alabama Equine Hospital, Veterinarians",
+                "phone": "+1-256-771-1590",
+                "veterinary": "clinic",
+                "veterinary:treats:horse": "only",
+                "website": "https://northalabamaequinehospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2347773262,
+            "lat": 33.6498956,
+            "lon": -86.6345658,
+            "tags": {
+                "addr:city": "Birmingham",
+                "addr:housenumber": "5632",
+                "addr:postcode": "35235",
+                "addr:state": "AL",
+                "addr:street": "Chalkville Road",
+                "amenity": "veterinary",
+                "check_date": "2026-03-24",
+                "name": "Grayson Vally Pet Clinic",
+                "website": "https://graysonvalleypets.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2353044039,
+            "lat": 33.7941893,
+            "lon": -85.7619577,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Clanton Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4571219673,
+            "lat": 32.4144837,
+            "lon": -87.0457068,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4571229795,
+            "lat": 32.4233103,
+            "lon": -87.0483632,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Selma Animal Control & Adoption"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4688063842,
+            "lat": 32.6065436,
+            "lon": -87.3182985,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Marion Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5019903830,
+            "lat": 33.2335218,
+            "lon": -87.5639445,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Averette Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5782477664,
+            "lat": 33.4271033,
+            "lon": -86.7068895,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Riverview Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5886332921,
+            "lat": 33.3450798,
+            "lon": -86.7700781,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Indian Springs Animal Clinic",
+                "website": "http://indianspringsanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6376600468,
+            "lat": 34.4522449,
+            "lon": -85.8967853,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6376686480,
+            "lat": 34.4639231,
+            "lon": -85.7036531,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Dekalb Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7524013053,
+            "lat": 33.3988844,
+            "lon": -86.8836865,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Ross Bridge Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7607829403,
+            "lat": 31.7976815,
+            "lon": -85.1663911,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Kline Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8373767831,
+            "lat": 33.6900638,
+            "lon": -86.619822,
+            "tags": {
+                "addr:city": "Pinson",
+                "addr:housenumber": "6415",
+                "addr:postcode": "35126",
+                "addr:state": "AL",
+                "addr:street": "Old Springville Road",
+                "amenity": "veterinary",
+                "name": "Clay-Chalkville Animal Clinic",
+                "phone": "+1-205-681-1700"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9049352612,
+            "lat": 33.2056859,
+            "lon": -87.5166803,
+            "tags": {
+                "addr:city": "Tuscaloosa",
+                "addr:housenumber": "1525",
+                "addr:postcode": "35404",
+                "addr:state": "AL",
+                "addr:street": "University Boulevard East",
+                "amenity": "veterinary",
+                "name": "McLendon Veterinary Clinic",
+                "phone": "+1 205-553-8306",
+                "website": "https://mclendonvet.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9360992032,
+            "lat": 32.6134616,
+            "lon": -85.4796045,
+            "tags": {
+                "addr:housenumber": "438",
+                "addr:street": "North Gay Street",
+                "amenity": "veterinary",
+                "name": "North Gay Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10808365515,
+            "lat": 32.9209087,
+            "lon": -85.9545582,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Alex City Vet Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11331222619,
+            "lat": 34.8720632,
+            "lon": -85.8106606,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11406328430,
+            "lat": 33.6456917,
+            "lon": -86.6278821,
+            "tags": {
+                "addr:city": "Birmingham",
+                "addr:country": "US",
+                "addr:housenumber": "5890",
+                "addr:postcode": "35235",
+                "addr:state": "AL",
+                "addr:street": "Trussville Crossings Boulevard",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "fixme": "This appears to be a petsmart. The hospital and petsmart have very similar addresses but are in 2 very different locations on two different and yet similar streets. I cannot be sure as I am not local. So, I did not want to update",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Th 08:00-18:00; Fr 07:00-18:00; Sa 08:00-18:00; Su 10:00-17:00",
+                "phone": "+1 205-655-3885",
+                "website": "https://www.banfield.com/locations/veterinarians/al/birmingham/tru"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11486363106,
+            "lat": 32.3305777,
+            "lon": -86.2437191,
+            "tags": {
+                "addr:city": "Montgomery",
+                "addr:postcode": "36111",
+                "addr:state": "AL",
+                "addr:street": "3505 McGehee Rd",
+                "amenity": "veterinary",
+                "country": "USA",
+                "name": "The Animal Clinic, P.C.",
+                "opening_hours": "Mo-Fr 07:00-18:00,Sa 07:00-16:00",
+                "operator": "Anthony C Drake",
+                "payment:american_express": "yes",
+                "payment:cash": "yes",
+                "payment:cheque": "yes",
+                "payment:discover_card": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "phone": "+1 334-281-6100",
+                "website": "https://theanimalcliniconline.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12119071474,
+            "lat": 33.3505187,
+            "lon": -86.7868089,
+            "tags": {
+                "addr:city": "Hoover",
+                "addr:housenumber": "2880",
+                "addr:postcode": "35244",
+                "addr:state": "AL",
+                "addr:street": "Valleydale Road",
+                "addr:unit": "2",
+                "amenity": "veterinary",
+                "name": "Metro Cat Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12853495181,
+            "lat": 33.3776042,
+            "lon": -86.8004045,
+            "tags": {
+                "addr:city": "Hoover",
+                "addr:housenumber": "3780",
+                "addr:postcode": "35244",
+                "addr:state": "AL",
+                "addr:street": "Riverchase Village",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "contact:twitter": "Banfield",
+                "indoor": "yes",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 10:00-17:00",
+                "phone": "+1 205-682-9893",
+                "website": "https://www.banfield.com/locations/veterinarians/al/hoover/hvr"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12853505271,
+            "lat": 33.2267193,
+            "lon": -86.8049755,
+            "tags": {
+                "addr:city": "Alabaster",
+                "addr:housenumber": "100",
+                "addr:postcode": "35007",
+                "addr:state": "AL",
+                "addr:street": "South Colonial Drive",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "contact:twitter": "Banfield",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 00:00-24:00",
+                "phone": "+1 205-663-5639",
+                "website": "https://www.banfield.com/locations/veterinarians/al/alabaster/abr"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13040483001,
+            "lat": 32.4595764,
+            "lon": -86.4642578,
+            "tags": {
+                "addr:housenumber": "407",
+                "addr:postcode": "36067",
+                "addr:street": "East Main Street",
+                "amenity": "veterinary",
+                "contact:facebook": "animalmedicalclinicllc",
+                "email": "amcprattvillellc@gmail.com",
+                "name": "Animal Medical Clinic of Prattville LLC",
+                "opening_hours": "Mo-Fr 07:00-17:30; Sa 08:00-12:00",
+                "phone": "+1-334-365-7543",
+                "website": "https://animalmedicalclinicofprattville.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13436214933,
+            "lat": 33.1006967,
+            "lon": -87.5547066,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "69 South Veterinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13507280087,
+            "lat": 34.5852998,
+            "lon": -87.0242735,
+            "tags": {
+                "addr:city": "Decatur",
+                "addr:housenumber": "2218",
+                "addr:postcode": "35601",
+                "addr:state": "AL",
+                "addr:street": "Beltline Road Southwest",
+                "amenity": "veterinary",
+                "name": "Beltline Animal Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:00",
+                "phone": "+1-256-350-6222",
+                "website": "https://beltlineanimalclinic.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13712659710,
+            "lat": 34.7109589,
+            "lon": -86.7448235,
+            "tags": {
+                "addr:city": "Madison",
+                "addr:housenumber": "136",
+                "addr:postcode": "35758",
+                "addr:state": "AL",
+                "addr:street": "Plaza Boulevard",
+                "addr:unit": "D",
+                "amenity": "veterinary",
+                "name": "Southpaw Animal Clinic of Madison",
+                "opening_hours": "Mo-Fr 07:00-17:00; Sa-Su off",
+                "phone": "+1-256-273-5594",
+                "website": "https://southpawac.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13757407613,
+            "lat": 34.6893309,
+            "lon": -86.7361073,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Best Friends Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13758484345,
+            "lat": 33.1497224,
+            "lon": -87.5466231,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13796184331,
+            "lat": 32.6999529,
+            "lon": -87.5999368,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Payne Animal Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13831139245,
+            "lat": 33.0937169,
+            "lon": -87.6858728,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Fosters Vetrinary Clinic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13854676338,
+            "lat": 32.3582576,
+            "lon": -86.1606396,
+            "tags": {
+                "addr:city": "Montgomery",
+                "addr:country": "US",
+                "addr:housenumber": "2510",
+                "addr:postcode": "36117",
+                "addr:state": "AL",
+                "addr:street": "Berryhill Road",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 10:00-17:00",
+                "phone": "+1 334-270-1885",
+                "website": "https://www.banfield.com/locations/veterinarians/al/montgomery/mon"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13854676343,
+            "lat": 33.3743593,
+            "lon": -86.8102689,
+            "tags": {
+                "addr:city": "Hoover",
+                "addr:country": "US",
+                "addr:housenumber": "3232",
+                "addr:postcode": "35244",
+                "addr:state": "AL",
+                "addr:street": "Galleria Circle",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 10:00-17:00",
+                "phone": "+1 205-682-9893",
+                "website": "https://www.banfield.com/locations/veterinarians/al/hoover/hvr"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13854697118,
+            "lat": 34.5585716,
+            "lon": -86.9693226,
+            "tags": {
+                "addr:city": "Decatur",
+                "addr:country": "US",
+                "addr:housenumber": "1241",
+                "addr:postcode": "35601",
+                "addr:state": "AL",
+                "addr:street": "Point Mallard Parkway",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "name": "Decatur Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 09:00-17:00",
+                "phone": "+1 256-301-6899",
+                "website": "https://www.banfield.com/locations/veterinarians/al/decatur/dtr"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13854702146,
+            "lat": 30.6753008,
+            "lon": -88.1346303,
+            "tags": {
+                "addr:city": "Mobile",
+                "addr:country": "US",
+                "addr:housenumber": "3691",
+                "addr:postcode": "36608",
+                "addr:state": "AL",
+                "addr:street": "Airport Boulevard",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 10:00-17:00",
+                "phone": "+1 251-343-1827",
+                "website": "https://www.banfield.com/locations/veterinarians/al/mobile/mob"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13854731364,
+            "lat": 34.7437417,
+            "lon": -86.680502,
+            "tags": {
+                "addr:city": "Huntsville",
+                "addr:country": "US",
+                "addr:housenumber": "6275",
+                "addr:postcode": "35806",
+                "addr:state": "AL",
+                "addr:street": "University Drive Northwest",
+                "addr:unit": "35",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 10:00-17:00",
+                "phone": "+1 256-922-1920",
+                "website": "https://www.banfield.com/locations/veterinarians/al/huntsville/hve"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13854739722,
+            "lat": 34.6726583,
+            "lon": -86.5410971,
+            "tags": {
+                "addr:city": "Huntsville",
+                "addr:country": "US",
+                "addr:housenumber": "2750",
+                "addr:postcode": "35802",
+                "addr:state": "AL",
+                "addr:street": "Carl T Jones Drive Southeast",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 09:00-17:00",
+                "phone": "+1 256-880-3332",
+                "website": "https://www.banfield.com/locations/veterinarians/al/huntsville/huv"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13854752510,
+            "lat": 30.6642231,
+            "lon": -87.8491873,
+            "tags": {
+                "addr:city": "Spanish Fort",
+                "addr:country": "US",
+                "addr:housenumber": "10200",
+                "addr:postcode": "36527",
+                "addr:state": "AL",
+                "addr:street": "Eastern Shore Boulevard",
+                "amenity": "veterinary",
+                "brand": "Banfield Pet Hospital",
+                "brand:wikidata": "Q2882416",
+                "contact:facebook": "https://www.facebook.com/BanfieldPetHospital",
+                "name": "Banfield Pet Hospital",
+                "opening_hours": "Mo-Sa 08:00-18:00; Su 10:00-17:00",
+                "phone": "+1 251-625-3846",
+                "website": "https://www.banfield.com/locations/veterinarians/al/spanish-fort/dap"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13930114123,
+            "lat": 32.3374562,
+            "lon": -86.1726241,
+            "tags": {
+                "addr:city": "Montgomery",
+                "addr:housenumber": "8100",
+                "addr:postcode": "36116",
+                "addr:state": "AL",
+                "addr:street": "Seaton Place",
+                "amenity": "veterinary",
+                "name": "Veterinary Medical Exam Board",
+                "opening_hours": "Mo-Fr 07:00-16:00",
+                "website": "https://asbvme.alabama.gov/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13980660189,
+            "lat": 32.7009682,
+            "lon": -87.6063651,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Greensboro Veterinary Services"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14024465799,
+            "lat": 32.4903893,
+            "lon": -87.860792,
+            "tags": {
+                "addr:city": "Demopolis",
+                "addr:housenumber": "1624",
+                "addr:postcode": "36732",
+                "addr:state": "AL",
+                "addr:street": "US-80 W",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/DemopolisAnimalClinic/",
+                "email": "demopanimal@gmail.com",
+                "name": "Demopolis Animal Clinic",
+                "opening_hours": "Mo-Su 08:00-12:00,13:00-17:00; PH off",
+                "phone": "+1-334-289-1839"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14024938503,
+            "lat": 31.1344052,
+            "lon": -85.3332263,
+            "tags": {
+                "amenity": "veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14031031773,
+            "lat": 33.2397272,
+            "lon": -87.5805954,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "May Veterinary"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14039824054,
+            "lat": 33.2801844,
+            "lon": -88.089273,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "West Alabama Animal Hospital"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14088572073,
+            "lat": 31.1998862,
+            "lon": -85.3980388,
+            "tags": {
+                "addr:housenumber": "1846",
+                "addr:street": "South Oates Street",
+                "amenity": "veterinary",
+                "check_date": "2026-08-10",
+                "email": "info@dothananimalhospital.com",
+                "name": "Dothan Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:00; Sa-Su off",
+                "phone": "+1 334-793-9779",
+                "website": "https://www.dothananimalhospital.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14095170797,
+            "lat": 32.9420441,
+            "lon": -87.1124158,
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Veterinary Hospital Of Centreville"
+            }
+        },
+        {
+            "type": "node",
+            "id": 14106800807,
+            "lat": 32.5848115,
+            "lon": -85.4458136,
+            "tags": {
+                "addr:housenumber": "2120",
+                "addr:street": "Moores Mill Road",
+                "amenity": "veterinary",
+                "check_date": "2026-08-19",
+                "contact:facebook": "https://www.facebook.com/mooresmillanimalhospital/",
+                "contact:instagram": "https://www.instagram.com/mmvets",
+                "email": "mmvets@mmvets.com",
+                "fax": "+1 334-821-7374",
+                "name": "Moores Mill Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 09:00-14:00; Su 16:45-17:15",
+                "phone": "+1 334-821-7739",
+                "website": "https://mmvets.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 283159435,
+            "center": {
+                "lat": 33.7699166,
+                "lon": -86.4700715
+            },
+            "nodes": [
+                2870682112,
+                2870682113,
+                2870682114,
+                2870682115,
+                2870682116,
+                2870682117,
+                2870682118,
+                2870682119,
+                2870682112
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Heritage Animal Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 327472037,
+            "center": {
+                "lat": 32.5885018,
+                "lon": -85.5130153
+            },
+            "nodes": [
+                3342623048,
+                3342623040,
+                3342623045,
+                3342623042,
+                8322479180,
+                8322479181,
+                8322479182,
+                8322479183,
+                3342623046,
+                3342623052,
+                3342623067,
+                8322479184,
+                8322479185,
+                3342623076,
+                3342623048
+            ],
+            "tags": {
+                "addr:city": "Auburn",
+                "addr:housenumber": "1500",
+                "addr:postcode": "36849",
+                "addr:state": "AL",
+                "addr:street": "Wire Road",
+                "amenity": "veterinary",
+                "building": "university",
+                "name": "John Thomas Vaughan Large Animal Teaching Hospital",
+                "start_date": "2003"
+            }
+        },
+        {
+            "type": "way",
+            "id": 327472044,
+            "center": {
+                "lat": 32.5900685,
+                "lon": -85.5109055
+            },
+            "nodes": [
+                3342623213,
+                3342623199,
+                3342623206,
+                3342623204,
+                3342623211,
+                4751843897,
+                4751843896,
+                8322479365,
+                3342623217,
+                4751843894,
+                8322479364,
+                8322479363,
+                8322479362,
+                8322479361,
+                4751843895,
+                8322479360,
+                3342623220,
+                8322479366,
+                3342623225,
+                3342623213
+            ],
+            "tags": {
+                "addr:city": "Auburn",
+                "addr:housenumber": "1180",
+                "addr:postcode": "36849",
+                "addr:state": "AL",
+                "addr:street": "Wire Road",
+                "amenity": "veterinary",
+                "building": "university",
+                "name": "Auburn University Veterinary Clinic",
+                "start_date": "1987"
+            }
+        },
+        {
+            "type": "way",
+            "id": 327472045,
+            "center": {
+                "lat": 32.5895181,
+                "lon": -85.5116507
+            },
+            "nodes": [
+                3342623065,
+                4751843903,
+                4751843902,
+                4751843901,
+                4751843900,
+                3342623073,
+                3342623080,
+                8322479372,
+                3342623088,
+                8322479373,
+                8322479374,
+                8322479375,
+                8322479376,
+                8322479377,
+                8322479378,
+                8322479379,
+                8322479381,
+                8322479382,
+                8322479380,
+                8322479383,
+                8322479384,
+                4751843898,
+                4751843899,
+                8322479368,
+                8322479369,
+                8322479370,
+                8322479371,
+                3342623218,
+                3342623208,
+                4751843917,
+                4751843916,
+                4751843915,
+                4751843914,
+                3342623200,
+                4751843913,
+                4751843912,
+                4751843911,
+                3342623090,
+                4751843910,
+                4751843909,
+                4751843908,
+                4751843907,
+                4751843906,
+                4751843905,
+                4751843904,
+                3342623065
+            ],
+            "tags": {
+                "addr:city": "Auburn",
+                "addr:housenumber": "1220",
+                "addr:postcode": "36849",
+                "addr:state": "AL",
+                "addr:street": "Wire Road",
+                "amenity": "veterinary",
+                "building": "university",
+                "name": "Wilford and Kate Bailey Small Animal Teaching Hospital",
+                "start_date": "2014"
+            }
+        },
+        {
+            "type": "way",
+            "id": 334899866,
+            "center": {
+                "lat": 30.6704237,
+                "lon": -88.1901009
+            },
+            "nodes": [
+                3420255603,
+                3420255604,
+                3420255605,
+                3420255606,
+                3420255603
+            ],
+            "tags": {
+                "addr:city": "Mobile",
+                "addr:housenumber": "951",
+                "addr:postcode": "36695",
+                "addr:state": "AL",
+                "addr:street": "Hillcrest Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rehm Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 377624408,
+            "center": {
+                "lat": 34.7120077,
+                "lon": -86.5912503
+            },
+            "nodes": [
+                3810070812,
+                3810070813,
+                3810070814,
+                3810070815,
+                3810070816,
+                3810070817,
+                3810070812
+            ],
+            "tags": {
+                "addr:housenumber": "2506",
+                "addr:street": "Memorial Parkway Southwest",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Huntsville Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 384934082,
+            "center": {
+                "lat": 33.5569707,
+                "lon": -86.2684038
+            },
+            "nodes": [
+                3882876752,
+                3882876753,
+                3882876754,
+                3882876755,
+                3882876756,
+                3882877857,
+                3882876752
+            ],
+            "tags": {
+                "addr:city": "Pell City",
+                "addr:housenumber": "2308",
+                "addr:postcode": "35128",
+                "addr:state": "AL",
+                "addr:street": "Mays Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cropwell Small Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00, Sa 08:00-12:00",
+                "operator": "Galen Sims",
+                "phone": "+1 205-338-3556",
+                "website": "http://cropwellsah.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 388720652,
+            "center": {
+                "lat": 33.1659002,
+                "lon": -86.7757076
+            },
+            "nodes": [
+                3918847500,
+                3918847504,
+                3918847507,
+                3918847505,
+                3918847500
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Airport Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 390881826,
+            "center": {
+                "lat": 34.718016,
+                "lon": -86.5932342
+            },
+            "nodes": [
+                3940327985,
+                3940327983,
+                3940327988,
+                3940327987,
+                3940328002,
+                3940328003,
+                3940328005,
+                3940328011,
+                3940327985
+            ],
+            "tags": {
+                "addr:housenumber": "2112",
+                "addr:street": "Memorial Parkway Southwest",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Animal Emergency Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 405346168,
+            "center": {
+                "lat": 34.6930332,
+                "lon": -86.5812695
+            },
+            "nodes": [
+                4075517883,
+                4075517874,
+                4075517873,
+                4075517878,
+                4075517876,
+                4075517877,
+                4075517875,
+                4075517879,
+                4075517880,
+                4075517882,
+                4075517883
+            ],
+            "tags": {
+                "addr:street": "Memorial Parkway Southwest",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Pennington Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 445105293,
+            "center": {
+                "lat": 34.7878912,
+                "lon": -86.9725035
+            },
+            "nodes": [
+                4425566238,
+                4425566239,
+                4425566240,
+                4425566241,
+                4425566242,
+                4425566243,
+                4425566244,
+                4425566245,
+                4425566246,
+                4425566247,
+                4425566248,
+                4425566249,
+                4425566250,
+                4425566251,
+                4425566238
+            ],
+            "tags": {
+                "addr:city": "Athens",
+                "addr:housenumber": "1642",
+                "addr:postcode": "35611",
+                "addr:state": "AL",
+                "addr:street": "Jefferson Street South",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Town and County Animal Hospital PC",
+                "opening_hours": "07:00-17:00; Sa 08:00-12:00; Su closed",
+                "phone": "+1-256-232-0698",
+                "website": "https://www.tcah.info/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 445105296,
+            "center": {
+                "lat": 34.7744947,
+                "lon": -86.9134265
+            },
+            "nodes": [
+                4425566257,
+                4425566258,
+                4425566259,
+                4425566260,
+                4425566261,
+                4425566262,
+                4425566257
+            ],
+            "tags": {
+                "addr:city": "Athens",
+                "addr:country": "US",
+                "addr:housenumber": "23098",
+                "addr:postcode": "35613",
+                "addr:state": "AL",
+                "addr:street": "US Highway 72",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Eastside Animal Hospital",
+                "opening_hours": "07:30-17:30, Sa \"grooming only\", Su closed",
+                "phone": "+1-256-232-0660",
+                "website": "https://myathensvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 445106142,
+            "center": {
+                "lat": 34.7782909,
+                "lon": -86.9562834
+            },
+            "nodes": [
+                4425577349,
+                4425577350,
+                4425577351,
+                4425577352,
+                4425577353,
+                4425577354,
+                4425577349
+            ],
+            "tags": {
+                "addr:city": "Athens",
+                "addr:housenumber": "1119",
+                "addr:postcode": "35611",
+                "addr:state": "AL",
+                "addr:street": "US Highway 31",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Athens Animal Hospital",
+                "opening_hours": "07:00-17:00; We 07:00-12:00, 13:00-17:00 \"staff only\"; Sa-Su closed",
+                "phone": "+1-256-232-1344",
+                "website": "https://athensanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 469439997,
+            "center": {
+                "lat": 32.6116625,
+                "lon": -85.4484504
+            },
+            "nodes": [
+                4637761524,
+                4637761525,
+                4637761526,
+                4637761527,
+                4637761528,
+                4637761529,
+                4637761530,
+                4637761531,
+                4637761532,
+                4637761533,
+                4637761534,
+                4637761535,
+                4637761524
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "University Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 471834870,
+            "center": {
+                "lat": 33.1845208,
+                "lon": -86.627929
+            },
+            "nodes": [
+                14011129459,
+                14011129460,
+                4659849847,
+                4659849848,
+                4659849849,
+                14011129456,
+                14011129457,
+                14011129458,
+                14011129459
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "name": "Shelby County Humane Society"
+            }
+        },
+        {
+            "type": "way",
+            "id": 478533740,
+            "center": {
+                "lat": 34.5618037,
+                "lon": -86.9857858
+            },
+            "nodes": [
+                4717608287,
+                4717608288,
+                4717608489,
+                4717608490,
+                4717608491,
+                11328730065,
+                4717608492,
+                4717608493,
+                11328730064,
+                4717608494,
+                4717608495,
+                4717608496,
+                4717608497,
+                4717608498,
+                4717608499,
+                4717608500,
+                4717608287
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 478940802,
+            "center": {
+                "lat": 34.6914594,
+                "lon": -86.6005734
+            },
+            "nodes": [
+                4071915138,
+                4071915124,
+                4071915118,
+                4078279536,
+                4078279544,
+                4721189919,
+                4071915138
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "amenity_1": "animal_shelter",
+                "building": "no",
+                "name": "Greater Huntsville Humane Society"
+            }
+        },
+        {
+            "type": "way",
+            "id": 479822991,
+            "center": {
+                "lat": 34.7358981,
+                "lon": -86.7856273
+            },
+            "nodes": [
+                4728663244,
+                4728663230,
+                4728663228,
+                4728663227,
+                4728663229,
+                4728663241,
+                4728663240,
+                4728663239,
+                4728663242,
+                4728663238,
+                4728663237,
+                4728663232,
+                4728663231,
+                4728663233,
+                4728663234,
+                4728663235,
+                4728663236,
+                4728663243,
+                4728663244
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Pet Hospital of Madison"
+            }
+        },
+        {
+            "type": "way",
+            "id": 480319166,
+            "center": {
+                "lat": 34.7494651,
+                "lon": -86.7699392
+            },
+            "nodes": [
+                4733212422,
+                4733212219,
+                4733212218,
+                4733212216,
+                4733212215,
+                4733212217,
+                4733212220,
+                4733212212,
+                4733212211,
+                4733212209,
+                4733212208,
+                4733212210,
+                4733212421,
+                4733212213,
+                4733212214,
+                4733212422
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "West Madison Veterinary Hospital and Pet Resort"
+            }
+        },
+        {
+            "type": "way",
+            "id": 481901424,
+            "center": {
+                "lat": 34.6929082,
+                "lon": -86.5096535
+            },
+            "nodes": [
+                3462734416,
+                4747980332,
+                4747980333,
+                4747980334,
+                3462734416
+            ],
+            "tags": {
+                "addr:city": "Brownsboro",
+                "addr:housenumber": "4850",
+                "addr:postcode": "35741",
+                "addr:state": "AL",
+                "addr:street": "Cove Creek Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Linderman Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:00-12:00",
+                "phone": "+1 256-534-7387"
+            }
+        },
+        {
+            "type": "way",
+            "id": 494922219,
+            "center": {
+                "lat": 30.3113742,
+                "lon": -87.6843452
+            },
+            "nodes": [
+                4867010655,
+                4867010656,
+                4867010657,
+                4867010658,
+                4867010655
+            ],
+            "tags": {
+                "addr:city": "Gulf Shores",
+                "addr:housenumber": "19930",
+                "addr:postcode": "36542",
+                "addr:state": "AL",
+                "addr:street": "Oak Rd W",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Magnolia by the Gulf Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 514318164,
+            "center": {
+                "lat": 34.7219341,
+                "lon": -86.7498982
+            },
+            "nodes": [
+                5025043653,
+                5025043654,
+                5025043655,
+                5025043656,
+                5025043657,
+                5025043658,
+                5025043659,
+                5025043660,
+                5025043653
+            ],
+            "tags": {
+                "addr:city": "Madison",
+                "addr:housenumber": "4991",
+                "addr:postcode": "35758",
+                "addr:state": "AL",
+                "addr:street": "Wall Triana Highway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mill Creek Veterinary Care Center",
+                "opening_hours": "Sa-Su off; Mo-Tu 07:00-17:00; We 07:00-12:00; Th-Fr 07:00-17:00",
+                "phone": "+1-256-489-8800",
+                "website": "https://www.millcreekvetcare.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 540257745,
+            "center": {
+                "lat": 34.6897587,
+                "lon": -86.7519836
+            },
+            "nodes": [
+                5227000650,
+                5227000651,
+                5227000652,
+                5227000653,
+                5227000650
+            ],
+            "tags": {
+                "addr:city": "Madison",
+                "addr:housenumber": "4044",
+                "addr:postcode": "35758",
+                "addr:state": "AL",
+                "addr:street": "Sullivan Street",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 547279650,
+            "center": {
+                "lat": 33.2673252,
+                "lon": -87.5413799
+            },
+            "nodes": [
+                5287921363,
+                5287921364,
+                5287921365,
+                5287921366,
+                5287921367,
+                5287921368,
+                5287921369,
+                5287921370,
+                5287921371,
+                5287921372,
+                5287921373,
+                5287921363
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "May's Veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 551289077,
+            "center": {
+                "lat": 33.2332471,
+                "lon": -87.5369787
+            },
+            "nodes": [
+                5324044014,
+                5324044015,
+                5324044016,
+                5324044017,
+                5324044018,
+                5324044019,
+                5324044020,
+                5324044021,
+                5324044014
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Indian Hills Veterinary"
+            }
+        },
+        {
+            "type": "way",
+            "id": 558065796,
+            "center": {
+                "lat": 34.7508633,
+                "lon": -86.7405118
+            },
+            "nodes": [
+                5381365889,
+                5381365890,
+                5381365891,
+                5381365892,
+                5381365893,
+                5381365894,
+                5381365895,
+                5381365896,
+                5381365897,
+                5381365898,
+                5381365899,
+                5381365900,
+                5381365901,
+                5381365902,
+                5381365903,
+                5381365904,
+                5381365889
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 566499331,
+            "center": {
+                "lat": 33.2428843,
+                "lon": -87.5505605
+            },
+            "nodes": [
+                5455567857,
+                5455567858,
+                5455567859,
+                5455567860,
+                5455567861,
+                5455567862,
+                5455567863,
+                5455567864,
+                5455567865,
+                5455567866,
+                5455567867,
+                5455567868,
+                5455567857
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 572776731,
+            "center": {
+                "lat": 30.6377925,
+                "lon": -88.2225672
+            },
+            "nodes": [
+                5502516077,
+                5502516078,
+                5502516079,
+                5502516080,
+                5502516081,
+                5502516082,
+                5502516083,
+                5502516084,
+                5502516077
+            ],
+            "tags": {
+                "addr:city": "Mobile",
+                "addr:housenumber": "7705",
+                "addr:postcode": "36695",
+                "addr:state": "AL",
+                "addr:street": "Cottage Hill Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Wesson Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 574838778,
+            "center": {
+                "lat": 34.6974866,
+                "lon": -86.7860439
+            },
+            "nodes": [
+                5516982252,
+                5516982253,
+                5516982254,
+                5516982255,
+                5516982256,
+                5516982257,
+                5516982258,
+                5516982259,
+                5516982260,
+                5516982261,
+                5516982262,
+                5516982263,
+                5516982264,
+                5516982265,
+                5516982266,
+                5516982267,
+                5516982252
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Health Care Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 601366391,
+            "center": {
+                "lat": 33.7916936,
+                "lon": -86.82329
+            },
+            "nodes": [
+                5715798223,
+                5715798224,
+                5715798225,
+                5715798226,
+                5715798223
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Stewart Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 619345288,
+            "center": {
+                "lat": 30.2908999,
+                "lon": -87.6148155
+            },
+            "nodes": [
+                5852874506,
+                5852874507,
+                5852874508,
+                5852874509,
+                5852874510,
+                5852874511,
+                5852874512,
+                5852874513,
+                5852874514,
+                5852874515,
+                5852874516,
+                5852874517,
+                5852874506
+            ],
+            "tags": {
+                "addr:city": "Orange Beach",
+                "addr:housenumber": "24001",
+                "addr:postcode": "36561",
+                "addr:state": "AL",
+                "addr:street": "Canal Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Gulf Coast Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 622134618,
+            "center": {
+                "lat": 33.4819471,
+                "lon": -86.7110796
+            },
+            "nodes": [
+                9313333648,
+                9313333650,
+                9313333653,
+                9313333654,
+                9313333641,
+                9313333638,
+                9313333640,
+                9313333639,
+                9313333637,
+                5876911860,
+                5876911862,
+                5876911859,
+                5876911864,
+                5876911861,
+                5876911866,
+                5876911857,
+                5876911867,
+                5876911865,
+                5876911870,
+                5876911863,
+                5876911868,
+                5876911858,
+                9313333651,
+                9313333652,
+                9313333649,
+                9313333642,
+                9313333645,
+                9313333644,
+                9313333643,
+                5876911869,
+                9313333646,
+                9313333647,
+                9313333648
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Liberty Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 622474078,
+            "center": {
+                "lat": 33.4535306,
+                "lon": -86.7306823
+            },
+            "nodes": [
+                5879652545,
+                5879652546,
+                5879652547,
+                5879652548,
+                5879652545
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Britt Animal Hospital",
+                "website": "https://www.brittanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 623347953,
+            "center": {
+                "lat": 30.2877652,
+                "lon": -87.6391459
+            },
+            "nodes": [
+                5887043268,
+                6559098342,
+                5887043270,
+                5887043271,
+                5887043268
+            ],
+            "tags": {
+                "addr:city": "Orange Beach",
+                "addr:housenumber": "22640",
+                "addr:postcode": "36561",
+                "addr:state": "AL",
+                "addr:street": "Canal Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Canal Road Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 624532374,
+            "center": {
+                "lat": 33.3848757,
+                "lon": -86.7399346
+            },
+            "nodes": [
+                5897628853,
+                5897628854,
+                5897628855,
+                5897628856,
+                5897628857,
+                5897628858,
+                5897628859,
+                5897628860,
+                5897628861,
+                5897628862,
+                5897628864,
+                5897628863,
+                5897628853
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Caldwell Mill Animal Clinic",
+                "website": "https://cmacvet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 631192696,
+            "center": {
+                "lat": 33.2374511,
+                "lon": -87.5771546
+            },
+            "nodes": [
+                5960627055,
+                5960627056,
+                5960627057,
+                5960627058,
+                5960627059,
+                5960627060,
+                5960627061,
+                5960627062,
+                5960627063,
+                5960627064,
+                5960627055
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Tidmore Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 647003477,
+            "center": {
+                "lat": 34.8320396,
+                "lon": -87.666872
+            },
+            "nodes": [
+                6077283640,
+                6077280175,
+                6077283641,
+                6077283642,
+                6077283643,
+                6077283644,
+                6077283640
+            ],
+            "tags": {
+                "addr:housenumber": "2130",
+                "addr:street": "Helton Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Helton Plaza Veterinary Hospital",
+                "phone": "+1-256-767-0150",
+                "website": "https://www.heltonplazavet.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 664854974,
+            "center": {
+                "lat": 33.4320783,
+                "lon": -86.8219726
+            },
+            "nodes": [
+                6223130160,
+                6223130161,
+                6223130162,
+                6223130163,
+                6223130164,
+                6223130165,
+                6223130166,
+                6223130167,
+                6223130168,
+                6223130169,
+                6223130170,
+                6223130171,
+                6223130160
+            ],
+            "tags": {
+                "addr:city": "Hoover",
+                "addr:housenumber": "2107",
+                "addr:postcode": "35226",
+                "addr:state": "AL",
+                "addr:street": "Marlboro Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Alford Avenue Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 665722875,
+            "center": {
+                "lat": 34.6545741,
+                "lon": -86.0222574
+            },
+            "nodes": [
+                6231418310,
+                6231418311,
+                6231418312,
+                6231418313,
+                6231418310
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Williams Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 668502267,
+            "center": {
+                "lat": 32.5736236,
+                "lon": -85.5005015
+            },
+            "nodes": [
+                6260270088,
+                6260270089,
+                6260270090,
+                6260270091,
+                6260270088
+            ],
+            "tags": {
+                "addr:city": "Auburn",
+                "addr:housenumber": "130",
+                "addr:postcode": "36832",
+                "addr:state": "AL",
+                "addr:street": "West Longleaf Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "PetVet Animal Health Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 713100742,
+            "center": {
+                "lat": 34.9247284,
+                "lon": -86.5714322
+            },
+            "nodes": [
+                6703524526,
+                6703524527,
+                6703524528,
+                6703524529,
+                6703524530,
+                6703524531,
+                6703524526
+            ],
+            "tags": {
+                "addr:city": "Hazel Green",
+                "addr:housenumber": "103",
+                "addr:postcode": "35750",
+                "addr:state": "AL",
+                "addr:street": "Salem Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hazel Green Animal Hospital & Pet Resort"
+            }
+        },
+        {
+            "type": "way",
+            "id": 757341694,
+            "center": {
+                "lat": 34.8151294,
+                "lon": -86.4907263
+            },
+            "nodes": [
+                7072509700,
+                7072509701,
+                7072509702,
+                7072509703,
+                7072509704,
+                7072509706,
+                7072509705,
+                7072509734,
+                7072509733,
+                7072509700
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Flint River Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 758546844,
+            "center": {
+                "lat": 33.4231158,
+                "lon": -86.7728089
+            },
+            "nodes": [
+                7084205116,
+                7084205117,
+                7084205118,
+                7084205119,
+                7084205116
+            ],
+            "tags": {
+                "addr:city": "Birmingham",
+                "addr:housenumber": "2488",
+                "addr:postcode": "35243",
+                "addr:state": "AL",
+                "addr:street": "Rocky Ridge Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "rockyridgeanimalclinic@yahoo.com",
+                "name": "Rocky Ridge Animal Clinic & Pet Hotel",
+                "opening_hours": "Mo-Fr 07:00-18:30; Sa 07:00-13:00; Su 18:00-19:00",
+                "phone": "+1-205-267-1300",
+                "start_date": "1974",
+                "website": "https://www.rockyridgeanimalclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 768402213,
+            "center": {
+                "lat": 33.43321,
+                "lon": -86.7387023
+            },
+            "nodes": [
+                7173895154,
+                9884246175,
+                7173895155,
+                9884246162,
+                9884246161,
+                9884246163,
+                9884246174,
+                9884246173,
+                9884246172,
+                9884246171,
+                9884246169,
+                9884246168,
+                9884246167,
+                9884246165,
+                9884246164,
+                9884246166,
+                9884246176,
+                7173895156,
+                9884246170,
+                5641018506,
+                7173895154
+            ],
+            "tags": {
+                "addr:city": "Birmingham",
+                "addr:housenumber": "2898",
+                "addr:postcode": "35243",
+                "addr:state": "AL",
+                "addr:street": "Acton Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Altadena Valley Animal Clinic",
+                "phone": "+1-205-967-7383",
+                "website": "https://www.altadenavalleyanimalclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 814283812,
+            "center": {
+                "lat": 33.3334802,
+                "lon": -87.0027914
+            },
+            "nodes": [
+                7606408981,
+                7606408982,
+                7606408983,
+                7606408984,
+                7606429285,
+                7606429286,
+                7606429287,
+                7606429288,
+                7606429289,
+                7606429290,
+                7606429291,
+                7606429292,
+                7606429293,
+                7606429294,
+                7606429295,
+                7606408981
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "McAdory Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 823573460,
+            "center": {
+                "lat": 33.3630821,
+                "lon": -86.7674147
+            },
+            "nodes": [
+                7689171004,
+                7689171005,
+                7689171006,
+                7689171007,
+                7689171008,
+                7689171009,
+                7689171010,
+                7689171011,
+                7689171012,
+                7689171013,
+                7689171014,
+                7689171015,
+                7689171016,
+                7689171017,
+                7689171018,
+                7689171019,
+                7689171020,
+                7689171021,
+                7689171022,
+                7689171023,
+                7689171024,
+                7689171025,
+                7689171004
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Birmingham Veterinary Internal Medicine"
+            }
+        },
+        {
+            "type": "way",
+            "id": 824968909,
+            "center": {
+                "lat": 33.3938727,
+                "lon": -86.805707
+            },
+            "nodes": [
+                7703249665,
+                7703249666,
+                7703249667,
+                7703249668,
+                7703249669,
+                7703249670,
+                7703249671,
+                7703249672,
+                7703249673,
+                7703249674,
+                7703249675,
+                7703249676,
+                7703249665
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Patton Chapel Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 827093782,
+            "center": {
+                "lat": 33.4170696,
+                "lon": -86.8020104
+            },
+            "nodes": [
+                7721857992,
+                7721857993,
+                7721857994,
+                7721857995,
+                7721857996,
+                7721857997,
+                7721857998,
+                7721857999,
+                7721858000,
+                7721858001,
+                7721857992
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vestavia Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 827134766,
+            "center": {
+                "lat": 33.4199063,
+                "lon": -86.8008458
+            },
+            "nodes": [
+                7722163206,
+                7722163207,
+                7722163208,
+                7722163209,
+                7722163210,
+                7722163211,
+                7722163206
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Vestridge Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 836826040,
+            "center": {
+                "lat": 33.9076139,
+                "lon": -86.6160315
+            },
+            "nodes": [
+                7810229846,
+                10126831360,
+                7810229847,
+                10126831358,
+                7810229848,
+                10126831357,
+                10126831359,
+                10126831356,
+                7810229866,
+                7810229849,
+                7810229846
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Locust Fork Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 841496497,
+            "center": {
+                "lat": 30.6462231,
+                "lon": -87.9102786
+            },
+            "nodes": [
+                7851293934,
+                7851293935,
+                7851293936,
+                7851293937,
+                7851293938,
+                7851293939,
+                7851293940,
+                7851293941,
+                7851293934
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 854558305,
+            "center": {
+                "lat": 32.4593386,
+                "lon": -86.4092002
+            },
+            "nodes": [
+                7969187671,
+                7969187670,
+                7969187669,
+                7969187668,
+                7969187667,
+                7969187666,
+                7969187671
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Cobbs Ford Pet Health Center"
+            }
+        },
+        {
+            "type": "way",
+            "id": 855563260,
+            "center": {
+                "lat": 32.4609756,
+                "lon": -86.4265056
+            },
+            "nodes": [
+                7978276177,
+                7978276176,
+                7978276175,
+                7978276174,
+                7978276173,
+                7978276177
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Medical Climic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 954779849,
+            "center": {
+                "lat": 33.5033955,
+                "lon": -86.7955821
+            },
+            "nodes": [
+                8837296562,
+                8837296563,
+                8837296564,
+                8837296565,
+                8837296562
+            ],
+            "tags": {
+                "addr:city": "Birmingham",
+                "addr:housenumber": "2114",
+                "addr:postcode": "35205",
+                "addr:state": "AL",
+                "addr:street": "10th Avenue South",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1009997204,
+            "center": {
+                "lat": 34.5501985,
+                "lon": -86.972805
+            },
+            "nodes": [
+                9318845391,
+                9318845392,
+                9318845393,
+                9318845394,
+                9318845395,
+                9318845396,
+                9318845397,
+                9318845398,
+                9318845399,
+                9318845400,
+                9318845401,
+                9318845402,
+                9318845403,
+                9318845404,
+                9318845405,
+                9318845406,
+                9318845407,
+                9318845408,
+                9318845409,
+                9318845410,
+                9318845411,
+                9318845412,
+                9318845391
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "source": "microsoft/BuildingFootprints"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1010732044,
+            "center": {
+                "lat": 34.782384,
+                "lon": -86.934352
+            },
+            "nodes": [
+                4425566256,
+                9325028120,
+                9325028121,
+                9325028122,
+                9325028123,
+                9325028124,
+                9325028125,
+                9325028126,
+                9325028127,
+                9325028128,
+                9325028129,
+                9325028130,
+                9325028131,
+                9325028132,
+                9325028133,
+                9325028134,
+                4425566256
+            ],
+            "tags": {
+                "addr:city": "Athens",
+                "addr:housenumber": "1701",
+                "addr:postcode": "35611",
+                "addr:state": "AL",
+                "addr:street": "US Highway 72 East",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Limestone Veterinary Clinic",
+                "opening_hours": "07:00-12:00, 13:00-17:00; Sa-Su closed",
+                "phone": "+1-256-233-1515",
+                "source": "microsoft/BuildingFootprints",
+                "website": "https://www.limestonevetclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1034540043,
+            "center": {
+                "lat": 33.3707068,
+                "lon": -86.6657839
+            },
+            "nodes": [
+                9530243978,
+                9530243979,
+                9530243980,
+                9530243981,
+                9530243978
+            ],
+            "tags": {
+                "addr:city": "Birmingham",
+                "addr:housenumber": "150",
+                "addr:postcode": "35242",
+                "addr:state": "AL",
+                "addr:street": "Narrows Drive",
+                "amenity": "veterinary",
+                "building": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1079856403,
+            "center": {
+                "lat": 33.5678088,
+                "lon": -86.5149076
+            },
+            "nodes": [
+                9898273311,
+                9898273312,
+                9898273313,
+                9898273314,
+                9898273315,
+                9898273316,
+                9898273317,
+                9898273318,
+                9898273311
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Crossroads Animal Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1170359235,
+            "center": {
+                "lat": 34.8845922,
+                "lon": -86.7383143
+            },
+            "nodes": [
+                10879252800,
+                10879252801,
+                10879252802,
+                10879282324,
+                10879252803,
+                10879252804,
+                10879282305,
+                10879282306,
+                11179757400,
+                10879282307,
+                11179757399,
+                10879282308,
+                10879282309,
+                10879282340,
+                10879282310,
+                10879282311,
+                10879282312,
+                10879282313,
+                10879282314,
+                10879282315,
+                10879282316,
+                10879282317,
+                10879282318,
+                10879282319,
+                10879282320,
+                10879282321,
+                10879282322,
+                10879282323,
+                10879252800
+            ],
+            "tags": {
+                "addr:city": "Toney",
+                "addr:housenumber": "5267",
+                "addr:postcode": "35773",
+                "addr:state": "AL",
+                "addr:street": "Old Railroad Bed Road",
+                "amenity": "veterinary",
+                "building": "commercial",
+                "name": "Countryside Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1189836845,
+            "center": {
+                "lat": 32.4997051,
+                "lon": -85.0445397
+            },
+            "nodes": [
+                11048096874,
+                11048096875,
+                11048096876,
+                11048096877,
+                11048096878,
+                11048096879,
+                11048096874
+            ],
+            "tags": {
+                "addr:city": "Phenix City",
+                "addr:housenumber": "3720",
+                "addr:postcode": "36867",
+                "addr:state": "AL",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Companion Animal Hospital",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa-Su off",
+                "phone": "+1-334-297-2316",
+                "source": "microsoft/BuildingFootprints",
+                "website": "https://www.companionanimalphenixcity.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1203761159,
+            "center": {
+                "lat": 33.2146732,
+                "lon": -86.8244816
+            },
+            "nodes": [
+                11157570861,
+                11157570862,
+                11157570863,
+                11157570864,
+                11157570865,
+                11157570866,
+                11157570867,
+                11157570868,
+                11157570861
+            ],
+            "tags": {
+                "addr:city": "Alabaster",
+                "addr:housenumber": "2259",
+                "addr:postcode": "35007",
+                "addr:state": "AL",
+                "addr:street": "Kent Dairy Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Kent Farms Animal Hospital",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-12:00",
+                "website": "https://kentfarmsanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1219369553,
+            "center": {
+                "lat": 34.7725058,
+                "lon": -86.5293415
+            },
+            "nodes": [
+                991447251,
+                11298547502,
+                11298547503,
+                11298547504,
+                11298547505,
+                11298547506,
+                11298547507,
+                11298547508,
+                991447251
+            ],
+            "tags": {
+                "addr:city": "Huntsville",
+                "addr:housenumber": "1760",
+                "addr:postcode": "35811",
+                "addr:street": "Highway 72 East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Chase Animal Hospital",
+                "phone": "+1 256 851 7297",
+                "website": "https://chaseanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1230904200,
+            "center": {
+                "lat": 33.9536482,
+                "lon": -86.4674912
+            },
+            "nodes": [
+                11415316455,
+                11415320190,
+                11415316457,
+                11415320107,
+                11415320070,
+                11415320177,
+                11415316455
+            ],
+            "tags": {
+                "addr:city": "Oneonta",
+                "addr:housenumber": "904",
+                "addr:postcode": "35121",
+                "addr:state": "AL",
+                "addr:street": "2nd Avenue East",
+                "amenity": "veterinary",
+                "building": "yes",
+                "check_date": "2026-02-09",
+                "contact:facebook": "https://www.facebook.com/AHPConeonta",
+                "email": "info@oneontaanimalhospital.com",
+                "name": "Animal Hospital, P.C",
+                "opening_hours": "Mo-Fr 09:00-17:00; Sa 08:00-12:00",
+                "phone": "+1 205-625-3291",
+                "website": "https://www.oneontaanimalhospital.com"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1232402043,
+            "center": {
+                "lat": 32.240392,
+                "lon": -85.4152251
+            },
+            "nodes": [
+                11431836706,
+                11431836707,
+                11431836708,
+                13869631618,
+                11431836709,
+                11431836706
+            ],
+            "tags": {
+                "addr:city": "Hurtsboro",
+                "addr:housenumber": "534",
+                "addr:postcode": "36860",
+                "addr:state": "AL",
+                "addr:street": "Main Street",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Hurtsboro Veterinary Clinic",
+                "opening_hours": "Mo-Fr 17:00-21:00; Sa-Su 08:00-21:00",
+                "phone": "+1-334-667-6800",
+                "website": "https://www.hurtsborovetclinic.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1289167799,
+            "center": {
+                "lat": 30.6826502,
+                "lon": -88.066996
+            },
+            "nodes": [
+                11954194825,
+                11954194826,
+                11954194827,
+                11954194828,
+                11954194825
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Loop Veterinary Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1289418310,
+            "center": {
+                "lat": 30.6797642,
+                "lon": -88.1293883
+            },
+            "nodes": [
+                11956304072,
+                11956304073,
+                11956304074,
+                11956304075,
+                11956304076,
+                11956304077,
+                11956304078,
+                11956304079,
+                11956304080,
+                11956304081,
+                11956304082,
+                11956304083,
+                11956304072
+            ],
+            "tags": {
+                "addr:city": "Mobile",
+                "addr:housenumber": "3625",
+                "addr:postcode": "36608",
+                "addr:state": "AL",
+                "addr:street": "Springhill Memorial Drive",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Ark Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1291925331,
+            "center": {
+                "lat": 30.6461861,
+                "lon": -88.1689273
+            },
+            "nodes": [
+                11976711770,
+                11976711771,
+                11976711772,
+                11976711773,
+                11976711774,
+                11976711775,
+                11976711776,
+                11976711777,
+                11976711778,
+                11976711779,
+                11976711780,
+                11976711781,
+                11976711782,
+                11976711783,
+                11976711770
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Village Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1303134182,
+            "center": {
+                "lat": 30.6692982,
+                "lon": -88.1022633
+            },
+            "nodes": [
+                12068619029,
+                12068619030,
+                12068619031,
+                12068619032,
+                12068619033,
+                12068619034,
+                12068619035,
+                12068619036,
+                12068619037,
+                12068619038,
+                12068619039,
+                12068619040,
+                12068619029
+            ],
+            "tags": {
+                "addr:city": "Mobile",
+                "addr:housenumber": "2573",
+                "addr:postcode": "36606",
+                "addr:state": "AL",
+                "addr:street": "Government Boulevard",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "MedVet Emergency Vet & Specialty Care"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1382112858,
+            "center": {
+                "lat": 34.7942133,
+                "lon": -86.7483844
+            },
+            "nodes": [
+                12796009909,
+                12796009910,
+                12796009911,
+                12796009912,
+                12796009909
+            ],
+            "tags": {
+                "addr:city": "Madison",
+                "addr:housenumber": "309",
+                "addr:postcode": "35757",
+                "addr:state": "AL",
+                "addr:street": "Pine Grove Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Rocket City Veterinary Hospital Pine Grove",
+                "opening_hours": "Mo-Fr 07:00-18:00",
+                "phone": "+1-256-333-2345",
+                "website": "http://www.rocketcityvetspg.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1382852214,
+            "center": {
+                "lat": 32.6394003,
+                "lon": -85.4800378
+            },
+            "nodes": [
+                12802983551,
+                12802983552,
+                12802983553,
+                12802983554,
+                12802983555,
+                12802983556,
+                12802983564,
+                12802983557,
+                12802983558,
+                12802983559,
+                12802983560,
+                12802983561,
+                12802983562,
+                12802983551
+            ],
+            "tags": {
+                "addr:city": "Auburn",
+                "addr:housenumber": "100",
+                "addr:postcode": "36830",
+                "addr:state": "AL",
+                "addr:street": "Pinnacle Dr",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Village Veterinary Clinic",
+                "opening_hours": "Mo-Fr 07:30-17:30"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1429562133,
+            "center": {
+                "lat": 32.6431995,
+                "lon": -85.3690328
+            },
+            "nodes": [
+                13141324757,
+                13141324758,
+                13141324759,
+                13141324760,
+                13141324757
+            ],
+            "tags": {
+                "addr:city": "Opelika",
+                "addr:housenumber": "229",
+                "addr:postcode": "36801",
+                "addr:state": "AL",
+                "addr:street": "Columbus Parkway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "email": "info@thorntonanimalhospital.com",
+                "name": "Thornton Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-17:30; Sa 08:00-12:00",
+                "phone": "+1-334-745-2541",
+                "website": "https://thorntonanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1451541671,
+            "center": {
+                "lat": 32.6395623,
+                "lon": -85.3944093
+            },
+            "nodes": [
+                13312836171,
+                13312836174,
+                13312836172,
+                13312836173,
+                13312836171
+            ],
+            "tags": {
+                "addr:city": "Opelika",
+                "addr:housenumber": "1615",
+                "addr:postcode": "36801",
+                "addr:state": "AL",
+                "addr:street": "2nd Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Opelika Animal Hospital",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-12:00",
+                "phone": "+1-334-749-2025",
+                "website": "https://opelikaanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1451541672,
+            "center": {
+                "lat": 32.6425177,
+                "lon": -85.3917273
+            },
+            "nodes": [
+                13312836175,
+                13312836176,
+                13312836177,
+                13312836178,
+                13312836175
+            ],
+            "tags": {
+                "addr:city": "Opelika",
+                "addr:housenumber": "1520",
+                "addr:postcode": "36801",
+                "addr:state": "AL",
+                "addr:street": "2nd Avenue",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Animal Health Center",
+                "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-12:00",
+                "phone": "+1-334-745-0060",
+                "website": "https://animalhealthcenter.us/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1476382608,
+            "center": {
+                "lat": 34.654474,
+                "lon": -86.4816156
+            },
+            "nodes": [
+                13542557997,
+                13542557996,
+                13542557995,
+                13542557994,
+                13542557993,
+                13542557988,
+                13542557992,
+                13542557989,
+                13542557991,
+                13542557990,
+                13542557997
+            ],
+            "tags": {
+                "addr:city": "Owens Cross Roads",
+                "addr:housenumber": "6762",
+                "addr:postcode": "35763",
+                "addr:state": "AL",
+                "addr:street": "US 431",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Mann Veterinary Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1476722979,
+            "center": {
+                "lat": 32.473382,
+                "lon": -85.0157486
+            },
+            "nodes": [
+                13545158927,
+                13545158928,
+                13545158929,
+                13545158930,
+                13545158931,
+                13545158932,
+                13545158933,
+                13545158934,
+                13545158935,
+                13545158936,
+                13545158927
+            ],
+            "tags": {
+                "addr:city": "Phenix City",
+                "addr:housenumber": "1700",
+                "addr:postcode": "36867",
+                "addr:state": "AL",
+                "addr:street": "Crawford Road",
+                "amenity": "veterinary",
+                "building": "yes",
+                "contact:facebook": "@phenixanimalhospital",
+                "name": "Phenix Animal Hospital",
+                "phone": "+1-334-298-3841",
+                "website": "https://www.phenixanimalhospital.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1503740241,
+            "center": {
+                "lat": 34.7526223,
+                "lon": -86.7611735
+            },
+            "nodes": [
+                13761914040,
+                13761914041,
+                13761914042,
+                13761914043,
+                13761914040
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "North Alabama Veterinary Emergency & Specialty"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1527376494,
+            "center": {
+                "lat": 32.9590595,
+                "lon": -86.7284961
+            },
+            "nodes": [
+                13918895433,
+                13918895434,
+                13918895435,
+                13918895436,
+                13918895437,
+                13918895438,
+                13918895439,
+                13918895440,
+                13918895433
+            ],
+            "tags": {
+                "addr:city": "Jemison",
+                "addr:housenumber": "9711",
+                "addr:postcode": "35085",
+                "addr:state": "AL",
+                "addr:street": "County Road 42",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Blue Bonnet Animal Clinic"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1529002564,
+            "center": {
+                "lat": 33.1064119,
+                "lon": -86.7336806
+            },
+            "nodes": [
+                13935308399,
+                13935308400,
+                13935324201,
+                13935324202,
+                13935308399
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Easterwood Equine Hospital"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1540338396,
+            "center": {
+                "lat": 31.1343491,
+                "lon": -85.3332975
+            },
+            "nodes": [
+                14024938505,
+                14024938509,
+                14024938504,
+                14024938507,
+                14024938508,
+                14024938506,
+                14024938505
+            ],
+            "tags": {
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Briar Creek Vet"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1549085729,
+            "center": {
+                "lat": 31.232771,
+                "lon": -85.4352399
+            },
+            "nodes": [
+                14089727437,
+                14089727438,
+                14089727439,
+                13345613067,
+                14089727440,
+                14089727441,
+                14089727442,
+                14089727443,
+                14089727444,
+                14089727445,
+                14089727446,
+                14089727447,
+                14089727448,
+                14089727449,
+                14089727450,
+                14089727451,
+                14089727452,
+                14089727453,
+                14089727454,
+                14089727455,
+                14089727456,
+                14089727437
+            ],
+            "tags": {
+                "addr:housenumber": "301",
+                "addr:street": "Westgate Parkway",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Southern Regional Veterinary Specialists",
+                "phone": "+1 334 699 7787",
+                "website": "https://www.srvetspecialists.com/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1549510615,
+            "center": {
+                "lat": 34.670434,
+                "lon": -86.7571897
+            },
+            "nodes": [
+                14093436640,
+                14093436641,
+                14093436642,
+                14093436643,
+                14093436644,
+                14093436645,
+                14093436646,
+                14093436647,
+                14093436648,
+                14093436649,
+                14093436650,
+                14093436651,
+                14093436640
+            ],
+            "tags": {
+                "addr:city": "Madison",
+                "addr:housenumber": "128",
+                "addr:postcode": "35758",
+                "addr:state": "AL",
+                "addr:street": "Cleghorn Boulevard",
+                "addr:unit": "A",
+                "amenity": "veterinary",
+                "building": "yes",
+                "name": "Paradise Pet Resort & Spa"
+            }
+        }
+    ]
+}
