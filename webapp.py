@@ -283,7 +283,8 @@ def get_cached_shelters(state_code):
         cur.execute(shelters_sql, (state_code,)) 
         rows = cur.fetchall() 
         cur.close() 
-        conn.close() 
+        conn.close()
+        st.write("Rows returned by get_cached_shelters = ", len(rows))
         return rows 
     except Exception as e: 
         print(f"Error fetching shelters: {e}") 
