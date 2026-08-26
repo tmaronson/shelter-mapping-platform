@@ -284,7 +284,6 @@ def get_cached_shelters(state_code):
         rows = cur.fetchall() 
         cur.close() 
         conn.close()
-        st.write("Rows returned by get_cached_shelters = ", len(rows))
         return rows 
     except Exception as e: 
         print(f"Error fetching shelters: {e}") 
@@ -387,7 +386,8 @@ def execute_pipeline():
         
         
         get_cached_clinics(fips_prefix)
-        get_cached_shelters(fips_prefix)
+        rows = get_cached_shelters(fips_prefix)
+        st.write("Rows returned by get_cached_shelters = ", len(rows))
         cur.close() 
         conn.close() 
         # 5. Render the map in the Streamlit interface 
