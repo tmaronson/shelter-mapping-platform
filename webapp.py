@@ -165,7 +165,7 @@ for label, color in legend_items:
                           f'</div>', unsafe_allow_html=True
                         )
 
-# not used            
+# not used for final app           
 def load_population_and_join_data(cur): 
      try:
          # Create the temporary population table 
@@ -187,6 +187,7 @@ def load_population_and_join_data(cur):
      except Exception as e: 
          print(f"Error executing population join: {e}")
      
+# not used for final app
 def load_progressive_shelters(cur, csv_file_name, sql_file_name, use_paid_api=False, api_key=None):
     try: 
         # Load the SQL insert template from properties 
@@ -281,7 +282,8 @@ def get_cached_shelters(state_code):
         cur = conn.cursor() 
         shelters_sql = read_sql_file(MAP_SHELTERS_STATE_FILE) 
         cur.execute(shelters_sql, (state_code,)) 
-        rows = cur.fetchall() 
+        rows = cur.fetchall()
+        conn.commit()
         cur.close() 
         conn.close()
         return rows 
@@ -296,15 +298,16 @@ def get_cached_shelters(state_code):
         
     
 @st.cache_data
-def get_cached_clinics(fips_prefix):
+def get_cached_clinics(state_code):
     cur = None
     conn = None
     try:
         conn = psycopg2.connect(DB_CONN) 
         cur = conn.cursor() 
         clinics_sql = read_sql_file(MAP_CLINICS_STATE_FILE) 
-        cur.execute(clinics_sql, (fips_prefix,)) 
-        rows = cur.fetchall() 
+        cur.execute(clinics_sql, (state_code,)) 
+        rows = cur.fetchall()
+        conn.commit()
         cur.close() 
         conn.close() 
         return rows 
@@ -470,6 +473,7 @@ def initialize_map(state_code, fips_prefix, view_selection):
         print(f"Error mapping locations: {e}")
         return folium.Map(location=[33.7490, -84.3880], zoom_start=8)
 
+# not used in final app
 @st.cache_data 
 def get_tract_densities_df(fips_prefix): 
     conn = None 
@@ -491,6 +495,7 @@ def get_tract_densities_df(fips_prefix):
         if conn is not None: 
             conn.close() 
             
+# not used in final app
 def display_outlier_analysis(fips_prefix, state_code):
     
     df = get_tract_densities_df(fips_prefix) 
