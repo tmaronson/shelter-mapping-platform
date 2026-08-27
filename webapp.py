@@ -388,9 +388,8 @@ def execute_pipeline():
         
         
         
-        get_cached_clinics(fips_prefix)
-        rows = get_cached_shelters(fips_prefix)
-        st.write("Rows returned by get_cached_shelters = ", len(rows))
+        get_cached_clinics(state_code)
+        get_cached_shelters(state_code)
         cur.close() 
         conn.close() 
         # 5. Render the map in the Streamlit interface 
