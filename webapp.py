@@ -67,7 +67,8 @@ def load_fips_map(file_name):
 
 def read_sql_file(script_name):
     try:
-        sql_path = SQL_DIR / script_name 
+        # Clean the string locally so it matches your GitHub fix
+        sql_path = SQL_DIR / str(script_name).strip()
         with open(sql_path, "r") as f:
             return f.read() 
     except Exception as e: 
