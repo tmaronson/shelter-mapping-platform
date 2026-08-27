@@ -280,8 +280,7 @@ def get_cached_shelters(state_code):
     try:
         conn = psycopg2.connect(DB_CONN) 
         cur = conn.cursor() 
-        #shelters_sql = read_sql_file(MAP_SHELTERS_STATE_FILE) 
-        shelters_sql = "SELECT name, address, email, phone, ST_Y(geom::geometry), ST_X(geom::geometry) FROM shelters WHERE TRIM(UPPER(state_code)) = TRIM(UPPER(%s))"
+        shelters_sql = read_sql_file(MAP_SHELTERS_STATE_FILE) 
         cur.execute(shelters_sql, (state_code,)) 
         rows = cur.fetchall()
         conn.commit()
