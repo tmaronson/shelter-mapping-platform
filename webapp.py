@@ -410,8 +410,17 @@ def initialize_map(state_code, fips_prefix, view_selection):
 
         # Initialize map with tiles=None to allow custom named layers
         m = folium.Map(location=[center_lat, center_lon], zoom_start=8, tiles=None)
-        folium.TileLayer("openstreetmap", name="Highways and Roads").add_to(m)
-        folium.TileLayer("cartodbpositron", name="Clean Gray").add_to(m)
+        folium.TileLayer(
+                          "openstreetmap",
+                          name="Highways and Roads",
+                          control=True
+                        ).add_to(m)
+        #folium.TileLayer("cartodbpositron", name="Clean Gray").add_to(m)
+        folium.TileLayer(
+                          tiles="https://{s}://{z}/{x}/{y}{r}.png",
+                          attr='&copy; OpenStreetMap contributors &copy; CARTO',
+                          name="Clean Gray"
+                        ).add_to(m)
         clinic_cluster = folium.FeatureGroup(name="Clinics").add_to(m)
         clinics_data = get_cached_clinics(state_code)
         # Choose clinic maps only if user clicks on Clinics Only or Both for radio buttons in sidebar.
