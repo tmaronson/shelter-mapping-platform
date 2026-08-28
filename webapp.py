@@ -386,11 +386,6 @@ def execute_pipeline():
         cur = conn.cursor() 
         # 4. Generate the map dynamically using the state-specific SQL queries
         m = initialize_map(state_code, fips_prefix, view_selection)
-        
-        
-        
-        get_cached_clinics(state_code)
-        get_cached_shelters(state_code)
         cur.close() 
         conn.close() 
         # 5. Render the map in the Streamlit interface 
