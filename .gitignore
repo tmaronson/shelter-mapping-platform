@@ -4,5 +4,7 @@
 *.csv
 !state*.csv
 *.py
-!*app*.py
-
+webapp.py
+data/*.json
+Census*.geojson
+data/tiger*
