@@ -10,7 +10,7 @@ import csv
 from folium.plugins import MarkerCluster
 import streamlit as st 
 import re
-from streamlit_folium import st_folium, folium_static
+from streamlit_folium import folium_static
 import os
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -24,7 +24,6 @@ p = Properties()
 with open(PROJECT_DIR / "config.properties", "rb") as f:
     p.load(f) 
     DB_CONN = os.getenv("DATABASE_URL")
-    #DB_CONN = p.get(str("database.connection_string")).data # Connect to database.
     #GEOJSON_PATH = p.get("data.geojson_path").data # data file
     SCHEMA_FILE = p.get("sql.schema").data # Create tables and extension.
     #POPULATE_FILE = p.get("sql.populate").data # Populate tables.
@@ -45,6 +44,10 @@ with open(PROJECT_DIR / "config.properties", "rb") as f:
     MAP_SHELTERS_STATE_FILE = p.get("sql.shelters_state").data
     MAP_TRACTS_STATE_FILE = p.get("sql.tracts_state").data
     OUTLIER_FILE = p.get("sql.outlier_state").data
+    MAP_OUTLIER_TRACT = p.get("sql.outlier_tract").data
+    NEAREST_CLINICS = p.get("sql.nearest_clinics").data
+    FIPS_FILE = p.get("fips.file").data
+    STYLE_FILE = p.get("style.file").data
     
 @st.cache_data 
 def load_fips_map(file_name):
@@ -141,30 +144,24 @@ def add_census_tracts_to_map(m, fips_prefix):
 def local_css(file_name): 
     with open(PROJECT_DIR / file_name, "r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+        st.sidebar.title("Shelter Analysis Legend")
+        st.sidebar.subheader("Estimated Pet Density")
+        # Get legend as a list of tuples.
+    legend_items = [ ("Over 800 (Extremely High)", "#7f0000"), 
+                   ("501 to 800 (High)", "#d7301f"), 
+                   ("201 to 500 (Moderate-High)", "#ff5500"), 
+                   ("101 to 200 (Moderate)", "#fdbb84"), 
+                   ("51 to 100 (Low-Moderate)", "#fdd49e"), 
+                   ("0 to 50 (Low)", "#fef0d9") 
+                  ]
+    for label, color in legend_items: 
+        st.sidebar.markdown(
+                              f'<div class="legend-item">'
+                              f'<div class="color-box" style="background-color: {color};"></div>'
+                              f'<span class="legend-label">{label}</span>'
+                              f'</div>', unsafe_allow_html=True
+                            )
         
-# Get legend as a list of tuples.
-legend_items = [ ("Over 800 (Extremely High)", "#7f0000"), 
-               ("501 to 800 (High)", "#d7301f"), 
-               ("201 to 500 (Moderate-High)", "#ff5500"), 
-               ("101 to 200 (Moderate)", "#fdbb84"), 
-               ("51 to 100 (Low-Moderate)", "#fdd49e"), 
-               ("0 to 50 (Low)", "#fef0d9") 
-              ]
-        
-local_css("style.css") # Get stylesheet
-st.sidebar.title("Shelter Analysis Legend")
-# Added for radio button clinics or shelters
-view_selection = st.sidebar.radio( "Show on Map", ["Both", "Shelters Only", "Clinics Only"] )
- 
-st.sidebar.subheader("Estimated Pet Density")
-
-for label, color in legend_items: 
-    st.sidebar.markdown(
-                          f'<div class="legend-item">'
-                          f'<div class="color-box" style="background-color: {color};"></div>'
-                          f'<span class="legend-label">{label}</span>'
-                          f'</div>', unsafe_allow_html=True
-                        )
 
 # not used for final app           
 def load_population_and_join_data(cur): 
@@ -256,23 +253,13 @@ def get_state_geojson_path():
     geojson_files = list(DATA_DIR.glob("*tracts.geojson"))
     states_available = sorted([f.name.split("_")[0].upper() for f in geojson_files])
     default_index = states_available.index("GA") if "GA" in states_available else 0 
+    # Get the active state selection and file path from our dropdown helper
     selected_state = st.sidebar.selectbox("Select State of Interest", states_available, index=default_index) 
-    
-    
     if states_available:
         return selected_state, f"data/{selected_state.lower()}_tracts.geojson" 
     else:
         st.sidebar.warning("No state GeoJSON files found in the data folder.") 
         return "GA", "data/ga_tracts.geojson" 
-
-@st.cache_resource 
-def get_cached_map(state_code, fips_prefix): 
-    conn = psycopg2.connect(DB_CONN) 
-    cur = conn.cursor() 
-    m = initialize_map(cur, state_code, fips_prefix, view_selection) 
-    cur.close() 
-    conn.close() 
-    return m
 
 @st.cache_data 
 def get_cached_shelters(state_code):
@@ -360,7 +347,9 @@ def get_cached_geojson_data(fips_prefix):
         features = [] 
         for tract_id, density, geom_json in cur.fetchall():
             geom_dict = json.loads(geom_json)
-            feature = { "type": "Feature", "geometry": geom_dict, "properties": { "tract_id": tract_id, "pet_density": int(density) } }
+            feature = { "type": "Feature", 
+                       "geometry": geom_dict, 
+                       "properties": { "tract_id": tract_id, "pet_density": int(density) } }
             features.append(feature) 
         cur.close() 
         conn.close() 
@@ -376,22 +365,25 @@ def get_cached_geojson_data(fips_prefix):
    
 def execute_pipeline(): 
     try: 
-        # 1. Get the active state selection and file path from our dropdown helper 
+        # Added for radio button clinics or shelters
+        view_selection = st.sidebar.radio( "Show on Map", ["Both", "Shelters Only", "Clinics Only"] )
+        local_css(STYLE_FILE) # Get stylesheet
         state_code, state_path = get_state_geojson_path() 
-        # 2. Load our FIPS mapping dynamically right when we need it 
-        fips_map = load_fips_map("state_fips_mapping.csv")
+        # Load FIPS mapping dynamically right when we need it 
+        fips_map = load_fips_map(FIPS_FILE)
         fips_prefix = fips_map.get(state_code, "13") + "%"
-        # 3. Connect to Postgres (Read-Only) 
+        # Connect to Postgres (Read-Only) 
         conn = psycopg2.connect(DB_CONN) 
         cur = conn.cursor() 
-        # 4. Generate the map dynamically using the state-specific SQL queries
-        m = initialize_map(state_code, fips_prefix, view_selection)
+        selected_outlier = st.session_state.get("selected_outlier", "None")
+        # Generate the map dynamically using the state-specific SQL queries
+        m = initialize_map(state_code, fips_prefix, view_selection, selected_outlier)
         cur.close() 
         conn.close() 
-        # 5. Render the map in the Streamlit interface 
+        # Render the map in the Streamlit interface 
         #st_folium(m, width=1200, height=800)
-        # folium_static is deprecated but it displays top right corner legend of highways, etc.
-        folium_static(m, width=1200, height=800)
+        # folium_static is deprecated but st_folium does not display upper right boxes. it displays top right corner legend of highways, etc.
+        folium_static(m, width=1680, height=1000)
         
         # Add plotting and figuring outliers.
         with st.expander("Statistical Outliers and Pet Density Distribution"):
@@ -401,11 +393,61 @@ def execute_pipeline():
     except Exception as e: st.error(f"Pipeline error: {e}") 
     
 
+@st.cache_data 
+def get_cached_outlier_geojson(tract_id):
+    conn = None 
+    cur = None 
+    try: 
+        conn = psycopg2.connect(DB_CONN) 
+        cur = conn.cursor() 
+        query = read_sql_file(MAP_OUTLIER_TRACT) 
+        cur.execute(query, (tract_id,)) 
+        row = cur.fetchone() 
+        if row and row[2]: 
+            geom_dict = json.loads(row[2]) 
+            return { "type": "Feature", 
+                    "geometry": geom_dict, 
+                    "properties": {
+                                    "tract_id": row[0], 
+                                    "pet_density": int(row[1]) if row[1] is not None else 0 
+                                  } 
+                   }
+        else:
+            return None 
+    except Exception as e: 
+        print(f"Error fetching outlier tract {tract_id}: {e}") 
+        return None 
+    finally: 
+        if cur is not None: 
+            cur.close() 
+        if conn is not None: 
+            conn.close()
+            
+@st.cache_data 
+def get_cached_nearest_clinics(tract_id): 
+    conn = None 
+    cur = None 
+    try: 
+        conn = psycopg2.connect(DB_CONN) 
+        cur = conn.cursor() 
+        query = read_sql_file(NEAREST_CLINICS) 
+        cur.execute(query, (tract_id,)) 
+        rows = cur.fetchall() 
+        return pd.DataFrame(rows, columns=["Clinic Name", "Address", "Phone", "Distance (Miles)"]) 
+    except Exception as e: 
+        print(f"Error fetching nearest clinics for tract {tract_id}: {e}") 
+        return pd.DataFrame() 
+    finally: 
+        if cur is not None: 
+            cur.close() 
+            if conn is not None: 
+                conn.close() 
 
-def initialize_map(state_code, fips_prefix, view_selection): 
+def initialize_map(state_code, fips_prefix, view_selection, selected_outlier): 
     try:
+        st.set_page_config(layout="wide") 
         # 1. Get the cached map center (Calculated from database once)
-        folium.Map(location=[33.7490, -84.3880], zoom_start=8)
+        folium.Map(location=[33.7490, -84.3880], zoom_start=7)
         center_lat, center_lon = get_cached_map_center(fips_prefix)
 
         # Initialize map with tiles=None to allow custom named layers
@@ -414,8 +456,7 @@ def initialize_map(state_code, fips_prefix, view_selection):
                           "openstreetmap",
                           name="Highways and Roads",
                           control=True
-                        ).add_to(m)
-        #folium.TileLayer("cartodbpositron", name="Clean Gray").add_to(m)
+                          ).add_to(m)
         folium.TileLayer(
                           tiles="https://{s}://{z}/{x}/{y}{r}.png",
                           attr='&copy; OpenStreetMap contributors &copy; CARTO',
@@ -423,6 +464,29 @@ def initialize_map(state_code, fips_prefix, view_selection):
                         ).add_to(m)
         clinic_cluster = folium.FeatureGroup(name="Clinics").add_to(m)
         clinics_data = get_cached_clinics(state_code)
+        outlier_feature = None
+        # Fetch tract geometry and add folium.GeoJson with red border and fillOpacity=0
+        if selected_outlier and selected_outlier != "None":
+            outlier_feature = get_cached_outlier_geojson(selected_outlier) 
+        if outlier_feature:
+            outlier_group = folium.FeatureGroup(name="Highlighted Outlier", control=True).add_to(m) 
+            
+            folium.GeoJson(
+                            outlier_feature,
+                            # Convert the generic pin into a customizable circle marker
+                            marker=folium.CircleMarker(), 
+    
+                            # Control the size (radius) and colors here
+                            style_function=lambda x: {
+                                                        "radius": 20,           # <--- This controls the size in pixels
+                                                        "color": "#ff0000",    # Border color (Red)
+                                                        "weight": 3,           # Border thickness
+                                                        "fillColor": "none",   # Hollow inside
+                                                        "fillOpacity": 0       
+                                                      },
+                                                      tooltip=folium.GeoJsonTooltip( fields=["tract_id", "pet_density"], 
+                                                      aliases=["Outlier Tract ID:", "Estimated Pets:"], localize=True ) ).add_to(outlier_group)
+        
         # Choose clinic maps only if user clicks on Clinics Only or Both for radio buttons in sidebar.
         if view_selection in ["Both", "Clinics Only"]:
             for name, address, email, phone, lat, lon in clinics_data:
@@ -477,7 +541,6 @@ def initialize_map(state_code, fips_prefix, view_selection):
         print(f"Error mapping locations: {e}")
         return folium.Map(location=[33.7490, -84.3880], zoom_start=8)
 
-# not used in final app
 @st.cache_data 
 def get_tract_densities_df(fips_prefix): 
     conn = None 
@@ -516,6 +579,15 @@ def display_outlier_analysis(fips_prefix, state_code):
     iqr = q3 - q1 
     whisker_limit = q3 + 1.5 * float(iqr)
     outliers_df = df[df["pet_density"] > whisker_limit].sort_values(by="pet_density", ascending=False)
+    outlier_options = ["None"] + list(outliers_df["tract_id"]) 
+    selected_outlier = st.selectbox("Select Outlier Tract to Highlight", outlier_options, key="selected_outlier")
+    
+    # Display table of nearest clinics for outliers after call to function 
+    if selected_outlier is not None:
+        df_clinics = get_cached_nearest_clinics(selected_outlier)
+        st.dataframe(df_clinics)
+
+        
     st.subheader(f"Statistical Outliers & Pet Density Distribution ({state_code})") 
      # Plot horizontal boxplot with Seaborn 
     sns.set_theme(style="whitegrid") 
@@ -528,7 +600,9 @@ def display_outlier_analysis(fips_prefix, state_code):
     st.write(f"Upper whisker cutoff: {int(whisker_limit)} estimated pets. Found {len(outliers_df)} outlier tracts.")
     if not outliers_df.empty:
         st.dataframe(outliers_df, use_container_width=True) 
-
+        
+        
+    
 
 if __name__ == "__main__":
     execute_pipeline()
