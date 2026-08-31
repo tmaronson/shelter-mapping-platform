@@ -26,3 +26,5 @@ with spatial indexing. Geographic queries use PostGIS functions like ST_Simplify
 for fast payload transfers, while Folium and folium_static provide interactive 
 multi-layer visualization with dynamic basemaps. 
 Statistical distributions and boxplots are computed using Pandas and Seaborn.
+
+<sample line for request demo>
