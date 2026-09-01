@@ -580,7 +580,17 @@ def display_outlier_analysis(fips_prefix, state_code):
     whisker_limit = q3 + 1.5 * float(iqr)
     outliers_df = df[df["pet_density"] > whisker_limit].sort_values(by="pet_density", ascending=False)
     outlier_options = ["None"] + list(outliers_df["tract_id"]) 
-    selected_outlier = st.selectbox("Select Outlier Tract to Highlight", outlier_options, key="selected_outlier")
+    
+    st.markdown("<p style='font-size: 1.25rem; font-weight: 600; margin-bottom: 0.25rem;'>Select Outlier Tract to Highlight</p>",
+                unsafe_allow_html=True) 
+    selected_outlier = st.selectbox("Select Outlier Tract to Highlight", outlier_options, 
+                                    label_visibility="collapsed", 
+                                    key="selected_outlier")
+    
+    #selected_outlier = st.selectbox("Select Outlier Tract to Highlight", 
+     #                               outlier_options, key="selected_outlier",
+      #                              layer_visibility="collapsed",
+       #                            )
     
     # Display table of nearest clinics for outliers after call to function 
     if selected_outlier is not None:
