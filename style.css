@@ -23,3 +23,7 @@ details summary p {
   color: #1f2937; 
 }
 
+div[data-testid="stWidgetLabel"] p {
+  font-size: 1.15rem !important;
+  font-weight: 600 !important;
+}
