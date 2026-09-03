@@ -10,7 +10,7 @@ import csv
 from folium.plugins import MarkerCluster
 import streamlit as st 
 import re
-from streamlit_folium import folium_static
+from streamlit_folium import folium_static, st_folium
 import os
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -385,7 +385,7 @@ def execute_pipeline():
         
         tab1, tab2 = st.tabs(["Interactive Map", "Statistical Outliers and Pet Density Distribution"])
         with tab1:
-            folium_static(m, width=1680, height=1000)
+            st_folium(m, width=1680, height=1000)
         with tab2:
             display_outlier_analysis(fips_prefix, state_code)
         
