@@ -7,14 +7,14 @@
 Fixes #
 
 ## Type of Change
-<!-- Delete options that aren't relevant -->
+<!-- Select only one option. Keep the checkbox as `[ ]` and mark it `[x]` to select. -->
 - [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
 - [ ] ✨ New feature (non-breaking change which adds functionality)
 - [ ] 💥 Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] 📝 Documentation update
 
 ## Checklist
-<!-- Go over all the following points, and put an `x` in all the boxes that apply. -->
+<!-- An `x` is required in all five checklist boxes below before the PR is merged. -->
 - [ ] My code follows the style guidelines of this project.
 - [ ] I have performed a self-review of my own code.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
