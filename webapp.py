@@ -382,12 +382,10 @@ def execute_pipeline():
         conn.close() 
         # Render the map in the Streamlit interface 
         #st_folium(m, width=1200, height=800)
-        # folium_static is deprecated but st_folium does not display upper right boxes. it displays top right corner legend of highways, etc.
-        folium_static(m, width=1680, height=1000)
         
-        # Add plotting and figuring outliers.
-        with st.expander("Statistical Outliers and Pet Density Distribution"):
-            display_outlier_analysis(fips_prefix, state_code)
+        tab1, tab2 = st.tabs(["Interactive Map", "Statistical Outliers and Pet Density Distribution"])
+        tab1.folium_static(m, width=1680, height=1000)
+        tab2.display_outlier_analysis(fips_prefix, state_code)
         
         print("Web pipeline executed successfully.") 
     except Exception as e: st.error(f"Pipeline error: {e}") 
