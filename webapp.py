@@ -384,8 +384,10 @@ def execute_pipeline():
         #st_folium(m, width=1200, height=800)
         
         tab1, tab2 = st.tabs(["Interactive Map", "Statistical Outliers and Pet Density Distribution"])
-        tab1.folium_static(m, width=1680, height=1000)
-        tab2.display_outlier_analysis(fips_prefix, state_code)
+        with tab1:
+            folium_static(m, width=1680, height=1000)
+        with tab2:
+            display_outlier_analysis(fips_prefix, state_code)
         
         print("Web pipeline executed successfully.") 
     except Exception as e: st.error(f"Pipeline error: {e}") 
