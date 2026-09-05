@@ -320,7 +320,10 @@ def get_cached_map_center(fips_prefix):
         cur.execute(center_sql, (fips_prefix,)) 
         result = cur.fetchone() 
         cur.close() 
-        conn.close() 
+        conn.close()
+        # Add for Alaska due to various reasons when mapping
+        if fips_prefix == "02%":
+            return 64.2, -152.5 
         if result and result[0] is not None:
             return result[0], result[1] 
         else: 
@@ -450,9 +453,13 @@ def initialize_map(state_code, fips_prefix, view_selection, selected_outlier):
         # 1. Get the cached map center (Calculated from database once)
         folium.Map(location=[33.7490, -84.3880], zoom_start=7)
         center_lat, center_lon = get_cached_map_center(fips_prefix)
-
+        zoom = 8
+        # Special case for Alaska
+        if fips_prefix == "02%":
+            center_lat, center_lon = 64.2, -152.5
+            zoom = 5
         # Initialize map with tiles=None to allow custom named layers
-        m = folium.Map(location=[center_lat, center_lon], zoom_start=8, tiles=None)
+        m = folium.Map(location=[center_lat, center_lon], zoom_start=zoom, tiles=None)
         folium.TileLayer(
                           "openstreetmap",
                           name="Highways and Roads",
