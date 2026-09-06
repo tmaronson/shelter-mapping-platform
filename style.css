@@ -27,3 +27,47 @@ div[data-testid="stWidgetLabel"] p {
   font-size: 1.15rem !important;
   font-weight: 600 !important;
 }
+
+# Add icon legend to sidebar.
+
+.legend-box { 
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 5px; 
+} 
+
+.legend-title {
+  margin: 0 0 8px 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+} 
+
+.legend-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 8px;
+  text-align: center;
+  line-height: 16px;
+  color: white;
+  font-size: 11px; 
+} 
+
+.legend-icon.shelter {
+  background-color: #2A81CB;
+} 
+
+.legend-icon.clinic {
+  background-color: #D63E2A;
+  font-weight: bold; 
+}

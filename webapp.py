@@ -161,7 +161,20 @@ def local_css(file_name):
                               f'<span class="legend-label">{label}</span>'
                               f'</div>', unsafe_allow_html=True
                             )
-        
+      
+        # LLegend for icons
+    legend_html = """ 
+                      <div class="legend-box">
+                          <p class="legend-title">Map Legend</p>
+                          <div class="legend-item">
+                            <span class="legend-icon shelter">⌂</span>Animal Shelters
+                          </div> 
+                          <div class="legend-item">
+                            <span class="legend-icon clinic">+</span> Veterinary Clinics
+                          </div> 
+                      </div> 
+                  """ 
+    st.sidebar.markdown(legend_html, unsafe_allow_html=True) 
 
 # not used for final app           
 def load_population_and_join_data(cur): 
