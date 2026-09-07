@@ -1,0 +1,61 @@
+name: PR Type of Change Check
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+
+jobs:
+  type-check:
+    name: Ensure single Type of Change
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check PR body for Type of Change and Checklist selections
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            if (!pr) {
+              core.info('No pull_request payload found; skipping.');
+              return;
+            }
+            const body = pr.body || '';
+
+            // --- Type of Change: ensure at most one checked box ---
+            const typeHeader = '## Type of Change';
+            const typeStart = body.indexOf(typeHeader);
+            if (typeStart !== -1) {
+              const nextHeaderPos = body.indexOf('\n## ', typeStart + 1);
+              const typeSection = nextHeaderPos === -1 ? body.substring(typeStart) : body.substring(typeStart, nextHeaderPos);
+              const typeChecked = (typeSection.match(/\[[xX]\]/g) || []).length;
+              core.info(`Type of Change checked count: ${typeChecked}`);
+              if (typeChecked > 1) {
+                throw new Error(`More than one Type of Change checkbox is checked (${typeChecked}). Please select only one option in the 'Type of Change' section.`);
+              }
+            } else {
+              core.info('No "Type of Change" section found; skipping type check.');
+            }
+
+            // --- Checklist: require all checkboxes be checked ---
+            const checklistHeader = '## Checklist';
+            const checklistStart = body.indexOf(checklistHeader);
+            if (checklistStart === -1) {
+              core.info('No "Checklist" section found; skipping checklist enforcement.');
+              return;
+            }
+            const nextHeaderPos2 = body.indexOf('\n## ', checklistStart + 1);
+            const checklistSection = nextHeaderPos2 === -1 ? body.substring(checklistStart) : body.substring(checklistStart, nextHeaderPos2);
+
+            // extract bracket contents and treat trimmed 'x' or 'X' as checked
+            const matches = Array.from(checklistSection.matchAll(/\[([^\]]*)\]/g));
+            const totalCount = matches.length;
+            const checkedCount = matches.filter(m => (m[1] || '').trim().toLowerCase() === 'x').length;
+            core.info(`Checklist total boxes: ${totalCount}, checked: ${checkedCount}`);
+
+            if (totalCount === 0) {
+              throw new Error('Checklist section contains no checkbox items to validate.');
+            }
+            if (checkedCount !== totalCount) {
+              throw new Error(`All checklist boxes must be checked. Found ${checkedCount} of ${totalCount} checked.`);
+            }

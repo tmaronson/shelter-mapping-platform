@@ -10,7 +10,7 @@ import csv
 from folium.plugins import MarkerCluster
 import streamlit as st 
 import re
-from streamlit_folium import folium_static
+import streamlit.components.v1 as components
 import os
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -161,7 +161,20 @@ def local_css(file_name):
                               f'<span class="legend-label">{label}</span>'
                               f'</div>', unsafe_allow_html=True
                             )
-        
+      
+        # LLegend for icons
+    legend_html = """ 
+                      <div class="legend-box">
+                          <p class="legend-title">Map Legend</p>
+                          <div class="legend-item">
+                            <span class="legend-icon shelter">⌂</span>Animal Shelters
+                          </div> 
+                          <div class="legend-item">
+                            <span class="legend-icon clinic">+</span> Veterinary Clinics
+                          </div> 
+                      </div> 
+                  """ 
+    st.sidebar.markdown(legend_html, unsafe_allow_html=True) 
 
 # not used for final app           
 def load_population_and_join_data(cur): 
@@ -320,7 +333,10 @@ def get_cached_map_center(fips_prefix):
         cur.execute(center_sql, (fips_prefix,)) 
         result = cur.fetchone() 
         cur.close() 
-        conn.close() 
+        conn.close()
+        # Add for Alaska due to various reasons when mapping
+        if fips_prefix == "02%":
+            return 64.2, -152.5 
         if result and result[0] is not None:
             return result[0], result[1] 
         else: 
@@ -382,11 +398,12 @@ def execute_pipeline():
         conn.close() 
         # Render the map in the Streamlit interface 
         #st_folium(m, width=1200, height=800)
-        # folium_static is deprecated but st_folium does not display upper right boxes. it displays top right corner legend of highways, etc.
-        folium_static(m, width=1680, height=1000)
         
-        # Add plotting and figuring outliers.
-        with st.expander("Statistical Outliers and Pet Density Distribution"):
+        tab1, tab2 = st.tabs(["Interactive Map", "Statistical Outliers and Pet Density Distribution"])
+        with tab1:
+            map_html = m.get_root().render() 
+            components.html(map_html, width=1680, height=1000)
+        with tab2:
             display_outlier_analysis(fips_prefix, state_code)
         
         print("Web pipeline executed successfully.") 
@@ -449,9 +466,13 @@ def initialize_map(state_code, fips_prefix, view_selection, selected_outlier):
         # 1. Get the cached map center (Calculated from database once)
         folium.Map(location=[33.7490, -84.3880], zoom_start=7)
         center_lat, center_lon = get_cached_map_center(fips_prefix)
-
+        zoom = 8
+        # Special case for Alaska
+        if fips_prefix == "02%":
+            center_lat, center_lon = 64.2, -152.5
+            zoom = 5
         # Initialize map with tiles=None to allow custom named layers
-        m = folium.Map(location=[center_lat, center_lon], zoom_start=8, tiles=None)
+        m = folium.Map(location=[center_lat, center_lon], zoom_start=zoom, tiles=None)
         folium.TileLayer(
                           "openstreetmap",
                           name="Highways and Roads",
