@@ -1,10 +1,5 @@
 /* style.css */ 
 
-.legend-item {
-  display: flex; 
-  align-items: center;
-  margin-bottom: 8px;
-} 
 .color-box {
   width: 18px;
   height: 18px;
@@ -71,3 +66,22 @@ div[data-testid="stWidgetLabel"] p {
   background-color: #D63E2A;
   font-weight: bold; 
 }
+
+/* Base Table Styling */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.custom-table th {
+    text-align: center !important;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f0f2f6;
+}
+
+.custom-table td {
+	text-align: center !important; 
+}
+
