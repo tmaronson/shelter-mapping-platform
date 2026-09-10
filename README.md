@@ -38,4 +38,5 @@ Statistical distributions and boxplots are computed using **Pandas** and **Seabo
 * Hover over any tract when the Census Tracts checkbox is checked to see tract id and pet density.
 * On the map, toggle layer checkboxes to isolate facilities or view the road network, and click any marker for direct *phone calls*, *email*, and one-click **Google Maps** *driving directions*. Please note all information is/was not available for all clinic and shelter markers.
 * On the outlier tab, inspect the boxplot distribution and select an outlier tract to see its highlighted boundary on the map along with the five closest veterinary clinics and driving distances.
+* If you see a green circle on the map with a number, this denotes a cluster of shelters or clinics. Click on the circle to see the number of shelters denoted by the number. The cluster is used to prevent additional clutter on the map.
 

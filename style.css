@@ -23,7 +23,7 @@ div[data-testid="stWidgetLabel"] p {
   font-weight: 600 !important;
 }
 
-# Add icon legend to sidebar.
+/* Add icon legend to sidebar. */
 
 .legend-box { 
   margin: 15px 0;
@@ -83,5 +83,9 @@ div[data-testid="stWidgetLabel"] p {
 
 .custom-table td {
 	text-align: center !important; 
+}
+
+[data-testid="stTab"] p {
+    font-size: 24px !important;
 }
 

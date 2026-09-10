@@ -142,6 +142,8 @@ def add_census_tracts_to_map(m, fips_prefix):
 
 def local_css(file_name): 
     with open(PROJECT_DIR / file_name, "r") as f:
+        css_content = f.read()
+        st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         st.sidebar.title("Shelter Analysis Legend")
         st.sidebar.subheader("Estimated Pet Density")
@@ -161,7 +163,7 @@ def local_css(file_name):
                               f'</div>', unsafe_allow_html=True
                             )
       
-        # LLegend for icons
+        # Legend for icons
     legend_html = """ 
                       <div class="legend-box">
                           <p class="legend-title">Map Legend</p>
@@ -395,10 +397,9 @@ def execute_pipeline():
         m = initialize_map(state_code, fips_prefix, view_selection, selected_outlier)
         cur.close() 
         conn.close() 
-        # Render the map in the Streamlit interface 
-        #st_folium(m, width=1200, height=800)
-        
+                
         tab1, tab2, tab3 = st.tabs(["Interactive Map", "Statistical Outliers and Pet Density Distribution", "About & Methodology"])
+        
         with tab1:
             map_html = m.get_root().render() 
             components.html(map_html, width=1680, height=1000)
@@ -626,13 +627,20 @@ def display_outlier_analysis(fips_prefix, state_code):
                 key="selected_outlier" ) 
     if selected_outlier is not None and not outliers_df.empty:
         df_clinics = get_cached_nearest_clinics(selected_outlier)
-        st.dataframe(df_clinics)
+        
+        # Make Dataframe a style table for clinics.
+        styled_html = (df_clinics.style
+                    .set_table_attributes('class="custom-table"') # Assigns base table class
+                    .hide(axis="index")
+                    .to_html())
+        st.markdown(styled_html, unsafe_allow_html=True)
+        
+        # Make Dataframe a style table for outliers.
         styled_html = (outliers_df.style
                     .set_table_attributes('class="custom-table"') # Assigns base table class
                     .format('{:.0f}', subset=['pet_density'])
                     .hide(axis="index")
                     .to_html())
-    st.write(f"Upper whisker cutoff: {int(whisker_limit)} estimated pets. Found {len(outliers_df)} outlier tracts.")
     st.markdown(styled_html, unsafe_allow_html=True)
 
         
@@ -645,6 +653,10 @@ def display_outlier_analysis(fips_prefix, state_code):
     ax.set_xlabel("Estimated Pets Per Tract") 
     st.pyplot(fig) 
     plt.close(fig) 
+    
+    st.markdown(f"### Upper whisker cutoff: {int(whisker_limit)} estimated pets. Found {len(outliers_df)} outlier tracts.",
+             text_alignment="center") 
+
         
 # function load_count_fips_map to map county names to tract id's that contain fips number, county names, etc.
 @st.cache_data 
