@@ -48,7 +48,8 @@ with open(PROJECT_DIR / "config.properties", "rb") as f:
     NEAREST_CLINICS = p.get("sql.nearest_clinics").data
     FIPS_FILE = p.get("fips.file").data
     STYLE_FILE = p.get("style.file").data
-    
+    COUNTY_FIPS_FILE = p.get("county_fips.file").data
+                             
 @st.cache_data 
 def load_fips_map(file_name):
     fips_map = {} 
@@ -77,17 +78,15 @@ def read_sql_file(script_name):
     except Exception as e: 
         print(f"Error reading SQL file {script_name}: {e}") 
         return ""
-   
+
+# Not used in final project.   
 def run_sql_script(cur, script_name): 
     sql_query = read_sql_file(script_name)
     cur.execute(sql_query)
     print(f"Executed {script_name} successfully")
     
+# Used as utility function outside of project.
 def import_tracts_from_geojson(cur, file_path, insert_sql, table_name): 
-    # Load the generic SQL truncate template
-    # truncate_template = read_sql_file(TRUNCATE_FILE)
-    # cur.execute(truncate_template.format(table_name=table_name))
-    # run_sql_script(cur, TRUNCATE_FILE)
     with open(PROJECT_DIR / file_path, "r") as f:
         geojson_data = json.load(f) 
         for feature in geojson_data["features"]:
@@ -162,7 +161,7 @@ def local_css(file_name):
                               f'</div>', unsafe_allow_html=True
                             )
       
-        # LLegend for icons
+        # Legend for icons
     legend_html = """ 
                       <div class="legend-box">
                           <p class="legend-title">Map Legend</p>
@@ -176,7 +175,7 @@ def local_css(file_name):
                   """ 
     st.sidebar.markdown(legend_html, unsafe_allow_html=True) 
 
-# not used for final app           
+# Not used for final app but as a initial function for testing for state of GA.           
 def load_population_and_join_data(cur): 
      try:
          # Create the temporary population table 
@@ -198,7 +197,7 @@ def load_population_and_join_data(cur):
      except Exception as e: 
          print(f"Error executing population join: {e}")
      
-# not used for final app
+# Not used for final app but to test state of GA initially.
 def load_progressive_shelters(cur, csv_file_name, sql_file_name, use_paid_api=False, api_key=None):
     try: 
         # Load the SQL insert template from properties 
@@ -257,7 +256,7 @@ def load_progressive_shelters(cur, csv_file_name, sql_file_name, use_paid_api=Fa
         print(f"Error in progressive loader: {e}") 
 
 
-
+# Creates and populates sidebar state abbreviation dropdown box.
 def get_state_geojson_path(): 
     PROJECT_DIR = Path().resolve() 
     DATA_DIR = PROJECT_DIR / "data" 
@@ -267,7 +266,7 @@ def get_state_geojson_path():
     states_available = sorted([f.name.split("_")[0].upper() for f in geojson_files])
     default_index = states_available.index("GA") if "GA" in states_available else 0 
     # Get the active state selection and file path from our dropdown helper
-    selected_state = st.sidebar.selectbox("Select State of Interest", states_available, index=default_index) 
+    selected_state = st.sidebar.selectbox("Select State of Interest", states_available, index=default_index, key="my_select") 
     if states_available:
         return selected_state, f"data/{selected_state.lower()}_tracts.geojson" 
     else:
@@ -396,18 +395,25 @@ def execute_pipeline():
         m = initialize_map(state_code, fips_prefix, view_selection, selected_outlier)
         cur.close() 
         conn.close() 
-        # Render the map in the Streamlit interface 
-        #st_folium(m, width=1200, height=800)
+                
+        tab1, tab2, tab3 = st.tabs(["Interactive Map", "Statistical Outliers and Pet Density Distribution", "About & Methodology"])
         
-        tab1, tab2 = st.tabs(["Interactive Map", "Statistical Outliers and Pet Density Distribution"])
         with tab1:
             map_html = m.get_root().render() 
             components.html(map_html, width=1680, height=1000)
         with tab2:
             display_outlier_analysis(fips_prefix, state_code)
+        with tab3:
+            try:
+                with open(PROJECT_DIR / "README.md", "r", encoding="utf-8") as f: 
+                    readme_content = f.read() 
+                    st.markdown(readme_content, unsafe_allow_html=True) 
+            except FileNotFoundError:
+                st.error("README..md file not found.")
         
         print("Web pipeline executed successfully.") 
-    except Exception as e: st.error(f"Pipeline error: {e}") 
+    except Exception as e: 
+        st.error(f"Pipeline error: {e}") 
     
 
 @st.cache_data 
@@ -583,9 +589,10 @@ def get_tract_densities_df(fips_prefix):
         if conn is not None: 
             conn.close() 
             
-# not used in final app
 def display_outlier_analysis(fips_prefix, state_code):
-    
+    # Dataframe df has columns pet_density and tract_id
+    # To add a column for county_name to outliers_df county_map dict use county_map[] 
+   
     df = get_tract_densities_df(fips_prefix) 
     if df.empty or df["pet_density"].isnull().all(): 
         st.warning(f"No density data available for {state_code}.") 
@@ -594,29 +601,45 @@ def display_outlier_analysis(fips_prefix, state_code):
     # Take care of problem with Decimal and float incompatibility in psycopg2.
     df["pet_density"] = pd.to_numeric(df["pet_density"], errors="coerce")
     q1 = df["pet_density"].quantile(0.25) 
-    #print(df["pet_density"].dtype)
-    #print(df["pet_density"].map(type).value_counts())
     q3 = df["pet_density"].quantile(0.75)
     iqr = q3 - q1 
     whisker_limit = q3 + 1.5 * float(iqr)
+    # Get the dict from function
+    county_map = load_county_fips_map()
     outliers_df = df[df["pet_density"] > whisker_limit].sort_values(by="pet_density", ascending=False)
-    outlier_options = ["None"] + list(outliers_df["tract_id"]) 
-    
+    # Assign Series to fips_county from 11 digit tract_id
+    fips_county = outliers_df["tract_id"] 
+    # Create new column in outliers_df to show in outlier table tab.
+    outliers_df["county_name"] = fips_county.str[:5].map(county_map)
+    # Drop down outlier box for highest density outlier tracts
+    outlier_options = ["None"] + list(outliers_df["tract_id"])
+    # Display select or dropdown box to select location of outlier.
     st.markdown("<p style='font-size: 1.25rem; font-weight: 600; margin-bottom: 0.25rem;'>Select Outlier Tract to Highlight</p>",
-                unsafe_allow_html=True) 
-    selected_outlier = st.selectbox("Select Outlier Tract to Highlight", outlier_options, 
-                                    label_visibility="collapsed", 
-                                    key="selected_outlier")
-    
-    #selected_outlier = st.selectbox("Select Outlier Tract to Highlight", 
-     #                               outlier_options, key="selected_outlier",
-      #                              layer_visibility="collapsed",
-       #                            )
-    
-    # Display table of nearest clinics for outliers after call to function 
-    if selected_outlier is not None:
+               unsafe_allow_html=True) 
+    selected_outlier = st.selectbox( 
+            "Select Outlier Tract to Highlight", 
+            outlier_options, format_func=lambda t: "None" if t == "None" 
+              else 
+                f"{county_map.get(str(t).zfill(11)[:5], 'County')} - Tract {str(t).zfill(11)[5:]} ({t})", 
+                label_visibility="collapsed",
+                key="selected_outlier" ) 
+    if selected_outlier is not None and not outliers_df.empty:
         df_clinics = get_cached_nearest_clinics(selected_outlier)
-        st.dataframe(df_clinics)
+        
+        # Make Dataframe a style table for clinics.
+        styled_html = (df_clinics.style
+                    .set_table_attributes('class="custom-table"') # Assigns base table class
+                    .hide(axis="index")
+                    .to_html())
+        st.markdown(styled_html, unsafe_allow_html=True)
+        
+        # Make Dataframe a style table for outliers.
+        styled_html = (outliers_df.style
+                    .set_table_attributes('class="custom-table"') # Assigns base table class
+                    .format('{:.0f}', subset=['pet_density'])
+                    .hide(axis="index")
+                    .to_html())
+    st.markdown(styled_html, unsafe_allow_html=True)
 
         
     st.subheader(f"Statistical Outliers & Pet Density Distribution ({state_code})") 
@@ -628,11 +651,28 @@ def display_outlier_analysis(fips_prefix, state_code):
     ax.set_xlabel("Estimated Pets Per Tract") 
     st.pyplot(fig) 
     plt.close(fig) 
-    st.write(f"Upper whisker cutoff: {int(whisker_limit)} estimated pets. Found {len(outliers_df)} outlier tracts.")
-    if not outliers_df.empty:
-        st.dataframe(outliers_df, use_container_width=True) 
+    
+    st.markdown(f"### Upper whisker cutoff: {int(whisker_limit)} estimated pets. Found {len(outliers_df)} outlier tracts.",
+             text_alignment="center") 
+
         
-        
+# function load_count_fips_map to map county names to tract id's that contain fips number, county names, etc.
+@st.cache_data 
+def load_county_fips_map(file_name=COUNTY_FIPS_FILE):
+    county_map = {} 
+    try:
+        csv_path = PROJECT_DIR / file_name 
+        with open(csv_path, "r", encoding='cp1252') as f:
+            reader = csv.DictReader(f) 
+            for row in reader: 
+                fips_code = str(row.get("fips", "")).strip().zfill(5) 
+                county_name = row.get("county_name", "").strip() 
+                if fips_code and county_name: 
+                    county_map[fips_code] = county_name 
+        return county_map 
+    except Exception as e:
+        print(f"Error loading county FIPS mapping: {e}") 
+        return {} 
     
 
 if __name__ == "__main__":
