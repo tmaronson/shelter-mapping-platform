@@ -142,8 +142,6 @@ def add_census_tracts_to_map(m, fips_prefix):
 
 def local_css(file_name): 
     with open(PROJECT_DIR / file_name, "r") as f:
-        css_content = f.read()
-        st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         st.sidebar.title("Shelter Analysis Legend")
         st.sidebar.subheader("Estimated Pet Density")
@@ -268,7 +266,7 @@ def get_state_geojson_path():
     states_available = sorted([f.name.split("_")[0].upper() for f in geojson_files])
     default_index = states_available.index("GA") if "GA" in states_available else 0 
     # Get the active state selection and file path from our dropdown helper
-    selected_state = st.sidebar.selectbox("Select State of Interest", states_available, index=default_index) 
+    selected_state = st.sidebar.selectbox("Select State of Interest", states_available, index=default_index, key="my_select") 
     if states_available:
         return selected_state, f"data/{selected_state.lower()}_tracts.geojson" 
     else:

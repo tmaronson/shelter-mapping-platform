@@ -9,7 +9,7 @@
   opacity: 0.15;
 } 
 .legend-label {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 details summary p { 
@@ -18,9 +18,35 @@ details summary p {
   color: #1f2937; 
 }
 
-div[data-testid="stWidgetLabel"] p {
-  font-size: 1.15rem !important;
-  font-weight: 600 !important;
+/* Keeps working font size on the div wrapper */
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] div { 
+    font-size: 26px !important; 
+}
+
+/* Forces everything inside that wrapper to inherit bold styling */
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] div * { 
+    font-weight: 600 !important; 
+}
+
+/* 1. Targets the Selectbox Main Header Title (e.g., "Select a State:") and outlier dropdown */
+[data-testid="stSidebar"] div[data-testid="stSelectbox"] label p {
+    font-size: 20px !important;
+}
+
+/* 2. Targets the Selectbox Input Field (e.g., "Select a State") and outlier dropdown*/
+div[data-testid="stSelectbox"] input {
+   font-size: 1.15rem !important; 
+} 
+
+/* 3. Targets the Selectbox Dropdown Options (e.g., "Alabama", "Alaska", etc.) and outlier dropdown */
+div[role="listbox"] div[role="option"] {
+   font-size: 1.15rem !important; 
+}
+
+/* Targets only the individual option strings inside the radio group */
+[data-testid="stSidebar"] div[role="radiogroup"] label p {
+    font-size: 20px !important;
+    font-weight: normal !important; 
 }
 
 /* Add icon legend to sidebar. */
@@ -43,7 +69,7 @@ div[data-testid="stWidgetLabel"] p {
   display: flex;
   align-items: center;
   margin-bottom: 6px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 } 
 
 .legend-icon {
@@ -55,7 +81,7 @@ div[data-testid="stWidgetLabel"] p {
   text-align: center;
   line-height: 16px;
   color: white;
-  font-size: 11px; 
+  font-size: 2px; 
 } 
 
 .legend-icon.shelter {
@@ -85,6 +111,7 @@ div[data-testid="stWidgetLabel"] p {
 	text-align: center !important; 
 }
 
+/* tab styling */
 [data-testid="stTab"] p {
     font-size: 24px !important;
 }
