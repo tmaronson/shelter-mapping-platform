@@ -109,6 +109,7 @@ div[role="listbox"] div[role="option"] {
 
 .custom-table td {
 	text-align: center !important; 
+  font-size: 28px;
 }
 
 /* tab styling */
