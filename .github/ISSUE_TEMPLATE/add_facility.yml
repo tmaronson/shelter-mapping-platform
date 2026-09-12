@@ -1,12 +1,41 @@
 name: Add Shelter or Clinic 
-description: Submit a new animal shelter or veterinary clinic for the map 
-title: "Facility Submission: " 
-labels: ["facility-submission"] 
-body:
-  type: dropdown id: facility_type attributes: label: Facility Type description: Select what kind of facility this is options: - Shelter - Clinic validations: required: true
-  type: input id: facility_name attributes: label: Facility Name placeholder: Atlanta Pet Rescue validations: required: true
-  type: input id: street_address attributes: label: Street Address placeholder: 123 Main St validations: required: true
-  type: input id: city attributes: label: City placeholder: Atlanta validations: required: true
-  type: input id: state_code attributes: label: State Abbreviation placeholder: GA validations: required: true
-  type: input id: phone attributes: label: Phone Number placeholder: 404-555-0123
-  type: input id: email attributes: label: Email placeholder: info@facility.org
+description: Submit a new animal shelter or veterinary clinic for the map
+title: "[Facility Submission]:" 
+labels: ["facility-submission"] body:
+- type: dropdown id: 
+Facility_type attributes: label:
+Facility Type description: Select what kind of facility this is 
+  options: - Shelter - Clinic validations: required: true
+- type: 
+    input id: facility_name attributes: 
+    label: Facility Name 
+    placeholder: Atlanta Pet Rescue 
+  validations: required: true
+- type:
+    input id:
+    street_address attributes:
+     label: 
+       Street Address placeholder: 123 Main St 
+     validations: required: true
+- type:
+   input id:
+    city attributes:
+     label: 
+       City placeholder: Atlanta 
+       validations: required: true
+- type:
+   input id: 
+     state_code attributes: 
+     label: 
+       State Abbreviation placeholder: GA
+        validations: required: true
+- type: 
+   input id: 
+     phone attributes: 
+       label: Phone Number
+         placeholder: (444) 555-1234
+- type: 
+   input id: 
+     email attributes:
+      label:
+       Email placeholder: info@facility.org
