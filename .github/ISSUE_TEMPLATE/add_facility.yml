@@ -1,3 +1,5 @@
+name: Add Shelter or Clinic 
+description: Submit a new animal shelter or veterinary clinic for the map
 title: "[Facility Submission]:" 
 labels: ["facility-submission"] body:
 - type: dropdown id: 
