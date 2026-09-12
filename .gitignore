@@ -5,7 +5,8 @@
 !state*.csv
 !county*.csv
 *.py
-webapp.py
+!webapp.py
+!scripts/*.py
 data/*.json
 Census*.geojson
 data/tiger*
