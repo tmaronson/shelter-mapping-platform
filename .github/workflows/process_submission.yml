@@ -4,7 +4,6 @@ on:
 
 jobs:
   geocode-and-insert:
-    if: contains(github.event.issue.labels.*.name, 'facility-submission')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository 
