@@ -27,7 +27,7 @@ cur = conn.cursor()
 query = f'''
     INSERT INTO {table} (name, address, email, state_code, phone, geom)
     VALUES (%s, %s, %s, %s, %s, ST_SetSRID(ST_MakePoint(%s, %s), 4326))
-    ON CONFLICT (name, geom) DO NOTHING;
+    ON CONFLICT (name, address) DO NOTHING;
 '''
 cur.execute(query, (name, full_address, email, state, phone, loc.longitude, loc.latitude))
 conn.commit()
