@@ -1,28 +1,37 @@
-### import json 
-from pathlib import Path
-import psycopg2
-from jproperties import Properties
-import folium
-from geopy.geocoders import Nominatim 
+'''
+
+This module maps clinics and shelters in the United States based on data that could be obtained.
+The maps are in great detail and show different options. The module also shows outliers for
+areas that are really deserts that have a high pet population and clinics that may not be close.
+
+'''
+
 import time
 import json
 import csv 
-from folium.plugins import MarkerCluster
-import streamlit as st 
+from pathlib import Path
 import re
-import streamlit.components.v1 as components
 import os
+import streamlit as st 
+import streamlit.components.v1 as components
+import folium
+import psycopg2
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
+from jproperties import Properties
+from geopy.geocoders import OpenCage, Nominatim
+from folium.plugins import MarkerCluster
+
+# Define project home directory and SQL script file directory.
 PROJECT_DIR = Path(__file__).parent.resolve()
 SQL_DIR = PROJECT_DIR / "sql" 
 
 # Load config.properties using jproperties 
 p = Properties() 
-with open(PROJECT_DIR / "config.properties", "rb") as f:
-    p.load(f) 
+with open(PROJECT_DIR / "config.properties", "rb") as f1:
+    p.load(f1) 
     DB_CONN = os.getenv("DATABASE_URL")
     #GEOJSON_PATH = p.get("data.geojson_path").data # data file
     SCHEMA_FILE = p.get("sql.schema").data # Create tables and extension.
@@ -52,6 +61,15 @@ with open(PROJECT_DIR / "config.properties", "rb") as f:
                              
 @st.cache_data 
 def load_fips_map(file_name):
+    """
+       Load fips map relating fips code to locations.
+       Parameters:
+           file_name (str): Name of file
+           fee_bps (float): Management fee.
+
+       Returns:
+           fig (dict): Dictionary of FIPS code with state_code as key, fips_code as value.
+       """
     fips_map = {} 
     try:
         csv_path = PROJECT_DIR / file_name 
@@ -70,10 +88,19 @@ def load_fips_map(file_name):
         return {}
 
 def read_sql_file(script_name):
+    """
+       Read SQL script file.
+       Parameters:
+           script_name (str): Name of file.
+           
+       Returns:
+           File contents as str.
+           
+    """
     try:
         # Clean the string locally so it matches your GitHub fix
         sql_path = SQL_DIR / str(script_name).strip()
-        with open(sql_path, "r") as f:
+        with open(sql_path, "r", encoding="utf-8") as f:
             return f.read() 
     except Exception as e: 
         print(f"Error reading SQL file {script_name}: {e}") 
@@ -81,14 +108,35 @@ def read_sql_file(script_name):
 
 # Not used in final project.   
 def run_sql_script(cur, script_name): 
+    """
+       Read SQL script file.
+       Parameters:
+           cur: Cursor object
+           script_name (str): Name of file.
+           
+       Returns:
+           None
+           
+    """
     sql_query = read_sql_file(script_name)
     cur.execute(sql_query)
     print(f"Executed {script_name} successfully")
     
 # Used as utility function outside of project.
-def import_tracts_from_geojson(cur, file_path, insert_sql, table_name): 
-    with open(PROJECT_DIR / file_path, "r") as f:
-        geojson_data = json.load(f) 
+def import_tracts_from_geojson(cur, file_path, insert_sql):
+    """
+       Import tracts from geojson
+       Parameters:
+           cur(Curson): Cursor object
+           file_path(str): File path of SQL query
+           insert_sql(str): SQL query 
+                      
+       Returns:
+           None
+           
+    """
+    with open(PROJECT_DIR / file_path, "r", encoding="utf-8") as f_data:
+        geojson_data = json.load(f_data) 
         for feature in geojson_data["features"]:
             properties = feature["properties"] 
             tract_id = properties.get("GEOID", "Unknown") 
@@ -103,22 +151,46 @@ def import_tracts_from_geojson(cur, file_path, insert_sql, table_name):
             #print(f"Successfully imported tracts from {file_path}") 
             
       
-def get_heat_color(density): 
-    if density > 800:
-        return "#7f0000" 
-    elif density > 500:
-        return "#d7301f" 
-    elif density > 200: 
-        return "#ff5500" 
-    elif density > 100: 
-        return "#fdbb84" 
-    elif density > 50: 
-        return "#fdd49e" 
-    else: 
-        return "#fef0d9"
+def get_heat_color(density):
+    """
+       Get color to show on map tracts for pet density.
+       Parameters:
+           density(int): Tract pet density
+           
+       Returns:
+           color(str): Hexadecimal code for color
+           
+    """
+    # Order from highest threshold to lowest
+    color_brackets = [
+        (800, "#7f0000"),
+        (500, "#d7301f"),
+        (200, "#ff5500"),
+        (100, "#fdbb84"),
+        (50, "#fdd49e"),
+    ]
+    
+    # Initialize with your fallback color
+    selected_color = "#fef0d9"
+    
+    for threshold, color in color_brackets:
+        if density > threshold:
+            selected_color = color
+            break  # Exit the loop immediately once matched
+    return selected_color     
     
 
 def add_census_tracts_to_map(m, fips_prefix): 
+    """
+       Add census tracts with boundaries to state maps
+       Parameters:
+           m(folium.Map): Map to add objects.
+           fips_prefix(str): Two digit state code in overall FIPS value
+           
+       Returns:
+           None
+           
+    """
     try: 
         # 1. Create a dedicated FeatureGroup for the tracts
         tract_group = folium.FeatureGroup(name="Census Tracts", control=True).add_to(m) 
@@ -141,7 +213,16 @@ def add_census_tracts_to_map(m, fips_prefix):
         print(f"Error loading tract polygons: {e}")
 
 def local_css(file_name): 
-    with open(PROJECT_DIR / file_name, "r") as f:
+    """
+       Define CSS style file for application
+       Parameters:
+           file_name(str): Name of file
+           
+       Returns:
+           None
+           
+    """
+    with open(PROJECT_DIR / file_name, "r", encoding="utf-8") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         st.sidebar.title("Shelter Analysis Legend")
         st.sidebar.subheader("Estimated Pet Density")
@@ -176,7 +257,16 @@ def local_css(file_name):
     st.sidebar.markdown(legend_html, unsafe_allow_html=True) 
 
 # Not used for final app but as a initial function for testing for state of GA.           
-def load_population_and_join_data(cur): 
+def load_population_and_join_data(cur):
+     """
+        Load population and join data for Georgia test initially
+        Parameters:
+           cur(Cursor object): Database cursor
+            
+        Returns:
+            None
+            
+     """
      try:
          # Create the temporary population table 
          cur.execute(""" CREATE TABLE IF NOT EXISTS georgia_population ( tract_id VARCHAR(50) PRIMARY KEY, population INTEGER ); """) 
@@ -198,22 +288,32 @@ def load_population_and_join_data(cur):
          print(f"Error executing population join: {e}")
      
 # Not used for final app but to test state of GA initially.
-def load_progressive_shelters(cur, csv_file_name, sql_file_name, use_paid_api=False, api_key=None):
+def load_progressive_shelters(cur, use_paid_api=False, api_key=None):
+    """
+       Load shelters as test initially but code kept in application.
+       Parameters:
+          cur(Cursor object): Database cursor
+          use_paid_api(bool): Whether to use paid API from OpenCage
+          api_key(str): User API key for OpenCage
+           
+       Returns:
+           None
+           
+    """
     try: 
         # Load the SQL insert template from properties 
         sql_query = read_sql_file(SHELTERS_FILE)
         #truncate_template = read_sql_file(TRUNCATE_FILE) 
         #cur.execute(truncate_template.format(table_name="shelters"))
         if use_paid_api and api_key: 
-            from geopy.geocoders import OpenCage
             geolocator = OpenCage(api_key=api_key, timeout=10) 
         else: 
             geolocator = Nominatim(user_agent="shelter_locator_progressive", timeout=10) 
         csv_path = PROJECT_DIR / PETFINDER_FILE
         loaded_count = 0
     
-        with open(csv_path, "r", encoding="utf-8") as f: 
-                reader = csv.DictReader(f) 
+        with open(csv_path, "r", encoding="utf-8") as file1: 
+                reader = csv.DictReader(file1) 
                 for row in reader: 
                    # Only geocode Georgia shelters
                     if row["id"].startswith("GA"): 
@@ -257,8 +357,16 @@ def load_progressive_shelters(cur, csv_file_name, sql_file_name, use_paid_api=Fa
 
 
 # Creates and populates sidebar state abbreviation dropdown box.
-def get_state_geojson_path(): 
-    PROJECT_DIR = Path().resolve() 
+def get_state_geojson_path():
+    """
+       Return selected state from sidebar dropdown box along
+       Parameters:
+          None
+           
+       Returns:
+           selected_state: Streamlit sidebar selectbox value
+           
+    """
     DATA_DIR = PROJECT_DIR / "data" 
     # Ensure the data directory exists
     DATA_DIR.mkdir(exist_ok=True) 
@@ -268,13 +376,21 @@ def get_state_geojson_path():
     # Get the active state selection and file path from our dropdown helper
     selected_state = st.sidebar.selectbox("Select State of Interest", states_available, index=default_index, key="my_select") 
     if states_available:
-        return selected_state, f"data/{selected_state.lower()}_tracts.geojson" 
-    else:
-        st.sidebar.warning("No state GeoJSON files found in the data folder.") 
-        return "GA", "data/ga_tracts.geojson" 
+        return selected_state #, f"data/{selected_state.lower()}_tracts.geojson" 
+    st.sidebar.warning("No state GeoJSON files found in the data folder.") 
+    return "GA" 
 
 @st.cache_data 
 def get_cached_shelters(state_code):
+    """
+       Show shelters in a chosen state
+       Parameters:
+          state_code(str): Two character state abbreviation  
+           
+       Returns:
+           rows(list of tuples): Shelter information like name, address, email, phone, latitude, longitude
+           
+    """
     cur = None
     conn = None
     try:
@@ -299,6 +415,15 @@ def get_cached_shelters(state_code):
     
 @st.cache_data
 def get_cached_clinics(state_code):
+    """
+       Show clinics in a chosen state
+       Parameters:
+          state_code(str): Two character state abbreviation  
+           
+       Returns:
+           rows(list of tuples): Clinic information like name, address, email, phone, latitude, longitude
+           
+    """
     cur = None
     conn = None
     try:
@@ -323,6 +448,15 @@ def get_cached_clinics(state_code):
     
 @st.cache_data 
 def get_cached_map_center(fips_prefix):
+    """
+       Show map of a chosen state by getting the center of latitude, longitude for display
+       Parameters:
+          fips_prefix(str): Two digit state code  
+           
+       Returns:
+           tuple of ints: latitude, longitude
+           
+    """
     cur = None
     conn = None
     try:
@@ -338,8 +472,7 @@ def get_cached_map_center(fips_prefix):
             return 64.2, -152.5 
         if result and result[0] is not None:
             return result[0], result[1] 
-        else: 
-            return 33.7490, -84.3880 
+        return 33.7490, -84.3880 
     except Exception as e:
         print(f"Error calculating map center: {e}") 
         return 33.7490, -84.3880
@@ -352,6 +485,15 @@ def get_cached_map_center(fips_prefix):
 
 @st.cache_data
 def get_cached_geojson_data(fips_prefix): 
+    """
+       Get geojson data and map state tracts to pet density to display with tooltip on tract.
+       Parameters:
+          fips_prefix(str): Two digit state code  
+           
+       Returns:
+           dict({ "type": "FeatureCollection", "features": features }: tract_id and pet_density
+           
+    """
     cur = None
     conn = None
     try: 
@@ -378,12 +520,21 @@ def get_cached_geojson_data(fips_prefix):
         if conn is not None: 
             conn.close()
    
-def execute_pipeline(): 
+def execute_pipeline():
+    """
+       Begin application execution.
+       Parameters:
+           None
+           
+       Returns:
+           None
+           
+    """
     try: 
         # Added for radio button clinics or shelters
         view_selection = st.sidebar.radio( "Show on Map", ["Both", "Shelters Only", "Clinics Only"] )
         local_css(STYLE_FILE) # Get stylesheet
-        state_code, state_path = get_state_geojson_path() 
+        state_code = get_state_geojson_path() 
         # Load FIPS mapping dynamically right when we need it 
         fips_map = load_fips_map(FIPS_FILE)
         fips_prefix = fips_map.get(state_code, "13") + "%"
@@ -418,6 +569,15 @@ def execute_pipeline():
 
 @st.cache_data 
 def get_cached_outlier_geojson(tract_id):
+    """
+       Get clinic outliers that are statistically furthest from high pet density populations.
+       Parameters:
+          tract_id(int): id of tract  
+           
+       Returns:
+           dict({ "type": "FeatureCollection", "features": features }: tract_id and pet_density
+           
+    """
     conn = None 
     cur = None 
     try: 
@@ -435,8 +595,7 @@ def get_cached_outlier_geojson(tract_id):
                                     "pet_density": int(row[1]) if row[1] is not None else 0 
                                   } 
                    }
-        else:
-            return None 
+        return None 
     except Exception as e: 
         print(f"Error fetching outlier tract {tract_id}: {e}") 
         return None 
@@ -447,7 +606,16 @@ def get_cached_outlier_geojson(tract_id):
             conn.close()
             
 @st.cache_data 
-def get_cached_nearest_clinics(tract_id): 
+def get_cached_nearest_clinics(tract_id):
+    """
+       Display table of nearest clinics for outliers.
+       Parameters:
+          tract_id(int): id of tract  
+           
+       Returns:
+           Dataframe of nearest clinics
+           
+    """
     conn = None 
     cur = None 
     try: 
@@ -467,6 +635,21 @@ def get_cached_nearest_clinics(tract_id):
                 conn.close() 
 
 def initialize_map(state_code, fips_prefix, view_selection, selected_outlier): 
+    """
+       Initialize map for viewer initial view of selected state map with all features.
+       Parameters:
+          state_code(str): State abbreviation code
+          fips_prefix(str): Two digit state code
+          view_selection(str): Radio button choice in sidebar for Both, Clinics, Shelters to view on map
+          selected_outlier : str or int
+           The selected tract identifier from the Streamlit selectbox. 
+           Can be the literal string "None" if no outlier is selected, 
+           otherwise matches the data type of the 'tract_id' column. 
+           
+       Returns:
+           Dataframe of nearest clinics
+           
+    """
     try:
         st.set_page_config(layout="wide") 
         # 1. Get the cached map center (Calculated from database once)
@@ -569,7 +752,16 @@ def initialize_map(state_code, fips_prefix, view_selection, selected_outlier):
         return folium.Map(location=[33.7490, -84.3880], zoom_start=8)
 
 @st.cache_data 
-def get_tract_densities_df(fips_prefix): 
+def get_tract_densities_df(fips_prefix):
+    """
+       Plot outlier tracts using interquartile range as basis for pet density/population
+       Parameters:
+          fips_prefix(str): Two digit state code
+                  
+       Returns:
+           Dataframe of tract_id, pet_density
+           
+    """
     conn = None 
     cur = None 
     try: 
@@ -590,6 +782,15 @@ def get_tract_densities_df(fips_prefix):
             conn.close() 
             
 def display_outlier_analysis(fips_prefix, state_code):
+    """
+       Plot outlier tracts using interquartile range as basis for pet density/population
+       Parameters:
+          fips_prefix(str): Two digit state code
+          state_code(str): State code abbreviation
+           
+       Returns:
+          None           
+    """
     # Dataframe df has columns pet_density and tract_id
     # To add a column for county_name to outliers_df county_map dict use county_map[] 
    
@@ -659,6 +860,14 @@ def display_outlier_analysis(fips_prefix, state_code):
 # function load_count_fips_map to map county names to tract id's that contain fips number, county names, etc.
 @st.cache_data 
 def load_county_fips_map(file_name=COUNTY_FIPS_FILE):
+    """
+       Map county names to tract id's that contain fips number, county names.
+       Parameters:
+         file_name(str): Name of file
+           
+       Returns:
+          county_map(dict): Dictionary that gets county from FIPS code.           
+    """
     county_map = {} 
     try:
         csv_path = PROJECT_DIR / file_name 
