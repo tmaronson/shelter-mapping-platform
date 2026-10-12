@@ -13,12 +13,12 @@ from pathlib import Path
 import re
 import os
 import streamlit as st 
-import streamlit.components.v1 as components
 import folium
 import psycopg2
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+import traceback
 
 from jproperties import Properties
 from geopy.geocoders import OpenCage, Nominatim
@@ -195,8 +195,10 @@ def add_census_tracts_to_map(m, fips_prefix):
         # 1. Create a dedicated FeatureGroup for the tracts
         tract_group = folium.FeatureGroup(name="Census Tracts", control=True).add_to(m) 
         geojson_data = get_cached_geojson_data(fips_prefix) 
-        if not geojson_data["features"]: 
+        if not geojson_data["features"]:
+            print("NO geojson_data")
             return 
+        
         # 2. Add the GeoJson layer directly to the tract_group instead of m
         folium.GeoJson( geojson_data, style_function=lambda x: 
                        { 
@@ -206,8 +208,8 @@ def add_census_tracts_to_map(m, fips_prefix):
                                           "weight": 0.5,
                                            "fillOpacity": 0.4 
                         },
-                                            tooltip=folium.GeoJsonTooltip( fields=["tract_id", "pet_density"],
-                                            aliases=["Tract ID:", "Estimated Pets:"], localize=True ) ).add_to(tract_group)
+                                            tooltip=folium.GeoJsonTooltip( fields=["tract_id", "pet_density", "county"],
+                                            aliases=["Tract ID:", "Estimated Pets:", "County:"], localize=True ) ).add_to(tract_group)
         print("Successfully added census tract layer group.") 
     except Exception as e:
         print(f"Error loading tract polygons: {e}")
@@ -486,7 +488,7 @@ def get_cached_map_center(fips_prefix):
 @st.cache_data
 def get_cached_geojson_data(fips_prefix): 
     """
-       Get geojson data and map state tracts to pet density to display with tooltip on tract.
+       Get geojson data and map state tracts to pet density.
        Parameters:
           fips_prefix(str): Two digit state code  
            
@@ -499,6 +501,7 @@ def get_cached_geojson_data(fips_prefix):
     try: 
         conn = psycopg2.connect(DB_CONN) 
         cur = conn.cursor() 
+        county_map = load_county_fips_map()
         tracts_sql = read_sql_file(MAP_TRACTS_STATE_FILE) 
         cur.execute(tracts_sql, (fips_prefix,)) 
         features = [] 
@@ -507,9 +510,14 @@ def get_cached_geojson_data(fips_prefix):
             feature = { "type": "Feature", 
                        "geometry": geom_dict, 
                        "properties": { "tract_id": tract_id, "pet_density": int(density) } }
+            props = feature["properties"]
+            props["county"] = county_map.get(str(props["tract_id"]).zfill(11)[:5], "Unknown")
             features.append(feature) 
-        cur.close() 
-        conn.close() 
+        
+        
+        
+            
+            
         return { "type": "FeatureCollection", "features": features } 
     except Exception as e: 
         print(f"Error fetching tracts: {e}") 
@@ -549,11 +557,16 @@ def execute_pipeline():
                 
         tab1, tab2, tab3 = st.tabs(["Interactive Map", "Statistical Outliers and Pet Density Distribution", "About & Methodology"])
         
+        # Render the map
         with tab1:
             map_html = m.get_root().render() 
-            components.html(map_html, width=1680, height=1000)
+            st.iframe(map_html, width=1680, height=1000)
+        # Show outlier map and outliers
         with tab2:
             display_outlier_analysis(fips_prefix, state_code)
+            # Draw map with highlighted outlier on page
+            map_outlier(fips_prefix, selected_outlier)
+        # Show project background and explanation
         with tab3:
             try:
                 with open(PROJECT_DIR / "README.md", "r", encoding="utf-8") as f: 
@@ -562,7 +575,7 @@ def execute_pipeline():
             except FileNotFoundError:
                 st.error("README..md file not found.")
         
-        print("Web pipeline executed successfully.") 
+        print("Web pipeline executed successfully.")
     except Exception as e: 
         st.error(f"Pipeline error: {e}") 
     
@@ -571,6 +584,7 @@ def execute_pipeline():
 def get_cached_outlier_geojson(tract_id):
     """
        Get clinic outliers that are statistically furthest from high pet density populations.
+       
        Parameters:
           tract_id(int): id of tract  
            
@@ -585,7 +599,7 @@ def get_cached_outlier_geojson(tract_id):
         cur = conn.cursor() 
         query = read_sql_file(MAP_OUTLIER_TRACT) 
         cur.execute(query, (tract_id,)) 
-        row = cur.fetchone() 
+        row = cur.fetchone()
         if row and row[2]: 
             geom_dict = json.loads(row[2]) 
             return { "type": "Feature", 
@@ -651,22 +665,7 @@ def initialize_map(state_code, fips_prefix, view_selection, selected_outlier):
            
     """
     try:
-        st.set_page_config(layout="wide") 
-        # 1. Get the cached map center (Calculated from database once)
-        folium.Map(location=[33.7490, -84.3880], zoom_start=7)
-        center_lat, center_lon = get_cached_map_center(fips_prefix)
-        zoom = 8
-        # Special case for Alaska
-        if fips_prefix == "02%":
-            center_lat, center_lon = 64.2, -152.5
-            zoom = 5
-        # Initialize map with tiles=None to allow custom named layers
-        m = folium.Map(location=[center_lat, center_lon], zoom_start=zoom, tiles=None)
-        folium.TileLayer(
-                          "openstreetmap",
-                          name="Highways and Roads",
-                          control=True
-                          ).add_to(m)
+        m = add_base_layer(fips_prefix)
         folium.TileLayer(
                           tiles="https://{s}://{z}/{x}/{y}{r}.png",
                           attr='&copy; OpenStreetMap contributors &copy; CARTO',
@@ -676,10 +675,16 @@ def initialize_map(state_code, fips_prefix, view_selection, selected_outlier):
         clinics_data = get_cached_clinics(state_code)
         outlier_feature = None
         # Fetch tract geometry and add folium.GeoJson with red border and fillOpacity=0
-        if selected_outlier and selected_outlier != "None":
+        if selected_outlier:
             outlier_feature = get_cached_outlier_geojson(selected_outlier) 
         if outlier_feature:
             outlier_group = folium.FeatureGroup(name="Highlighted Outlier", control=True).add_to(m) 
+            
+            # 3 lines below added on 2026-10-07
+            # selected_outlier is 11 digit FIPS code. Function return partial FIPS code for fips key in dictionary.
+            county_map = load_county_fips_map()
+            county_name = county_map[selected_outlier[:5]]
+            outlier_feature["properties"]["county"] = county_name
             
             folium.GeoJson(
                             outlier_feature,
@@ -694,8 +699,8 @@ def initialize_map(state_code, fips_prefix, view_selection, selected_outlier):
                                                         "fillColor": "none",   # Hollow inside
                                                         "fillOpacity": 0       
                                                       },
-                                                      tooltip=folium.GeoJsonTooltip( fields=["tract_id", "pet_density"], 
-                                                      aliases=["Outlier Tract ID:", "Estimated Pets:"], localize=True ) ).add_to(outlier_group)
+                                                      tooltip=folium.GeoJsonTooltip( fields=["tract_id", "pet_density", "county"], 
+                                                      aliases=["Outlier Tract ID:", "Estimated Pets:", "County:"], localize=True ) ).add_to(outlier_group)
         
         # Choose clinic maps only if user clicks on Clinics Only or Both for radio buttons in sidebar.
         if view_selection in ["Both", "Clinics Only"]:
@@ -816,12 +821,13 @@ def display_outlier_analysis(fips_prefix, state_code):
     outlier_options = ["None"] + list(outliers_df["tract_id"])
     # Display select or dropdown box to select location of outlier.
     st.markdown("<p style='font-size: 1.25rem; font-weight: 600; margin-bottom: 0.25rem;'>Select Outlier Tract to Highlight</p>",
-               unsafe_allow_html=True) 
+               unsafe_allow_html=True)
+    # Add caption to alert users to see outlier on the map.
+    st.markdown("##### :blue[Scroll to bottom of page to see outlier on map after selecting outlier tract.]")
     selected_outlier = st.selectbox( 
             "Select Outlier Tract to Highlight", 
-            outlier_options, format_func=lambda t: "None" if t == "None" 
-              else 
-                f"{county_map.get(str(t).zfill(11)[:5], 'County')} - Tract {str(t).zfill(11)[5:]} ({t})", 
+            outlier_options, format_func=lambda t: "None" if t == "None" else
+                f"{county_map.get(str(t).zfill(11)[:5])} - Tract {str(t).zfill(11)[5:]} ({t})",
                 label_visibility="collapsed",
                 key="selected_outlier" ) 
     if selected_outlier is not None and not outliers_df.empty:
@@ -840,22 +846,99 @@ def display_outlier_analysis(fips_prefix, state_code):
                     .format('{:.0f}', subset=['pet_density'])
                     .hide(axis="index")
                     .to_html())
-    st.markdown(styled_html, unsafe_allow_html=True)
-
-        
-    st.subheader(f"Statistical Outliers & Pet Density Distribution ({state_code})") 
-     # Plot horizontal boxplot with Seaborn 
-    sns.set_theme(style="whitegrid") 
-    fig, ax = plt.subplots(figsize=(10, 2.5)) 
-    sns.boxplot(y=df["pet_density"], color="#ff7f00", ax=ax) 
-    ax.set_title(f"{state_code} Census Tracts: Pet Density Distribution") 
-    ax.set_xlabel("Estimated Pets Per Tract") 
-    st.pyplot(fig) 
-    plt.close(fig) 
+        st.markdown(styled_html, unsafe_allow_html=True)
     
-    st.markdown(f"### Upper whisker cutoff: {int(whisker_limit)} estimated pets. Found {len(outliers_df)} outlier tracts.",
-             text_alignment="center") 
+            
+        st.subheader(f"Statistical Outliers & Pet Density Distribution ({state_code})") 
+         # Plot horizontal boxplot with Seaborn 
+        sns.set_theme(style="whitegrid") 
+        fig, ax = plt.subplots(figsize=(10, 2.5)) 
+        sns.boxplot(y=df["pet_density"], color="#ff7f00", ax=ax) 
+        ax.set_title(f"{state_code} Census Tracts: Pet Density Distribution") 
+        ax.set_xlabel("Estimated Pets Per Tract") 
+        st.pyplot(fig) 
+        plt.close(fig) 
+        
+        st.markdown(f"### Upper whisker cutoff: {int(whisker_limit)} estimated pets. Found {len(outliers_df)} outlier tracts.",
+                 text_alignment="center")
+        
 
+def add_base_layer(fips_prefix):
+    """
+       Add base layer code for outlier common to more than one function
+       Parameters:
+          fips_prefix(str): Two digit state code
+                
+       Returns:
+          m(folium Map) Defines layer of folium.Map            
+    """
+    try:
+        st.set_page_config(layout="wide") 
+        center_lat, center_lon = get_cached_map_center(fips_prefix)
+        zoom = 8
+        # Special case for Alaska
+        if fips_prefix == "02%":
+            center_lat, center_lon = 64.2, -152.5
+            zoom = 5
+        # Initialize map with tiles=None to allow custom named layers
+        m = folium.Map(location=[center_lat, center_lon], zoom_start=zoom, tiles=None)
+        folium.TileLayer(
+                          "openstreetmap",
+                          name="Highways and Roads",
+                          control=True
+                          ).add_to(m)
+        return m
+    except Exception as e:
+        print(f'Error in add_base_layer: {e.__name__}')
+        
+def map_outlier(fips_prefix, selected_outlier):
+    """
+        Map and draw selected outlier on map below whisker plot.
+        Parameters:
+            fips_prefix(str) FIPS prefix
+            selected_outlier(object) Object from dropdown/selectbox
+        Returns:
+            None
+    
+    """
+    
+    try:
+        m = add_base_layer(fips_prefix)
+        outlier_feature = get_cached_outlier_geojson(selected_outlier) 
+        if selected_outlier and selected_outlier != "None":
+            # 3 lines below added on 2026-10-07
+            # selected_outlier is 11 digit FIPS code. Function return partial FIPS code for fips key in dictionary.
+            county_map = load_county_fips_map()
+            county_name = county_map[selected_outlier[:5]]
+            outlier_feature["properties"]["county"] = county_name
+                       
+            
+        if outlier_feature:
+            outlier_group = folium.FeatureGroup(name="Highlighted Outlier", control=True).add_to(m) 
+            
+            folium.GeoJson(
+                            outlier_feature,
+                            # Convert the generic pin into a customizable circle marker
+                            marker=folium.CircleMarker(), 
+    
+                            # Control the size (radius) and colors here
+                            style_function=lambda x: {
+                                                        "radius": 20,           # <--- This controls the size in pixels
+                                                        "color": "#ff0000",    # Border color (Red)
+                                                        "weight": 3,           # Border thickness
+                                                        "fillColor": "none",   # Hollow inside
+                                                        "fillOpacity": 0       
+                                                      },
+                                                      tooltip=folium.GeoJsonTooltip( fields=["tract_id", "pet_density", "county"], 
+                                                      aliases=["Outlier Tract ID:", "Estimated Pets:", "County"], localize=True ) ).add_to(outlier_group)
+            st.markdown('### Highlighted Tract outlined in red on map')
+            map_html = m.get_root().render() 
+            st.iframe(map_html, width=16000, height=1000)
+    except Exception as ex:
+        print(f"map_outlier error: {type(ex).__name__}")
+        error_stack = traceback.format_exc()
+        print("--- Stored Stack Trace ---")
+        print(error_stack)
         
 # function load_count_fips_map to map county names to tract id's that contain fips number, county names, etc.
 @st.cache_data 
@@ -875,7 +958,7 @@ def load_county_fips_map(file_name=COUNTY_FIPS_FILE):
             reader = csv.DictReader(f) 
             for row in reader: 
                 fips_code = str(row.get("fips", "")).strip().zfill(5) 
-                county_name = row.get("county_name", "").strip() 
+                county_name = str(row.get("county_name", "")).strip() 
                 if fips_code and county_name: 
                     county_map[fips_code] = county_name 
         return county_map 
